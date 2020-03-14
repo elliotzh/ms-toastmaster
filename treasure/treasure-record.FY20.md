@@ -19,6 +19,6 @@
 |          |         |         |         |                        | Wei Dong, Nancy Wang, Sawyer Li                             |
 |          |         |         |         |                        | Xingzhi Zhang, Grace Yuan, Lu Li                            |
 |          |         |         |         |                        | Shuhan Li                                                   |
-| 20200314 | 500     |         |         | Membership             | Kay as new member                                           |
-| 20200314 | 400     |         |         | Membership             | Alicia Guo                                                  |
+| 20200314 | 500     | 455.53  | 5891.78 | Membership             | Kay as new member                                           |
+| 20200314 | 400     | 315.37  | 5976.41 | Membership             | Alicia Guo                                                  |
 
