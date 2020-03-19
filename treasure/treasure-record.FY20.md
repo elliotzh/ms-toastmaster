@@ -21,4 +21,6 @@
 |          |         |         |         |                        | Shuhan Li                                                   |
 | 20200314 | 500     | 455.53  | 5891.78 | Membership             | Kay as new member                                           |
 | 20200314 | 400     | 315.37  | 5976.41 | Membership             | Alicia Guo                                                  |
+| 20200319 | 1600    | 1271.06 | 6305.35 | Membership             | Annie Liu, Brenda Wang, April Gao                           |
+|          |         |         |         |                        | Qi Wang                                                     |
 
