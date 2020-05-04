@@ -5,9 +5,8 @@ import datetime
 from openpyxl.drawing.image import Image
 from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font
 import sys
-import os
 from os import path
-from pathlib import PurePath
+import subprocess
 
 
 def min_distance(word1, word2):
@@ -488,6 +487,15 @@ def __main__():
     else:
         generator = ToastmasterAgendaGenerator()
         generator.generate_agenda(update_member_info=True)
+
+        status = subprocess.check_output(["git", "status"]).decode("utf-8")
+        print(status)
+        if status.find("data/member_info.json") is not -1:
+            subprocess.check_call(["git", "add", "."])
+            subprocess.check_call(["git", "commit", "-m", "feat: auto-generated change"])
+            run = subprocess.run(["git", "push"])
+            print(run.stderr)
+            print(run.stdout)
 
 
 if __name__ == "__main__":
