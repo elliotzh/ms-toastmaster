@@ -3,7 +3,7 @@
     "English Name": "Alicia Guo",
     "Chinese Name": "\u679c\u83b9",
     "CC Level": "CC5",
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -58,11 +58,13 @@
     "Speech Records": [
       {
         "Level": "CC4",
-        "Date": "20190522"
+        "Date": "20190522",
+        "Type": "CC"
       },
       {
         "Level": "CC5",
-        "Date": "20200318"
+        "Date": "20200318",
+        "Type": "CC"
       }
     ]
   },
@@ -70,7 +72,7 @@
     "English Name": "Grace",
     "Chinese Name": "Grace",
     "CC Level": null,
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": "Level1-2-2",
     "Role Records": [
       {
@@ -81,11 +83,13 @@
     "Speech Records": [
       {
         "Level": "Level1-2-1",
-        "Date": "20191127"
+        "Date": "20191127",
+        "Type": "pathway"
       },
       {
         "Level": "Level1-2-2",
-        "Date": "20200108"
+        "Date": "20200108",
+        "Type": "pathway"
       }
     ]
   },
@@ -93,7 +97,7 @@
     "English Name": "Lewis",
     "Chinese Name": "Lewis",
     "CC Level": null,
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": "Level1-2-1",
     "Role Records": [
       {
@@ -128,7 +132,8 @@
     "Speech Records": [
       {
         "Level": "Level1-2-1",
-        "Date": "20191204"
+        "Date": "20191204",
+        "Type": "pathway"
       }
     ]
   },
@@ -136,8 +141,8 @@
     "English Name": "Jeff",
     "Chinese Name": "Jeff",
     "CC Level": null,
-    "CC Level 2": null,
-    "Pathway Level": "Level1-1",
+    "CC Level Title": null,
+    "Pathway Level": null,
     "Role Records": [
       {
         "Role": "Timer",
@@ -166,7 +171,7 @@
     "English Name": "Sawyer",
     "Chinese Name": "Sawyer",
     "CC Level": null,
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": "Level3-2-1",
     "Role Records": [
       {
@@ -233,31 +238,38 @@
     "Speech Records": [
       {
         "Level": "Level1-2-2",
-        "Date": "20190724"
+        "Date": "20190724",
+        "Type": "pathway"
       },
       {
         "Level": "Level1-3",
-        "Date": "20190724"
+        "Date": "20190724",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-1",
-        "Date": "20190731"
+        "Date": "20190731",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-2",
-        "Date": "20190828"
+        "Date": "20190828",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-3",
-        "Date": "20191023"
+        "Date": "20191023",
+        "Type": "pathway"
       },
       {
         "Level": "Level3-1",
-        "Date": "20191204"
+        "Date": "20191204",
+        "Type": "pathway"
       },
       {
         "Level": "Level3-2-1",
-        "Date": "20200311"
+        "Date": "20200311",
+        "Type": "pathway"
       }
     ]
   },
@@ -265,7 +277,7 @@
     "English Name": "Shuhan",
     "Chinese Name": "Shuhan",
     "CC Level": null,
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": "Level2-1",
     "Role Records": [
       {
@@ -288,23 +300,26 @@
     "Speech Records": [
       {
         "Level": "Level1-2-2",
-        "Date": "20191030"
+        "Date": "20191030",
+        "Type": "pathway"
       },
       {
         "Level": "Level1-3",
-        "Date": "20191120"
+        "Date": "20191120",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-1",
-        "Date": "20191211"
+        "Date": "20191211",
+        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Annie",
     "Chinese Name": "\u5218\u7476\u7b56",
-    "CC Level": "CC1",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": "Level1-3",
     "Role Records": [
       {
@@ -327,11 +342,13 @@
     "Speech Records": [
       {
         "Level": "Level1-2-2",
-        "Date": "20190327"
+        "Date": "20190327",
+        "Type": "pathway"
       },
       {
         "Level": "Level1-3",
-        "Date": "20190612"
+        "Date": "20190612",
+        "Type": "pathway"
       }
     ]
   },
@@ -339,7 +356,7 @@
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
     "CC Level": "ACS6",
-    "CC Level 2": "CL",
+    "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
       {
@@ -432,45 +449,55 @@
       },
       {
         "Role": "TTE",
-        "Date": "20200422"
+        "Date": "20200422",
+        "Title": null
       }
     ],
     "Speech Records": [
       {
         "Level": "ACB8",
-        "Date": "20190123"
+        "Date": "20190123",
+        "Type": "CC"
       },
       {
         "Level": "ACB9",
-        "Date": "20190320"
+        "Date": "20190320",
+        "Type": "CC"
       },
       {
         "Level": "ACB",
-        "Date": "20190403"
+        "Date": "20190403",
+        "Type": "CC"
       },
       {
         "Level": "ACS1",
-        "Date": "20190417"
+        "Date": "20190417",
+        "Type": "CC"
       },
       {
         "Level": "ACS2",
-        "Date": "20190508"
+        "Date": "20190508",
+        "Type": "CC"
       },
       {
         "Level": "ACS3",
-        "Date": "20191106"
+        "Date": "20191106",
+        "Type": "CC"
       },
       {
         "Level": "ACS4",
-        "Date": "20191113"
+        "Date": "20191113",
+        "Type": "CC"
       },
       {
         "Level": "ACS5",
-        "Date": "20191211"
+        "Date": "20191211",
+        "Type": "CC"
       },
       {
         "Level": "ACS6",
-        "Date": "20200108"
+        "Date": "20200108",
+        "Type": "CC"
       }
     ]
   },
@@ -478,7 +505,7 @@
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
     "CC Level": "ACS11",
-    "CC Level 2": "CL",
+    "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
       {
@@ -742,39 +769,40 @@
         "Date": "20200415"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200422"
-      },
-      {
         "Role": "VPM",
-        "Date": "20200422"
+        "Date": "20200422",
+        "Title": null
       }
     ],
     "Speech Records": [
       {
         "Level": "ACS8",
-        "Date": "20190515"
+        "Date": "20190515",
+        "Type": "CC"
       },
       {
         "Level": "ACS9",
-        "Date": "20190612"
+        "Date": "20190612",
+        "Type": "CC"
       },
       {
         "Level": "ACS10",
-        "Date": "20200219"
+        "Date": "20200219",
+        "Type": "CC"
       },
       {
         "Level": "ACS11",
-        "Date": "20200415"
+        "Date": "20200415",
+        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Brenda Wang",
     "Chinese Name": "\u5e03\u5170\u8fbe",
-    "CC Level": "AC1",
-    "CC Level 2": "CL",
-    "Pathway Level": "Level1-2-1",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -799,16 +827,18 @@
     ],
     "Speech Records": [
       {
-        "Level": "Level1-2-1",
-        "Date": "20200422"
+        "Level": "Level1-1",
+        "Date": "20200422",
+        "Title": "title",
+        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Chaochao Tang",
     "Chinese Name": "\u5510\u8d85\u8d85",
-    "CC Level": "CC5",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -816,8 +846,8 @@
   {
     "English Name": "Charlotte",
     "Chinese Name": "\u590f\u6d1b\u7279",
-    "CC Level": "CC2",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -825,8 +855,8 @@
   {
     "English Name": "ChengCheng Wang",
     "Chinese Name": "\u738b\u6210\u6210",
-    "CC Level": "CC6",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -834,8 +864,8 @@
   {
     "English Name": "Clay Huang",
     "Chinese Name": "\u9ec4\u5b87",
-    "CC Level": "ACS2",
-    "CC Level 2": "ALB",
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -856,8 +886,8 @@
   {
     "English Name": "Coco Bu",
     "Chinese Name": "\u535c\u534e\u91d1",
-    "CC Level": "CC8",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -865,8 +895,8 @@
   {
     "English Name": "Daisy",
     "Chinese Name": "\u5468\u4e91",
-    "CC Level": "CC2",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -874,8 +904,8 @@
   {
     "English Name": "Davie",
     "Chinese Name": "\u8463\u4f1f",
-    "CC Level": "CC",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": "Level3-2-1",
     "Role Records": [
       {
@@ -954,35 +984,41 @@
     "Speech Records": [
       {
         "Level": "Level1-3",
-        "Date": "20190626"
+        "Date": "20190626",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-1",
-        "Date": "20190724"
+        "Date": "20190724",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-2",
-        "Date": "20190828"
+        "Date": "20190828",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-3",
-        "Date": "20190911"
+        "Date": "20190911",
+        "Type": "pathway"
       },
       {
         "Level": "Level3-1",
-        "Date": "20191030"
+        "Date": "20191030",
+        "Type": "pathway"
       },
       {
         "Level": "Level3-2-1",
-        "Date": "20200325"
+        "Date": "20200325",
+        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Frank Wang",
     "Chinese Name": "\u738b\u6f6e\u4e50\u840c",
-    "CC Level": "CC",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -990,8 +1026,8 @@
   {
     "English Name": "George Sheng",
     "Chinese Name": "George Sheng",
-    "CC Level": "AC1",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1000,7 +1036,7 @@
     "English Name": "Harper",
     "Chinese Name": "\u5f20\u6653",
     "CC Level": "AC3",
-    "CC Level 2": null,
+    "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1059,27 +1095,31 @@
     "Speech Records": [
       {
         "Level": "CC9",
-        "Date": "20190410"
+        "Date": "20190410",
+        "Type": "CC"
       },
       {
         "Level": "CC",
-        "Date": "20190417"
+        "Date": "20190417",
+        "Type": "CC"
       },
       {
         "Level": "AC2",
-        "Date": "20190814"
+        "Date": "20190814",
+        "Type": "CC"
       },
       {
         "Level": "AC3",
-        "Date": "20200318"
+        "Date": "20200318",
+        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Hestia Sun",
     "Chinese Name": "\u8d6b\u65af\u63d0\u4e9a",
-    "CC Level": "AC1",
-    "CC Level 2": "CL",
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1087,8 +1127,8 @@
   {
     "English Name": "Jessica Liu",
     "Chinese Name": "\u6770\u897f\u5361",
-    "CC Level": "CC",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1096,8 +1136,8 @@
   {
     "English Name": "Jill Zou",
     "Chinese Name": "\u90b9\u6d01",
-    "CC Level": "AC1",
-    "CC Level 2": "CL",
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1105,8 +1145,8 @@
   {
     "English Name": "Johnson",
     "Chinese Name": "Johnson",
-    "CC Level": "CC1",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1114,8 +1154,8 @@
   {
     "English Name": "Julia Zhu",
     "Chinese Name": "\u6731\u4e3d\u96c5",
-    "CC Level": "CC",
-    "CC Level 2": "CL",
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1140,8 +1180,8 @@
   {
     "English Name": "Mingliang Gong",
     "Chinese Name": "\u9f9a\u660e\u4eae",
-    "CC Level": "CC2",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1149,8 +1189,8 @@
   {
     "English Name": "Nancy",
     "Chinese Name": "\u738b\u6960",
-    "CC Level": "DTM",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1172,7 +1212,7 @@
     "English Name": "Olivia Wang",
     "Chinese Name": "\u5965\u4e3d\u8587\u4e9a",
     "CC Level": "AC4",
-    "CC Level 2": null,
+    "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1197,29 +1237,33 @@
       },
       {
         "Role": "Timer",
-        "Date": "20200422"
+        "Date": "20200422",
+        "Title": null
       }
     ],
     "Speech Records": [
       {
         "Level": "AC2",
-        "Date": "20190508"
+        "Date": "20190508",
+        "Type": "CC"
       },
       {
         "Level": "AC3",
-        "Date": "20190918"
+        "Date": "20190918",
+        "Type": "CC"
       },
       {
         "Level": "AC4",
-        "Date": "20200325"
+        "Date": "20200325",
+        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Prana Zhu",
     "Chinese Name": "\u6731\u972d",
-    "CC Level": "DTM",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1240,8 +1284,8 @@
   {
     "English Name": "Qiyang Li",
     "Chinese Name": "\u674e\u5947\u9633",
-    "CC Level": "CC7",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1266,8 +1310,8 @@
   {
     "English Name": "Qunce Ye",
     "Chinese Name": "\u53f6\u7fa4\u7b56",
-    "CC Level": "CC4",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1275,8 +1319,8 @@
   {
     "English Name": "Raunab",
     "Chinese Name": "\u5b54\u4ec1\u661f",
-    "CC Level": "CC",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1284,8 +1328,8 @@
   {
     "English Name": "Raymond Li",
     "Chinese Name": "\u96f7\u8499\u5fb7\u00b7\u674e",
-    "CC Level": "CC7",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1334,7 +1378,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200422"
+        "Date": "20200422",
+        "Title": null
       }
     ],
     "Speech Records": []
@@ -1342,8 +1387,8 @@
   {
     "English Name": "Raymond Lu",
     "Chinese Name": "\u96f7\u66fc",
-    "CC Level": "CC5",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1352,7 +1397,7 @@
     "English Name": "Serena",
     "Chinese Name": "\u5c1a\u54f2",
     "CC Level": "CC9",
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1379,19 +1424,21 @@
     "Speech Records": [
       {
         "Level": "CC8",
-        "Date": "20190904"
+        "Date": "20190904",
+        "Type": "CC"
       },
       {
         "Level": "CC9",
-        "Date": "20191113"
+        "Date": "20191113",
+        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Xiaohui",
     "Chinese Name": "\u738b\u5c0f\u4f1a",
-    "CC Level": "CC",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1408,8 +1455,8 @@
   {
     "English Name": "Yiming Gong",
     "Chinese Name": "\u9f9a\u4e00\u9e23",
-    "CC Level": "CC1",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1417,8 +1464,8 @@
   {
     "English Name": "Yingnan Ju",
     "Chinese Name": "\u97a0\u82f1\u7537",
-    "CC Level": "CC",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1426,8 +1473,8 @@
   {
     "English Name": "Yue Zhang",
     "Chinese Name": "\u5f20\u60a6",
-    "CC Level": "CC2",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1435,8 +1482,8 @@
   {
     "English Name": "Zoey Wu",
     "Chinese Name": "Zoey Wu",
-    "CC Level": "CC8",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1444,8 +1491,8 @@
   {
     "English Name": "Raven",
     "Chinese Name": "\u675c\u817e",
-    "CC Level": "CC1",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1453,8 +1500,8 @@
   {
     "English Name": "Victor",
     "Chinese Name": "\u5e74\u65ed\u5347",
-    "CC Level": "CC1",
-    "CC Level 2": null,
+    "CC Level": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [],
     "Speech Records": []
@@ -1463,7 +1510,7 @@
     "English Name": "Rice Fan",
     "Chinese Name": "\u68b5\u5fd7\u4f1f",
     "CC Level": "CC3",
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1490,7 +1537,8 @@
     "Speech Records": [
       {
         "Level": "CC3",
-        "Date": "20190109"
+        "Date": "20190109",
+        "Type": "CC"
       }
     ]
   },
@@ -1498,7 +1546,7 @@
     "English Name": "Elliot Zhang",
     "Chinese Name": "\u5f20\u9192\u4e4b",
     "CC Level": null,
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": "Level2-2",
     "Role Records": [
       {
@@ -1645,15 +1693,18 @@
     "Speech Records": [
       {
         "Level": "Level1-3",
-        "Date": "20190814"
+        "Date": "20190814",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-1",
-        "Date": "20191016"
+        "Date": "20191016",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-2",
-        "Date": "20191127"
+        "Date": "20191127",
+        "Type": "pathway"
       }
     ]
   },
@@ -1661,8 +1712,8 @@
     "English Name": "Karen",
     "Chinese Name": "\u738b\u7389\u7ea2",
     "CC Level": null,
-    "CC Level 2": null,
-    "Pathway Level": "Level1-2-1",
+    "CC Level Title": null,
+    "Pathway Level": null,
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -1675,7 +1726,7 @@
     "English Name": "April",
     "Chinese Name": "\u9ad8\u6587\u59ec",
     "CC Level": null,
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": "Level2-1",
     "Role Records": [
       {
@@ -1720,25 +1771,30 @@
       },
       {
         "Role": "Toastmaster",
-        "Date": "20200422"
+        "Date": "20200422",
+        "Title": null
       }
     ],
     "Speech Records": [
       {
         "Level": "Level1-2-1",
-        "Date": "20190116"
+        "Date": "20190116",
+        "Type": "pathway"
       },
       {
         "Level": "Level1-2-2",
-        "Date": "20190327"
+        "Date": "20190327",
+        "Type": "pathway"
       },
       {
         "Level": "Level1-3",
-        "Date": "20200401"
+        "Date": "20200401",
+        "Type": "pathway"
       },
       {
         "Level": "Level2-1",
-        "Date": "20200415"
+        "Date": "20200415",
+        "Type": "pathway"
       }
     ]
   },
@@ -1746,7 +1802,7 @@
     "English Name": "Winnie",
     "Chinese Name": "\u9ad8\u6587\u59ec",
     "CC Level": null,
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": null,
     "Role Records": [
       {
@@ -1760,14 +1816,46 @@
     "English Name": "Jill Chen",
     "Chinese Name": "\u9648\u5609",
     "CC Level": null,
-    "CC Level 2": null,
+    "CC Level Title": null,
     "Pathway Level": "Level1-1",
     "Role Records": [],
     "Speech Records": [
       {
         "Level": "Level1-1",
-        "Date": "20190109"
+        "Date": "20190109",
+        "Type": "pathway"
       }
     ]
+  },
+  {
+    "English Name": "Kay",
+    "Chinese Name": "Kay",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20200422",
+        "Title": "title",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Robin",
+    "Chinese Name": "Robin",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Evaluator2",
+        "Date": "20200422",
+        "Title": null
+      }
+    ],
+    "Speech Records": []
   }
 ]

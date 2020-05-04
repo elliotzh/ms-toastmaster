@@ -86,6 +86,196 @@ def get_meeting_date_str(next_meeting):
     )
 
 
+class MemberInfo:
+    def __init__(self, member_info):
+        self._english_name = member_info["English Name"]
+        self._chinese_name = member_info["Chinese Name"]
+        self._role_records = sorted(member_info["Role Records"], key=lambda x: x["Date"])
+        self._speech_records = sorted(member_info["Speech Records"], key=lambda x: x["Date"])
+        for speech in self._speech_records:
+            if speech["Level"].startswith("Level"):
+                speech["Type"] = "pathway"
+            else:
+                speech["Type"] = "CC"
+
+    def to_dict(self):
+        return {
+            "English Name": self._english_name,
+            "Chinese Name": self._chinese_name,
+            "CC Level": self.cc_level,
+            "CC Level Title": self.title,
+            "Pathway Level": self.pathway_level,
+            "Role Records": self._role_records,
+            "Speech Records": self._speech_records
+        }
+
+    @property
+    def english_name(self):
+        return self._english_name
+
+    @property
+    def chinese_name(self):
+        return self._chinese_name
+
+    @property
+    def title(self):
+        if self.cc_level is None or self.cc_level.startswith("CC"):
+            return None
+        else:
+            return "CL"
+
+    @property
+    def cc_level(self):
+        level = None
+        for speech in self._speech_records:
+            if speech["Type"] == "CC":
+                level = speech["Level"]
+        return level
+
+    @property
+    def pathway_level(self):
+        level = None
+        for speech in self._speech_records:
+            if speech["Type"] == "pathway":
+                level = speech["Level"]
+        return level
+
+    @property
+    def level(self):
+        return self._speech_records[-1]["Level"] if len(self._speech_records) > 0 else ""
+
+    @property
+    def is_on_pathway(self):
+        return len(self._speech_records) is 0 or self._speech_records[-1]["Type"] == "pathway"
+
+    def take_role(self, role_name, date_str, title, generator):
+        self._speech_records = list(filter(
+            lambda x: x["Date"] < date_str,
+            self._speech_records
+        ))
+        self._role_records = list(filter(
+            lambda x: x["Date"] < date_str,
+            self._role_records
+        ))
+
+        if role_name.find("Speaker") is 0:
+            if self.is_on_pathway is True:
+                self._speech_records.append({
+                    "Level": generator.pathways[generator.pathways.index(self.pathway_level) + 1],
+                    "Date": date_str,
+                    "Title": title,
+                    "Type": "pathway"
+                })
+            else:
+                self._speech_records.append({
+                    "Level": generator.CCs[generator.CCs.index(self.cc_level) + 1],
+                    "Date": date_str,
+                    "Title": title,
+                    "Type": "CC"
+                })
+            return self.level
+        elif role_name not in ["SAA", "President"]:
+            self._role_records.append({
+                "Role": role_name,
+                "Date": date_str,
+                "Title": title if role_name == "TM" else None
+            })
+        return None
+
+
+class PathUtil:
+    def __init__(self):
+        pass
+
+    @property
+    def current_dir(self):
+        return path.abspath(path.join(path.abspath(__file__), ".."))
+
+    def get_template(self, name: str):
+        return path.join(self.current_dir, "templates", name)
+
+    @property
+    def default_template_path(self) -> str:
+        return self.get_template("ToastMaster_Template.xlsx")
+
+    def get_output_path(self, name) -> str:
+        return path.join(self.current_dir, "output", name)
+
+    @property
+    def default_agenda_output_path(self) -> str:
+        return path.join(self.current_dir, "output", "agenda.xlsx")
+
+    @property
+    def default_config_path(self) -> str:
+        return path.join(self.current_dir, "config.json")
+
+    def get_image(self, name):
+        return path.join(self.current_dir, "img", name)
+
+    def get_vote_qr(self, speech_count: int):
+        assert 1 <= speech_count <= 3
+        return self.get_image("qrcode-vote-{}.png".format(speech_count))
+
+    @property
+    def club_qr(self):
+        return self.get_image('qrcode-club.png')
+
+    @property
+    def club_icon(self):
+        return self.get_image("icon-club.png")
+
+    @property
+    def default_meeting_info_path(self):
+        return path.join(self.current_dir, "data", "meeting.txt")
+
+    @property
+    def default_member_info_path(self):
+        return path.join(self.current_dir, "data", "member_info.json")
+
+
+class MemberInfoLibrary:
+    def __init__(self, member_info_path=None):
+        self._member_info_path = PathUtil().default_member_info_path if member_info_path is None else member_info_path
+
+        with open(self._member_info_path, "r", encoding="utf-8") as member_info_file:
+            self._member_info_list = list(map(
+                lambda x: MemberInfo(x),
+                json.load(member_info_file)
+            ))
+            member_info_file.close()
+
+    def dump(self, member_info_path=None):
+        with open(self._member_info_path if member_info_path is None else member_info_path, "w", encoding="utf-8"
+                  ) as member_info_file:
+            json.dump(list(map(
+                lambda x: x.to_dict(),
+                self._member_info_list
+            )), member_info_file, indent=2)
+
+    def find(self, role_taker_name) -> MemberInfo:
+        if len(role_taker_name) is not 0:
+            for member_info in self._member_info_list:
+                if member_info.english_name.find(role_taker_name) is not -1 or \
+                        member_info.chinese_name.find(role_taker_name) is not -1:
+                    return member_info
+        else:
+            return MemberInfo({
+                "English Name": "TBD",
+                "Chinese Name": "TBD",
+                "Speech Records": [],
+                "Role Records": [],
+            })
+
+        role_taker = MemberInfo({
+            "English Name": role_taker_name,
+            "Chinese Name": role_taker_name,
+            "Speech Records": [],
+            "Role Records": [],
+        })
+        self._member_info_list.append(role_taker)
+        return role_taker
+
+
 class ToastmasterAgendaGenerator:
     def __init__(self):
         self.roles = [
@@ -138,10 +328,7 @@ class ToastmasterAgendaGenerator:
         ))
         return meetings
 
-    def set_role(self, next_meeting, role_sheet, member_info_path, update_member_info:bool):
-        with open(member_info_path, "r") as member_info_file:
-            member_info_list = json.load(member_info_file)
-            member_info_file.close()
+    def set_role(self, next_meeting, role_sheet, member_info_lib: MemberInfoLibrary):
 
         speech_levels = []
         for i in range(0, len(self.roles)):
@@ -156,76 +343,19 @@ class ToastmasterAgendaGenerator:
             if len(role_taker_name) is 0 and "default_taker" in current_role:
                 role_taker_name = current_role["default_taker"]
 
-            role_taker = None
-            if len(role_taker_name) is not 0:
-                for member_info in member_info_list:
-                    if member_info["English Name"].find(role_taker_name) is not -1 or \
-                            member_info["Chinese Name"].find(role_taker_name) is not -1:
-                        role_taker = member_info
-                        break
-            else:
-                role_taker = {
-                    "English Name": "TBD",
-                    "Chinese Name": "TBD",
-                    "CC Level": None,
-                    "CC Level 2": None,
-                    "Pathway Level": None,
-                    "Speech Records": [],
-                    "Role Records": [],
-                }
-            if role_taker is None:
-                role_taker = {
-                    "English Name": role_taker_name,
-                    "Chinese Name": role_taker_name,
-                    "CC Level": None,
-                    "CC Level 2": None,
-                    "Pathway Level": None,
-                    "Speech Records": [],
-                    "Role Records": [],
-                }
+            date_str = "{2}{0:02}{1:02}".format(
+                next_meeting["month"], next_meeting["day"], datetime.datetime.now().year)
+            role_taker = member_info_lib.find(role_taker_name)
             if role_taker is not None:
-                is_on_pathway = role_taker["Pathway Level"] is not None or role_taker["CC Level"] is None
-
-                name = role_taker["{0} Name".format(next_meeting["language"])]
+                name = role_taker.english_name if next_meeting["language"] == "English" else role_taker.chinese_name
                 role_sheet['B{0}'.format(row_index)] = name
-                role_sheet['C{0}'.format(row_index)] = try_get_str(role_taker["Pathway Level"]) \
-                    if is_on_pathway else try_get_str(role_taker["CC Level"])
-                role_sheet['D{0}'.format(row_index)] = try_get_str(role_taker["CC Level 2"])
+                role_sheet['C{0}'.format(row_index)] = role_taker.level
+                role_sheet['D{0}'.format(row_index)] = try_get_str(role_taker.title)
 
-                if current_role["name"].find("Speaker") is 0:
-                    if is_on_pathway is True:
-                        current_level = self.pathways[self.pathways.index(role_taker["Pathway Level"])+1]
-                        role_taker["Pathway Level"] = current_level
-                    else:
-                        current_level = self.CCs[self.CCs.index(role_taker["CC Level"]) + 1]
-                        role_taker["CC Level"] = current_level
-                    role_taker["Speech Records"].append({
-                        "Level": current_level,
-                        "Date": "{2}{0:02}{1:02}".format(
-                            next_meeting["month"],
-                            next_meeting["day"],
-                            datetime.datetime.now().year
-                        )
-                    })
-                    speech_levels.append(current_level)
-                elif current_role["name"] not in ["SAA", "President"]:
-                    role_taker["Role Records"].append({
-                        "Role": current_role["name"],
-                        "Date": "{2}{0:02}{1:02}".format(
-                            next_meeting["month"],
-                            next_meeting["day"],
-                            datetime.datetime.now().year
-                        )
-                    })
+                speech_level = role_taker.take_role(current_role["name"], date_str, "title", self)
+                if speech_level is not None:
+                    speech_levels.append(speech_level)
 
-        member_info_output_path = member_info_path if update_member_info is True else self.path_util.get_output_path(
-            "{0}.member_info.json".format(get_meeting_date_str(next_meeting)))
-        with open(member_info_output_path, "w", encoding="utf-8") as member_info_file:
-            json.dump(
-                member_info_list,
-                member_info_file,
-                indent=2
-            )
         return speech_levels
 
     def load_settings(self, settings_path):
@@ -233,11 +363,10 @@ class ToastmasterAgendaGenerator:
         for var in settings:
             setattr(self, var, settings[var])
 
-    def generate_agenda(self, call_role_path = None, member_info_path = None, update_member_info = False):
+    def generate_agenda(self, call_role_path = None, member_info_path=None, update_member_info = False):
         if call_role_path is None:
             call_role_path = self.path_util.default_meeting_info_path
-        if member_info_path is None:
-            member_info_path = self.path_util.default_member_info_path
+        member_info_lib = MemberInfoLibrary(member_info_path)
         origin_text = open(call_role_path, "r", encoding="utf-8").read()
 
         for next_meeting in self.read_info_from_call_role(origin_text):
@@ -253,7 +382,7 @@ class ToastmasterAgendaGenerator:
             xlsx_template = openpyxl.load_workbook(self.path_util.default_template_path)
             role_sheet = xlsx_template["Roles"]
 
-            speech_levels = self.set_role(next_meeting, role_sheet, member_info_path, update_member_info)
+            speech_levels = self.set_role(next_meeting, role_sheet, member_info_lib)
 
             is_english = next_meeting["language"] == "English"
             agenda_sheet_prefix = "Agenda" if is_english else "Chinese Agenda"
@@ -305,56 +434,12 @@ class ToastmasterAgendaGenerator:
             style_range(agenda_sheet, 'A{0}:J{0}'.format(26 + 3 * speech_count), border)
 
             xlsx_template.save(self.path_util.default_agenda_output_path)
+            if update_member_info is False:
+                member_info_lib.dump(self.path_util.get_output_path(
+                    "{0}.member_info.json".format(get_meeting_date_str(next_meeting))))
 
-
-class PathUtil:
-    def __init__(self):
-        pass
-
-    @property
-    def current_dir(self):
-        return path.abspath(path.join(path.abspath(__file__), ".."))
-
-    def get_template(self, name: str):
-        return path.join(self.current_dir, "templates", name)
-
-    @property
-    def default_template_path(self) -> str:
-        return self.get_template("ToastMaster_Template.xlsx")
-
-    def get_output_path(self, name) -> str:
-        return path.join(self.current_dir, "output", name)
-
-    @property
-    def default_agenda_output_path(self) -> str:
-        return path.join(self.current_dir, "output", "agenda.xlsx")
-
-    @property
-    def default_config_path(self) -> str:
-        return path.join(self.current_dir, "config.json")
-
-    def get_image(self, name):
-        return path.join(self.current_dir, "img", name)
-
-    def get_vote_qr(self, speech_count: int):
-        assert 1 <= speech_count <= 3
-        return self.get_image("qrcode-vote-{}.png".format(speech_count))
-
-    @property
-    def club_qr(self):
-        return self.get_image('qrcode-club.png')
-
-    @property
-    def club_icon(self):
-        return self.get_image("icon-club.png")
-
-    @property
-    def default_meeting_info_path(self):
-        return path.join(self.current_dir, "data", "meeting.txt")
-
-    @property
-    def default_member_info_path(self):
-        return path.join(self.current_dir, "data", "member_info.json")
+        if update_member_info is True:
+            member_info_lib.dump()
 
 
 def __main__():
