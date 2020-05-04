@@ -249,10 +249,6 @@
         "Role": "Toastmaster",
         "Date": "20200415",
         "Topic": "DIY"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200429"
       }
     ],
     "Speech Records": [
@@ -670,10 +666,6 @@
       {
         "Role": "Evaluator1",
         "Date": "20200422"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200429"
       }
     ],
     "Speech Records": [
@@ -889,10 +881,6 @@
       {
         "Role": "TTM",
         "Date": "20200401"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200429"
       }
     ],
     "Speech Records": [
@@ -1152,10 +1140,6 @@
       {
         "Role": "Evaluator1",
         "Date": "20200415"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200429"
       }
     ],
     "Speech Records": []
@@ -1651,11 +1635,6 @@
       {
         "Role": "Evaluator2",
         "Date": "20200415"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200429",
-        "Topic": "\u53d1\u6761\u6a59"
       }
     ],
     "Speech Records": [
@@ -1698,7 +1677,7 @@
     "Chinese Name": "\u9ad8\u6587\u59ec",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level2-2",
+    "Pathway Level": "Level2-1",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -1768,12 +1747,6 @@
         "Date": "20200415",
         "Topic": "Start",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level2-2",
-        "Date": "20200429",
-        "Topic": "\u7ee7\u7eed\u804a\u804a\u201c\u6211\u6240\u89c1\u8fc7\u7684\u8d2b\u56f0\u201d",
-        "Type": "pathway"
       }
     ]
   },
@@ -1812,7 +1785,7 @@
     "Chinese Name": "Kay",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level1-2-1",
+    "Pathway Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -1824,12 +1797,6 @@
         "Level": "Level1-1",
         "Date": "20200422",
         "Topic": "Thinking makes bald, practice makes perfect",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-1",
-        "Date": "20200429",
-        "Topic": "\u7cfb\u7edf\u6027\u601d\u7ef4",
         "Type": "pathway"
       }
     ]
