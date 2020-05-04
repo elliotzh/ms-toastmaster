@@ -240,11 +240,14 @@ class ToastmasterAgendaGenerator:
         origin_text = open(call_role_path, "r", encoding="utf-8").read()
 
         for next_meeting in self.read_info_from_call_role(origin_text):
-            open(
-                "{0}.meeting.txt".format(get_meeting_date_str(next_meeting)),
-                "w",
-                encoding="utf-8"
-            ).write(origin_text)
+            if update_member_info is False:
+                with open(
+                    self.path_util.get_output_path("{0}.meeting.txt".format(get_meeting_date_str(next_meeting))),
+                    "w",
+                    encoding="utf-8"
+                ) as meeting_log_file:
+                    meeting_log_file.write(origin_text)
+                    meeting_log_file.close()
             print(json.dumps(next_meeting, indent=2))
             xlsx_template = openpyxl.load_workbook(self.path_util.default_template_path)
             role_sheet = xlsx_template["Roles"]
@@ -361,6 +364,7 @@ def __main__():
 
     if len(sys.argv) != 3:
         generator.generate_agenda(update_member_info=True)
+        # generator.generate_agenda(update_member_info=False)
     else:
         _, current_log_path, call_role_path = sys.argv
         generator.generate_agenda(call_role_path, current_log_path)

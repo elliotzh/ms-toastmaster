@@ -1,0 +1,70 @@
+[
+	{
+		"name": "SAA",
+		"default_taker": "Harper"
+	},
+	{
+		"name": "President",
+		"default_taker": "Harper"
+	},
+	{
+		"name": "VPM",
+		"default_taker": "Bonnie Wang"
+	},
+	{
+		"name": "Toastmaster",
+		"nick": "TM"
+	},
+	{
+		"name": "GE"
+	},
+	{
+		"name": "TTM"
+	},
+	{
+		"name": "TTE"
+	},
+	{
+		"name": "Timer"
+	},
+	{
+		"name": "Ah Counter",
+		"nick": "Ah-counter"
+	},
+	{
+		"name": "Word Smith",
+		"nick": "Wordsmith"
+	},
+	{
+		"name": "Speaker1",
+		"nick": "SP1"
+	},
+	{
+		"name": "Speaker2",
+		"nick": "SP2"
+	},
+	{
+		"name": "Speaker3",
+		"nick": "SP3"
+	},
+	{
+		"name": "Speaker4",
+		"nick": "SP4"
+	},
+	{
+		"name": "Evaluator1",
+		"nick": "IE1"
+	},
+	{
+		"name": "Evaluator2",
+		"nick": "IE2"
+	},
+	{
+		"name": "Evaluator3",
+		"nick": "IE3"
+	},
+	{
+		"name": "Evaluator4",
+		"nick": "IE4"
+	}
+]
