@@ -78,14 +78,6 @@ def set_active_sheet_by_name(wb, sheet_name):
     return False
 
 
-def get_meeting_date_str(next_meeting):
-    return "{2}{0:02}{1:02}".format(
-        next_meeting["month"],
-        next_meeting["day"],
-        datetime.datetime.now().year
-    )
-
-
 class MemberInfo:
     def __init__(self, member_info):
         self._english_name = member_info["English Name"]
@@ -148,37 +140,46 @@ class MemberInfo:
     def is_on_pathway(self):
         return len(self._speech_records) is 0 or self._speech_records[-1]["Type"] == "pathway"
 
-    def take_role(self, role_name, date_str, title, generator):
-        self._speech_records = list(filter(
-            lambda x: x["Date"] < date_str,
-            self._speech_records
-        ))
-        self._role_records = list(filter(
-            lambda x: x["Date"] < date_str,
-            self._role_records
-        ))
+    def clear_records(self, date_str):
+        if len(self._speech_records) > 0 and self._speech_records[-1]["Date"] >= date_str:
+            self._speech_records = list(filter(
+                lambda x: x["Date"] < date_str,
+                self._speech_records
+            ))
 
+        if len(self._role_records) > 0 and self._role_records[-1]["Date"] >= date_str:
+            self._role_records = list(filter(
+                lambda x: x["Date"] < date_str,
+                self._role_records
+            ))
+
+    def take_role(self, role_name, date_str, topic, generator):
         if role_name.find("Speaker") is 0:
             if self.is_on_pathway is True:
                 self._speech_records.append({
                     "Level": generator.pathways[generator.pathways.index(self.pathway_level) + 1],
                     "Date": date_str,
-                    "Title": title,
+                    "Topic": topic,
                     "Type": "pathway"
                 })
             else:
                 self._speech_records.append({
                     "Level": generator.CCs[generator.CCs.index(self.cc_level) + 1],
                     "Date": date_str,
-                    "Title": title,
+                    "Topic": topic,
                     "Type": "CC"
                 })
             return self.level
-        elif role_name not in ["SAA", "President"]:
+        elif role_name == "Toastmaster":
             self._role_records.append({
                 "Role": role_name,
                 "Date": date_str,
-                "Title": title if role_name == "TM" else None
+                "Topic": topic
+            })
+        elif role_name not in ["SAA", "President", "VPM"]:
+            self._role_records.append({
+                "Role": role_name,
+                "Date": date_str
             })
         return None
 
@@ -258,8 +259,8 @@ class MemberInfoLibrary:
     def find(self, role_taker_name) -> MemberInfo:
         if len(role_taker_name) is not 0:
             for member_info in self._member_info_list:
-                if member_info.english_name.find(role_taker_name) is not -1 or \
-                        member_info.chinese_name.find(role_taker_name) is not -1:
+                if member_info.english_name.lower().find(role_taker_name.lower()) is not -1 or \
+                        member_info.chinese_name.lower().find(role_taker_name.lower()) is not -1:
                     return member_info
         else:
             return MemberInfo({
@@ -278,9 +279,13 @@ class MemberInfoLibrary:
         self._member_info_list.append(role_taker)
         return role_taker
 
+    def clear_records(self, date_str):
+        for member in self._member_info_list:
+            member.clear_records(date_str)
+
 
 class ToastmasterAgendaGenerator:
-    def __init__(self):
+    def __init__(self, current_year=None):
         self.roles = [
         ]
 
@@ -292,11 +297,16 @@ class ToastmasterAgendaGenerator:
 
         self.time_dict = {
         }
+        self._current_year = current_year
         self.load_settings(self.path_util.default_config_path)
 
     @property
     def path_util(self):
         return PathUtil()
+
+    @classmethod
+    def strip_name(cls, member_name: str):
+        return re.sub(r"[\ud83c\ufe0f\udf3f\u5973\u795e\u7537]|(\[.*])|(N/A)", "", member_name).strip()
 
     @classmethod
     def read_info_from_call_role(cls, call_role_text):
@@ -310,7 +320,8 @@ class ToastmasterAgendaGenerator:
             if line.find(":") is not -1:
                 ti = line.find(":")
                 role_name, member_name = line[:ti], line[ti+1:]
-                meeting_info[role_name.strip()] = member_name.strip().strip("\ufe0f")
+
+                meeting_info[role_name.strip()] = cls.strip_name(member_name)
             else:
                 line = line.replace(u"中文", "Chinese")
                 m = re.match(r"([0-9]+)/([0-9]+) *\((Chinese|English)\)", line)
@@ -331,8 +342,14 @@ class ToastmasterAgendaGenerator:
         ))
         return meetings
 
-    def set_role(self, next_meeting, role_sheet, member_info_lib: MemberInfoLibrary):
+    def get_date_str(self, next_meeting):
+        return "{2}{0:02}{1:02}".format(
+            next_meeting["month"],
+            next_meeting["day"],
+            datetime.datetime.now().year if self._current_year is None else self._current_year
+        )
 
+    def set_role(self, next_meeting, role_sheet, member_info_lib: MemberInfoLibrary):
         speech_levels = []
         for i in range(0, len(self.roles)):
             row_index = i + 2
@@ -346,8 +363,6 @@ class ToastmasterAgendaGenerator:
             if len(role_taker_name) is 0 and "default_taker" in current_role:
                 role_taker_name = current_role["default_taker"]
 
-            date_str = "{2}{0:02}{1:02}".format(
-                next_meeting["month"], next_meeting["day"], datetime.datetime.now().year)
             role_taker = member_info_lib.find(role_taker_name)
             if role_taker is not None:
                 name = role_taker.english_name if next_meeting["language"] == "English" else role_taker.chinese_name
@@ -355,7 +370,14 @@ class ToastmasterAgendaGenerator:
                 role_sheet['C{0}'.format(row_index)] = role_taker.level
                 role_sheet['D{0}'.format(row_index)] = try_get_str(role_taker.title)
 
-                speech_level = role_taker.take_role(current_role["name"], date_str, "title", self)
+                topic = next_meeting["Theme"]
+                if current_role["name"].startswith("Speaker"):
+                    try:
+                        topic = next_meeting["SP{0} Topic".format(current_role["name"][-1])]
+                    except KeyError:
+                        pass
+
+                speech_level = role_taker.take_role(current_role["name"], self.get_date_str(next_meeting), topic, self)
                 if speech_level is not None:
                     speech_levels.append(speech_level)
 
@@ -366,15 +388,17 @@ class ToastmasterAgendaGenerator:
         for var in settings:
             setattr(self, var, settings[var])
 
-    def generate_agenda(self, call_role_path = None, member_info_path=None, update_member_info = False):
+    def generate_agenda(self, call_role_path=None, member_info_path=None, update_member_info=False):
         if call_role_path is None:
             call_role_path = self.path_util.default_meeting_info_path
         member_info_lib = MemberInfoLibrary(member_info_path)
         origin_text = open(call_role_path, "r", encoding="utf-8").read()
 
         for next_meeting in self.read_info_from_call_role(origin_text):
+            member_info_lib.clear_records(self.get_date_str(next_meeting))
+
             with open(
-                self.path_util.get_log_path("{0}.meeting.txt".format(get_meeting_date_str(next_meeting))),
+                self.path_util.get_log_path("{0}.call_role.txt".format(self.get_date_str(next_meeting))),
                 "w",
                 encoding="utf-8"
             ) as meeting_log_file:
@@ -389,70 +413,80 @@ class ToastmasterAgendaGenerator:
             is_english = next_meeting["language"] == "English"
             agenda_sheet_prefix = "Agenda" if is_english else "Chinese Agenda"
             speech_count = next_meeting["speech_count"]
-            agenda_sheet_name = "{0}-{1}".format(agenda_sheet_prefix, speech_count)
-            agenda_sheet = xlsx_template[agenda_sheet_name]
-            set_active_sheet_by_name(xlsx_template, agenda_sheet_name)
 
-            speech_rows = [27, 29, 31]
-            if is_english is True:
-                agenda_sheet["A8"] = "Theme Today: {0}".format(next_meeting["Theme"])
-            else:
-                agenda_sheet["A8"] = "本期主题:  “{0}”".format(next_meeting["Theme"])
+            if speech_count > 0:
+                agenda_sheet_name = "{0}-{1}".format(agenda_sheet_prefix, speech_count)
+                agenda_sheet = xlsx_template[agenda_sheet_name]
+                set_active_sheet_by_name(xlsx_template, agenda_sheet_name)
 
-            for i in range(0, speech_count):
-                agenda_sheet["C{0}".format(speech_rows[i])] = next_meeting["SP{0} Topic".format(i + 1)]
-                current_level = speech_levels[i]
-                if current_level not in self.time_dict:
-                    self.time_dict[current_level] = ["0:06", "4-6", 4, 5, 6]
-                duration, time_range, green_time, yellow_time, red_time = self.time_dict[current_level]
-                reorg = [time_range, green_time, yellow_time, red_time, duration]
-                for j in range(0, len(reorg)):
-                    agenda_sheet["{0}{1}".format(chr(ord('E') + j), speech_rows[i])] = reorg[j]
+                speech_rows = [27, 29, 31]
+                if is_english is True:
+                    agenda_sheet["A8"] = "Theme Today: {0}".format(next_meeting["Theme"])
+                else:
+                    agenda_sheet["A8"] = "本期主题:  “{0}”".format(next_meeting["Theme"])
 
-            icon_img = Image(self.path_util.club_icon)
-            icon_img.anchor = 'A1'
-            agenda_sheet.add_image(icon_img)
+                for i in range(0, speech_count):
+                    agenda_sheet["C{0}".format(speech_rows[i])] = next_meeting["SP{0} Topic".format(i + 1)]
+                    current_level = speech_levels[i]
+                    if current_level not in self.time_dict:
+                        self.time_dict[current_level] = ["0:06", "4-6", 4, 5, 6]
+                    duration, time_range, green_time, yellow_time, red_time = self.time_dict[current_level]
+                    reorg = [time_range, green_time, yellow_time, red_time, duration]
+                    for j in range(0, len(reorg)):
+                        agenda_sheet["{0}{1}".format(chr(ord('E') + j), speech_rows[i])] = reorg[j]
 
-            qr_img = Image(self.path_util.club_qr)
-            qr_img.anchor = 'G1'
-            agenda_sheet.add_image(qr_img)
+                icon_img = Image(self.path_util.club_icon)
+                icon_img.anchor = 'A1'
+                agenda_sheet.add_image(icon_img)
 
-            qr_img = Image(self.path_util.get_vote_qr(speech_count))
-            qr_img.anchor = 'E{0}'.format(4 * speech_count + 34)
-            agenda_sheet.add_image(qr_img)
+                qr_img = Image(self.path_util.club_qr)
+                qr_img.anchor = 'G1'
+                agenda_sheet.add_image(qr_img)
 
-            side = Side(border_style="medium", color='000000')
-            border = Border(
-                left=side,
-                right=side,
-                top=side,
-                bottom=side,
-            )
-            style_range(agenda_sheet, 'A1:J3', border)
-            style_range(agenda_sheet, 'A4:J5', border)
-            style_range(agenda_sheet, 'A8:J8', border)
-            style_range(agenda_sheet, 'A20:J20', border)
-            style_range(agenda_sheet, 'A25:J25', border)
-            style_range(agenda_sheet, 'A{0}:J{0}'.format(26 + 3 * speech_count), border)
+                qr_img = Image(self.path_util.get_vote_qr(speech_count))
+                qr_img.anchor = 'E{0}'.format(4 * speech_count + 34)
+                agenda_sheet.add_image(qr_img)
 
-            xlsx_template.save(self.path_util.default_agenda_output_path)
+                side = Side(border_style="medium", color='000000')
+                border = Border(
+                    left=side,
+                    right=side,
+                    top=side,
+                    bottom=side,
+                )
+                style_range(agenda_sheet, 'A1:J3', border)
+                style_range(agenda_sheet, 'A4:J5', border)
+                style_range(agenda_sheet, 'A8:J8', border)
+                style_range(agenda_sheet, 'A20:J20', border)
+                style_range(agenda_sheet, 'A25:J25', border)
+                style_range(agenda_sheet, 'A{0}:J{0}'.format(26 + 3 * speech_count), border)
+
+                xlsx_template.save(self.path_util.default_agenda_output_path)
             if update_member_info is False:
                 member_info_lib.dump(self.path_util.get_output_path(
-                    "{0}.member_info.json".format(get_meeting_date_str(next_meeting))))
+                    "{0}.member_info.json".format(self.get_date_str(next_meeting))))
 
         if update_member_info is True:
             member_info_lib.dump()
 
 
 def __main__():
-    generator = ToastmasterAgendaGenerator()
-
     if len(sys.argv) == 3:
         _, current_log_path, call_role_path = sys.argv
+        generator = ToastmasterAgendaGenerator()
         generator.generate_agenda(call_role_path, current_log_path)
-    # elif len(sys.argv) == 2:
-    #     pass
+    elif len(sys.argv) == 1:
+        for root, _, files in os.walk(PathUtil().get_log_path("")):
+            files = sorted(filter(lambda x: x.endswith(".txt"), files))
+            for file in files:
+                generator = ToastmasterAgendaGenerator(file[:4])
+
+                generator.generate_agenda(
+                    call_role_path=path.join(root, file),
+                    update_member_info=True
+                )
     else:
+        generator = ToastmasterAgendaGenerator()
         generator.generate_agenda(update_member_info=True)
 
 
