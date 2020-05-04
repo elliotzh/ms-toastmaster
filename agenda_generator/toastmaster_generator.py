@@ -313,7 +313,7 @@ class PathUtil:
 
     @property
     def current_dir(self):
-        return path.abspath(path.join(__file__, ".."))
+        return path.abspath(path.dirname(__file__))
 
     def get_template(self, name: str):
         return path.join(self.current_dir, "templates", name)
