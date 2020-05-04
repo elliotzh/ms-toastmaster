@@ -201,6 +201,9 @@ class PathUtil:
     def get_output_path(self, name) -> str:
         return path.join(self.current_dir, "output", name)
 
+    def get_log_path(self, name) -> str:
+        return path.join(self.current_dir, "log", name)
+
     @property
     def default_agenda_output_path(self) -> str:
         return path.join(self.current_dir, "output", "agenda.xlsx")
@@ -370,14 +373,13 @@ class ToastmasterAgendaGenerator:
         origin_text = open(call_role_path, "r", encoding="utf-8").read()
 
         for next_meeting in self.read_info_from_call_role(origin_text):
-            if update_member_info is False:
-                with open(
-                    self.path_util.get_output_path("{0}.meeting.txt".format(get_meeting_date_str(next_meeting))),
-                    "w",
-                    encoding="utf-8"
-                ) as meeting_log_file:
-                    meeting_log_file.write(origin_text)
-                    meeting_log_file.close()
+            with open(
+                self.path_util.get_log_path("{0}.meeting.txt".format(get_meeting_date_str(next_meeting))),
+                "w",
+                encoding="utf-8"
+            ) as meeting_log_file:
+                meeting_log_file.write(origin_text)
+                meeting_log_file.close()
             print(json.dumps(next_meeting, indent=2))
             xlsx_template = openpyxl.load_workbook(self.path_util.default_template_path)
             role_sheet = xlsx_template["Roles"]
@@ -445,12 +447,13 @@ class ToastmasterAgendaGenerator:
 def __main__():
     generator = ToastmasterAgendaGenerator()
 
-    if len(sys.argv) != 3:
-        generator.generate_agenda(update_member_info=True)
-        # generator.generate_agenda(update_member_info=False)
-    else:
+    if len(sys.argv) == 3:
         _, current_log_path, call_role_path = sys.argv
         generator.generate_agenda(call_role_path, current_log_path)
+    # elif len(sys.argv) == 2:
+    #     pass
+    else:
+        generator.generate_agenda(update_member_info=True)
 
 
 if __name__ == "__main__":
