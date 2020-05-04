@@ -2,4 +2,4 @@ language: python
 python: 3.7
 script:
   - git checkout $TRAVIS_BRANCH
-  - python3 agenda_generator/toastmaster_generator.py
+  - python3 agenda_generator/toastmaster_generator.py $git_token

@@ -474,17 +474,18 @@ def __main__():
         _, current_log_path, call_role_path = sys.argv
         generator = ToastmasterAgendaGenerator()
         generator.generate_agenda(call_role_path, current_log_path)
-    # elif len(sys.argv) == 1:
-    #     for root, _, files in os.walk(PathUtil().get_log_path("")):
-    #         files = sorted(filter(lambda x: x.endswith(".txt"), files))
-    #         for file in files:
-    #             generator = ToastmasterAgendaGenerator(file[:4])
-    #
-    #             generator.generate_agenda(
-    #                 call_role_path=path.join(root, file),
-    #                 update_member_info=True
-    #             )
+    elif len(sys.argv) == 1:
+        for root, _, files in os.walk(PathUtil().get_log_path("")):
+            files = sorted(filter(lambda x: x.endswith(".txt"), files))
+            for file in files:
+                generator = ToastmasterAgendaGenerator(file[:4])
+
+                generator.generate_agenda(
+                    call_role_path=path.join(root, file),
+                    update_member_info=True
+                )
     else:
+        git_token = sys.argv[1]
         generator = ToastmasterAgendaGenerator()
         generator.generate_agenda(update_member_info=True)
 
@@ -493,6 +494,10 @@ def __main__():
         if status.find("data/member_info.json") is not -1:
             subprocess.check_call(["git", "add", "."])
             subprocess.check_call(["git", "commit", "-m", "feat: auto-generated change"])
+            run = subprocess.run([
+                "git", "remote", "set-url", "origin",
+                "https://{}@github.com/eliiotz/ms-toastmaster.git".format(git_token)
+            ])
             run = subprocess.run(["git", "push"])
             print(run.stderr)
             print(run.stdout)
