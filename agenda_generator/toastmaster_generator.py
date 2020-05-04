@@ -246,7 +246,7 @@ class ToastmasterAgendaGenerator:
             if is_english is True:
                 agenda_sheet["A8"] = "Theme Today: {0}".format(next_meeting["Theme"])
             else:
-                agenda_sheet["A7"] = "本期主题:  “{0}”".format(next_meeting["Theme"])
+                agenda_sheet["A8"] = "本期主题:  “{0}”".format(next_meeting["Theme"])
 
             for i in range(0, speech_count):
                 agenda_sheet["C{0}".format(speech_rows[i])] = next_meeting["SP{0} Topic".format(i + 1)]
@@ -256,7 +256,7 @@ class ToastmasterAgendaGenerator:
                 duration, time_range, green_time, yellow_time, red_time = self.time_dict[current_level]
                 reorg = [time_range, green_time, yellow_time, red_time, duration]
                 for j in range(0, len(reorg)):
-                    agenda_sheet["{0}{1}".format(chr(ord('G') + j), speech_rows[i])] = reorg[j]
+                    agenda_sheet["{0}{1}".format(chr(ord('E') + j), speech_rows[i])] = reorg[j]
 
             icon_img = Image('Icon.png')
             icon_img.anchor = 'A1'
