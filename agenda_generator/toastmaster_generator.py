@@ -6,7 +6,6 @@ from openpyxl.drawing.image import Image
 from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font
 import sys
 import os
-import webbrowser
 
 
 def min_distance(word1, word2):
@@ -310,9 +309,9 @@ def __main__():
 
     generator.generate_agenda(origin_text, current_log_path)
 
-    webbrowser.open("https://wj.qq.com/mine.html")
+    # webbrowser.open("https://wj.qq.com/mine.html")
 
-    input("successfully generated.")
+    print("successfully generated.")
 
 
 if __name__ == "__main__":
