@@ -7,6 +7,7 @@ from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Fo
 import sys
 import os
 from os import path
+from pathlib import PurePath
 
 
 def min_distance(word1, word2):
@@ -308,12 +309,11 @@ class ToastmasterAgendaGenerator:
 
 class PathUtil:
     def __init__(self):
-        print("Base dir is {}".format(self.current_dir))
         pass
 
     @property
     def current_dir(self):
-        return path.abspath(path.dirname(__file__))
+        return path.abspath(path.join(path.abspath(__file__), ".."))
 
     def get_template(self, name: str):
         return path.join(self.current_dir, "templates", name)
@@ -358,9 +358,6 @@ class PathUtil:
 
 
 def __main__():
-    working_dir = os.path.dirname(os.path.abspath(__file__))
-    os.chdir(working_dir)
-
     generator = ToastmasterAgendaGenerator()
 
     if len(sys.argv) != 3:
