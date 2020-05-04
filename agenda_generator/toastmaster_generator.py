@@ -6,6 +6,7 @@ from openpyxl.drawing.image import Image
 from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font
 import sys
 import os
+from os import path
 
 
 def min_distance(word1, word2):
@@ -97,8 +98,14 @@ class ToastmasterAgendaGenerator:
 
         self.time_dict = {
         }
+        self.load_settings(self.path_util.default_config_path)
 
-    def read_info_from_call_role(self, call_role_text):
+    @property
+    def path_util(self):
+        return PathUtil()
+
+    @classmethod
+    def read_info_from_call_role(cls, call_role_text):
         meetings = []
         meeting_info = {}
         for line in call_role_text.split('\n'):
@@ -130,10 +137,11 @@ class ToastmasterAgendaGenerator:
         ))
         return meetings
 
-    def set_role(self, next_meeting, role_sheet, member_info_path):
-        member_info_list = json.load(
-            open(member_info_path, "r")
-        )
+    def set_role(self, next_meeting, role_sheet, member_info_path, update_member_info:bool):
+        with open(member_info_path, "r") as member_info_file:
+            member_info_list = json.load(member_info_file)
+            member_info_file.close()
+
         speech_levels = []
         for i in range(0, len(self.roles)):
             row_index = i + 2
@@ -208,13 +216,15 @@ class ToastmasterAgendaGenerator:
                             datetime.datetime.now().year
                         )
                     })
-        json.dump(
-            member_info_list,
-            open("{0}.member_info.json".format(
-                get_meeting_date_str(next_meeting)
-            ), "w", encoding="utf-8"),
-            indent=2
-        )
+
+        member_info_output_path = member_info_path if update_member_info is True else self.path_util.get_output_path(
+            "{0}.member_info.json".format(get_meeting_date_str(next_meeting)))
+        with open(member_info_output_path, "w", encoding="utf-8") as member_info_file:
+            json.dump(
+                member_info_list,
+                member_info_file,
+                indent=2
+            )
         return speech_levels
 
     def load_settings(self, settings_path):
@@ -222,18 +232,24 @@ class ToastmasterAgendaGenerator:
         for var in settings:
             setattr(self, var, settings[var])
 
-    def generate_agenda(self, origin_text, current_log_path):
+    def generate_agenda(self, call_role_path = None, member_info_path = None, update_member_info = False):
+        if call_role_path is None:
+            call_role_path = self.path_util.default_meeting_info_path
+        if member_info_path is None:
+            member_info_path = self.path_util.default_member_info_path
+        origin_text = open(call_role_path, "r", encoding="utf-8").read()
+
         for next_meeting in self.read_info_from_call_role(origin_text):
             open(
-                "{0}.call_role.txt".format(get_meeting_date_str(next_meeting)),
+                "{0}.meeting.txt".format(get_meeting_date_str(next_meeting)),
                 "w",
                 encoding="utf-8"
             ).write(origin_text)
             print(json.dumps(next_meeting, indent=2))
-            xlsx_template = openpyxl.load_workbook("ToastMaster_Template.xlsx")
+            xlsx_template = openpyxl.load_workbook(self.path_util.default_template_path)
             role_sheet = xlsx_template["Roles"]
 
-            speech_levels = self.set_role(next_meeting, role_sheet, current_log_path)
+            speech_levels = self.set_role(next_meeting, role_sheet, member_info_path, update_member_info)
 
             is_english = next_meeting["language"] == "English"
             agenda_sheet_prefix = "Agenda" if is_english else "Chinese Agenda"
@@ -258,15 +274,15 @@ class ToastmasterAgendaGenerator:
                 for j in range(0, len(reorg)):
                     agenda_sheet["{0}{1}".format(chr(ord('E') + j), speech_rows[i])] = reorg[j]
 
-            icon_img = Image('Icon.png')
+            icon_img = Image(self.path_util.club_icon)
             icon_img.anchor = 'A1'
             agenda_sheet.add_image(icon_img)
 
-            qr_img = Image('QR Code.png')
+            qr_img = Image(self.path_util.club_qr)
             qr_img.anchor = 'G1'
             agenda_sheet.add_image(qr_img)
 
-            qr_img = Image('qrcode-vote-{0}.png'.format(speech_count))
+            qr_img = Image(self.path_util.get_vote_qr(speech_count))
             qr_img.anchor = 'E{0}'.format(4 * speech_count + 34)
             agenda_sheet.add_image(qr_img)
 
@@ -284,34 +300,70 @@ class ToastmasterAgendaGenerator:
             style_range(agenda_sheet, 'A25:J25', border)
             style_range(agenda_sheet, 'A{0}:J{0}'.format(26 + 3 * speech_count), border)
 
-            xlsx_template.save("{0}.agenda.xlsx".format(
-                get_meeting_date_str(next_meeting)
-            ))
+            xlsx_template.save(self.path_util.default_agenda_output_path)
+
+
+class PathUtil:
+    def __init__(self):
+        pass
+
+    @property
+    def current_dir(self):
+        return path.abspath(path.join(__file__, ".."))
+
+    def get_template(self, name: str):
+        return path.join(self.current_dir, "templates", name)
+
+    @property
+    def default_template_path(self) -> str:
+        return self.get_template("ToastMaster_Template.xlsx")
+
+    def get_output_path(self, name) -> str:
+        return path.join(self.current_dir, "output", name)
+
+    @property
+    def default_agenda_output_path(self) -> str:
+        return path.join(self.current_dir, "output", "agenda.xlsx")
+
+    @property
+    def default_config_path(self) -> str:
+        return path.join(self.current_dir, "config.json")
+
+    def get_image(self, name):
+        return path.join(self.current_dir, "img", name)
+
+    def get_vote_qr(self, speech_count: int):
+        assert 1 <= speech_count <= 3
+        return self.get_image("qrcode-vote-{}.png".format(speech_count))
+
+    @property
+    def club_qr(self):
+        return self.get_image('qrcode-club.png')
+
+    @property
+    def club_icon(self):
+        return self.get_image("icon-club.png")
+
+    @property
+    def default_meeting_info_path(self):
+        return path.join(self.current_dir, "data", "meeting.txt")
+
+    @property
+    def default_member_info_path(self):
+        return path.join(self.current_dir, "data", "member_info.json")
 
 
 def __main__():
     working_dir = os.path.dirname(os.path.abspath(__file__))
     os.chdir(working_dir)
-    if len(sys.argv) != 3:
-        last_date = input("Please enter last meeting date (date for latest member info):\n")
-        current_log_path = "{0}.member_info.json".format(last_date)
-        call_role_path = input("Please enter path for role calling:\n")
-    else:
-        _, current_log_path, call_role_path = sys.argv
-
-    # read call role file
-    origin_text = open(call_role_path, "r", encoding="utf-8").read()
 
     generator = ToastmasterAgendaGenerator()
 
-    # read setting
-    generator.load_settings("settings.json")
-
-    generator.generate_agenda(origin_text, current_log_path)
-
-    # webbrowser.open("https://wj.qq.com/mine.html")
-
-    print("successfully generated.")
+    if len(sys.argv) != 3:
+        generator.generate_agenda(update_member_info=True)
+    else:
+        _, current_log_path, call_role_path = sys.argv
+        generator.generate_agenda(call_role_path, current_log_path)
 
 
 if __name__ == "__main__":
