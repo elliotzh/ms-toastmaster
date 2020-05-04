@@ -308,6 +308,7 @@ class ToastmasterAgendaGenerator:
 
 class PathUtil:
     def __init__(self):
+        print("Base dir is {}".format(self.current_dir))
         pass
 
     @property
