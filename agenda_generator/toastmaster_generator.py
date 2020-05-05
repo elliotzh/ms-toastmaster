@@ -305,7 +305,7 @@ class ToastmasterAgendaGenerator:
 
     @classmethod
     def strip_name(cls, member_name: str):
-        return re.sub(r"[\ud83c\ufe0f\udf3f\u5973\u795e\u7537]|(\[.*])|(N/A)", "", member_name).strip()
+        return re.sub(r"[\ud83c\ufe0f\udf3f\u5973\u795e\u7537\ud83d\udf38\udf3b]|(\[.*])|(N/A)", "", member_name).strip()
 
     @classmethod
     def read_info_from_call_role(cls, call_role_text):
