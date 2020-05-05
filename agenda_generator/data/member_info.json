@@ -398,7 +398,7 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS6",
+    "CC Level": "ACS7",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -548,6 +548,12 @@
       {
         "Level": "ACS6",
         "Date": "20200108",
+        "Topic": "",
+        "Type": "CC"
+      },
+      {
+        "Level": "ACS7",
+        "Date": "20200506",
         "Topic": "",
         "Type": "CC"
       }
@@ -706,7 +712,7 @@
     "Chinese Name": "\u5e03\u5170\u8fbe",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level1-1",
+    "Pathway Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -734,6 +740,12 @@
         "Level": "Level1-1",
         "Date": "20200422",
         "Topic": "Reflections of the Darkest Time",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20200506",
+        "Topic": "",
         "Type": "pathway"
       }
     ]
@@ -1817,6 +1829,11 @@
       {
         "Role": "Timer",
         "Date": "20200325"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200506",
+        "Topic": ""
       }
     ],
     "Speech Records": [
@@ -1894,6 +1911,10 @@
       {
         "Role": "Word Smith",
         "Date": "20191113"
+      },
+      {
+        "Role": "Evaluator2",
+        "Date": "20200506"
       }
     ],
     "Speech Records": []
