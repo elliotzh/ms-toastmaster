@@ -56,6 +56,10 @@
       {
         "Role": "TTE",
         "Date": "20200311"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200506"
       }
     ],
     "Speech Records": [
@@ -398,7 +402,7 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS6",
+    "CC Level": "ACS7",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -550,6 +554,12 @@
         "Date": "20200108",
         "Topic": "",
         "Type": "CC"
+      },
+      {
+        "Level": "ACS7",
+        "Date": "20200506",
+        "Topic": "Giving is a gift",
+        "Type": "CC"
       }
     ]
   },
@@ -674,6 +684,10 @@
       {
         "Role": "TTE",
         "Date": "20200429"
+      },
+      {
+        "Role": "Evaluator2",
+        "Date": "20200506"
       }
     ],
     "Speech Records": [
@@ -706,7 +720,7 @@
     "Chinese Name": "\u5e03\u5170\u8fbe",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level1-1",
+    "Pathway Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -734,6 +748,12 @@
         "Level": "Level1-1",
         "Date": "20200422",
         "Topic": "Reflections of the Darkest Time",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20200506",
+        "Topic": "When we say faminism",
         "Type": "pathway"
       }
     ]
@@ -1156,6 +1176,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20200429"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200506"
       }
     ],
     "Speech Records": []
@@ -1656,6 +1680,10 @@
         "Role": "Toastmaster",
         "Date": "20200429",
         "Topic": "\u53d1\u6761\u6a59"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200506"
       }
     ],
     "Speech Records": [
@@ -1817,6 +1845,11 @@
       {
         "Role": "Timer",
         "Date": "20200325"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200506",
+        "Topic": "Perspective-taking"
       }
     ],
     "Speech Records": [
@@ -2114,6 +2147,20 @@
       {
         "Role": "Word Smith",
         "Date": "20190724"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Irene",
+    "Chinese Name": "Irene",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20200506"
       }
     ],
     "Speech Records": []
