@@ -257,6 +257,10 @@
       {
         "Role": "Evaluator2",
         "Date": "20200429"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200513"
       }
     ],
     "Speech Records": [
@@ -303,7 +307,7 @@
     "Chinese Name": "Shuhan",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level1-3",
+    "Pathway Level": "Level2-1",
     "Role Records": [
       {
         "Role": "TTE",
@@ -354,6 +358,12 @@
         "Level": "Level1-3",
         "Date": "20191211",
         "Topic": "My Boss",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-1",
+        "Date": "20200513",
+        "Topic": "American Constitution Law",
         "Type": "pathway"
       }
     ]
@@ -688,6 +698,11 @@
       {
         "Role": "Evaluator2",
         "Date": "20200506"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200513",
+        "Topic": "The most important person in life-Mom"
       }
     ],
     "Speech Records": [
@@ -741,6 +756,10 @@
       {
         "Role": "TTM",
         "Date": "20200415"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200513"
       }
     ],
     "Speech Records": [
@@ -830,7 +849,7 @@
     "Chinese Name": "\u8463\u4f1f",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level3-2-1",
+    "Pathway Level": "Level3-2-2",
     "Role Records": [
       {
         "Role": "GE",
@@ -949,6 +968,12 @@
         "Level": "Level3-2-1",
         "Date": "20200325",
         "Topic": "",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-2-2",
+        "Date": "20200513",
+        "Topic": "Quarantined & Guaranteed",
         "Type": "pathway"
       }
     ]
@@ -1214,6 +1239,10 @@
       {
         "Role": "Timer",
         "Date": "20200422"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200513"
       }
     ],
     "Speech Records": [
@@ -1684,6 +1713,10 @@
       {
         "Role": "TTM",
         "Date": "20200506"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200513"
       }
     ],
     "Speech Records": [
@@ -1772,6 +1805,10 @@
         "Role": "Toastmaster",
         "Date": "20200422",
         "Topic": "Poverty"
+      },
+      {
+        "Role": "Evaluator2",
+        "Date": "20200513"
       }
     ],
     "Speech Records": [
@@ -2161,6 +2198,38 @@
       {
         "Role": "Timer",
         "Date": "20200506"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20200513"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Eileen",
+    "Chinese Name": "Eileen",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20200513"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Jenny",
+    "Chinese Name": "Jenny",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Word Smith",
+        "Date": "20200513"
       }
     ],
     "Speech Records": []
