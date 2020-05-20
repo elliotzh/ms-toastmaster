@@ -261,6 +261,10 @@
       {
         "Role": "GE",
         "Date": "20200513"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20200520"
       }
     ],
     "Speech Records": [
@@ -412,7 +416,7 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS7",
+    "CC Level": "ACS8",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -570,6 +574,12 @@
         "Date": "20200506",
         "Topic": "Giving is a gift",
         "Type": "CC"
+      },
+      {
+        "Level": "ACS8",
+        "Date": "20200520",
+        "Topic": "The exciting world of penny stock trading",
+        "Type": "CC"
       }
     ]
   },
@@ -703,6 +713,10 @@
         "Role": "Toastmaster",
         "Date": "20200513",
         "Topic": "The most important person in life-Mom"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200520"
       }
     ],
     "Speech Records": [
@@ -1072,6 +1086,10 @@
       {
         "Role": "TTE",
         "Date": "20200415"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200520"
       }
     ],
     "Speech Records": [
@@ -1877,7 +1895,7 @@
     "Chinese Name": "Kay",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level1-2-1",
+    "Pathway Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Timer",
@@ -1900,6 +1918,12 @@
         "Level": "Level1-2-1",
         "Date": "20200429",
         "Topic": "\u7cfb\u7edf\u6027\u601d\u7ef4",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-2",
+        "Date": "20200520",
+        "Topic": "Ignition",
         "Type": "pathway"
       }
     ]
@@ -1930,6 +1954,10 @@
       {
         "Role": "Evaluator2",
         "Date": "20200422"
+      },
+      {
+        "Role": "Evaluator2",
+        "Date": "20200520"
       }
     ],
     "Speech Records": []
@@ -2230,6 +2258,25 @@
       {
         "Role": "Word Smith",
         "Date": "20200513"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200520"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Brebda",
+    "Chinese Name": "Brebda",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Toastmaster",
+        "Date": "20200520",
+        "Topic": "Soul Surfer"
       }
     ],
     "Speech Records": []
