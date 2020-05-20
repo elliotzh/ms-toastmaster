@@ -774,6 +774,11 @@
       {
         "Role": "Evaluator1",
         "Date": "20200513"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200520",
+        "Topic": "Soul Surfer"
       }
     ],
     "Speech Records": [
@@ -2272,13 +2277,7 @@
     "CC Level": null,
     "CC Level Title": null,
     "Pathway Level": null,
-    "Role Records": [
-      {
-        "Role": "Toastmaster",
-        "Date": "20200520",
-        "Topic": "Soul Surfer"
-      }
-    ],
+    "Role Records": [],
     "Speech Records": []
   }
 ]
