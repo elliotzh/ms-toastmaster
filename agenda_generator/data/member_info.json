@@ -265,6 +265,10 @@
       {
         "Role": "Word Smith",
         "Date": "20200520"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200610"
       }
     ],
     "Speech Records": [
@@ -311,7 +315,7 @@
     "Chinese Name": "Shuhan",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level2-1",
+    "Pathway Level": "Level2-2",
     "Role Records": [
       {
         "Role": "TTE",
@@ -369,6 +373,12 @@
         "Date": "20200513",
         "Topic": "American Constitution Law",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level2-2",
+        "Date": "20200610",
+        "Topic": "How does a bill become a law?",
+        "Type": "pathway"
       }
     ]
   },
@@ -416,7 +426,7 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS8",
+    "CC Level": "ACS9",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -579,6 +589,12 @@
         "Level": "ACS8",
         "Date": "20200520",
         "Topic": "The exciting world of penny stock trading",
+        "Type": "CC"
+      },
+      {
+        "Level": "ACS9",
+        "Date": "20200610",
+        "Topic": "",
         "Type": "CC"
       }
     ]
@@ -779,6 +795,10 @@
         "Role": "Toastmaster",
         "Date": "20200520",
         "Topic": "Soul Surfer"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200610"
       }
     ],
     "Speech Records": [
@@ -951,6 +971,11 @@
       {
         "Role": "TTM",
         "Date": "20200429"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200610",
+        "Topic": "Love's boundary"
       }
     ],
     "Speech Records": [
@@ -1228,6 +1253,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20200506"
+      },
+      {
+        "Role": "Evaluator2",
+        "Date": "20200610"
       }
     ],
     "Speech Records": []
@@ -1740,6 +1769,10 @@
       {
         "Role": "TTE",
         "Date": "20200513"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200610"
       }
     ],
     "Speech Records": [
@@ -1910,6 +1943,10 @@
         "Role": "Toastmaster",
         "Date": "20200506",
         "Topic": "Perspective-taking"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200610"
       }
     ],
     "Speech Records": [
@@ -2249,6 +2286,10 @@
       {
         "Role": "Timer",
         "Date": "20200513"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20200610"
       }
     ],
     "Speech Records": []
