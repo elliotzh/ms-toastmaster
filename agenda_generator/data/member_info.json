@@ -60,6 +60,10 @@
       {
         "Role": "TTE",
         "Date": "20200506"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200617"
       }
     ],
     "Speech Records": [
@@ -265,6 +269,10 @@
       {
         "Role": "Word Smith",
         "Date": "20200520"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200617"
       }
     ],
     "Speech Records": [
@@ -416,7 +424,7 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS8",
+    "CC Level": "ACS9",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -579,6 +587,12 @@
         "Level": "ACS8",
         "Date": "20200520",
         "Topic": "The exciting world of penny stock trading",
+        "Type": "CC"
+      },
+      {
+        "Level": "ACS9",
+        "Date": "20200617",
+        "Topic": "Cryptography",
         "Type": "CC"
       }
     ]
@@ -1740,6 +1754,14 @@
       {
         "Role": "TTE",
         "Date": "20200513"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200617"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200617"
       }
     ],
     "Speech Records": [
@@ -2249,6 +2271,10 @@
       {
         "Role": "Timer",
         "Date": "20200513"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20200617"
       }
     ],
     "Speech Records": []
@@ -2267,6 +2293,11 @@
       {
         "Role": "Evaluator1",
         "Date": "20200520"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200617",
+        "Topic": "Time Management"
       }
     ],
     "Speech Records": []
