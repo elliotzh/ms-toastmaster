@@ -60,6 +60,10 @@
       {
         "Role": "TTE",
         "Date": "20200506"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200617"
       }
     ],
     "Speech Records": [
@@ -269,6 +273,10 @@
       {
         "Role": "Timer",
         "Date": "20200610"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200617"
       }
     ],
     "Speech Records": [
@@ -426,7 +434,7 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS9",
+    "CC Level": "ACS10",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -595,6 +603,12 @@
         "Level": "ACS9",
         "Date": "20200610",
         "Topic": "",
+        "Type": "CC"
+      },
+      {
+        "Level": "ACS10",
+        "Date": "20200617",
+        "Topic": "How to hold a productive meeting",
         "Type": "CC"
       }
     ]
@@ -1773,6 +1787,14 @@
       {
         "Role": "TTE",
         "Date": "20200610"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200617"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200617"
       }
     ],
     "Speech Records": [
@@ -2290,6 +2312,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20200610"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20200617"
       }
     ],
     "Speech Records": []
@@ -2308,6 +2334,11 @@
       {
         "Role": "Evaluator1",
         "Date": "20200520"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200617",
+        "Topic": "Time Management"
       }
     ],
     "Speech Records": []
