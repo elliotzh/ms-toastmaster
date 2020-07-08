@@ -29,22 +29,26 @@ body {
     margin-top      : 40px;
     font-size       : 40px;
     background-color: #FFF;
-    transition: background-color 0.5s, color 0.5s;
+    transition      : background-color 0.5s, color 0.5s;
 }
 
 .main-timer.alert-1>p {
     background-color: green;
-    color: #FFF
+    color           : #FFF
 }
+
 .main-timer.alert-2>p {
     background-color: yellow;
+    color           : black;
 }
+
 .main-timer.alert-3>p {
     background-color: red;
 }
+
 .main-timer.alert-4>p {
     background-color: black;
-    color: #FFF;
+    color           : #FFF;
 }
 
 
@@ -111,6 +115,7 @@ body {
 .control-button.pause {
     background-color: hsl(194, 71%, 63%);
 }
+
 .control-button.pause.paused {
     background-color: red;
 }

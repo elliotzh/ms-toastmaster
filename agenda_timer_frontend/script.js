@@ -126,7 +126,6 @@
     function stopTimer() {
         clearInterval(timeInterval)
         console.log(data)
-        copy(data)
     }
     buttonStop.on('click', startTimer)
 
