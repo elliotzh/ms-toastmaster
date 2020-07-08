@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-timer-container">
+        <div class="main-timer">
+            <p>
+                <span class="hour">00</span>
+                <span class="hour-sep">:</span>
+                <span class="minute">00</span>
+                :
+                <span class="second">00</span>
+            </p>
+        </div>
+    </div>
+    <div class="secondary-timer-container">
+        <div class="session-timer">
+            <label>Session Timer</label><br>
+            <p>
+                <span class="hour">00</span>
+                <span class="hour-sep">:</span>
+                <span class="minute">00</span>
+                :
+                <span class="second">00</span>
+            </p>
+        </div>
+        <div class="global-timer">
+            <label>Global Timer</label><br>
+            <p>
+                <span class="hour">00</span>
+                <span class="hour-sep">:</span>
+                <span class="minute">00</span>
+                :
+                <span class="second">00</span>
+            </p>
+        </div>
+    </div>
+    <div class="control-button-container">
+        <a href="javascipt:void(0);" class="control-button pause"><span>Pause</span></a>
+        <a href="javascipt:void(0);" class="control-button terminate-main"><span>Terminate</span></a>
+        <a href="javascipt:void(0);" class="control-button terminate-session"><span>Terminate Session</span></a>
+        <a href="javascipt:void(0);" class="control-button stop"><span>Start Timer</span></a>
+    </div>
+
+    <div class="agenda-list">
+        <div class="agenda-list-header">Agenda List</div>
+        <ul>
+        </ul>
+    </div>
+</body>
+
+<script src="jquery.min.js"></script>
+<script src="resources/demo.js"></script>
+<script src="script.js"></script>
+
+</html>
