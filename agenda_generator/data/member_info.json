@@ -281,6 +281,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20200624"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200708"
       }
     ],
     "Speech Records": [
@@ -327,7 +331,7 @@
     "Chinese Name": "Shuhan",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level2-2",
+    "Pathway Level": "Level2-3",
     "Role Records": [
       {
         "Role": "TTE",
@@ -390,6 +394,12 @@
         "Level": "Level2-2",
         "Date": "20200610",
         "Topic": "How does a bill become a law?",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-3",
+        "Date": "20200708",
+        "Topic": "American Civil War",
         "Type": "pathway"
       }
     ]
@@ -539,6 +549,10 @@
       {
         "Role": "TTE",
         "Date": "20200422"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200708"
       }
     ],
     "Speech Records": [
@@ -1299,6 +1313,10 @@
       {
         "Role": "Evaluator2",
         "Date": "20200610"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200708"
       }
     ],
     "Speech Records": []
@@ -1828,6 +1846,10 @@
         "Role": "Toastmaster",
         "Date": "20200624",
         "Topic": "\u4eba\u95f4\u4e16"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200708"
       }
     ],
     "Speech Records": [
@@ -2059,6 +2081,10 @@
       {
         "Role": "Evaluator2",
         "Date": "20200520"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200708"
       }
     ],
     "Speech Records": []
@@ -2380,6 +2406,35 @@
       {
         "Role": "Evaluator2",
         "Date": "20200624"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Haper",
+    "Chinese Name": "Haper",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Toastmaster",
+        "Date": "20200708",
+        "Topic": "Toastmaster for you"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Eillen",
+    "Chinese Name": "Eillen",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Ah Counter",
+        "Date": "20200708"
       }
     ],
     "Speech Records": []
