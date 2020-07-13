@@ -277,6 +277,10 @@
       {
         "Role": "Timer",
         "Date": "20200617"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200624"
       }
     ],
     "Speech Records": [
@@ -434,7 +438,7 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS10",
+    "CC Level": "ACS11",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -610,6 +614,12 @@
         "Date": "20200617",
         "Topic": "How to hold a productive meeting",
         "Type": "CC"
+      },
+      {
+        "Level": "ACS11",
+        "Date": "20200624",
+        "Topic": "",
+        "Type": "CC"
       }
     ]
   },
@@ -747,6 +757,10 @@
       {
         "Role": "TTE",
         "Date": "20200520"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200624"
       }
     ],
     "Speech Records": [
@@ -813,6 +827,10 @@
       {
         "Role": "TTM",
         "Date": "20200610"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200624"
       }
     ],
     "Speech Records": [
@@ -902,7 +920,7 @@
     "Chinese Name": "\u8463\u4f1f",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level3-2-2",
+    "Pathway Level": "Level3-3-1",
     "Role Records": [
       {
         "Role": "GE",
@@ -1033,6 +1051,12 @@
         "Date": "20200513",
         "Topic": "Quarantined & Guaranteed",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level3-3-1",
+        "Date": "20200624",
+        "Topic": "\u98ce\u9669\u7ba1\u7406",
+        "Type": "pathway"
       }
     ]
   },
@@ -1134,6 +1158,10 @@
       {
         "Role": "TTM",
         "Date": "20200520"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200624"
       }
     ],
     "Speech Records": [
@@ -1795,6 +1823,11 @@
       {
         "Role": "TTE",
         "Date": "20200617"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200624",
+        "Topic": "\u4eba\u95f4\u4e16"
       }
     ],
     "Speech Records": [
@@ -1969,6 +2002,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20200610"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200624"
       }
     ],
     "Speech Records": [
@@ -2339,6 +2376,10 @@
         "Role": "Toastmaster",
         "Date": "20200617",
         "Topic": "Time Management"
+      },
+      {
+        "Role": "Evaluator2",
+        "Date": "20200624"
       }
     ],
     "Speech Records": []
