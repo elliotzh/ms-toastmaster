@@ -23,4 +23,9 @@
 | 20200314 | 400     | 315.37  | 5976.41 | Membership             | Alicia Guo                                                  |
 | 20200319 | 1600    | 1271.06 | 6305.35 | Membership             | Annie Liu, Brenda Wang, April Gao                           |
 |          |         |         |         |                        | Qi Wang                                                     |
+| 20200411 | 0       | 97.95   | 6207.4  | Zoom upgrade           |                                                             |
+| 20200421 | 1500    | 1364.26 | 6343.14 | Membership             | Ren Eileen, Jenny Liu, Irene Zhao                           |
+| 20200511 | 0       | 97.95   | 6245.19 | Zoom upgrade           |                                                             |
+| 20200611 | 0       | 97.95   | 6147.24 | Zoom upgrade           |                                                             |
+| 20200711 | 0       | 97.95   | 6049.29 | Zoom upgrade           |                                                             |
 
