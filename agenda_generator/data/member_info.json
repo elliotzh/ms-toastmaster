@@ -285,6 +285,10 @@
       {
         "Role": "Timer",
         "Date": "20200708"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200722"
       }
     ],
     "Speech Records": [
@@ -331,7 +335,7 @@
     "Chinese Name": "Shuhan",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level3-1",
+    "Pathway Level": "Level2-3",
     "Role Records": [
       {
         "Role": "TTE",
@@ -400,12 +404,6 @@
         "Level": "Level2-3",
         "Date": "20200708",
         "Topic": "American Civil War",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level3-1",
-        "Date": "20200722",
-        "Topic": "The Gilded Age",
         "Type": "pathway"
       }
     ]
@@ -563,10 +561,6 @@
       {
         "Role": "GE",
         "Date": "20200715"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200722"
       }
     ],
     "Speech Records": [
@@ -791,8 +785,9 @@
         "Date": "20200624"
       },
       {
-        "Role": "GE",
-        "Date": "20200722"
+        "Role": "Toastmaster",
+        "Date": "20200722",
+        "Topic": "\u81ea\u6211\u63a5\u7eb3"
       }
     ],
     "Speech Records": [
@@ -1341,10 +1336,6 @@
       {
         "Role": "Evaluator1",
         "Date": "20200708"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200722"
       }
     ],
     "Speech Records": []
