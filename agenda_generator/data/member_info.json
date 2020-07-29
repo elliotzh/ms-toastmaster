@@ -285,6 +285,10 @@
       {
         "Role": "Timer",
         "Date": "20200708"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200729"
       }
     ],
     "Speech Records": [
@@ -331,7 +335,7 @@
     "Chinese Name": "Shuhan",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level3-1",
+    "Pathway Level": "Level3-2-1",
     "Role Records": [
       {
         "Role": "TTE",
@@ -406,6 +410,12 @@
         "Level": "Level3-1",
         "Date": "20200722",
         "Topic": "The Gilded Age",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-2-1",
+        "Date": "20200729",
+        "Topic": "\u5929\u4ef7\u8461\u8404\u6848",
         "Type": "pathway"
       }
     ]
@@ -793,6 +803,11 @@
       {
         "Role": "GE",
         "Date": "20200722"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200729",
+        "Topic": "\u81ea\u6211\u63a5\u7eb3"
       }
     ],
     "Speech Records": [
@@ -1046,6 +1061,10 @@
         "Role": "Toastmaster",
         "Date": "20200610",
         "Topic": "Love's boundary"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200729"
       }
     ],
     "Speech Records": [
@@ -1383,6 +1402,10 @@
       {
         "Role": "TTM",
         "Date": "20200513"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200729"
       }
     ],
     "Speech Records": [
@@ -1890,6 +1913,10 @@
       {
         "Role": "Timer",
         "Date": "20200722"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200729"
       }
     ],
     "Speech Records": [
@@ -2050,7 +2077,7 @@
     "Chinese Name": "Kay",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level1-2-2",
+    "Pathway Level": "Level1-3",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2092,6 +2119,12 @@
         "Level": "Level1-2-2",
         "Date": "20200520",
         "Topic": "Ignition",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20200729",
+        "Topic": "\u6211\u601d\uff0c\u6545\u6211\u5728",
         "Type": "pathway"
       }
     ]
@@ -2424,6 +2457,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20200617"
+      },
+      {
+        "Role": "Evaluator2",
+        "Date": "20200729"
       }
     ],
     "Speech Records": []
@@ -2455,6 +2492,10 @@
       {
         "Role": "TTE",
         "Date": "20200715"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200729"
       }
     ],
     "Speech Records": []
