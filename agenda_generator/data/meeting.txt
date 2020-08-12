@@ -1,16 +1,14 @@
-8/5 (English) Zoom Online Meeting 
-       
-Theme: Silver Lining
+8/12 (English) Zoom Online Meeting 
+
+Theme: The Future of Tiktok
 TM:  Elliot
-GE:  
-Timer: Bonnie
-Ah-counter: 
-Wordsmith: 
-TTM: Shuhan
-TTE: Kay
-SP1: Bill
-SP1 Topic: silver linings of the coronavirus pandemic
-SP2: Davie
-SP2 Topic:Restart 'Growing' --no-wait
-IE1:  Olivia
-IE2:  Sawyer
+GE:  Shuhan
+Timer: Sawyer
+TTM: Raymond
+TTE: Davie
+SP1: Kay
+SP1 Topic: being a protege
+SP2:
+SP2 Topic:
+IE1: Bill
+IE2:
