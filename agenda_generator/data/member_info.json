@@ -289,6 +289,10 @@
       {
         "Role": "TTM",
         "Date": "20200729"
+      },
+      {
+        "Role": "Evaluator2",
+        "Date": "20200805"
       }
     ],
     "Speech Records": [
@@ -361,6 +365,10 @@
         "Role": "Toastmaster",
         "Date": "20191113",
         "Topic": "Say No to the Inessential"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200805"
       }
     ],
     "Speech Records": [
@@ -464,7 +472,7 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS11",
+    "CC Level": "ACS12",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -658,6 +666,12 @@
         "Date": "20200624",
         "Topic": "",
         "Type": "CC"
+      },
+      {
+        "Level": "ACS12",
+        "Date": "20200805",
+        "Topic": "silver linings of the coronavirus pandemic",
+        "Type": "CC"
       }
     ]
   },
@@ -808,6 +822,10 @@
         "Role": "Toastmaster",
         "Date": "20200729",
         "Topic": "\u81ea\u6211\u63a5\u7eb3"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200805"
       }
     ],
     "Speech Records": [
@@ -973,7 +991,7 @@
     "Chinese Name": "\u8463\u4f1f",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level3-3-1",
+    "Pathway Level": "Level3-3-2",
     "Role Records": [
       {
         "Role": "GE",
@@ -1113,6 +1131,12 @@
         "Level": "Level3-3-1",
         "Date": "20200624",
         "Topic": "\u98ce\u9669\u7ba1\u7406",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-3-2",
+        "Date": "20200805",
+        "Topic": "Restart 'Growing' --no-wait",
         "Type": "pathway"
       }
     ]
@@ -1406,6 +1430,10 @@
       {
         "Role": "TTE",
         "Date": "20200729"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200805"
       }
     ],
     "Speech Records": [
@@ -1917,6 +1945,11 @@
       {
         "Role": "Timer",
         "Date": "20200729"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200805",
+        "Topic": "Silver Lining"
       }
     ],
     "Speech Records": [
@@ -2100,6 +2133,10 @@
         "Role": "Toastmaster",
         "Date": "20200715",
         "Topic": "Summer Vacation"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200805"
       }
     ],
     "Speech Records": [
