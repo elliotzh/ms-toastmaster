@@ -429,7 +429,7 @@ class ToastmasterAgendaGenerator:
                     agenda_sheet["C{0}".format(speech_rows[i])] = next_meeting["SP{0} Topic".format(i + 1)]
                     current_level = speech_levels[i]
                     if current_level not in self.time_dict:
-                        self.time_dict[current_level] = ["0:06", "4-6", 4, 5, 6]
+                        self.time_dict[current_level] = self.time_dict['default']
                     duration, time_range, green_time, yellow_time, red_time = self.time_dict[current_level]
                     reorg = [time_range, green_time, yellow_time, red_time, duration]
                     for j in range(0, len(reorg)):
