@@ -293,6 +293,10 @@
       {
         "Role": "Evaluator2",
         "Date": "20200805"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200812"
       }
     ],
     "Speech Records": [
@@ -369,6 +373,10 @@
       {
         "Role": "TTM",
         "Date": "20200805"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200812"
       }
     ],
     "Speech Records": [
@@ -585,6 +593,10 @@
       {
         "Role": "TTM",
         "Date": "20200722"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200812"
       }
     ],
     "Speech Records": [
@@ -1083,6 +1095,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20200729"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200812"
       }
     ],
     "Speech Records": [
@@ -1523,8 +1539,8 @@
     "Speech Records": []
   },
   {
-    "English Name": "Raymond Li",
-    "Chinese Name": "\u96f7\u8499\u5fb7\u00b7\u674e",
+    "English Name": "Raymond Lu",
+    "Chinese Name": "\u96f7\u66fc",
     "CC Level": null,
     "CC Level Title": null,
     "Pathway Level": null,
@@ -1581,17 +1597,12 @@
       {
         "Role": "TTM",
         "Date": "20200715"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200812"
       }
     ],
-    "Speech Records": []
-  },
-  {
-    "English Name": "Raymond Lu",
-    "Chinese Name": "\u96f7\u66fc",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
-    "Role Records": [],
     "Speech Records": []
   },
   {
@@ -1950,6 +1961,11 @@
         "Role": "Toastmaster",
         "Date": "20200805",
         "Topic": "Silver Lining"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200812",
+        "Topic": "The Future of Tiktok"
       }
     ],
     "Speech Records": [
@@ -2110,7 +2126,7 @@
     "Chinese Name": "Kay",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level1-3",
+    "Pathway Level": "Level2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2162,6 +2178,12 @@
         "Level": "Level1-3",
         "Date": "20200729",
         "Topic": "\u6211\u601d\uff0c\u6545\u6211\u5728",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-1",
+        "Date": "20200812",
+        "Topic": "being a protege",
         "Type": "pathway"
       }
     ]
