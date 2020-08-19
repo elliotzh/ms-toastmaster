@@ -30,4 +30,5 @@
 | 20200711 | 0       | 97.95   | 6049.29 | Zoom upgrade           |                                                             |
 | 20200722 | 0       | 315.63  | 5733.66 | Zoom (3 mo.)           | Elliot Zhang                                                |
 | 20200722 | 0       | 28.05   | 5705.61 | Zoom prevdiff (4 mo)   | Elliot Zhang                                                |
-| 20200722 | 400     | 105     | 6000.61 | Membership (to Sept.)  | Mengyun Wang                                                |
+| 20200810 | 400     | 105     | 6000.61 | Membership (to Sept.)  | Mengyun Wang                                                |
+| 20200819 | 100     | 315     | 5785.61 | Membership (to Mar 21) | Mengyun Wang                                                |
