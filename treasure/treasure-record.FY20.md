@@ -32,3 +32,4 @@
 | 20200722 | 0       | 28.05   | 5705.61 | Zoom prevdiff (4 mo)   | Elliot Zhang                                                |
 | 20200810 | 400     | 105     | 6000.61 | Membership (to Sept.)  | Mengyun Wang                                                |
 | 20200819 | 100     | 315     | 5785.61 | Membership (to Mar 21) | Mengyun Wang                                                |
+| 20200822 | 400     |         | 6185.61 | Membership (to Mar 21) | Elliot Zhang                                                |
