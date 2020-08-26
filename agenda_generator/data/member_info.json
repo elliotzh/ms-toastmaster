@@ -297,6 +297,10 @@
       {
         "Role": "Timer",
         "Date": "20200812"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200826"
       }
     ],
     "Speech Records": [
@@ -852,6 +856,10 @@
       {
         "Role": "TTM",
         "Date": "20200819"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200826"
       }
     ],
     "Speech Records": [
@@ -1434,7 +1442,7 @@
   {
     "English Name": "Olivia Wang",
     "Chinese Name": "\u5965\u4e3d\u8587\u4e9a",
-    "CC Level": "AC4",
+    "CC Level": "AC5",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -1491,6 +1499,12 @@
         "Level": "AC4",
         "Date": "20200325",
         "Topic": "\u5149\u6765\u4e4b\u5904",
+        "Type": "CC"
+      },
+      {
+        "Level": "AC5",
+        "Date": "20200826",
+        "Topic": "\u6d6a\u6f2b\u516c\u5f0f",
         "Type": "CC"
       }
     ]
@@ -1993,6 +2007,15 @@
       {
         "Role": "Timer",
         "Date": "20200819"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200826",
+        "Topic": "\u5173\u7cfb\u4e2d\u7684\u81ea\u6211"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200826"
       }
     ],
     "Speech Records": [
@@ -2648,5 +2671,19 @@
         "Type": "pathway"
       }
     ]
+  },
+  {
+    "English Name": "Madison",
+    "Chinese Name": "Madison",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Evaluator1",
+        "Date": "20200826"
+      }
+    ],
+    "Speech Records": []
   }
 ]
