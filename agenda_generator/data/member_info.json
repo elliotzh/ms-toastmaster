@@ -615,6 +615,10 @@
       {
         "Role": "TTE",
         "Date": "20200902"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200916"
       }
     ],
     "Speech Records": [
@@ -708,7 +712,7 @@
   {
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
-    "CC Level": "ACS12",
+    "CC Level": "ACS13",
     "CC Level Title": "CL",
     "Pathway Level": null,
     "Role Records": [
@@ -869,6 +873,11 @@
         "Role": "Toastmaster",
         "Date": "20200902",
         "Topic": "Domestic"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200916",
+        "Topic": "Your teacher"
       }
     ],
     "Speech Records": [
@@ -898,6 +907,12 @@
         "Level": "ACS12",
         "Date": "20200715",
         "Topic": "Meeting Beauty",
+        "Type": "CC"
+      },
+      {
+        "Level": "ACS13",
+        "Date": "20200916",
+        "Topic": "Age is a matter",
         "Type": "CC"
       }
     ]
@@ -1138,6 +1153,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20200902"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200916"
       }
     ],
     "Speech Records": [
@@ -1651,6 +1670,10 @@
       {
         "Role": "TTM",
         "Date": "20200812"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200916"
       }
     ],
     "Speech Records": []
@@ -2709,6 +2732,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20200826"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200916"
       }
     ],
     "Speech Records": []
