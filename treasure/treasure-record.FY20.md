@@ -36,3 +36,4 @@
 | 20200909 | 4400    |         | 10585.61| Membership (to Mar 21) | Bonnie, Bill, Sawyer, Davie, Kay, Raymond, Marissa, Shuhan  |
 |          |         |         |         |                        | Nancy, Harper, Julia                                        |
 | 20200910 | 140     |         | 10725.61| New membership fee     | Marissa                                                     |
+| 20200910 | 400     |         | 11125.61| Membership (to Mar 21) | Annie                                                       |
