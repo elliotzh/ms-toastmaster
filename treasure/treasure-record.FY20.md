@@ -33,3 +33,5 @@
 | 20200810 | 400     | 105     | 6000.61 | Membership (to Sept.)  | Mengyun Wang                                                |
 | 20200819 | 100     | 315     | 5785.61 | Membership (to Mar 21) | Mengyun Wang                                                |
 | 20200822 | 400     |         | 6185.61 | Membership (to Mar 21) | Elliot Zhang                                                |
+| 20200909 | 4400    |         | 10585.61| Membership (to Mar 21) | Bonnie, Bill, Sawyer, Davie, Kay, Raymond, Marissa, Shuhan  |
+|          |         |         |         |                        | Nancy, Harper, Julia                                        |
