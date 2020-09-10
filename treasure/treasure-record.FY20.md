@@ -35,3 +35,4 @@
 | 20200822 | 400     |         | 6185.61 | Membership (to Mar 21) | Elliot Zhang                                                |
 | 20200909 | 4400    |         | 10585.61| Membership (to Mar 21) | Bonnie, Bill, Sawyer, Davie, Kay, Raymond, Marissa, Shuhan  |
 |          |         |         |         |                        | Nancy, Harper, Julia                                        |
+| 20200910 | 140     |         | 10725.61| New membership fee     | Marissa                                                     |
