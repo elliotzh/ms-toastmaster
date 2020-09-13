@@ -1,16 +1,16 @@
-9/2 (Chinese) Microsoft TMC - The #279 Meeting
- Zoom Online Meeting - Zoom ID：766 866 251      
-Theme: Domestic
-TM:  Bonnie
+9/16 Microsoft TMC - The #282 Meeting
+Meeting Room: Tianmen 1F    
+Theme: Migration
+TM:  
 GE:  
-Timer: Elliot
+Timer: 
 Ah-counter: 
 Wordsmith:  
-TTM: Kay
-TTE: Bill
-SP1: Mengyun
-SP1 Topic: Age is a matter
-SP2: 
+TTM: Elliot
+TTE: Madison
+SP1: Bill
+SP1 Topic:
+SP2: Marissa
 SP2 Topic: 
 IE1: Davie
-IE2:  
+IE2:  Bill
