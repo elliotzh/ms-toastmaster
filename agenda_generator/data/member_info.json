@@ -899,6 +899,12 @@
         "Date": "20200715",
         "Topic": "Meeting Beauty",
         "Type": "CC"
+      },
+      {
+        "Level": "ACS13",
+        "Date": "20200909",
+        "Topic": "",
+        "Type": "CC"
       }
     ]
   },
@@ -1138,6 +1144,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20200902"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200909"
       }
     ],
     "Speech Records": [
@@ -1303,6 +1313,10 @@
         "Role": "Toastmaster",
         "Date": "20200819",
         "Topic": "Buying and borrowing Books"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200909"
       }
     ],
     "Speech Records": [
@@ -1651,6 +1665,10 @@
       {
         "Role": "TTM",
         "Date": "20200812"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200909"
       }
     ],
     "Speech Records": []
@@ -2224,6 +2242,11 @@
       {
         "Role": "TTM",
         "Date": "20200902"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200909",
+        "Topic": "Your Teacher"
       }
     ],
     "Speech Records": [
@@ -2709,6 +2732,34 @@
       {
         "Role": "Evaluator1",
         "Date": "20200826"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Madision",
+    "Chinese Name": "Madision",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "GE",
+        "Date": "20200909"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "TBD",
+    "Chinese Name": "TBD",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20200909"
       }
     ],
     "Speech Records": []
