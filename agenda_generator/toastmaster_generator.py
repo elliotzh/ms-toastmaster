@@ -471,6 +471,7 @@ class ToastmasterAgendaGenerator:
 
 
 def __main__():
+    sys.argv = ["", "token"]
     if len(sys.argv) == 3:
         _, current_log_path, call_role_path = sys.argv
         generator = ToastmasterAgendaGenerator()
