@@ -494,9 +494,9 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS13",
+    "CC Level": "ACS12",
     "CC Level Title": "CL",
-    "Pathway Level": null,
+    "Pathway Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Evaluator1",
@@ -712,19 +712,19 @@
         "Type": "CC"
       },
       {
-        "Level": "ACS13",
+        "Level": "Level1-1",
         "Date": "20200916",
         "Topic": "Ice Breaker",
-        "Type": "CC"
+        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
-    "CC Level": "ACS13",
+    "CC Level": "ACS12",
     "CC Level Title": "CL",
-    "Pathway Level": null,
+    "Pathway Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "GE",
@@ -903,22 +903,22 @@
         "Type": "CC"
       },
       {
-        "Level": "ACS11",
+        "Level": "Level1-1",
         "Date": "20200415",
         "Topic": "Remember Why You Start",
-        "Type": "CC"
+        "Type": "pathway"
       },
       {
-        "Level": "ACS12",
+        "Level": "Level1-2-1",
         "Date": "20200715",
         "Topic": "Meeting Beauty",
-        "Type": "CC"
+        "Type": "pathway"
       },
       {
-        "Level": "ACS13",
+        "Level": "Level1-2-2",
         "Date": "20200909",
         "Topic": "",
-        "Type": "CC"
+        "Type": "pathway"
       }
     ]
   },
