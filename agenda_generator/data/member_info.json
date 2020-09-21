@@ -722,7 +722,7 @@
   {
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
-    "CC Level": "ACS12",
+    "CC Level": "ACS10",
     "CC Level Title": "CL",
     "Pathway Level": "Level1-2-2",
     "Role Records": [
@@ -883,6 +883,10 @@
         "Role": "Toastmaster",
         "Date": "20200902",
         "Topic": "Domestic"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200923"
       }
     ],
     "Speech Records": [
@@ -1166,6 +1170,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20200916"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20200923"
       }
     ],
     "Speech Records": [
@@ -2238,7 +2246,7 @@
     "Chinese Name": "Kay",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level2-1",
+    "Pathway Level": "Level2-2",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2305,6 +2313,12 @@
         "Level": "Level2-1",
         "Date": "20200812",
         "Topic": "being a protege",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-2",
+        "Date": "20200923",
+        "Topic": "",
         "Type": "pathway"
       }
     ]
@@ -2763,6 +2777,10 @@
       {
         "Role": "TTE",
         "Date": "20200916"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200923"
       }
     ],
     "Speech Records": []
@@ -2795,6 +2813,10 @@
       {
         "Role": "Timer",
         "Date": "20200916"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200923"
       }
     ],
     "Speech Records": []
