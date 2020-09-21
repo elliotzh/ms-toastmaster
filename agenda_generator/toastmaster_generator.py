@@ -486,6 +486,7 @@ def __main__():
                     update_member_info=True
                 )
     else:
+        git_token = sys.argv[1]
         generator = ToastmasterAgendaGenerator()
         generator.generate_agenda(update_member_info=True)
 
