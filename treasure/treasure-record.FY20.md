@@ -38,4 +38,4 @@
 | 20200910 | 140     |         | 10725.61| New membership fee     | Marissa                                                     |
 | 20200910 | 400     |         | 11125.61| Membership (to Mar 21) | Annie                                                       |
 | 20200928 | 1200    |         | 12325.61| Membership (to Mar 21) | Brenda, Eileen, Alicia                                      |
-| 20200928 | 1200    | 105.21  | 12430.82| Zoom (cancelled)       | Elliot                                                      |
+| 20200928 | 105.21  |         | 12430.82| Zoom (cancelled)       | Elliot                                                      |
