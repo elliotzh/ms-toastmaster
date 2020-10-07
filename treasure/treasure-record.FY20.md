@@ -39,3 +39,5 @@
 | 20200910 | 400     |         | 11125.61| Membership (to Mar 21) | Annie                                                       |
 | 20200928 | 1200    |         | 12325.61| Membership (to Mar 21) | Brenda, Eileen, Alicia                                      |
 | 20200928 | 105.21  |         | 12430.82| Zoom (cancelled)       | Elliot                                                      |
+| 20201007 |         | 4222.2  |  8208.62| Membership             | Elliot, Bonnie, Bill, Sawyer, Davie, Kay, Raymond, Marissa* |
+| 20201007 |         |         |         |                        | Shuhan, Nancy, Harper, Julia, Annie                         |
