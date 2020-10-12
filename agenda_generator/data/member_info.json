@@ -1174,6 +1174,11 @@
       {
         "Role": "Evaluator1",
         "Date": "20200923"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20201014",
+        "Topic": "Entertainment During Mid-autumn Festival & National Holiday"
       }
     ],
     "Speech Records": [
@@ -2282,6 +2287,10 @@
         "Role": "Toastmaster",
         "Date": "20200909",
         "Topic": "Your Teacher"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201014"
       }
     ],
     "Speech Records": [
@@ -2790,14 +2799,21 @@
     "Chinese Name": "Madision",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": null,
+    "Pathway Level": "Level1-1",
     "Role Records": [
       {
         "Role": "GE",
         "Date": "20200909"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20201014",
+        "Topic": "",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "TBD",
@@ -2817,6 +2833,10 @@
       {
         "Role": "Timer",
         "Date": "20200923"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20201014"
       }
     ],
     "Speech Records": []
