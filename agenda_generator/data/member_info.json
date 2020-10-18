@@ -496,7 +496,7 @@
     "Chinese Name": "\u6bd4\u5c14",
     "CC Level": "ACS12",
     "CC Level Title": "CL",
-    "Pathway Level": "Level1-1",
+    "Pathway Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Evaluator1",
@@ -716,6 +716,12 @@
         "Date": "20200916",
         "Topic": "Ice Breaker",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20201021",
+        "Topic": "",
+        "Type": "pathway"
       }
     ]
   },
@@ -724,7 +730,7 @@
     "Chinese Name": "\u5b9d\u59ae",
     "CC Level": "ACS10",
     "CC Level Title": "CL",
-    "Pathway Level": "Level1-2-2",
+    "Pathway Level": "Level1-3",
     "Role Records": [
       {
         "Role": "GE",
@@ -921,6 +927,12 @@
       {
         "Level": "Level1-2-2",
         "Date": "20200909",
+        "Topic": "",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20201021",
         "Topic": "",
         "Type": "pathway"
       }
@@ -1695,6 +1707,10 @@
       {
         "Role": "TTM",
         "Date": "20200909"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201021"
       }
     ],
     "Speech Records": []
@@ -2833,6 +2849,22 @@
         "Level": "Level1-1",
         "Date": "20200916",
         "Topic": "Ice Breaker",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Marissa",
+    "Chinese Name": "Marissa",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20201021",
+        "Topic": "Some reading thoughts about \u300aPrinciples\u300b",
         "Type": "pathway"
       }
     ]
