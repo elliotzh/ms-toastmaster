@@ -1186,11 +1186,6 @@
       {
         "Role": "Evaluator1",
         "Date": "20200923"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20201014",
-        "Topic": "Entertainment During Mid-autumn Festival & National Holiday"
       }
     ],
     "Speech Records": [
@@ -2103,6 +2098,11 @@
       {
         "Role": "TTM",
         "Date": "20200916"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20201014",
+        "Topic": "Entertainment During Mid-autumn Festival & National Holiday"
       },
       {
         "Role": "TTE",
