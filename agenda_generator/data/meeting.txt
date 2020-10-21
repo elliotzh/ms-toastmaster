@@ -8,7 +8,7 @@ Wordsmith:
 TTM: Kay
 TTE: Elliot
 SP1: Madision
-SP1 Topic: 
+SP1 Topic: Kids know everything
 SP2: 
 SP2 
 SP3:
