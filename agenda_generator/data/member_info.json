@@ -623,6 +623,10 @@
       {
         "Role": "Evaluator2",
         "Date": "20200916"
+      },
+      {
+        "Role": "GE",
+        "Date": "20201014"
       }
     ],
     "Speech Records": [
@@ -887,6 +891,14 @@
       {
         "Role": "GE",
         "Date": "20200923"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20201014"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20201014"
       }
     ],
     "Speech Records": [
@@ -2091,6 +2103,10 @@
       {
         "Role": "TTM",
         "Date": "20200916"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20201014"
       }
     ],
     "Speech Records": [
@@ -2810,7 +2826,7 @@
       {
         "Level": "Level1-1",
         "Date": "20201014",
-        "Topic": "",
+        "Topic": "Kids know everything",
         "Type": "pathway"
       }
     ]
@@ -2833,10 +2849,6 @@
       {
         "Role": "Timer",
         "Date": "20200923"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20201014"
       }
     ],
     "Speech Records": []
