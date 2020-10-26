@@ -627,6 +627,10 @@
       {
         "Role": "GE",
         "Date": "20201014"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20201028"
       }
     ],
     "Speech Records": [
@@ -1080,7 +1084,7 @@
     "Chinese Name": "\u8463\u4f1f",
     "CC Level": null,
     "CC Level Title": null,
-    "Pathway Level": "Level3-3-2",
+    "Pathway Level": "Level4-1",
     "Role Records": [
       {
         "Role": "GE",
@@ -1255,6 +1259,12 @@
         "Level": "Level3-3-2",
         "Date": "20200805",
         "Topic": "Restart 'Growing' --no-wait",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-1",
+        "Date": "20201028",
+        "Topic": "",
         "Type": "pathway"
       }
     ]
@@ -2130,6 +2140,10 @@
       {
         "Role": "Timer",
         "Date": "20201021"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201028"
       }
     ],
     "Speech Records": [
