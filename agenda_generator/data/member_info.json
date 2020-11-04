@@ -631,6 +631,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20201028"
+      },
+      {
+        "Role": "GE",
+        "Date": "20201104"
       }
     ],
     "Speech Records": [
@@ -953,7 +957,7 @@
       {
         "Level": "Level1-3",
         "Date": "20201104",
-        "Topic": "",
+        "Topic": "Decode Your Communication Style",
         "Type": "pathway"
       }
     ]
@@ -1747,6 +1751,10 @@
       {
         "Role": "TTM",
         "Date": "20201021"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20201104"
       }
     ],
     "Speech Records": []
@@ -2947,5 +2955,19 @@
         "Type": "pathway"
       }
     ]
+  },
+  {
+    "English Name": "Pan Deng",
+    "Chinese Name": "Pan Deng",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20201104"
+      }
+    ],
+    "Speech Records": []
   }
 ]
