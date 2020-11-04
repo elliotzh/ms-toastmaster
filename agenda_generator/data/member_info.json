@@ -631,6 +631,10 @@
       {
         "Role": "Evaluator1",
         "Date": "20201028"
+      },
+      {
+        "Role": "GE",
+        "Date": "20201104"
       }
     ],
     "Speech Records": [
@@ -738,7 +742,7 @@
     "Chinese Name": "\u5b9d\u59ae",
     "CC Level": "ACS10",
     "CC Level Title": "CL",
-    "Pathway Level": "Level1-2-2",
+    "Pathway Level": "Level1-3",
     "Role Records": [
       {
         "Role": "GE",
@@ -948,6 +952,12 @@
         "Level": "Level1-2-2",
         "Date": "20200909",
         "Topic": "",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20201104",
+        "Topic": "Decode Your Communication Style",
         "Type": "pathway"
       }
     ]
@@ -1205,6 +1215,11 @@
         "Role": "Toastmaster",
         "Date": "20201021",
         "Topic": "super daddy"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20201104",
+        "Topic": "Story Sharing"
       }
     ],
     "Speech Records": [
@@ -1736,6 +1751,10 @@
       {
         "Role": "TTM",
         "Date": "20201021"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20201104"
       }
     ],
     "Speech Records": []
@@ -2149,6 +2168,10 @@
       {
         "Role": "TTM",
         "Date": "20201028"
+      },
+      {
+        "Role": "Evaluator1",
+        "Date": "20201104"
       }
     ],
     "Speech Records": [
@@ -2357,6 +2380,10 @@
       {
         "Role": "TTE",
         "Date": "20201028"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201104"
       }
     ],
     "Speech Records": [
@@ -2928,5 +2955,19 @@
         "Type": "pathway"
       }
     ]
+  },
+  {
+    "English Name": "Pan Deng",
+    "Chinese Name": "Pan Deng",
+    "CC Level": null,
+    "CC Level Title": null,
+    "Pathway Level": null,
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20201104"
+      }
+    ],
+    "Speech Records": []
   }
 ]
