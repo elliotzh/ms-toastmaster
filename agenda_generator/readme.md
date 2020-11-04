@@ -22,29 +22,16 @@
 
    ![image-20200505094114175](img/doc.check-task-status.png)
 
-7. 按照agenda_generator -> output -> agenda.html 的顺序找到新生成的agenda，下载并查看
-
-   agenda_generator
-
-   ![image-20200505095120752](img/doc.find-agenda-0.png)
-
-   output
-
-   ![image-20200505095219134](img/doc.find-agenda-1.png)
-
-   agenda.xlsx
-
-   ![image-20200505095425258](img/doc.find-agenda-2.png)
-
-   Download file
-
-   ![image-20200505095546361](img/doc.find-agenda-3.png)
-
-8. 如果agenda有误，回到1；如果agenda无误，回到之前的窗口，调整merge方式为squash and merge，完成Pull Request
+7. 任务完成后，调整merge方式为squash and merge，完成Pull Request
 
    ![image-20200505094957990](img/doc.complete-pr.png)
 
-9. 对于线下会议，记得打开腾讯问卷清空一下历史数据
+8. 访问(该链接)[https://htmlpreview.github.io/?https://github.com/elliotzh/ms-toastmaster/blob/master/agenda_generator/output/agenda.html]
+对agenda进行预览和打印。
+
+9. 如果agenda有误，回到1
+
+10. 对于线下会议，记得打开腾讯问卷清空一下历史数据
 
    
 
