@@ -637,6 +637,10 @@
       {
         "Role": "IE",
         "Date": "20201028"
+      },
+      {
+        "Role": "GE",
+        "Date": "20201104"
       }
     ],
     "Speech Records": [
@@ -743,7 +747,7 @@
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
     "Nick Names": [],
-    "Current Level": "ACS13",
+    "Current Level": "ACS14",
     "Role Records": [
       {
         "Role": "GE",
@@ -956,6 +960,12 @@
         "Level": "ACS13",
         "Date": "20200909",
         "Topic": "",
+        "Type": "CC"
+      },
+      {
+        "Level": "ACS14",
+        "Date": "20201104",
+        "Topic": "Decode Your Communication Style",
         "Type": "CC"
       }
     ]
@@ -1213,6 +1223,11 @@
         "Role": "Toastmaster",
         "Date": "20201021",
         "Topic": "super daddy"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20201104",
+        "Topic": "Story Sharing"
       }
     ],
     "Speech Records": [
@@ -1745,6 +1760,10 @@
         "Role": "TTM",
         "Date": "20201021",
         "Topic": "super daddy"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20201104"
       }
     ],
     "Speech Records": []
@@ -2158,6 +2177,10 @@
         "Role": "TTM",
         "Date": "20201028",
         "Topic": "\u9690\u79d8\u7684\u6211"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201104"
       }
     ],
     "Speech Records": [
@@ -2364,6 +2387,11 @@
       {
         "Role": "TTE",
         "Date": "20201028"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201104",
+        "Topic": "Story Sharing"
       }
     ],
     "Speech Records": [
@@ -2865,6 +2893,19 @@
       {
         "Role": "Timer",
         "Date": "20200923"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Pan Deng",
+    "Chinese Name": "Pan Deng",
+    "Nick Names": [],
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20201104"
       }
     ],
     "Speech Records": []
