@@ -500,6 +500,10 @@
       {
         "Role": "TTE",
         "Date": "20200422"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201028"
       }
     ],
     "Speech Records": [
@@ -805,7 +809,7 @@
     "English Name": "Davie",
     "Chinese Name": "\u8463\u4f1f",
     "Nick Names": [],
-    "Current Level": "Level3-2-1",
+    "Current Level": "Level3-2-2",
     "Role Records": [
       {
         "Role": "GE",
@@ -930,6 +934,12 @@
         "Level": "Level3-2-1",
         "Date": "20200325",
         "Topic": "",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-2-2",
+        "Date": "20201028",
+        "Topic": "My PATHWAY project outline",
         "Type": "pathway"
       }
     ]
@@ -1634,6 +1644,16 @@
         "Role": "Toastmaster",
         "Date": "20200429",
         "Topic": "\u53d1\u6761\u6a59"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20201028",
+        "Topic": "\u9690\u79d8\u7684\u6211"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201028",
+        "Topic": "\u9690\u79d8\u7684\u6211"
       }
     ],
     "Speech Records": [
@@ -1790,6 +1810,10 @@
       {
         "Role": "Timer",
         "Date": "20200325"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20201028"
       }
     ],
     "Speech Records": [
