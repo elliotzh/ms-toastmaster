@@ -1,0 +1,38 @@
+{
+  "welcome": {
+    "default": "Welcome to Microsoft Beijing Toastmaster Club",
+    "Chinese": "欢迎来到微软头马俱乐部"
+  },
+  "time": {
+    "default": "Time: 19:00~21:00, every Wednesday night",
+    "Chinese": "时间：每周三晚19:00~21:00 (每月最后一次为中文会议，其他时间为英文会议)"
+  },
+  "venue": {
+    "default": "Venue: Room Gu Gong, F1, Microsoft Build 1, Danling St. Zhongguancun West Zone Haidian Dist.",
+    "Chinese": "地点：海淀区丹棱街5号微软大厦1号楼1层天安门会议室"
+  },
+  "mission_title": {
+    "default": "Mission",
+    "Chinese": "目标"
+  },
+  "mission": {
+    "default": "We provide a supportive and positive learning experience in which members are empowered to develop communication and leadership skills, resulting in greater self-confidence and personal growth.",
+    "Chinese": "我们为会员提供友好和充满激励的学习体验，使会员可以快速主动地透过不同的练习，提高沟通能力和领导技巧，从而提升自信和促进个人成长。"
+  },
+  "time_head": {
+    "default": "Time",
+    "Chinese": "时间"
+  },
+  "role_head": {
+    "default": "Meeting Role",
+    "Chinese": "角色"
+  },
+  "event_head": {
+    "default": "Program Event",
+    "Chinese": "内容"
+  },
+  "member_head": {
+    "default": "Member",
+    "Chinese": "成员"
+  }
+}
