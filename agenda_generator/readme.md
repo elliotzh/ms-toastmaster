@@ -22,7 +22,7 @@
 
    ![image-20200505094114175](img/doc.check-task-status.png)
 
-7. 按照agenda_generator -> output -> agenda.xlsx 的顺序找到新生成的agenda，下载并查看
+7. 按照agenda_generator -> output -> agenda.html 的顺序找到新生成的agenda，下载并查看
 
    agenda_generator
 
