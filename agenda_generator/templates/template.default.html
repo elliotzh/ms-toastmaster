@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        * {
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .row {
+            border-top: 1px solid;
+            display: flex;
+        }
+
+        .fit-height {
+            height: 100%;
+        }
+
+        .table {
+            width: 205mm;
+            height: 287mm;
+        }
+        
+        .clear-padding {
+            padding: 0px;
+        }
+
+        .column {
+            float: left;
+            padding: 10px;
+            display: table-cell;
+            border-left: 1px solid;
+        }
+
+        .last-column {
+            border-right: 1px solid;
+        }
+        
+        .last-row {
+            border-bottom: 1px solid;
+        }
+
+        .col-time {
+            width: 10%;
+        }
+
+        .col-role {
+            width: 18%;
+        }
+
+        .col-event {
+            width: 29%;
+        }
+
+        .col-card {
+            width: 5%;
+        }
+
+        .col-left {
+            width: 90%;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+        
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+        
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="table">
+            <div class="row">
+                <div class="column col-2" style="padding: 2px;">
+                    <img class="col-12" src="..\img\icon-club.png">
+                </div>
+                <div class="column col-8" style="border-left: none;">
+                    <div><h2>Welcome to Microsoft Beijing Toastmaster Club</h2></div>
+                    <div>Time: 19:00~21:00, every Wednesday night</div>
+                    <div>Venue: Room Gu Gong, F1, Microsoft Build 1, Danling St. Zhongguancun West Zone Haidian Dist.</div>
+                </div>
+                <div class="column col-2 last-column" style="border-left: none; padding: 2px;">
+                    <img class="col-12" src="..\img\qrcode-club.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-time">
+                    Mission
+                </div>
+                <div class="column col-left text-left last-column">
+                    We provide a supportive and positive learning experience in which members are empowered to develop communication and leadership skills, resulting in greater self-confidence and personal growth.
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-12 last-column">
+                    <b>Theme Today: Story Sharing</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-time">
+                    Time
+                </div>
+                <div class="column col-role">
+                    Meeting Role
+                </div>
+                <div class="column col-event">
+                    Program Event
+                </div>
+                <div class="column col-role">
+                    Member
+                </div>
+                <div class="column col-time">
+                    Duration (mins)
+                </div>
+                <div class="column col-card">
+                    G
+                </div>
+                <div class="column col-card">
+                    Y
+                </div>
+                <div class="column col-card last-column">
+                    R
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-time">
+                    6:40 PM
+                </div>
+                <div class="column col-role">
+                    Sergeant at Arms
+                </div>
+                <div class="column col-event">
+                    Registration/Greeting
+                </div>
+                <div class="column col-role">
+                    Olivia Wang
+                </div>
+                <div class="column col-time">
+                    20
+                </div>
+                <div class="column col-card">
+                    
+                </div>
+                <div class="column col-card">
+                    
+                </div>
+                <div class="column col-card last-column">
+                    
+                </div>
+            </div>
+            <div class="row last-row">
+                <div class="column col-12 last-column"><b>Table Topics Session</b></div>
+            </div>
+        </div>
+    </body>
+</html>

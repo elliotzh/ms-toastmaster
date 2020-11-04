@@ -2,9 +2,7 @@
   {
     "English Name": "Alicia Guo",
     "Chinese Name": "\u679c\u83b9",
-    "CC Level": "CC5",
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "CC5",
     "Role Records": [
       {
         "Role": "Toastmaster",
@@ -63,7 +61,18 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200617"
+        "Date": "20200617",
+        "Topic": "Time Management"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200821",
+        "Topic": "plastic surgery ^^"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200911",
+        "Topic": "sources of joy"
       },
       {
         "Role": "GE",
@@ -87,9 +96,7 @@
   {
     "English Name": "Grace",
     "Chinese Name": "Grace",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-2-2",
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -132,9 +139,7 @@
   {
     "English Name": "Lewis",
     "Chinese Name": "Lewis",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-1",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -157,9 +162,7 @@
   {
     "English Name": "Jeff",
     "Chinese Name": "Jeff",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Timer",
@@ -184,6 +187,22 @@
       {
         "Role": "Word Smith",
         "Date": "20190918"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200731"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20200807"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20200814"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20200821"
       }
     ],
     "Speech Records": []
@@ -191,9 +210,7 @@
   {
     "English Name": "Sawyer",
     "Chinese Name": "Sawyer",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level2-2",
+    "Current Level": "Level3-2-1",
     "Role Records": [
       {
         "Role": "TTM",
@@ -246,25 +263,18 @@
         "Topic": "New Flag"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200108"
-      },
-      {
         "Role": "Timer",
         "Date": "20200219"
       },
       {
         "Role": "TTM",
-        "Date": "20200325"
+        "Date": "20200325",
+        "Topic": "\u5b85\uff0c\u8ba9\u4f60\u610f\u60f3\u4e0d\u5230"
       },
       {
         "Role": "Toastmaster",
         "Date": "20200415",
         "Topic": "DIY"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200429"
       },
       {
         "Role": "GE",
@@ -283,20 +293,18 @@
         "Date": "20200617"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200624"
-      },
-      {
         "Role": "Timer",
         "Date": "20200708"
       },
       {
         "Role": "TTM",
-        "Date": "20200729"
+        "Date": "20200729",
+        "Topic": "\u81ea\u6211\u63a5\u7eb3"
       },
       {
-        "Role": "Evaluator2",
-        "Date": "20200805"
+        "Role": "TTM",
+        "Date": "20200807",
+        "Topic": "88 Single"
       },
       {
         "Role": "Timer",
@@ -304,7 +312,22 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200826"
+        "Date": "20200814",
+        "Topic": "The importance of having fun"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200821"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200826",
+        "Topic": "\u5173\u7cfb\u4e2d\u7684\u81ea\u6211"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200911",
+        "Topic": "sources of joy"
       }
     ],
     "Speech Records": [
@@ -343,15 +366,31 @@
         "Date": "20200311",
         "Topic": "Mentorship",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level2-3",
+        "Date": "20200724",
+        "Topic": "LNT",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-1",
+        "Date": "20200731",
+        "Topic": "LNT",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-2-1",
+        "Date": "20200828",
+        "Topic": "PDCA",
+        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Shuhan",
     "Chinese Name": "Shuhan",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level3-2-2",
+    "Current Level": "Level3-2-2",
     "Role Records": [
       {
         "Role": "TTE",
@@ -379,12 +418,29 @@
         "Topic": "Say No to the Inessential"
       },
       {
+        "Role": "TTE",
+        "Date": "20200724"
+      },
+      {
         "Role": "TTM",
-        "Date": "20200805"
+        "Date": "20200805",
+        "Topic": "Silver Lining"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200807"
       },
       {
         "Role": "GE",
         "Date": "20200812"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200814"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200911"
       }
     ],
     "Speech Records": [
@@ -453,9 +509,7 @@
   {
     "English Name": "Annie",
     "Chinese Name": "\u5218\u7476\u7b56",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-3",
+    "Current Level": "Level1-3",
     "Role Records": [
       {
         "Role": "Timer",
@@ -476,6 +530,14 @@
       {
         "Role": "Ah Counter",
         "Date": "20190814"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20200807"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20200814"
       }
     ],
     "Speech Records": [
@@ -494,9 +556,7 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "CC Level": "ACS12",
-    "CC Level Title": "CL",
-    "Pathway Level": "Level1-2-1",
+    "Current Level": "ACS14",
     "Role Records": [
       {
         "Role": "Evaluator1",
@@ -585,14 +645,6 @@
         "Date": "20200108"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200311"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200318"
-      },
-      {
         "Role": "TTE",
         "Date": "20200422"
       },
@@ -606,31 +658,42 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200722"
+        "Date": "20200722",
+        "Topic": "Taste of the Youth"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200812"
+        "Role": "Toastmaster",
+        "Date": "20200724",
+        "Topic": "Habits"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200814",
+        "Topic": "The importance of having fun"
       },
       {
         "Role": "TTE",
         "Date": "20200819"
       },
       {
+        "Role": "GE",
+        "Date": "20200821"
+      },
+      {
         "Role": "TTE",
         "Date": "20200902"
       },
       {
-        "Role": "Evaluator2",
-        "Date": "20200916"
+        "Role": "GE",
+        "Date": "20200904"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200911"
       },
       {
         "Role": "GE",
         "Date": "20201014"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20201028"
       }
     ],
     "Speech Records": [
@@ -720,25 +783,23 @@
         "Type": "CC"
       },
       {
-        "Level": "Level1-1",
+        "Level": "ACS13",
         "Date": "20200916",
         "Topic": "Ice Breaker",
-        "Type": "pathway"
+        "Type": "CC"
       },
       {
-        "Level": "Level1-2-1",
+        "Level": "ACS14",
         "Date": "20201021",
         "Topic": "look up",
-        "Type": "pathway"
+        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
-    "CC Level": "ACS10",
-    "CC Level Title": "CL",
-    "Pathway Level": "Level1-2-2",
+    "Current Level": "ACS13",
     "Role Records": [
       {
         "Role": "GE",
@@ -840,7 +901,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200318"
+        "Date": "20200318",
+        "Topic": "Spring"
       },
       {
         "Role": "Toastmaster",
@@ -848,16 +910,8 @@
         "Topic": "\u5b85\uff0c\u8ba9\u4f60\u610f\u60f3\u4e0d\u5230"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200422"
-      },
-      {
         "Role": "TTE",
         "Date": "20200429"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200506"
       },
       {
         "Role": "Toastmaster",
@@ -877,26 +931,56 @@
         "Date": "20200722"
       },
       {
+        "Role": "GE",
+        "Date": "20200724"
+      },
+      {
         "Role": "Toastmaster",
         "Date": "20200729",
         "Topic": "\u81ea\u6211\u63a5\u7eb3"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200731"
       },
       {
         "Role": "Timer",
         "Date": "20200805"
       },
       {
+        "Role": "Toastmaster",
+        "Date": "20200807",
+        "Topic": "88 Single"
+      },
+      {
         "Role": "TTM",
-        "Date": "20200819"
+        "Date": "20200819",
+        "Topic": "Buying and borrowing Books"
       },
       {
         "Role": "TTE",
         "Date": "20200826"
       },
       {
+        "Role": "GE",
+        "Date": "20200828"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200828"
+      },
+      {
         "Role": "Toastmaster",
         "Date": "20200902",
         "Topic": "Domestic"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200904"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20200911"
       },
       {
         "Role": "GE",
@@ -905,14 +989,6 @@
       {
         "Role": "Timer",
         "Date": "20201014"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20201014"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20201021"
       }
     ],
     "Speech Records": [
@@ -933,31 +1009,29 @@
         "Type": "CC"
       },
       {
-        "Level": "Level1-1",
+        "Level": "ACS11",
         "Date": "20200415",
         "Topic": "Remember Why You Start",
-        "Type": "pathway"
+        "Type": "CC"
       },
       {
-        "Level": "Level1-2-1",
+        "Level": "ACS12",
         "Date": "20200715",
         "Topic": "Meeting Beauty",
-        "Type": "pathway"
+        "Type": "CC"
       },
       {
-        "Level": "Level1-2-2",
+        "Level": "ACS13",
         "Date": "20200909",
         "Topic": "",
-        "Type": "pathway"
+        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Brenda Wang",
     "Chinese Name": "\u5e03\u5170\u8fbe",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-2-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -972,16 +1046,9 @@
         "Date": "20200325"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200401"
-      },
-      {
         "Role": "TTM",
-        "Date": "20200415"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200513"
+        "Date": "20200415",
+        "Topic": "DIY"
       },
       {
         "Role": "Toastmaster",
@@ -990,7 +1057,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200610"
+        "Date": "20200610",
+        "Topic": "Love's boundary"
       },
       {
         "Role": "Timer",
@@ -1015,36 +1083,28 @@
   {
     "English Name": "Chaochao Tang",
     "Chinese Name": "\u5510\u8d85\u8d85",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Charlotte",
     "Chinese Name": "\u590f\u6d1b\u7279",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "ChengCheng Wang",
     "Chinese Name": "\u738b\u6210\u6210",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Clay Huang",
     "Chinese Name": "\u9ec4\u5b87",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "TTE",
@@ -1057,6 +1117,10 @@
       {
         "Role": "GE",
         "Date": "20190814"
+      },
+      {
+        "Role": "GE",
+        "Date": "20200814"
       }
     ],
     "Speech Records": []
@@ -1064,27 +1128,21 @@
   {
     "English Name": "Coco Bu",
     "Chinese Name": "\u535c\u534e\u91d1",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Daisy",
     "Chinese Name": "\u5468\u4e91",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Davie",
     "Chinese Name": "\u8463\u4f1f",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level4-1",
+    "Current Level": "Level4-4",
     "Role Records": [
       {
         "Role": "GE",
@@ -1158,15 +1216,18 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200219"
+        "Date": "20200219",
+        "Topic": "\u56da"
       },
       {
         "Role": "TTM",
-        "Date": "20200401"
+        "Date": "20200401",
+        "Topic": "the crowd"
       },
       {
         "Role": "TTM",
-        "Date": "20200429"
+        "Date": "20200429",
+        "Topic": "\u53d1\u6761\u6a59"
       },
       {
         "Role": "Toastmaster",
@@ -1174,32 +1235,21 @@
         "Topic": "Love's boundary"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200729"
+        "Role": "Timer",
+        "Date": "20200807"
       },
       {
         "Role": "TTE",
         "Date": "20200812"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200819"
+        "Role": "Ah Counter",
+        "Date": "20200821"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200902"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200909"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200916"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200923"
+        "Role": "TTM",
+        "Date": "20200904",
+        "Topic": "why are you so busy"
       },
       {
         "Role": "Toastmaster",
@@ -1257,12 +1307,30 @@
       },
       {
         "Level": "Level3-3-2",
+        "Date": "20200724",
+        "Topic": "Emotion or Reason? Learning by Planting",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-1",
         "Date": "20200805",
         "Topic": "Restart 'Growing' --no-wait",
         "Type": "pathway"
       },
       {
-        "Level": "Level4-1",
+        "Level": "Level4-2",
+        "Date": "20200828",
+        "Topic": "\u804c\u573aOCD",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-3",
+        "Date": "20200911",
+        "Topic": "Dear instructor , A  piece of pie. (Mentor-mentee system)",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-4",
         "Date": "20201028",
         "Topic": "My PATHWAY project outline",
         "Type": "pathway"
@@ -1272,27 +1340,21 @@
   {
     "English Name": "Frank Wang",
     "Chinese Name": "\u738b\u6f6e\u4e50\u840c",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "George Sheng",
     "Chinese Name": "George Sheng",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Harper",
     "Chinese Name": "\u5f20\u6653",
-    "CC Level": "AC3",
-    "CC Level Title": "CL",
-    "Pathway Level": null,
+    "Current Level": "AC4",
     "Role Records": [
       {
         "Role": "GE",
@@ -1348,10 +1410,6 @@
         "Date": "20191211"
       },
       {
-        "Role": "Evaluator2",
-        "Date": "20200108"
-      },
-      {
         "Role": "TTE",
         "Date": "20200219"
       },
@@ -1366,7 +1424,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200520"
+        "Date": "20200520",
+        "Topic": "Soul Surfer"
       },
       {
         "Role": "TTE",
@@ -1379,7 +1438,20 @@
       },
       {
         "Role": "TTE",
+        "Date": "20200821"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200904",
+        "Topic": "why are you so busy"
+      },
+      {
+        "Role": "TTE",
         "Date": "20200909"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200911"
       }
     ],
     "Speech Records": [
@@ -1404,51 +1476,47 @@
         "Date": "20200318",
         "Topic": "first experience in US stock",
         "Type": "CC"
+      },
+      {
+        "Level": "AC4",
+        "Date": "20200814",
+        "Topic": "Does Weibo make you happy?",
+        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Hestia Sun",
     "Chinese Name": "\u8d6b\u65af\u63d0\u4e9a",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Jessica Liu",
     "Chinese Name": "\u6770\u897f\u5361",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Jill Zou",
     "Chinese Name": "\u90b9\u6d01",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Johnson",
     "Chinese Name": "Johnson",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Julia Zhu",
     "Chinese Name": "\u6731\u4e3d\u96c5",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "TTE",
@@ -1472,59 +1540,23 @@
   {
     "English Name": "Mingliang Gong",
     "Chinese Name": "\u9f9a\u660e\u4eae",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Nancy",
     "Chinese Name": "\u738b\u6960",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
-      {
-        "Role": "Evaluator2",
-        "Date": "20200311"
-      },
       {
         "Role": "Toastmaster",
         "Date": "20200318",
         "Topic": "Spring"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200325"
-      },
-      {
         "Role": "TTE",
         "Date": "20200401"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200415"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200429"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200506"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200610"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200708"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20200722"
       }
     ],
     "Speech Records": []
@@ -1532,9 +1564,7 @@
   {
     "English Name": "Olivia Wang",
     "Chinese Name": "\u5965\u4e3d\u8587\u4e9a",
-    "CC Level": "AC5",
-    "CC Level Title": "CL",
-    "Pathway Level": null,
+    "Current Level": "AC5",
     "Role Records": [
       {
         "Role": "GE",
@@ -1554,7 +1584,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200311"
+        "Date": "20200311",
+        "Topic": "Immortality"
       },
       {
         "Role": "Timer",
@@ -1562,15 +1593,16 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200513"
+        "Date": "20200513",
+        "Topic": "The most important person in life-Mom"
       },
       {
         "Role": "TTE",
         "Date": "20200729"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200805"
+        "Role": "TTE",
+        "Date": "20200904"
       }
     ],
     "Speech Records": [
@@ -1602,9 +1634,7 @@
   {
     "English Name": "Prana Zhu",
     "Chinese Name": "\u6731\u972d",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "TTE",
@@ -1617,6 +1647,10 @@
       {
         "Role": "GE",
         "Date": "20191127"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20200828"
       }
     ],
     "Speech Records": []
@@ -1624,9 +1658,7 @@
   {
     "English Name": "Qiyang Li",
     "Chinese Name": "\u674e\u5947\u9633",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "TTE",
@@ -1650,27 +1682,21 @@
   {
     "English Name": "Qunce Ye",
     "Chinese Name": "\u53f6\u7fa4\u7b56",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Raunab",
     "Chinese Name": "\u5b54\u4ec1\u661f",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Raymond Lu",
     "Chinese Name": "\u96f7\u66fc",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Evaluator1",
@@ -1714,28 +1740,34 @@
         "Date": "20200108"
       },
       {
-        "Role": "Evaluator2",
-        "Date": "20200318"
+        "Role": "TTM",
+        "Date": "20200422",
+        "Topic": "Poverty"
       },
       {
         "Role": "TTM",
-        "Date": "20200422"
+        "Date": "20200715",
+        "Topic": "Summer Vacation"
       },
       {
         "Role": "TTM",
-        "Date": "20200715"
+        "Date": "20200812",
+        "Topic": "The Future of Tiktok"
       },
       {
         "Role": "TTM",
-        "Date": "20200812"
+        "Date": "20200821",
+        "Topic": "plastic surgery ^^"
       },
       {
         "Role": "TTM",
-        "Date": "20200909"
+        "Date": "20200909",
+        "Topic": "Your Teacher"
       },
       {
         "Role": "TTM",
-        "Date": "20201021"
+        "Date": "20201021",
+        "Topic": "super daddy"
       }
     ],
     "Speech Records": []
@@ -1743,9 +1775,7 @@
   {
     "English Name": "Serena",
     "Chinese Name": "\u5c1a\u54f2",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-2-2",
+    "Current Level": "Level2-1",
     "Role Records": [
       {
         "Role": "Toastmaster",
@@ -1791,15 +1821,25 @@
         "Date": "20191113",
         "Topic": "how to say 'no' as good as 'yes'",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20200904",
+        "Topic": "A short trip to Mexico",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-1",
+        "Date": "20200911",
+        "Topic": "Autism: children from stars",
+        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Xiaohui",
     "Chinese Name": "\u738b\u5c0f\u4f1a",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "TTM",
@@ -1808,6 +1848,11 @@
       {
         "Role": "TTM",
         "Date": "20190828"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200828",
+        "Topic": "\u597d\u9f99"
       }
     ],
     "Speech Records": []
@@ -1815,63 +1860,49 @@
   {
     "English Name": "Yiming Gong",
     "Chinese Name": "\u9f9a\u4e00\u9e23",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Yingnan Ju",
     "Chinese Name": "\u97a0\u82f1\u7537",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Yue Zhang",
     "Chinese Name": "\u5f20\u60a6",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Zoey Wu",
     "Chinese Name": "Zoey Wu",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Raven",
     "Chinese Name": "\u675c\u817e",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Victor",
     "Chinese Name": "\u5e74\u65ed\u5347",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Rice Fan",
     "Chinese Name": "\u68b5\u5fd7\u4f1f",
-    "CC Level": "CC3",
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "CC3",
     "Role Records": [
       {
         "Role": "TTM",
@@ -1905,9 +1936,7 @@
   {
     "English Name": "Elliot Zhang",
     "Chinese Name": "\u5f20\u9192\u4e4b",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-2-2",
+    "Current Level": "Level1-3",
     "Role Records": [
       {
         "Role": "Toastmaster",
@@ -2022,7 +2051,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200108"
+        "Date": "20200108",
+        "Topic": "New Flag"
       },
       {
         "Role": "Toastmaster",
@@ -2043,17 +2073,14 @@
         "Date": "20200401"
       },
       {
-        "Role": "Evaluator2",
-        "Date": "20200415"
-      },
-      {
         "Role": "Toastmaster",
         "Date": "20200429",
         "Topic": "\u53d1\u6761\u6a59"
       },
       {
         "Role": "TTM",
-        "Date": "20200506"
+        "Date": "20200506",
+        "Topic": "Perspective-taking"
       },
       {
         "Role": "TTE",
@@ -2078,7 +2105,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200708"
+        "Date": "20200708",
+        "Topic": "Toastmaster for you"
       },
       {
         "Role": "Timer",
@@ -2089,8 +2117,23 @@
         "Date": "20200722"
       },
       {
+        "Role": "TTM",
+        "Date": "20200724",
+        "Topic": "Habits"
+      },
+      {
         "Role": "Timer",
         "Date": "20200729"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20200731",
+        "Topic": ""
+      },
+      {
+        "Role": "TTM",
+        "Date": "20200731",
+        "Topic": ""
       },
       {
         "Role": "Toastmaster",
@@ -2116,8 +2159,17 @@
         "Date": "20200826"
       },
       {
+        "Role": "Toastmaster",
+        "Date": "20200828",
+        "Topic": "\u597d\u9f99"
+      },
+      {
         "Role": "Timer",
         "Date": "20200902"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20200904"
       },
       {
         "Role": "Toastmaster",
@@ -2126,7 +2178,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200916"
+        "Date": "20200916",
+        "Topic": "Migration"
       },
       {
         "Role": "Toastmaster",
@@ -2148,7 +2201,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20201028"
+        "Date": "20201028",
+        "Topic": "\u9690\u79d8\u7684\u6211"
       }
     ],
     "Speech Records": [
@@ -2169,15 +2223,19 @@
         "Date": "20191127",
         "Topic": "\u8bfb\u300a\u4e2d\u56fd\u54f2\u5b66\u7b80\u53f2\u300b I - \u4e2d\u56fd\u54f2\u5b66\u4e4b\u7cbe",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20200814",
+        "Topic": "Standard Answer",
+        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Karen",
     "Chinese Name": "\u738b\u7389\u7ea2",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -2189,9 +2247,7 @@
   {
     "English Name": "April",
     "Chinese Name": "\u9ad8\u6587\u59ec",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level2-2",
+    "Current Level": "Level2-2",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -2226,21 +2282,9 @@
         "Date": "20190522"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200219"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200325"
-      },
-      {
         "Role": "Toastmaster",
         "Date": "20200422",
         "Topic": "Poverty"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200513"
       }
     ],
     "Speech Records": [
@@ -2277,9 +2321,7 @@
   {
     "English Name": "Winnie",
     "Chinese Name": "\u9ad8\u6587\u59ec",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Toastmaster",
@@ -2292,9 +2334,7 @@
   {
     "English Name": "Jill Chen",
     "Chinese Name": "\u9648\u5609",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-1",
+    "Current Level": "Level1-1",
     "Role Records": [],
     "Speech Records": [
       {
@@ -2307,9 +2347,7 @@
   {
     "English Name": "Kay",
     "Chinese Name": "Kay",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level2-2",
+    "Current Level": "Level2-2",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2321,12 +2359,9 @@
         "Topic": "Perspective-taking"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200610"
-      },
-      {
         "Role": "TTM",
-        "Date": "20200624"
+        "Date": "20200624",
+        "Topic": "\u4eba\u95f4\u4e16"
       },
       {
         "Role": "Toastmaster",
@@ -2339,7 +2374,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200902"
+        "Date": "20200902",
+        "Topic": "Domestic"
       },
       {
         "Role": "Toastmaster",
@@ -2348,7 +2384,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20201014"
+        "Date": "20201014",
+        "Topic": "Entertainment During Mid-autumn Festival & National Holiday"
       },
       {
         "Role": "TTE",
@@ -2401,9 +2438,7 @@
   {
     "English Name": "Robin",
     "Chinese Name": "Robin",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Evaluator2",
@@ -2422,14 +2457,6 @@
         "Date": "20200219"
       },
       {
-        "Role": "Evaluator2",
-        "Date": "20200422"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200520"
-      },
-      {
         "Role": "GE",
         "Date": "20200708"
       }
@@ -2439,9 +2466,7 @@
   {
     "English Name": "\ud83c\udf3f",
     "Chinese Name": "\ud83c\udf3f",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Evaluator2",
@@ -2473,9 +2498,7 @@
   {
     "English Name": "David guest",
     "Chinese Name": "David guest",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2484,6 +2507,10 @@
       {
         "Role": "Timer",
         "Date": "20200415"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20200814"
       }
     ],
     "Speech Records": []
@@ -2491,13 +2518,15 @@
   {
     "English Name": "\u5b5f\u82b8",
     "Chinese Name": "\u5b5f\u82b8",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Ah Counter",
         "Date": "20190828"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20200828"
       }
     ],
     "Speech Records": []
@@ -2505,13 +2534,15 @@
   {
     "English Name": "Qi Wang",
     "Chinese Name": "Wang Qi",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-2-1",
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Ah Counter",
         "Date": "20190911"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20200911"
       }
     ],
     "Speech Records": [
@@ -2526,15 +2557,19 @@
         "Date": "20191016",
         "Topic": "welcome to my hometown again",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-2",
+        "Date": "20200904",
+        "Topic": "",
+        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Lulu",
     "Chinese Name": "Lu Li",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-1",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -2561,9 +2596,7 @@
   {
     "English Name": "Katherine",
     "Chinese Name": "Katherine",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "GE",
@@ -2579,9 +2612,7 @@
   {
     "English Name": "Calvin",
     "Chinese Name": "Calvin",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "TTM",
@@ -2593,9 +2624,7 @@
   {
     "English Name": "Jacob",
     "Chinese Name": "Jacob",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -2607,9 +2636,7 @@
   {
     "English Name": "Rebecca",
     "Chinese Name": "Rebecca",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-1",
+    "Current Level": "Level1-1",
     "Role Records": [],
     "Speech Records": [
       {
@@ -2623,9 +2650,7 @@
   {
     "English Name": "Mason from FM",
     "Chinese Name": "Mason from FM",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Evaluator2",
@@ -2637,9 +2662,7 @@
   {
     "English Name": "Lizzie FM TMC",
     "Chinese Name": "Lizzie FM TMC",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -2651,9 +2674,7 @@
   {
     "English Name": "James from BeijingNo.1 TMC",
     "Chinese Name": "James from BeijingNo.1 TMC",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "TTE",
@@ -2665,27 +2686,15 @@
   {
     "English Name": "Tiffany",
     "Chinese Name": "Tiffany",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Timer",
         "Date": "20190724"
-      }
-    ],
-    "Speech Records": []
-  },
-  {
-    "English Name": "Meng Yun",
-    "Chinese Name": "Meng Yun",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
-    "Role Records": [
+      },
       {
-        "Role": "Word Smith",
-        "Date": "20190724"
+        "Role": "Timer",
+        "Date": "20200724"
       }
     ],
     "Speech Records": []
@@ -2693,9 +2702,7 @@
   {
     "English Name": "Irene",
     "Chinese Name": "Irene",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2711,9 +2718,7 @@
   {
     "English Name": "Eileen",
     "Chinese Name": "Eileen",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2726,14 +2731,6 @@
       {
         "Role": "Ah Counter",
         "Date": "20200617"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200729"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200819"
       }
     ],
     "Speech Records": []
@@ -2741,26 +2738,16 @@
   {
     "English Name": "Jenny",
     "Chinese Name": "Jenny",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Word Smith",
         "Date": "20200513"
       },
       {
-        "Role": "Evaluator1",
-        "Date": "20200520"
-      },
-      {
         "Role": "Toastmaster",
         "Date": "20200617",
         "Topic": "Time Management"
-      },
-      {
-        "Role": "Evaluator2",
-        "Date": "20200624"
       },
       {
         "Role": "TTE",
@@ -2776,9 +2763,7 @@
   {
     "English Name": "Haper",
     "Chinese Name": "Haper",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Toastmaster",
@@ -2791,9 +2776,7 @@
   {
     "English Name": "Eillen",
     "Chinese Name": "Eillen",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -2805,23 +2788,14 @@
   {
     "English Name": "Tony",
     "Chinese Name": "Tony",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
-    "Role Records": [
-      {
-        "Role": "Evaluator1",
-        "Date": "20200715"
-      }
-    ],
+    "Current Level": "NotStarted",
+    "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Mengyun",
     "Chinese Name": "Mengyun",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-2-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [],
     "Speech Records": [
       {
@@ -2840,14 +2814,12 @@
   },
   {
     "English Name": "Madison",
-    "Chinese Name": "Madison",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Chinese Name": "Mengyun",
+    "Current Level": "NotStarted",
     "Role Records": [
       {
-        "Role": "Evaluator1",
-        "Date": "20200826"
+        "Role": "Word Smith",
+        "Date": "20190724"
       },
       {
         "Role": "TTE",
@@ -2855,42 +2827,16 @@
       },
       {
         "Role": "TTM",
-        "Date": "20200923"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20201021"
+        "Date": "20200923",
+        "Topic": "\u201c\u996d\u5708\u6587\u5316\u201d\u90a3\u4e9b\u4e8b"
       }
     ],
     "Speech Records": []
   },
   {
-    "English Name": "Madision",
-    "Chinese Name": "Madision",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-1",
-    "Role Records": [
-      {
-        "Role": "GE",
-        "Date": "20200909"
-      }
-    ],
-    "Speech Records": [
-      {
-        "Level": "Level1-1",
-        "Date": "20201014",
-        "Topic": "Kids know everything",
-        "Type": "pathway"
-      }
-    ]
-  },
-  {
     "English Name": "TBD",
     "Chinese Name": "TBD",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": null,
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2910,9 +2856,7 @@
   {
     "English Name": "Marrisa",
     "Chinese Name": "Marrisa",
-    "CC Level": null,
-    "CC Level Title": null,
-    "Pathway Level": "Level1-2-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [],
     "Speech Records": [
       {
@@ -2925,6 +2869,51 @@
         "Level": "Level1-2-1",
         "Date": "20201021",
         "Topic": "Some reading thoughts about\u201cPrinciples\u201d",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Meng Yun",
+    "Chinese Name": "Meng Yun",
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Word Smith",
+        "Date": "20200724"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Walter",
+    "Chinese Name": "Walter",
+    "Current Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20200821",
+        "Topic": "Product Liability",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Madision",
+    "Chinese Name": "Madision",
+    "Current Level": "Level1-1",
+    "Role Records": [
+      {
+        "Role": "GE",
+        "Date": "20200909"
+      }
+    ],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20201014",
+        "Topic": "Kids know everything",
         "Type": "pathway"
       }
     ]

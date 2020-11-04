@@ -1,0 +1,13 @@
+[
+  {
+    "duration": 6,
+    "levels": ["Level1-1", "CC1"]
+  },
+  {
+    "duration": 10,
+    "levels": ["CC"]
+  },
+  {
+    "duration": 7
+  }
+]
