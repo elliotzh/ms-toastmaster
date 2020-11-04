@@ -9,7 +9,7 @@ import os
 from typing import Dict, Optional, List
 from member import MemberInfo, MemberInfoLibrary
 from path_util import PathUtil
-from agenda import Agenda
+from agenda import Agenda, Session
 
 
 def try_get_str(s):
@@ -20,7 +20,7 @@ class Meeting:
     def __init__(self, month: int, day: int, is_english: bool, year=None):
         self._function_role_taker = {}  # type: Dict[str, MemberInfo]
         self._info = {}  # type: Dict[str, str]
-        self._year = year if year is not None else 2020
+        self._year = year if year is not None else datetime.datetime.now().year
         self._month = month
         self._day = day
         self._is_english = is_english
@@ -40,7 +40,7 @@ class Meeting:
         return "{2}{0:02}{1:02}".format(
             self._month,
             self._day,
-            datetime.datetime.now().year if self._year is None else self._year
+            self._year
         )
 
     @property
@@ -59,7 +59,8 @@ class Meeting:
 
     def __str__(self):
         info_dict = {
-            "origin_info": self._info,
+            "theme": self._theme,
+            "date_str": self.date_str,
             "function roles": {},
             "speeches": []
         }
@@ -90,12 +91,15 @@ class Meeting:
             if len(speaker_name) is not 0:
                 role_taker = member_lib.assign_role(
                     speaker_name,
-                    "Speaker{}".format(i),
+                    "Speaker".format(i),
                     self.date_str,
                     topic=speech_topic
                 )
 
                 self._speakers.append(role_taker)
+            evaluator_name = self.try_get_info("IE{}".format(i))
+            self._function_role_taker["IE{}".format(i)] = member_lib.assign_role(
+                evaluator_name, "IE", self.date_str, topic=speech_topic)
 
         for role in self._roles:
             role_taker_name = self.try_get_info(role["name"])
@@ -111,68 +115,187 @@ class Meeting:
                 self._theme
             )
 
+    def role_taken(self, role_name) -> bool:
+        if role_name in self._function_role_taker:
+            return self._function_role_taker[role_name].english_name != "TBD"
+        return False
+
+    @property
+    def have_prepared_speech(self):
+        return len(self._speakers) != 0
+
     def to_agenda(self, output_path):
-        agenda = Agenda(self.language)
+        agenda = Agenda(self.language, self._theme, len(self._speakers))
+
+        def append_event(session, role_name, event, duration, show_duration=True):
+            role_name_dict = {
+                "SAA": "Sergeant at Arms (SAA)",
+                "GE": "General Evaluator",
+                "TTM": "Table Topic Master",
+                "TTE": "Table Topic Evaluator"
+            }
+            session.append_event(
+                duration=duration,
+                role_name=role_name_dict[role_name] if role_name in role_name_dict else role_name,
+                role_taker=self._function_role_taker[role_name],
+                event=event,
+                show_duration=show_duration
+            )
+
+        real_ge = "GE" if self.role_taken("GE") else "Toastmaster"
+
+        # opening
+        opening_session = Session(datetime.datetime(self._year, self._month, self._day, 18, 40))
+
+        if self.role_taken("SAA"):
+            append_event(
+                opening_session,
+                duration=20,
+                role_name="SAA",
+                event="Registration/Greeting",
+                show_duration=False
+            )
+            append_event(
+                opening_session,
+                duration=4,
+                role_name="Toastmaster",
+                event="Meeting Opening"
+            )
+            append_event(
+                opening_session,
+                duration=5,
+                role_name="SAA",
+                event="Welcome Guests  (20s/P)"
+            )
+        else:
+            append_event(
+                opening_session,
+                duration=20,
+                role_name="VPM",
+                event="Registration/Greeting",
+                show_duration=False
+            )
+            append_event(
+                opening_session,
+                duration=4,
+                role_name="Toastmaster",
+                event="Meeting Opening"
+            )
+            append_event(
+                opening_session,
+                duration=5,
+                role_name="VPM",
+                event="Welcome Guests  (20s/P)"
+            )
+
+        append_event(
+            opening_session,
+            duration=1,
+            role_name=real_ge,
+            event="Evaluation Team: Purpose and Members"
+        )
+
+        append_event(
+            opening_session,
+            duration=1,
+            role_name="Timer",
+            event="Time Guidelines"
+        )
+
+        if self.role_taken("GE"):
+            append_event(
+                opening_session,
+                duration=1,
+                role_name="GE",
+                event="Return control to Toastmaster"
+            )
+        append_event(
+            opening_session,
+            duration=1,
+            role_name="Toastmaster",
+            event="Introduce the Table Topic Master"
+        )
+
+        agenda.append_session(opening_session)
+
+        # table topic session
+        table_topic_session = Session(opening_session.current_datetime, title="Table Topic Session")
+        append_event(
+            table_topic_session,
+            duration=25,
+            role_name="TTM",
+            event="Theme Introduction & Table Topic Session"
+        )
+        append_event(
+            table_topic_session,
+            duration=6,
+            role_name="TTE",
+            event="Table Topic Evaluation"
+        )
+        append_event(
+            table_topic_session,
+            duration=7,
+            role_name="Toastmaster",
+            event="Break Time",
+            show_duration=False
+        )
+        agenda.append_session(table_topic_session)
+
+        prepared_session = Session(table_topic_session.current_datetime, title="Prepared Speech Session")
+        if self.have_prepared_speech:
+            for i, speaker in enumerate(self._speakers):
+                o_s = ["1st", "2nd", "3rd", "4th"]
+                append_event(
+                    prepared_session,
+                    duration=1,
+                    role_name="Toastmaster",
+                    event="Introduce the {} Speaker".format(o_s[i])
+                )
+                prepared_session.append_event(
+                    duration=7,
+                    role_name="Prepared Speaker {}".format(i+1),
+                    event=speaker.last_speech_topic,
+                    role_taker=speaker
+                )
+            agenda.append_session(prepared_session)
+
+        evaluation_session = Session(prepared_session.current_datetime, title="Evaluation Session")
+        append_event(
+            evaluation_session,
+            duration=1,
+            role_name=real_ge,
+            event="Evaluation Session Opening"
+        )
+        for i, speaker in enumerate(self._speakers):
+            o_s = ["1st", "2nd", "3rd", "4th"]
+            evaluation_session.append_event(
+                duration=3,
+                role_name="Individual Evaluator {}".format(i + 1),
+                event="Evaluate the {} Speaker".format(o_s[i]),
+                role_taker=self._function_role_taker["IE{}".format(i+1)]
+            )
+        append_event(
+            evaluation_session,
+            duration=3,
+            role_name="Timer",
+            event="Timer's Report"
+        )
+        if self.role_taken("GE"):
+            append_event(
+                evaluation_session,
+                duration=5,
+                role_name="GE",
+                event="General Evaluator's Report"
+            )
+        append_event(
+            evaluation_session,
+            duration=2,
+            role_name="Toastmaster",
+            event="Conclusion & Meeting Closing"
+        )
+
+        agenda.append_session(evaluation_session)
         agenda.dump(output_path)
-
-        # xlsx_template = openpyxl.load_workbook()
-        # role_sheet = xlsx_template["Roles"]
-        #
-        # speech_levels = self.set_role(self, role_sheet, member_info_lib)
-        #
-        # is_english = self
-        # agenda_sheet_prefix = "Agenda" if is_english else "Chinese Agenda"
-        # speech_count = self["speech_count"]
-        #
-        # if speech_count > 0:
-        #     agenda_sheet_name = "{0}-{1}".format(agenda_sheet_prefix, speech_count)
-        #     agenda_sheet = xlsx_template[agenda_sheet_name]
-        #     set_active_sheet_by_name(xlsx_template, agenda_sheet_name)
-        #
-        #     speech_rows = [27, 29, 31]
-        #     if is_english is True:
-        #         agenda_sheet["A8"] = "Theme Today: {0}".format(self["Theme"])
-        #     else:
-        #         agenda_sheet["A8"] = "本期主题:  “{0}”".format(self["Theme"])
-        #
-        #     for i in range(0, speech_count):
-        #         agenda_sheet["C{0}".format(speech_rows[i])] = self["SP{0} Topic".format(i + 1)]
-        #         current_level = speech_levels[i]
-        #         if current_level not in self.time_dict:
-        #             self.time_dict[current_level] = self.time_dict['default']
-        #         duration, time_range, green_time, yellow_time, red_time = self.time_dict[current_level]
-        #         reorg = [time_range, green_time, yellow_time, red_time, duration]
-        #         for j in range(0, len(reorg)):
-        #             agenda_sheet["{0}{1}".format(chr(ord('E') + j), speech_rows[i])] = reorg[j]
-        #
-        #     icon_img = Image(self.path_util.club_icon)
-        #     icon_img.anchor = 'A1'
-        #     agenda_sheet.add_image(icon_img)
-        #
-        #     qr_img = Image(self.path_util.club_qr)
-        #     qr_img.anchor = 'G1'
-        #     agenda_sheet.add_image(qr_img)
-        #
-        #     qr_img = Image(self.path_util.get_vote_qr(speech_count))
-        #     qr_img.anchor = 'E{0}'.format(4 * speech_count + 34)
-        #     agenda_sheet.add_image(qr_img)
-        #
-        #     side = Side(border_style="medium", color='000000')
-        #     border = Border(
-        #         left=side,
-        #         right=side,
-        #         top=side,
-        #         bottom=side,
-        #     )
-        #     style_range(agenda_sheet, 'A1:J3', border)
-        #     style_range(agenda_sheet, 'A4:J5', border)
-        #     style_range(agenda_sheet, 'A8:J8', border)
-        #     style_range(agenda_sheet, 'A20:J20', border)
-        #     style_range(agenda_sheet, 'A25:J25', border)
-        #     style_range(agenda_sheet, 'A{0}:J{0}'.format(26 + 3 * speech_count), border)
-        #
-        #     xlsx_template.save(self.path_util.default_agenda_output_path)
-
 
 
 class ToastmasterAgendaGenerator:
@@ -190,7 +313,7 @@ class ToastmasterAgendaGenerator:
         return re.sub(r"[\ud83c\ufe0f\udf3f\u5973\u795e\u7537\ud83d\udf38\udf3b]|(\[.*])|(N/A)", "", member_name).strip()
 
     @classmethod
-    def read_info_from_call_role(cls, call_role_text):
+    def read_info_from_call_role(cls, call_role_text, year=None):
         meetings = []
         meeting_info = None  # type: Optional[Meeting]
         for line in call_role_text.split('\n'):
@@ -201,7 +324,8 @@ class ToastmasterAgendaGenerator:
                 meeting_info = Meeting(
                     month=int(m.group(1)),
                     day=int(m.group(2)),
-                    is_english=(m.group(3) == "English")
+                    year=year,
+                    is_english=True # (m.group(3) == "English")
                 )
             elif line.find(":") is not -1:
                 ti = line.find(":")
@@ -219,7 +343,13 @@ class ToastmasterAgendaGenerator:
             origin_text = call_role_file.read()
             call_role_file.close()
 
-        for next_meeting in self.read_info_from_call_role(origin_text):
+        year_str = path.split(call_role_path)[-1][:4]
+        try:
+            year = int(year_str)
+        except:
+            year = None
+
+        for next_meeting in self.read_info_from_call_role(origin_text, year):
             # log
             with open(
                 self.path_util.get_log_path("{0}.call_role.txt".format(next_meeting.date_str)),
@@ -233,7 +363,7 @@ class ToastmasterAgendaGenerator:
             next_meeting.parse_info(member_info_lib)
             print(str(next_meeting))
 
-            next_meeting.to_agenda()
+            next_meeting.to_agenda(self.path_util.get_output_path("agenda.html"))
 
             if update_member_info is False:
                 member_info_lib.dump(self.path_util.get_output_path(

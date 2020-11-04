@@ -34,6 +34,7 @@ class MemberInfo:
         self._chinese_name = member_info["Chinese Name"]
         self._role_records = sorted(member_info["Role Records"], key=lambda x: x["Date"])
         self._speech_records = sorted(member_info["Speech Records"], key=lambda x: x["Date"])
+        self.nick_names = [] if "Nick Names" not in member_info else member_info["Nick Names"]
 
         if "Current Level" in member_info:
             self._current_level = member_info["Current Level"]
@@ -56,6 +57,7 @@ class MemberInfo:
         return {
             "English Name": self._english_name,
             "Chinese Name": self._chinese_name,
+            "Nick Names": self.nick_names,
             "Current Level": self.current_level,
             "Role Records": self._role_records,
             "Speech Records": self._speech_records
@@ -151,9 +153,13 @@ class MemberInfoLibrary:
     def find(self, role_taker_name) -> MemberInfo:
         if role_taker_name is not None and len(role_taker_name) is not 0:
             for member_info in self._member_info_list:
-                if member_info.english_name.lower().find(role_taker_name.lower()) is not -1 or \
-                        member_info.chinese_name.lower().find(role_taker_name.lower()) is not -1:
-                    return member_info
+                for name in [
+                    member_info.english_name,
+                    member_info.chinese_name,
+                    *member_info.nick_names
+                ]:
+                    if name.lower().find(role_taker_name.lower()) is not -1:
+                        return member_info
         else:
             return MemberInfo({
                 "English Name": "TBD",

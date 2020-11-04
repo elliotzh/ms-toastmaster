@@ -2,6 +2,7 @@
   {
     "English Name": "Alicia Guo",
     "Chinese Name": "\u679c\u83b9",
+    "Nick Names": [],
     "Current Level": "CC5",
     "Role Records": [
       {
@@ -10,7 +11,7 @@
         "Topic": "plastic surgery ^^"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20190904"
       },
       {
@@ -19,12 +20,13 @@
         "Topic": "sources of joy"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20191016"
       },
       {
         "Role": "TTM",
-        "Date": "20191023"
+        "Date": "20191023",
+        "Topic": "Sports You Love"
       },
       {
         "Role": "GE",
@@ -39,7 +41,7 @@
         "Date": "20191120"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20191127"
       },
       {
@@ -48,35 +50,12 @@
         "Topic": "Proactivity"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20191211"
       },
       {
         "Role": "TTE",
         "Date": "20200311"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200506"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200617",
-        "Topic": "Time Management"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200821",
-        "Topic": "plastic surgery ^^"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200911",
-        "Topic": "sources of joy"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200916"
       }
     ],
     "Speech Records": [
@@ -96,6 +75,7 @@
   {
     "English Name": "Grace",
     "Chinese Name": "Grace",
+    "Nick Names": [],
     "Current Level": "Level1-2-2",
     "Role Records": [
       {
@@ -139,6 +119,7 @@
   {
     "English Name": "Lewis",
     "Chinese Name": "Lewis",
+    "Nick Names": [],
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -162,6 +143,7 @@
   {
     "English Name": "Jeff",
     "Chinese Name": "Jeff",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -181,28 +163,12 @@
         "Date": "20190821"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20190911"
       },
       {
         "Role": "Word Smith",
         "Date": "20190918"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200731"
-      },
-      {
-        "Role": "Word Smith",
-        "Date": "20200807"
-      },
-      {
-        "Role": "Word Smith",
-        "Date": "20200814"
-      },
-      {
-        "Role": "Word Smith",
-        "Date": "20200821"
       }
     ],
     "Speech Records": []
@@ -210,35 +176,41 @@
   {
     "English Name": "Sawyer",
     "Chinese Name": "Sawyer",
-    "Current Level": "Level3-2-1",
+    "Nick Names": [],
+    "Current Level": "Level2-2",
     "Role Records": [
       {
         "Role": "TTM",
-        "Date": "20190807"
+        "Date": "20190807",
+        "Topic": "88 Single"
       },
       {
         "Role": "TTM",
-        "Date": "20190814"
+        "Date": "20190814",
+        "Topic": "The importance of having fun"
       },
       {
         "Role": "Timer",
         "Date": "20190821"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20190904"
       },
       {
         "Role": "TTM",
-        "Date": "20190911"
+        "Date": "20190911",
+        "Topic": "sources of joy"
       },
       {
         "Role": "TTM",
-        "Date": "20190918"
+        "Date": "20190918",
+        "Topic": "<breath, music is just in our body>"
       },
       {
         "Role": "TTM",
-        "Date": "20191016"
+        "Date": "20191016",
+        "Topic": "Good relationship Good Life"
       },
       {
         "Role": "Toastmaster",
@@ -250,12 +222,16 @@
         "Date": "20191120"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20191127"
       },
       {
         "Role": "Timer",
         "Date": "20191211"
+      },
+      {
+        "Role": "IE",
+        "Date": "20200108"
       },
       {
         "Role": "Toastmaster",
@@ -277,57 +253,8 @@
         "Topic": "DIY"
       },
       {
-        "Role": "GE",
-        "Date": "20200513"
-      },
-      {
-        "Role": "Word Smith",
-        "Date": "20200520"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200610"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200617"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200708"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200729",
-        "Topic": "\u81ea\u6211\u63a5\u7eb3"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200807",
-        "Topic": "88 Single"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200812"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200814",
-        "Topic": "The importance of having fun"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200821"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200826",
-        "Topic": "\u5173\u7cfb\u4e2d\u7684\u81ea\u6211"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200911",
-        "Topic": "sources of joy"
+        "Role": "IE",
+        "Date": "20200429"
       }
     ],
     "Speech Records": [
@@ -366,31 +293,14 @@
         "Date": "20200311",
         "Topic": "Mentorship",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level2-3",
-        "Date": "20200724",
-        "Topic": "LNT",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level3-1",
-        "Date": "20200731",
-        "Topic": "LNT",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level3-2-1",
-        "Date": "20200828",
-        "Topic": "PDCA",
-        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Shuhan",
     "Chinese Name": "Shuhan",
-    "Current Level": "Level3-2-2",
+    "Nick Names": [],
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "TTE",
@@ -416,92 +326,25 @@
         "Role": "Toastmaster",
         "Date": "20191113",
         "Topic": "Say No to the Inessential"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200724"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200805",
-        "Topic": "Silver Lining"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200807"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200812"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200814"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200911"
       }
     ],
     "Speech Records": [
       {
         "Level": "Level1-1",
-        "Date": "20190821",
-        "Topic": "Product Liability",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-1",
         "Date": "20191030",
         "Topic": "\u5a5a\u524d\u534f\u8bae",
         "Type": "pathway"
       },
       {
-        "Level": "Level1-2-2",
+        "Level": "Level1-2-1",
         "Date": "20191120",
         "Topic": "\u751f\u80b2\u6743",
         "Type": "pathway"
       },
       {
-        "Level": "Level1-3",
+        "Level": "Level1-2-2",
         "Date": "20191211",
         "Topic": "My Boss",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level2-1",
-        "Date": "20200513",
-        "Topic": "American Constitution Law",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level2-2",
-        "Date": "20200610",
-        "Topic": "How does a bill become a law?",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level2-3",
-        "Date": "20200708",
-        "Topic": "American Civil War",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level3-1",
-        "Date": "20200722",
-        "Topic": "The Gilded Age",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level3-2-1",
-        "Date": "20200729",
-        "Topic": "\u5929\u4ef7\u8461\u8404\u6848",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level3-2-2",
-        "Date": "20200819",
-        "Topic": "\u623f\u4ea7\u8bc1\u4e0a\u7684\u5c45\u4f4f\u6743",
         "Type": "pathway"
       }
     ]
@@ -509,6 +352,7 @@
   {
     "English Name": "Annie",
     "Chinese Name": "\u5218\u7476\u7b56",
+    "Nick Names": [],
     "Current Level": "Level1-3",
     "Role Records": [
       {
@@ -530,14 +374,6 @@
       {
         "Role": "Ah Counter",
         "Date": "20190814"
-      },
-      {
-        "Role": "Ah Counter",
-        "Date": "20200807"
-      },
-      {
-        "Role": "Ah Counter",
-        "Date": "20200814"
       }
     ],
     "Speech Records": [
@@ -556,7 +392,8 @@
   {
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
-    "Current Level": "ACS14",
+    "Nick Names": [],
+    "Current Level": "ACS6",
     "Role Records": [
       {
         "Role": "Evaluator1",
@@ -604,13 +441,13 @@
         "Topic": "Habits"
       },
       {
+        "Role": "IE",
+        "Date": "20190814"
+      },
+      {
         "Role": "Toastmaster",
         "Date": "20190814",
         "Topic": "The importance of having fun"
-      },
-      {
-        "Role": "Evaluator1",
-        "Date": "20190814"
       },
       {
         "Role": "GE",
@@ -625,11 +462,11 @@
         "Date": "20190911"
       },
       {
-        "Role": "TTE",
+        "Role": "IE",
         "Date": "20191016"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "TTE",
         "Date": "20191016"
       },
       {
@@ -645,55 +482,16 @@
         "Date": "20200108"
       },
       {
+        "Role": "IE",
+        "Date": "20200311"
+      },
+      {
+        "Role": "IE",
+        "Date": "20200318"
+      },
+      {
         "Role": "TTE",
         "Date": "20200422"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200708"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200715"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200722",
-        "Topic": "Taste of the Youth"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200724",
-        "Topic": "Habits"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200814",
-        "Topic": "The importance of having fun"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200819"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200821"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200902"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200904"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200911"
-      },
-      {
-        "Role": "GE",
-        "Date": "20201014"
       }
     ],
     "Speech Records": [
@@ -745,61 +543,14 @@
         "Date": "20200108",
         "Topic": "",
         "Type": "CC"
-      },
-      {
-        "Level": "ACS7",
-        "Date": "20200506",
-        "Topic": "Giving is a gift",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS8",
-        "Date": "20200520",
-        "Topic": "The exciting world of penny stock trading",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS9",
-        "Date": "20200610",
-        "Topic": "",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS10",
-        "Date": "20200617",
-        "Topic": "How to hold a productive meeting",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS11",
-        "Date": "20200624",
-        "Topic": "",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS12",
-        "Date": "20200805",
-        "Topic": "silver linings of the coronavirus pandemic",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS13",
-        "Date": "20200916",
-        "Topic": "Ice Breaker",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS14",
-        "Date": "20201021",
-        "Topic": "look up",
-        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
-    "Current Level": "ACS13",
+    "Nick Names": [],
+    "Current Level": "ACS11",
     "Role Records": [
       {
         "Role": "GE",
@@ -830,11 +581,11 @@
         "Date": "20190703"
       },
       {
-        "Role": "GE",
+        "Role": "IE",
         "Date": "20190724"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "GE",
         "Date": "20190724"
       },
       {
@@ -889,10 +640,11 @@
       },
       {
         "Role": "TTM",
-        "Date": "20191127"
+        "Date": "20191127",
+        "Topic": "\u9075\u4ece\u81ea\u5df1\u5185\u5fc3or\u5411\u73af\u5883\u5c48\u670d"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20191204"
       },
       {
@@ -910,85 +662,12 @@
         "Topic": "\u5b85\uff0c\u8ba9\u4f60\u610f\u60f3\u4e0d\u5230"
       },
       {
+        "Role": "IE",
+        "Date": "20200422"
+      },
+      {
         "Role": "TTE",
         "Date": "20200429"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200513",
-        "Topic": "The most important person in life-Mom"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200520"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200624"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200722"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200724"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200729",
-        "Topic": "\u81ea\u6211\u63a5\u7eb3"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200731"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200805"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200807",
-        "Topic": "88 Single"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200819",
-        "Topic": "Buying and borrowing Books"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200826"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200828"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200828"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200902",
-        "Topic": "Domestic"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200904"
-      },
-      {
-        "Role": "Word Smith",
-        "Date": "20200911"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200923"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20201014"
       }
     ],
     "Speech Records": [
@@ -1013,25 +692,14 @@
         "Date": "20200415",
         "Topic": "Remember Why You Start",
         "Type": "CC"
-      },
-      {
-        "Level": "ACS12",
-        "Date": "20200715",
-        "Topic": "Meeting Beauty",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS13",
-        "Date": "20200909",
-        "Topic": "",
-        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Brenda Wang",
     "Chinese Name": "\u5e03\u5170\u8fbe",
-    "Current Level": "Level1-2-1",
+    "Nick Names": [],
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -1046,23 +714,13 @@
         "Date": "20200325"
       },
       {
+        "Role": "IE",
+        "Date": "20200401"
+      },
+      {
         "Role": "TTM",
         "Date": "20200415",
         "Topic": "DIY"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200520",
-        "Topic": "Soul Surfer"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200610",
-        "Topic": "Love's boundary"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200624"
       }
     ],
     "Speech Records": [
@@ -1071,18 +729,13 @@
         "Date": "20200422",
         "Topic": "Reflections of the Darkest Time",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-1",
-        "Date": "20200506",
-        "Topic": "When we say faminism",
-        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Chaochao Tang",
     "Chinese Name": "\u5510\u8d85\u8d85",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1090,6 +743,7 @@
   {
     "English Name": "Charlotte",
     "Chinese Name": "\u590f\u6d1b\u7279",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1097,6 +751,7 @@
   {
     "English Name": "ChengCheng Wang",
     "Chinese Name": "\u738b\u6210\u6210",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1104,6 +759,7 @@
   {
     "English Name": "Clay Huang",
     "Chinese Name": "\u9ec4\u5b87",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1117,10 +773,6 @@
       {
         "Role": "GE",
         "Date": "20190814"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200814"
       }
     ],
     "Speech Records": []
@@ -1128,6 +780,7 @@
   {
     "English Name": "Coco Bu",
     "Chinese Name": "\u535c\u534e\u91d1",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1135,6 +788,7 @@
   {
     "English Name": "Daisy",
     "Chinese Name": "\u5468\u4e91",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1142,7 +796,8 @@
   {
     "English Name": "Davie",
     "Chinese Name": "\u8463\u4f1f",
-    "Current Level": "Level4-4",
+    "Nick Names": [],
+    "Current Level": "Level3-2-1",
     "Role Records": [
       {
         "Role": "GE",
@@ -1194,7 +849,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20190904"
+        "Date": "20190904",
+        "Topic": "why are you so busy"
       },
       {
         "Role": "Toastmaster",
@@ -1208,11 +864,13 @@
       },
       {
         "Role": "TTM",
-        "Date": "20191113"
+        "Date": "20191113",
+        "Topic": "Say No to the Inessential"
       },
       {
         "Role": "TTM",
-        "Date": "20191204"
+        "Date": "20191204",
+        "Topic": "Proactivity"
       },
       {
         "Role": "TTM",
@@ -1228,33 +886,6 @@
         "Role": "TTM",
         "Date": "20200429",
         "Topic": "\u53d1\u6761\u6a59"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200610",
-        "Topic": "Love's boundary"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200807"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200812"
-      },
-      {
-        "Role": "Ah Counter",
-        "Date": "20200821"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200904",
-        "Topic": "why are you so busy"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20201021",
-        "Topic": "super daddy"
       }
     ],
     "Speech Records": [
@@ -1292,54 +923,13 @@
         "Date": "20200325",
         "Topic": "",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level3-2-2",
-        "Date": "20200513",
-        "Topic": "Quarantined & Guaranteed",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level3-3-1",
-        "Date": "20200624",
-        "Topic": "\u98ce\u9669\u7ba1\u7406",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level3-3-2",
-        "Date": "20200724",
-        "Topic": "Emotion or Reason? Learning by Planting",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level4-1",
-        "Date": "20200805",
-        "Topic": "Restart 'Growing' --no-wait",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level4-2",
-        "Date": "20200828",
-        "Topic": "\u804c\u573aOCD",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level4-3",
-        "Date": "20200911",
-        "Topic": "Dear instructor , A  piece of pie. (Mentor-mentee system)",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level4-4",
-        "Date": "20201028",
-        "Topic": "My PATHWAY project outline",
-        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Frank Wang",
     "Chinese Name": "\u738b\u6f6e\u4e50\u840c",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1347,6 +937,7 @@
   {
     "English Name": "George Sheng",
     "Chinese Name": "George Sheng",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1354,7 +945,10 @@
   {
     "English Name": "Harper",
     "Chinese Name": "\u5f20\u6653",
-    "Current Level": "AC4",
+    "Nick Names": [
+      "Haper"
+    ],
+    "Current Level": "AC3",
     "Role Records": [
       {
         "Role": "GE",
@@ -1390,11 +984,11 @@
         "Date": "20190911"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20190918"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20191030"
       },
       {
@@ -1407,7 +1001,12 @@
       },
       {
         "Role": "TTM",
-        "Date": "20191211"
+        "Date": "20191211",
+        "Topic": "Don\u2019t insist"
+      },
+      {
+        "Role": "IE",
+        "Date": "20200108"
       },
       {
         "Role": "TTE",
@@ -1421,37 +1020,6 @@
       {
         "Role": "TTE",
         "Date": "20200415"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200520",
-        "Topic": "Soul Surfer"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200624"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200819",
-        "Topic": "Buying and borrowing Books"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200821"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200904",
-        "Topic": "why are you so busy"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200909"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200911"
       }
     ],
     "Speech Records": [
@@ -1476,18 +1044,13 @@
         "Date": "20200318",
         "Topic": "first experience in US stock",
         "Type": "CC"
-      },
-      {
-        "Level": "AC4",
-        "Date": "20200814",
-        "Topic": "Does Weibo make you happy?",
-        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Hestia Sun",
     "Chinese Name": "\u8d6b\u65af\u63d0\u4e9a",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1495,6 +1058,7 @@
   {
     "English Name": "Jessica Liu",
     "Chinese Name": "\u6770\u897f\u5361",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1502,6 +1066,7 @@
   {
     "English Name": "Jill Zou",
     "Chinese Name": "\u90b9\u6d01",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1509,6 +1074,7 @@
   {
     "English Name": "Johnson",
     "Chinese Name": "Johnson",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1516,6 +1082,7 @@
   {
     "English Name": "Julia Zhu",
     "Chinese Name": "\u6731\u4e3d\u96c5",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1531,7 +1098,7 @@
         "Date": "20190417"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20190724"
       }
     ],
@@ -1540,6 +1107,7 @@
   {
     "English Name": "Mingliang Gong",
     "Chinese Name": "\u9f9a\u660e\u4eae",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1547,16 +1115,33 @@
   {
     "English Name": "Nancy",
     "Chinese Name": "\u738b\u6960",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
+      {
+        "Role": "IE",
+        "Date": "20200311"
+      },
       {
         "Role": "Toastmaster",
         "Date": "20200318",
         "Topic": "Spring"
       },
       {
+        "Role": "IE",
+        "Date": "20200325"
+      },
+      {
         "Role": "TTE",
         "Date": "20200401"
+      },
+      {
+        "Role": "IE",
+        "Date": "20200415"
+      },
+      {
+        "Role": "IE",
+        "Date": "20200429"
       }
     ],
     "Speech Records": []
@@ -1564,7 +1149,8 @@
   {
     "English Name": "Olivia Wang",
     "Chinese Name": "\u5965\u4e3d\u8587\u4e9a",
-    "Current Level": "AC5",
+    "Nick Names": [],
+    "Current Level": "AC4",
     "Role Records": [
       {
         "Role": "GE",
@@ -1575,7 +1161,7 @@
         "Date": "20190904"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20190911"
       },
       {
@@ -1590,19 +1176,6 @@
       {
         "Role": "Timer",
         "Date": "20200422"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200513",
-        "Topic": "The most important person in life-Mom"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200729"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200904"
       }
     ],
     "Speech Records": [
@@ -1622,35 +1195,26 @@
         "Date": "20200325",
         "Topic": "\u5149\u6765\u4e4b\u5904",
         "Type": "CC"
-      },
-      {
-        "Level": "AC5",
-        "Date": "20200826",
-        "Topic": "\u6d6a\u6f2b\u516c\u5f0f",
-        "Type": "CC"
       }
     ]
   },
   {
     "English Name": "Prana Zhu",
     "Chinese Name": "\u6731\u972d",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
-        "Role": "TTE",
+        "Role": "IE",
         "Date": "20190828"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "TTE",
         "Date": "20190828"
       },
       {
         "Role": "GE",
         "Date": "20191127"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200828"
       }
     ],
     "Speech Records": []
@@ -1658,6 +1222,7 @@
   {
     "English Name": "Qiyang Li",
     "Chinese Name": "\u674e\u5947\u9633",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1682,6 +1247,7 @@
   {
     "English Name": "Qunce Ye",
     "Chinese Name": "\u53f6\u7fa4\u7b56",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1689,6 +1255,7 @@
   {
     "English Name": "Raunab",
     "Chinese Name": "\u5b54\u4ec1\u661f",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1696,6 +1263,7 @@
   {
     "English Name": "Raymond Lu",
     "Chinese Name": "\u96f7\u66fc",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1712,7 +1280,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20190821"
+        "Date": "20190821",
+        "Topic": "plastic surgery ^^"
       },
       {
         "Role": "TTE",
@@ -1724,7 +1293,7 @@
         "Topic": "The Power of Adversity"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20191120"
       },
       {
@@ -1740,34 +1309,13 @@
         "Date": "20200108"
       },
       {
+        "Role": "IE",
+        "Date": "20200318"
+      },
+      {
         "Role": "TTM",
         "Date": "20200422",
         "Topic": "Poverty"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200715",
-        "Topic": "Summer Vacation"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200812",
-        "Topic": "The Future of Tiktok"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200821",
-        "Topic": "plastic surgery ^^"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200909",
-        "Topic": "Your Teacher"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20201021",
-        "Topic": "super daddy"
       }
     ],
     "Speech Records": []
@@ -1775,7 +1323,8 @@
   {
     "English Name": "Serena",
     "Chinese Name": "\u5c1a\u54f2",
-    "Current Level": "Level2-1",
+    "Nick Names": [],
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Toastmaster",
@@ -1787,11 +1336,13 @@
       },
       {
         "Role": "TTM",
-        "Date": "20191030"
+        "Date": "20191030",
+        "Topic": "\u4e66\u5c71\u6709\u8def"
       },
       {
         "Role": "TTM",
-        "Date": "20191120"
+        "Date": "20191120",
+        "Topic": "Gap Year"
       },
       {
         "Role": "Toastmaster",
@@ -1821,24 +1372,13 @@
         "Date": "20191113",
         "Topic": "how to say 'no' as good as 'yes'",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level1-3",
-        "Date": "20200904",
-        "Topic": "A short trip to Mexico",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level2-1",
-        "Date": "20200911",
-        "Topic": "Autism: children from stars",
-        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Xiaohui",
     "Chinese Name": "\u738b\u5c0f\u4f1a",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1847,11 +1387,7 @@
       },
       {
         "Role": "TTM",
-        "Date": "20190828"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200828",
+        "Date": "20190828",
         "Topic": "\u597d\u9f99"
       }
     ],
@@ -1860,6 +1396,7 @@
   {
     "English Name": "Yiming Gong",
     "Chinese Name": "\u9f9a\u4e00\u9e23",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1867,6 +1404,7 @@
   {
     "English Name": "Yingnan Ju",
     "Chinese Name": "\u97a0\u82f1\u7537",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1874,6 +1412,7 @@
   {
     "English Name": "Yue Zhang",
     "Chinese Name": "\u5f20\u60a6",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1881,6 +1420,7 @@
   {
     "English Name": "Zoey Wu",
     "Chinese Name": "Zoey Wu",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1888,6 +1428,7 @@
   {
     "English Name": "Raven",
     "Chinese Name": "\u675c\u817e",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1895,6 +1436,7 @@
   {
     "English Name": "Victor",
     "Chinese Name": "\u5e74\u65ed\u5347",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1902,6 +1444,7 @@
   {
     "English Name": "Rice Fan",
     "Chinese Name": "\u68b5\u5fd7\u4f1f",
+    "Nick Names": [],
     "Current Level": "CC3",
     "Role Records": [
       {
@@ -1936,7 +1479,8 @@
   {
     "English Name": "Elliot Zhang",
     "Chinese Name": "\u5f20\u9192\u4e4b",
-    "Current Level": "Level1-3",
+    "Nick Names": [],
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Toastmaster",
@@ -1992,7 +1536,8 @@
       },
       {
         "Role": "TTM",
-        "Date": "20190724"
+        "Date": "20190724",
+        "Topic": "Habits"
       },
       {
         "Role": "Toastmaster",
@@ -2001,10 +1546,11 @@
       },
       {
         "Role": "TTM",
-        "Date": "20190731"
+        "Date": "20190731",
+        "Topic": ""
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20190821"
       },
       {
@@ -2025,15 +1571,15 @@
         "Date": "20191016"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20191030"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20191106"
       },
       {
-        "Role": "Evaluator3",
+        "Role": "IE",
         "Date": "20191113"
       },
       {
@@ -2041,7 +1587,7 @@
         "Date": "20191120"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20191204"
       },
       {
@@ -2073,136 +1619,13 @@
         "Date": "20200401"
       },
       {
+        "Role": "IE",
+        "Date": "20200415"
+      },
+      {
         "Role": "Toastmaster",
         "Date": "20200429",
         "Topic": "\u53d1\u6761\u6a59"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200506",
-        "Topic": "Perspective-taking"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200513"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200610"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200617"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200617"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200624",
-        "Topic": "\u4eba\u95f4\u4e16"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200708",
-        "Topic": "Toastmaster for you"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200715"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200722"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200724",
-        "Topic": "Habits"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200729"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200731",
-        "Topic": ""
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200731",
-        "Topic": ""
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200805",
-        "Topic": "Silver Lining"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200812",
-        "Topic": "The Future of Tiktok"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200819"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200826",
-        "Topic": "\u5173\u7cfb\u4e2d\u7684\u81ea\u6211"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200826"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200828",
-        "Topic": "\u597d\u9f99"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200902"
-      },
-      {
-        "Role": "Word Smith",
-        "Date": "20200904"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200916",
-        "Topic": "Migration"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200916",
-        "Topic": "Migration"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20201014",
-        "Topic": "Entertainment During Mid-autumn Festival & National Holiday"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20201014"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20201021"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20201028",
-        "Topic": "\u9690\u79d8\u7684\u6211"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20201028",
-        "Topic": "\u9690\u79d8\u7684\u6211"
       }
     ],
     "Speech Records": [
@@ -2223,18 +1646,13 @@
         "Date": "20191127",
         "Topic": "\u8bfb\u300a\u4e2d\u56fd\u54f2\u5b66\u7b80\u53f2\u300b I - \u4e2d\u56fd\u54f2\u5b66\u4e4b\u7cbe",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level1-3",
-        "Date": "20200814",
-        "Topic": "Standard Answer",
-        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Karen",
     "Chinese Name": "\u738b\u7389\u7ea2",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2247,6 +1665,7 @@
   {
     "English Name": "April",
     "Chinese Name": "\u9ad8\u6587\u59ec",
+    "Nick Names": [],
     "Current Level": "Level2-2",
     "Role Records": [
       {
@@ -2280,6 +1699,14 @@
       {
         "Role": "TTM",
         "Date": "20190522"
+      },
+      {
+        "Role": "IE",
+        "Date": "20200219"
+      },
+      {
+        "Role": "IE",
+        "Date": "20200325"
       },
       {
         "Role": "Toastmaster",
@@ -2321,6 +1748,7 @@
   {
     "English Name": "Winnie",
     "Chinese Name": "\u9ad8\u6587\u59ec",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2334,6 +1762,7 @@
   {
     "English Name": "Jill Chen",
     "Chinese Name": "\u9648\u5609",
+    "Nick Names": [],
     "Current Level": "Level1-1",
     "Role Records": [],
     "Speech Records": [
@@ -2347,53 +1776,12 @@
   {
     "English Name": "Kay",
     "Chinese Name": "Kay",
-    "Current Level": "Level2-2",
+    "Nick Names": [],
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
         "Date": "20200325"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200506",
-        "Topic": "Perspective-taking"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200624",
-        "Topic": "\u4eba\u95f4\u4e16"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200715",
-        "Topic": "Summer Vacation"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200805"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200902",
-        "Topic": "Domestic"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200909",
-        "Topic": "Your Teacher"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20201014",
-        "Topic": "Entertainment During Mid-autumn Festival & National Holiday"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20201021"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20201028"
       }
     ],
     "Speech Records": [
@@ -2408,48 +1796,25 @@
         "Date": "20200429",
         "Topic": "\u7cfb\u7edf\u6027\u601d\u7ef4",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-2",
-        "Date": "20200520",
-        "Topic": "Ignition",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-3",
-        "Date": "20200729",
-        "Topic": "\u6211\u601d\uff0c\u6545\u6211\u5728",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level2-1",
-        "Date": "20200812",
-        "Topic": "being a protege",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level2-2",
-        "Date": "20200923",
-        "Topic": "",
-        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Robin",
     "Chinese Name": "Robin",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20190814"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20190828"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "IE",
         "Date": "20191113"
       },
       {
@@ -2457,8 +1822,8 @@
         "Date": "20200219"
       },
       {
-        "Role": "GE",
-        "Date": "20200708"
+        "Role": "IE",
+        "Date": "20200422"
       }
     ],
     "Speech Records": []
@@ -2466,18 +1831,19 @@
   {
     "English Name": "\ud83c\udf3f",
     "Chinese Name": "\ud83c\udf3f",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
-        "Role": "Evaluator2",
+        "Role": "IE",
         "Date": "20190731"
       },
       {
-        "Role": "Word Smith",
+        "Role": "IE",
         "Date": "20191023"
       },
       {
-        "Role": "Evaluator1",
+        "Role": "Word Smith",
         "Date": "20191023"
       },
       {
@@ -2498,6 +1864,7 @@
   {
     "English Name": "David guest",
     "Chinese Name": "David guest",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2507,10 +1874,6 @@
       {
         "Role": "Timer",
         "Date": "20200415"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200814"
       }
     ],
     "Speech Records": []
@@ -2518,15 +1881,12 @@
   {
     "English Name": "\u5b5f\u82b8",
     "Chinese Name": "\u5b5f\u82b8",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Ah Counter",
         "Date": "20190828"
-      },
-      {
-        "Role": "Ah Counter",
-        "Date": "20200828"
       }
     ],
     "Speech Records": []
@@ -2534,15 +1894,12 @@
   {
     "English Name": "Qi Wang",
     "Chinese Name": "Wang Qi",
-    "Current Level": "Level1-2-2",
+    "Nick Names": [],
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Ah Counter",
         "Date": "20190911"
-      },
-      {
-        "Role": "Ah Counter",
-        "Date": "20200911"
       }
     ],
     "Speech Records": [
@@ -2557,18 +1914,13 @@
         "Date": "20191016",
         "Topic": "welcome to my hometown again",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-2",
-        "Date": "20200904",
-        "Topic": "",
-        "Type": "pathway"
       }
     ]
   },
   {
     "English Name": "Lulu",
     "Chinese Name": "Lu Li",
+    "Nick Names": [],
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -2596,14 +1948,15 @@
   {
     "English Name": "Katherine",
     "Chinese Name": "Katherine",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
-        "Role": "GE",
+        "Role": "IE",
         "Date": "20191106"
       },
       {
-        "Role": "Evaluator2",
+        "Role": "GE",
         "Date": "20191106"
       }
     ],
@@ -2612,11 +1965,13 @@
   {
     "English Name": "Calvin",
     "Chinese Name": "Calvin",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "TTM",
-        "Date": "20191106"
+        "Date": "20191106",
+        "Topic": "The Power of Adversity"
       }
     ],
     "Speech Records": []
@@ -2624,6 +1979,7 @@
   {
     "English Name": "Jacob",
     "Chinese Name": "Jacob",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2636,6 +1992,7 @@
   {
     "English Name": "Rebecca",
     "Chinese Name": "Rebecca",
+    "Nick Names": [],
     "Current Level": "Level1-1",
     "Role Records": [],
     "Speech Records": [
@@ -2648,20 +2005,9 @@
     ]
   },
   {
-    "English Name": "Mason from FM",
-    "Chinese Name": "Mason from FM",
-    "Current Level": "NotStarted",
-    "Role Records": [
-      {
-        "Role": "Evaluator2",
-        "Date": "20191113"
-      }
-    ],
-    "Speech Records": []
-  },
-  {
     "English Name": "Lizzie FM TMC",
     "Chinese Name": "Lizzie FM TMC",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2674,6 +2020,7 @@
   {
     "English Name": "James from BeijingNo.1 TMC",
     "Chinese Name": "James from BeijingNo.1 TMC",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2686,15 +2033,12 @@
   {
     "English Name": "Tiffany",
     "Chinese Name": "Tiffany",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Timer",
         "Date": "20190724"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200724"
       }
     ],
     "Speech Records": []
@@ -2702,153 +2046,48 @@
   {
     "English Name": "Irene",
     "Chinese Name": "Irene",
+    "Nick Names": [],
     "Current Level": "NotStarted",
-    "Role Records": [
-      {
-        "Role": "Timer",
-        "Date": "20200506"
-      },
-      {
-        "Role": "Ah Counter",
-        "Date": "20200513"
-      }
-    ],
+    "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Eileen",
     "Chinese Name": "Eileen",
-    "Current Level": "NotStarted",
-    "Role Records": [
-      {
-        "Role": "Timer",
-        "Date": "20200513"
-      },
-      {
-        "Role": "Ah Counter",
-        "Date": "20200610"
-      },
-      {
-        "Role": "Ah Counter",
-        "Date": "20200617"
-      }
+    "Nick Names": [
+      "Eillen"
     ],
+    "Current Level": "NotStarted",
+    "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Jenny",
     "Chinese Name": "Jenny",
+    "Nick Names": [],
     "Current Level": "NotStarted",
-    "Role Records": [
-      {
-        "Role": "Word Smith",
-        "Date": "20200513"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20200617",
-        "Topic": "Time Management"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200715"
-      },
-      {
-        "Role": "GE",
-        "Date": "20200729"
-      }
-    ],
-    "Speech Records": []
-  },
-  {
-    "English Name": "Haper",
-    "Chinese Name": "Haper",
-    "Current Level": "NotStarted",
-    "Role Records": [
-      {
-        "Role": "Toastmaster",
-        "Date": "20200708",
-        "Topic": "Toastmaster for you"
-      }
-    ],
-    "Speech Records": []
-  },
-  {
-    "English Name": "Eillen",
-    "Chinese Name": "Eillen",
-    "Current Level": "NotStarted",
-    "Role Records": [
-      {
-        "Role": "Ah Counter",
-        "Date": "20200708"
-      }
-    ],
+    "Role Records": [],
     "Speech Records": []
   },
   {
     "English Name": "Tony",
     "Chinese Name": "Tony",
+    "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
   },
   {
-    "English Name": "Mengyun",
-    "Chinese Name": "Mengyun",
-    "Current Level": "Level1-2-1",
-    "Role Records": [],
-    "Speech Records": [
-      {
-        "Level": "Level1-1",
-        "Date": "20200819",
-        "Topic": "Two heads are always better than one",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-1",
-        "Date": "20200902",
-        "Topic": "Age is a matter",
-        "Type": "pathway"
-      }
-    ]
-  },
-  {
     "English Name": "Madison",
     "Chinese Name": "Mengyun",
+    "Nick Names": [
+      "Meng Yun"
+    ],
     "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Word Smith",
         "Date": "20190724"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20200916"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20200923",
-        "Topic": "\u201c\u996d\u5708\u6587\u5316\u201d\u90a3\u4e9b\u4e8b"
-      }
-    ],
-    "Speech Records": []
-  },
-  {
-    "English Name": "TBD",
-    "Chinese Name": "TBD",
-    "Current Level": "NotStarted",
-    "Role Records": [
-      {
-        "Role": "Timer",
-        "Date": "20200909"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200916"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200923"
       }
     ],
     "Speech Records": []
@@ -2856,31 +2095,22 @@
   {
     "English Name": "Marrisa",
     "Chinese Name": "Marrisa",
-    "Current Level": "Level1-2-1",
+    "Nick Names": [],
+    "Current Level": "NotStarted",
     "Role Records": [],
-    "Speech Records": [
-      {
-        "Level": "Level1-1",
-        "Date": "20200916",
-        "Topic": "Ice Breaker",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-1",
-        "Date": "20201021",
-        "Topic": "Some reading thoughts about\u201cPrinciples\u201d",
-        "Type": "pathway"
-      }
-    ]
+    "Speech Records": []
   },
   {
-    "English Name": "Meng Yun",
-    "Chinese Name": "Meng Yun",
+    "English Name": "Mason",
+    "Chinese Name": "Mason",
+    "Nick Names": [
+      "Mason from FM"
+    ],
     "Current Level": "NotStarted",
     "Role Records": [
       {
-        "Role": "Word Smith",
-        "Date": "20200724"
+        "Role": "IE",
+        "Date": "20191113"
       }
     ],
     "Speech Records": []
@@ -2888,32 +2118,14 @@
   {
     "English Name": "Walter",
     "Chinese Name": "Walter",
+    "Nick Names": [],
     "Current Level": "Level1-1",
     "Role Records": [],
     "Speech Records": [
       {
         "Level": "Level1-1",
-        "Date": "20200821",
+        "Date": "20190821",
         "Topic": "Product Liability",
-        "Type": "pathway"
-      }
-    ]
-  },
-  {
-    "English Name": "Madision",
-    "Chinese Name": "Madision",
-    "Current Level": "Level1-1",
-    "Role Records": [
-      {
-        "Role": "GE",
-        "Date": "20200909"
-      }
-    ],
-    "Speech Records": [
-      {
-        "Level": "Level1-1",
-        "Date": "20201014",
-        "Topic": "Kids know everything",
         "Type": "pathway"
       }
     ]

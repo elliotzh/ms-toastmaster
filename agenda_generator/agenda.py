@@ -3,16 +3,16 @@ import json
 from bs4 import BeautifulSoup
 from typing import Dict, Optional, List
 from member import MemberInfo
-
+from datetime import datetime, timedelta
 
 class Session:
-    def __init__(self, base_time, title=None):
+    def __init__(self, base_time: datetime, title=None):
         self._title = title
         self._rows = []
         self._base_time = base_time
         self._current_time = base_time
 
-    def append_row(self, duration, role_name, event, role_taker: MemberInfo, show_duration=True):
+    def append_event(self, duration, role_name, event, role_taker: MemberInfo, show_duration=True):
         d = str(duration)
         if duration >= 20:
             g, y, r = "1", "1.5", "2"
@@ -28,7 +28,7 @@ class Session:
             g, y, r = "", "", ""
 
         self._rows.append(Session.create_row([
-            ("col-time", self._current_time),
+            ("col-time", self._current_time.strftime("%I:%M %p")),
             ("col-role", role_name),
             ("col-event", event),
             ("col-role", role_taker.english_name),
@@ -37,6 +37,8 @@ class Session:
             ("col-card", y),
             ("col-card", r),
         ]))
+
+        self._current_time += timedelta(minutes=duration)
 
     def dump_to_element(self):
         soup = BeautifulSoup("<div class=\"session\"></div>", features="html.parser")
@@ -61,6 +63,10 @@ class Session:
             head_row.append(head_column)
         return head_row
 
+    @property
+    def current_datetime(self):
+        return self._current_time
+
 
 class Agenda:
     @classmethod
@@ -80,13 +86,16 @@ class Agenda:
             html_template = html_template.replace("{{" + key + "}}", value)
         return html_template
 
-    def __init__(self, language, theme):
+    def __init__(self, language, theme, speech_count=3):
         self._template_str = Agenda.template_localization(
             PathUtil().get_template("default.html"),
             language,
             {
                 "theme": {
-                    "default": theme
+                    "default": theme,
+                },
+                "speech_count": {
+                    "default": str(speech_count),
                 }
             }
         )
@@ -108,8 +117,8 @@ class Agenda:
 def __main__():
     for language in ["English", "Chinese"]:
         agenda = Agenda(language, "test theme")
-        session = Session("6:40 PM")
-        session.append_row(
+        session = Session(datetime(2020, 11, 5, 16, 40))
+        session.append_event(
             duration=20,
             role_name="Sergeant at Arms (SAA)",
             role_taker=MemberInfo({
@@ -121,7 +130,7 @@ def __main__():
             event="Registration/Greeting",
             show_duration=False
         )
-        session.append_row(
+        session.append_event(
             duration=4,
             role_name="Toastmaster",
             role_taker=MemberInfo({
@@ -135,7 +144,7 @@ def __main__():
         agenda.append_session(session)
 
         session = Session("7:15 PM", title="Table Topic Session")
-        session.append_row(
+        session.append_event(
             duration=25,
             role_name="Table Topic Master",
             role_taker=MemberInfo({
@@ -146,7 +155,7 @@ def __main__():
             }),
             event="Theme Introduction & Table Topic Session"
         )
-        session.append_row(
+        session.append_event(
             duration=6,
             role_name="Table Topic Evaluator",
             role_taker=MemberInfo({
@@ -157,7 +166,7 @@ def __main__():
             }),
             event="Table Topic Evaluation"
         )
-        session.append_row(
+        session.append_event(
             duration=1,
             role_name="Toastmaster",
             role_taker=MemberInfo({
