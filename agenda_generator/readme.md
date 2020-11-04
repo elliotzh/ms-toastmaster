@@ -26,7 +26,7 @@
 
    ![image-20200505094957990](img/doc.complete-pr.png)
 
-8. 访问(该链接)[https://htmlpreview.github.io/?https://github.com/elliotzh/ms-toastmaster/blob/master/agenda_generator/output/agenda.html]
+8. 访问[该链接](https://htmlpreview.github.io/?https://github.com/elliotzh/ms-toastmaster/blob/master/agenda_generator/output/agenda.html)
 对agenda进行预览和打印。
 
 9. 如果agenda有误，回到1
