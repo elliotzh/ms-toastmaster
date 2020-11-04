@@ -299,8 +299,10 @@
   {
     "English Name": "Shuhan",
     "Chinese Name": "Shuhan",
-    "Nick Names": [],
-    "Current Level": "Level1-2-2",
+    "Nick Names": [
+      "Walter"
+    ],
+    "Current Level": "Level1-3",
     "Role Records": [
       {
         "Role": "TTE",
@@ -331,18 +333,24 @@
     "Speech Records": [
       {
         "Level": "Level1-1",
+        "Date": "20190821",
+        "Topic": "Product Liability",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
         "Date": "20191030",
         "Topic": "\u5a5a\u524d\u534f\u8bae",
         "Type": "pathway"
       },
       {
-        "Level": "Level1-2-1",
+        "Level": "Level1-2-2",
         "Date": "20191120",
         "Topic": "\u751f\u80b2\u6743",
         "Type": "pathway"
       },
       {
-        "Level": "Level1-2-2",
+        "Level": "Level1-3",
         "Date": "20191211",
         "Topic": "My Boss",
         "Type": "pathway"
@@ -2114,20 +2122,5 @@
       }
     ],
     "Speech Records": []
-  },
-  {
-    "English Name": "Walter",
-    "Chinese Name": "Walter",
-    "Nick Names": [],
-    "Current Level": "Level1-1",
-    "Role Records": [],
-    "Speech Records": [
-      {
-        "Level": "Level1-1",
-        "Date": "20190821",
-        "Topic": "Product Liability",
-        "Type": "pathway"
-      }
-    ]
   }
 ]
