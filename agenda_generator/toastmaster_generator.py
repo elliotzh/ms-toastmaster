@@ -2,8 +2,6 @@ import json
 import openpyxl
 import re
 import datetime
-from openpyxl.drawing.image import Image
-from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font
 import sys
 from os import path
 import subprocess
@@ -11,6 +9,7 @@ import os
 from typing import Dict, Optional, List
 from member import MemberInfo, MemberInfoLibrary
 from path_util import PathUtil
+from agenda import Agenda
 
 
 def try_get_str(s):
@@ -50,6 +49,13 @@ class Meeting:
 
     def set_info(self, key, value):
         self._info[key] = value
+
+    @property
+    def language(self):
+        return "English" if self.is_english else "Chinese"
+
+    def theme(self) -> str:
+        return self._theme
 
     def __str__(self):
         info_dict = {
@@ -105,9 +111,11 @@ class Meeting:
                 self._theme
             )
 
-    def to_xlsx(self):
-        pass
-        # xlsx_template = openpyxl.load_workbook(PathUtil().default_template_path)
+    def to_agenda(self, output_path):
+        agenda = Agenda(self.language)
+        agenda.dump(output_path)
+
+        # xlsx_template = openpyxl.load_workbook()
         # role_sheet = xlsx_template["Roles"]
         #
         # speech_levels = self.set_role(self, role_sheet, member_info_lib)
@@ -164,6 +172,7 @@ class Meeting:
         #     style_range(agenda_sheet, 'A{0}:J{0}'.format(26 + 3 * speech_count), border)
         #
         #     xlsx_template.save(self.path_util.default_agenda_output_path)
+
 
 
 class ToastmasterAgendaGenerator:
@@ -224,7 +233,7 @@ class ToastmasterAgendaGenerator:
             next_meeting.parse_info(member_info_lib)
             print(str(next_meeting))
 
-            next_meeting.to_xlsx()
+            next_meeting.to_agenda()
 
             if update_member_info is False:
                 member_info_lib.dump(self.path_util.get_output_path(

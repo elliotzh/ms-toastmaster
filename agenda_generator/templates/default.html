@@ -5,6 +5,8 @@
         * {
             box-sizing: border-box;
             text-align: center;
+            font-size: small;
+            font-family: Arial;
         }
 
         .row {
@@ -17,17 +19,13 @@
         }
 
         .table {
-            width: 205mm;
+            width: 270mm;
             height: 287mm;
-        }
-        
-        .clear-padding {
-            padding: 0px;
         }
 
         .column {
             float: left;
-            padding: 10px;
+            padding: 5px;
             display: table-cell;
             border-left: 1px solid;
         }
@@ -119,6 +117,10 @@
             display: table;
             clear: both;
         }
+
+        .head {
+            font-weight: bold;
+        }
         </style>
     </head>
     <body>
@@ -128,9 +130,9 @@
                     <img class="col-12" src="..\img\icon-club.png">
                 </div>
                 <div class="column col-8" style="border-left: none;">
-                    <div><h2>Welcome to Microsoft Beijing Toastmaster Club</h2></div>
-                    <div>Time: 19:00~21:00, every Wednesday night</div>
-                    <div>Venue: Room Gu Gong, F1, Microsoft Build 1, Danling St. Zhongguancun West Zone Haidian Dist.</div>
+                    <p><h1>{{welcome}}</h1></p>
+                    <p>{{time}}</p>
+                    <p>{{venue}}</p>
                 </div>
                 <div class="column col-2 last-column" style="border-left: none; padding: 2px;">
                     <img class="col-12" src="..\img\qrcode-club.png">
@@ -138,71 +140,46 @@
             </div>
             <div class="row">
                 <div class="column col-time">
-                    Mission
+                    {{mission_title}}
                 </div>
                 <div class="column col-left text-left last-column">
-                    We provide a supportive and positive learning experience in which members are empowered to develop communication and leadership skills, resulting in greater self-confidence and personal growth.
+                    {{mission}}
                 </div>
             </div>
             <div class="row">
                 <div class="column col-12 last-column">
-                    <b>Theme Today: Story Sharing</b>
+                    <b>Theme Today: {{theme}}</b>
                 </div>
             </div>
             <div class="row">
-                <div class="column col-time">
-                    Time
+                <div class="column col-time head">
+                    {{time_head}}
                 </div>
-                <div class="column col-role">
-                    Meeting Role
+                <div class="column col-role head">
+                    {{role_head}}
                 </div>
-                <div class="column col-event">
-                    Program Event
+                <div class="column col-event head">
+                    {{event_head}}
                 </div>
-                <div class="column col-role">
-                    Member
+                <div class="column col-role head">
+                    {{member_head}}
                 </div>
-                <div class="column col-time">
+                <div class="column col-time head">
                     Duration (mins)
                 </div>
-                <div class="column col-card">
+                <div class="column col-card head">
                     G
                 </div>
-                <div class="column col-card">
+                <div class="column col-card head">
                     Y
                 </div>
-                <div class="column col-card last-column">
+                <div class="column col-card head last-column">
                     R
                 </div>
             </div>
-            <div class="row">
-                <div class="column col-time">
-                    6:40 PM
-                </div>
-                <div class="column col-role">
-                    Sergeant at Arms
-                </div>
-                <div class="column col-event">
-                    Registration/Greeting
-                </div>
-                <div class="column col-role">
-                    Olivia Wang
-                </div>
-                <div class="column col-time">
-                    20
-                </div>
-                <div class="column col-card">
-                    
-                </div>
-                <div class="column col-card">
-                    
-                </div>
-                <div class="column col-card last-column">
-                    
-                </div>
+            <div id="body">
             </div>
-            <div class="row last-row">
-                <div class="column col-12 last-column"><b>Table Topics Session</b></div>
+            <div class="row">
             </div>
         </div>
     </body>

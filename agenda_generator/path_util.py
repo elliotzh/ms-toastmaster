@@ -1,5 +1,6 @@
 from os import path
 
+
 class PathUtil:
     def __init__(self):
         pass
@@ -26,7 +27,7 @@ class PathUtil:
         return path.join(self.current_dir, "output", "agenda.xlsx")
 
     def get_config_path(self, config_name) -> str:
-        assert config_name in ["learning_path", "roles", "time_dict"]
+        assert config_name in ["learning_path", "roles", "time_dict", "localization"]
         return path.join(self.current_dir, "config", "{}.json".format(config_name))
 
     def get_image(self, name):
