@@ -641,10 +641,6 @@
       {
         "Role": "GE",
         "Date": "20201104"
-      },
-      {
-        "Role": "GE",
-        "Date": "20201111"
       }
     ],
     "Speech Records": [
@@ -757,7 +753,7 @@
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
     "Nick Names": [],
-    "Current Level": "ACS15",
+    "Current Level": "ACS14",
     "Role Records": [
       {
         "Role": "GE",
@@ -980,12 +976,6 @@
       {
         "Level": "ACS14",
         "Date": "20201104",
-        "Topic": "Decode Your Communication Style",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS15",
-        "Date": "20201111",
         "Topic": "Decode Your Communication Style",
         "Type": "CC"
       }
@@ -1790,10 +1780,6 @@
       {
         "Role": "TTE",
         "Date": "20201104"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20201111"
       }
     ],
     "Speech Records": []
@@ -2426,11 +2412,6 @@
         "Role": "TTM",
         "Date": "20201104",
         "Topic": "Story Sharing"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20201111",
-        "Topic": "Story Sharing"
       }
     ],
     "Speech Records": [
@@ -2945,10 +2926,6 @@
       {
         "Role": "Timer",
         "Date": "20201104"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20201111"
       }
     ],
     "Speech Records": []
