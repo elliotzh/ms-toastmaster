@@ -1,6 +1,7 @@
 11/11 (English) Microsoft Toastmasters Meeting （线下）
 Theme: Story Sharing
 TM: Davie
+<<<<<<< HEAD
 GE: 
 Timer: 
 Ah-counter: 
@@ -9,6 +10,16 @@ TTM: Bonnie
 TTE: 
 SP1: Bill
 SP1 Topic: 
+=======
+GE: Bill
+Timer: Pan Deng
+Ah-counter: 
+Wordsmith:  
+TTM: Kay
+TTE: Raymond
+SP1: Bonnie
+SP1 Topic: Decode Your Communication Style
+>>>>>>> master
 SP2: 
 SP2 Topic:
 IE1: Elliot

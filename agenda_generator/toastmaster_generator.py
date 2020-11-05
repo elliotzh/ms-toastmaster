@@ -396,8 +396,19 @@ def __main__():
         status = subprocess.check_output(["git", "status"]).decode("utf-8")
         print(status)
         if status.find("data/member_info.json") is not -1:
+            current_branch = subprocess.check_output(
+                ["git", "rev-parse", "--abbrev-ref", "HEAD"]).decode("utf-8").strip()
             subprocess.check_call(["git", "add", "."])
-            subprocess.check_call(["git", "commit", "-m", "feat: auto-generated change"])
+            subprocess.check_call([
+                "git",
+                "commit",
+                "-m",
+                "feat: auto-generated change",
+                "-m",
+                "preview link: "
+                "https://htmlpreview.github.io/?https://github.com/elliotzh/ms-toastmaster/blob/"
+                "{}/agenda_generator/output/agenda.html".format(current_branch)
+            ])
             run = subprocess.run([
                 "git", "remote", "set-url", "origin",
                 "https://{}@github.com/eliiotz/ms-toastmaster.git".format(git_token)
