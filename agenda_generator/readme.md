@@ -18,20 +18,17 @@
 
    ![image-20200505093515356](img/doc.wait-ci.png)
 
-6. 点击commits以确认任务完成情况。任务完成后会生成一个名为"feat: auto-generated change"的commit。该commit生成后点击上方的链接（在新窗口中打开）前往feat分支以下载生成的agenda
+6. 一段时间后，conversation中会出现一个新的change，在其详细信息中包含preview link
 
-   ![image-20200505094114175](img/doc.check-task-status.png)
+   ![image-20201105122037286](E:\Projects\ms-toastmaster\agenda_generator\img\doc.preview-link.png)
 
-7. 任务完成后，调整merge方式为squash and merge，完成Pull Request
+7. 如果预览后发现信息有误，可以通过直接修改feature branch中的内容或回到1来对会议信息进行更新
+
+8. 所有会议信息录入完成后，调整merge方式为squash and merge，完成Pull Request
 
    ![image-20200505094957990](img/doc.complete-pr.png)
 
-8. 访问[该链接](https://htmlpreview.github.io/?https://github.com/elliotzh/ms-toastmaster/blob/master/agenda_generator/output/agenda.html)
-对agenda进行预览和打印。
-
-9. 如果agenda有误，回到1
-
-10. 对于线下会议，记得打开腾讯问卷清空一下历史数据
+9. 对于线下会议，记得打开腾讯问卷清空一下历史数据
 
    
 
