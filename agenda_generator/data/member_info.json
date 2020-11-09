@@ -501,7 +501,7 @@
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
     "Nick Names": [],
-    "Current Level": "ACS14",
+    "Current Level": "ACS15",
     "Role Records": [
       {
         "Role": "Evaluator1",
@@ -641,10 +641,6 @@
       {
         "Role": "GE",
         "Date": "20201104"
-      },
-      {
-        "Role": "GE",
-        "Date": "20201111"
       }
     ],
     "Speech Records": [
@@ -744,6 +740,12 @@
         "Date": "20201021",
         "Topic": "look up",
         "Type": "CC"
+      },
+      {
+        "Level": "ACS15",
+        "Date": "20201111",
+        "Topic": "",
+        "Type": "CC"
       }
     ]
   },
@@ -751,7 +753,7 @@
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
     "Nick Names": [],
-    "Current Level": "ACS15",
+    "Current Level": "ACS14",
     "Role Records": [
       {
         "Role": "GE",
@@ -929,6 +931,11 @@
       {
         "Role": "IE",
         "Date": "20201021"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201111",
+        "Topic": "Double 11 Day"
       }
     ],
     "Speech Records": [
@@ -969,12 +976,6 @@
       {
         "Level": "ACS14",
         "Date": "20201104",
-        "Topic": "Decode Your Communication Style",
-        "Type": "CC"
-      },
-      {
-        "Level": "ACS15",
-        "Date": "20201111",
         "Topic": "Decode Your Communication Style",
         "Type": "CC"
       }
@@ -1242,7 +1243,7 @@
       {
         "Role": "Toastmaster",
         "Date": "20201111",
-        "Topic": "Story Sharing"
+        "Topic": "Double 11 Day"
       }
     ],
     "Speech Records": [
@@ -1312,7 +1313,12 @@
     "Chinese Name": "\u738b\u6f6e\u4e50\u840c",
     "Nick Names": [],
     "Current Level": "NotStarted",
-    "Role Records": [],
+    "Role Records": [
+      {
+        "Role": "Word Smith",
+        "Date": "20201111"
+      }
+    ],
     "Speech Records": []
   },
   {
@@ -1779,10 +1785,6 @@
       {
         "Role": "TTE",
         "Date": "20201104"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20201111"
       }
     ],
     "Speech Records": []
@@ -2415,11 +2417,6 @@
         "Role": "TTM",
         "Date": "20201104",
         "Topic": "Story Sharing"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20201111",
-        "Topic": "Story Sharing"
       }
     ],
     "Speech Records": [
@@ -2934,10 +2931,6 @@
       {
         "Role": "Timer",
         "Date": "20201104"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20201111"
       }
     ],
     "Speech Records": []
