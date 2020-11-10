@@ -8,7 +8,7 @@ Wordsmith: Frank
 TTM: Bonnie
 TTE: 
 SP1: Bill
-SP1 Topic:
+SP1 Topic: TBD
 SP2: 
 SP2 Topic:
 IE1: Elliot
