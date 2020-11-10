@@ -236,21 +236,30 @@ class Meeting:
 
     def table_topic_session(self, start_time):
         table_topic_session = Session(start_time, title="Table Topic Session")
+        if self.role_taken("TTE"):
+            self.append_event(
+                table_topic_session,
+                duration=25,
+                role_name="TTM",
+                event="Theme Introduction & Table Topic Session"
+            )
+            self.append_event(
+                table_topic_session,
+                duration=6,
+                role_name="TTE",
+                event="Table Topic Evaluation"
+            )
+        else:
+            self.append_event(
+                table_topic_session,
+                duration=30,
+                role_name="TTM",
+                event="Theme Introduction & Round Table"
+            )
+
         self.append_event(
             table_topic_session,
-            duration=25,
-            role_name="TTM",
-            event="Theme Introduction & Table Topic Session"
-        )
-        self.append_event(
-            table_topic_session,
-            duration=6,
-            role_name="TTE",
-            event="Table Topic Evaluation"
-        )
-        self.append_event(
-            table_topic_session,
-            duration=7,
+            duration=8,
             role_name="Toastmaster",
             event="Break Time",
             show_duration=False
@@ -328,7 +337,8 @@ class Meeting:
                 evaluation_session,
                 duration=5*self._new_member_count,
                 role_name="VPM",
-                event="Initiation Ceremony"
+                event="Initiation Ceremony",
+                show_duration=False
             )
 
         self.append_event(

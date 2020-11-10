@@ -26,7 +26,8 @@ class Session:
             g, y, r = "", "", str(duration)
 
         if show_duration is False:
-            g, y, r = "", "", ""
+            g, y, r = "", "", str(duration)
+            d = str(duration)
 
         self._rows.append(Session.create_row([
             ("col-time", self._current_time.strftime("%I:%M %p")),
