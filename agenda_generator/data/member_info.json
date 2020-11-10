@@ -744,7 +744,7 @@
       {
         "Level": "ACS15",
         "Date": "20201111",
-        "Topic": "",
+        "Topic": "TBD",
         "Type": "CC"
       }
     ]
@@ -1309,8 +1309,8 @@
     ]
   },
   {
-    "English Name": "Frank Wang",
-    "Chinese Name": "\u738b\u6f6e\u4e50\u840c",
+    "English Name": "Frank",
+    "Chinese Name": "Frank",
     "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
@@ -2417,6 +2417,10 @@
         "Role": "TTM",
         "Date": "20201104",
         "Topic": "Story Sharing"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20201111"
       }
     ],
     "Speech Records": [

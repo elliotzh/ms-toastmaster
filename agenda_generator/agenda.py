@@ -5,6 +5,7 @@ from typing import Dict, Optional, List
 from member import MemberInfo
 from datetime import datetime, timedelta
 
+
 class Session:
     def __init__(self, base_time: datetime, title=None):
         self._title = title
@@ -17,15 +18,16 @@ class Session:
         if duration >= 20:
             g, y, r = "1", "1.5", "2"
         elif duration >= 5:
-            g, y, r = str(duration-2), str(duration-1), str(duration)
+            g, y, r = str(duration - 2), str(duration - 1), str(duration)
             d = "{}-{}".format(g, r)
         elif duration >= 3:
-            g, y, r = str(duration-1), str(duration-0.5), str(duration)
+            g, y, r = str(duration - 1), str(duration - 0.5), str(duration)
         else:
             g, y, r = "", "", str(duration)
 
         if show_duration is False:
-            g, y, r = "", "", ""
+            g, y, r = "", "", str(duration)
+            d = str(duration)
 
         self._rows.append(Session.create_row([
             ("col-time", self._current_time.strftime("%I:%M %p")),
@@ -70,7 +72,8 @@ class Session:
 
 class Agenda:
     @classmethod
-    def template_localization(cls, template_path, language, additional_dict:Optional[Dict[str, Dict[str, str]]] = None):
+    def template_localization(cls, template_path, language,
+                              additional_dict: Optional[Dict[str, Dict[str, str]]] = None):
         with open(template_path, "r", encoding="utf-8") as html_file:
             html_template = html_file.read()
             html_file.close()
@@ -103,6 +106,7 @@ class Agenda:
 
     def append_session(self, session: Session):
         self._sessions.append(session)
+        return session
 
     def dump(self, output_path):
         current_soup = BeautifulSoup(self._template_str, features="html.parser")
@@ -112,6 +116,10 @@ class Agenda:
         with open(output_path, "w", encoding="utf-8") as out_file:
             out_file.write(current_soup.prettify())
             out_file.close()
+
+    @property
+    def current_datetime(self):
+        return self._sessions[-1].current_datetime
 
 
 def __main__():
@@ -141,9 +149,8 @@ def __main__():
             }),
             event="Meeting Opening & Welcome Guests  (20s/P)"
         )
-        agenda.append_session(session)
 
-        session = Session("7:15 PM", title="Table Topic Session")
+        session = Session(agenda.append_session(session).current_datetime, title="Table Topic Session")
         session.append_event(
             duration=25,
             role_name="Table Topic Master",

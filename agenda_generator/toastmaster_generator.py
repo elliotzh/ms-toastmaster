@@ -26,6 +26,7 @@ class Meeting:
         self._is_english = is_english
         self._theme = "TBD"
         self._speakers = []  # type: List[MemberInfo]
+        self._new_member_count = -1
 
         with open(PathUtil().get_config_path("time_dict"), "r", encoding="utf-8") as time_dict_file:
             self._time_dict = json.load(time_dict_file)
@@ -83,6 +84,11 @@ class Meeting:
 
     def parse_info(self, member_lib: MemberInfoLibrary):
         self._speakers.clear()
+        try:
+            self._new_member_count = int(self.try_get_info("NM"))
+        except:
+            self._new_member_count = -1
+
         self._theme = self.try_get_info("Theme")
 
         for i in range(1, 5):
@@ -124,146 +130,166 @@ class Meeting:
     def have_prepared_speech(self):
         return len(self._speakers) != 0
 
-    def to_agenda(self, output_path):
-        agenda = Agenda(self.language, self._theme, len(self._speakers))
+    def append_event(self, session, role_name, event, duration, show_duration=True):
+        role_name_dict = {
+            "SAA": "Sergeant at Arms (SAA)",
+            "GE": "General Evaluator",
+            "TTM": "Table Topic Master",
+            "TTE": "Table Topic Evaluator"
+        }
+        session.append_event(
+            duration=duration,
+            role_name=role_name_dict[role_name] if role_name in role_name_dict else role_name,
+            role_taker=self._function_role_taker[role_name],
+            event=event,
+            show_duration=show_duration
+        )
 
-        def append_event(session, role_name, event, duration, show_duration=True):
-            role_name_dict = {
-                "SAA": "Sergeant at Arms (SAA)",
-                "GE": "General Evaluator",
-                "TTM": "Table Topic Master",
-                "TTE": "Table Topic Evaluator"
-            }
-            session.append_event(
-                duration=duration,
-                role_name=role_name_dict[role_name] if role_name in role_name_dict else role_name,
-                role_taker=self._function_role_taker[role_name],
-                event=event,
-                show_duration=show_duration
-            )
-
-        real_ge = "GE" if self.role_taken("GE") else "Toastmaster"
-
-        # opening
-        opening_session = Session(datetime.datetime(self._year, self._month, self._day, 18, 40))
+    def opening_session(self, start_time):
+        opening_session = Session(start_time)
 
         if self.role_taken("SAA"):
-            append_event(
+            self.append_event(
                 opening_session,
                 duration=20,
                 role_name="SAA",
                 event="Registration/Greeting",
                 show_duration=False
             )
-            append_event(
+            self.append_event(
                 opening_session,
                 duration=4,
                 role_name="Toastmaster",
                 event="Meeting Opening"
             )
-            append_event(
+            self.append_event(
                 opening_session,
                 duration=5,
                 role_name="SAA",
                 event="Welcome Guests  (20s/P)"
             )
         else:
-            append_event(
+            self.append_event(
                 opening_session,
                 duration=20,
                 role_name="VPM",
                 event="Registration/Greeting",
                 show_duration=False
             )
-            append_event(
+            self.append_event(
                 opening_session,
                 duration=4,
                 role_name="Toastmaster",
                 event="Meeting Opening"
             )
-            append_event(
+            self.append_event(
                 opening_session,
                 duration=5,
                 role_name="VPM",
                 event="Welcome Guests  (20s/P)"
             )
 
-        append_event(
+        self.append_event(
             opening_session,
             duration=1,
-            role_name=real_ge,
+            role_name=self.real_ge,
             event="Evaluation Team: Purpose and Members"
         )
 
-        append_event(
+        self.append_event(
             opening_session,
             duration=1,
             role_name="Timer",
-            event="Time Guidelines"
+            event="Timer's Guidelines"
         )
 
+        if self.role_taken("Ah Counter"):
+            self.append_event(
+                opening_session,
+                duration=1,
+                role_name="Ah Counter",
+                event="Ah-Counter's Guidelines"
+            )
+
+        if self.role_taken("Word Smith"):
+            self.append_event(
+                opening_session,
+                duration=2,
+                role_name="Word Smith",
+                event="Word Smith's Guidelines"
+            )
+
         if self.role_taken("GE"):
-            append_event(
+            self.append_event(
                 opening_session,
                 duration=1,
                 role_name="GE",
                 event="Return control to Toastmaster"
             )
-        append_event(
+        self.append_event(
             opening_session,
             duration=1,
             role_name="Toastmaster",
             event="Introduce the Table Topic Master"
         )
+        return opening_session
 
-        agenda.append_session(opening_session)
+    def table_topic_session(self, start_time):
+        table_topic_session = Session(start_time, title="Table Topic Session")
+        if self.role_taken("TTE"):
+            self.append_event(
+                table_topic_session,
+                duration=25,
+                role_name="TTM",
+                event="Theme Introduction & Table Topic Session"
+            )
+            self.append_event(
+                table_topic_session,
+                duration=6,
+                role_name="TTE",
+                event="Table Topic Evaluation"
+            )
+        else:
+            self.append_event(
+                table_topic_session,
+                duration=30,
+                role_name="TTM",
+                event="Theme Introduction & Round Table"
+            )
 
-        # table topic session
-        table_topic_session = Session(opening_session.current_datetime, title="Table Topic Session")
-        append_event(
+        self.append_event(
             table_topic_session,
-            duration=25,
-            role_name="TTM",
-            event="Theme Introduction & Table Topic Session"
-        )
-        append_event(
-            table_topic_session,
-            duration=6,
-            role_name="TTE",
-            event="Table Topic Evaluation"
-        )
-        append_event(
-            table_topic_session,
-            duration=7,
+            duration=8,
             role_name="Toastmaster",
             event="Break Time",
             show_duration=False
         )
-        agenda.append_session(table_topic_session)
+        return table_topic_session
 
-        prepared_session = Session(table_topic_session.current_datetime, title="Prepared Speech Session")
-        if self.have_prepared_speech:
-            for i, speaker in enumerate(self._speakers):
-                o_s = ["1st", "2nd", "3rd", "4th"]
-                append_event(
-                    prepared_session,
-                    duration=1,
-                    role_name="Toastmaster",
-                    event="Introduce the {} Speaker".format(o_s[i])
-                )
-                prepared_session.append_event(
-                    duration=7,
-                    role_name="Prepared Speaker {}".format(i+1),
-                    event=speaker.last_speech_topic,
-                    role_taker=speaker
-                )
-            agenda.append_session(prepared_session)
+    def prepared_session(self, start_time):
+        prepared_session = Session(start_time, title="Prepared Speech Session")
+        for i, speaker in enumerate(self._speakers):
+            o_s = ["1st", "2nd", "3rd", "4th"]
+            self.append_event(
+                prepared_session,
+                duration=1,
+                role_name="Toastmaster",
+                event="Introduce the {} Speaker".format(o_s[i])
+            )
+            prepared_session.append_event(
+                duration=7,
+                role_name="Prepared Speaker {}".format(i + 1),
+                event=speaker.last_speech_topic,
+                role_taker=speaker
+            )
+        return prepared_session
 
-        evaluation_session = Session(prepared_session.current_datetime, title="Evaluation Session")
-        append_event(
+    def evaluation_session(self, start_time):
+        evaluation_session = Session(start_time, title="Evaluation Session")
+        self.append_event(
             evaluation_session,
             duration=1,
-            role_name=real_ge,
+            role_name=self.real_ge,
             event="Evaluation Session Opening"
         )
         for i, speaker in enumerate(self._speakers):
@@ -274,27 +300,74 @@ class Meeting:
                 event="Evaluate the {} Speaker".format(o_s[i]),
                 role_taker=self._function_role_taker["IE{}".format(i+1)]
             )
-        append_event(
+
+        if self.role_taken("Ah Counter"):
+            self.append_event(
+                evaluation_session,
+                duration=2,
+                role_name="Ah Counter",
+                event="Ah-Counter's Report"
+            )
+
+        if self.role_taken("Word Smith"):
+            self.append_event(
+                evaluation_session,
+                duration=2,
+                role_name="Word Smith",
+                event="Word Smith's Report"
+            )
+
+        self.append_event(
             evaluation_session,
             duration=3,
             role_name="Timer",
             event="Timer's Report"
         )
+
         if self.role_taken("GE"):
-            append_event(
+            self.append_event(
                 evaluation_session,
                 duration=5,
                 role_name="GE",
                 event="General Evaluator's Report"
             )
-        append_event(
+
+        if self._new_member_count > 0:
+            self.append_event(
+                evaluation_session,
+                duration=5*self._new_member_count,
+                role_name="VPM",
+                event="Initiation Ceremony",
+                show_duration=False
+            )
+
+        self.append_event(
             evaluation_session,
             duration=2,
             role_name="Toastmaster",
             event="Conclusion & Meeting Closing"
         )
 
-        agenda.append_session(evaluation_session)
+        return evaluation_session
+
+    @property
+    def real_ge(self) -> str:
+        return "GE" if self.role_taken("GE") else "Toastmaster"
+
+    def to_agenda(self, output_path):
+        agenda = Agenda(self.language, self._theme, len(self._speakers))
+
+        # opening
+        agenda.append_session(self.opening_session(datetime.datetime(self._year, self._month, self._day, 18, 40)))
+
+        # table topic session
+        agenda.append_session(self.table_topic_session(agenda.current_datetime))
+
+        # prepared session
+        if self.have_prepared_speech:
+            agenda.append_session(self.prepared_session(agenda.current_datetime))
+
+        agenda.append_session(self.evaluation_session(agenda.current_datetime))
         agenda.dump(output_path)
 
 
@@ -374,10 +447,11 @@ class ToastmasterAgendaGenerator:
 
 
 def __main__():
+    # sys.argv = ["", None, None]
     if len(sys.argv) == 3:
         _, current_log_path, call_role_path = sys.argv
         generator = ToastmasterAgendaGenerator()
-        generator.generate_agenda(call_role_path, current_log_path)
+        generator.generate_agenda(call_role_path, current_log_path, update_member_info=True)
     elif len(sys.argv) == 1:
         for root, _, files in os.walk(PathUtil().get_log_path("")):
             files = sorted(filter(lambda x: x.endswith(".txt"), files))
