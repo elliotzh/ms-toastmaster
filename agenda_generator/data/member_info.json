@@ -744,7 +744,7 @@
       {
         "Level": "ACS15",
         "Date": "20201111",
-        "Topic": "TBD",
+        "Topic": "Losing is Saving",
         "Type": "CC"
       }
     ]
@@ -1785,6 +1785,10 @@
       {
         "Role": "TTE",
         "Date": "20201104"
+      },
+      {
+        "Role": "GE",
+        "Date": "20201111"
       }
     ],
     "Speech Records": []
@@ -2205,6 +2209,10 @@
       },
       {
         "Role": "IE",
+        "Date": "20201111"
+      },
+      {
+        "Role": "TTE",
         "Date": "20201111"
       }
     ],
