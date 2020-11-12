@@ -32,7 +32,7 @@
 | 20200722 | 0       | 28.05   | 5705.61 | Zoom prevdiff (4 mo)   | Elliot Zhang                                                |
 | 20200810 | 400     | 105     | 6000.61 | Membership (to Sept.)  | Mengyun Wang                                                |
 | 20200819 | 100     | 315     | 5785.61 | Membership (to Mar 21) | Mengyun Wang                                                |
-| 20200822 | 400     |         | 6185.61 | Membership (to Mar 21) | Elliot Zhang                                                |
+| 20200822 | 400     |         | 6185.61 | Membership (to Mar 21) | Elliot                                                      |
 | 20200909 | 4400    |         | 10585.61| Membership (to Mar 21) | Bonnie, Bill, Sawyer, Davie, Kay, Raymond, Marissa, Shuhan  |
 |          |         |         |         |                        | Nancy, Harper, Julia                                        |
 | 20200910 | 140     |         | 10725.61| New membership fee     | Marissa                                                     |
@@ -41,3 +41,4 @@
 | 20200928 | 105.21  |         | 12430.82| Zoom (cancelled)       | Elliot                                                      |
 | 20201007 |         | 4239.1  | 8191.72 | Membership             | Elliot, Bonnie, Bill, Sawyer, Davie, Kay, Raymond, Marissa* |
 |          |         |         |         |                        | Shuhan, Nancy, Harper, Julia, Annie                         |
+| 20201022 |         | 922.53  | 7269.19 | Membership             | Brenda, Eileen, Alicia                                      |
