@@ -345,7 +345,14 @@ class Meeting:
             evaluation_session,
             duration=2,
             role_name="Toastmaster",
-            event="Conclusion & Meeting Closing"
+            event="Conclusion"
+        )
+
+        self.append_event(
+            evaluation_session,
+            duration=2,
+            role_name="President",
+            event="Meeting Closing"
         )
 
         return evaluation_session
