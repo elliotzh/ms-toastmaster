@@ -1,16 +1,15 @@
-11/11 (English) Microsoft Toastmasters Meeting （线下）
-Theme: Double 11 day
-TM: Davie
-GE: Raymond
-Timer: Kay
+11/18 (English) Microsoft Toastmasters Meeting （线下）
+Theme: The return of Guido 
+TM: Kay
+GE: Elliot
+Timer: Locke
 Ah-counter: 
-Wordsmith: Frank
-TTM: Bonnie
-TTE: Elliot
-SP1: Bill
-SP1 Topic: Losing is Saving
+Wordsmith:  
+TTM: Raymond 
+TTE: Bonnie 
+SP1: Pan
+SP1 Topic: What if...?
 SP2: 
 SP2 Topic:
-IE1: Elliot
-IE2: 
-NM: 2
+IE1: Davie
+IE2:
