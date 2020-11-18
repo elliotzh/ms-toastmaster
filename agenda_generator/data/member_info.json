@@ -2981,6 +2981,14 @@
     "Chinese Name": "Locke",
     "Nick Names": [],
     "Current Level": "NotStarted",
+    "Role Records": [],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Zhiwei",
+    "Chinese Name": "Zhiwei",
+    "Nick Names": [],
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Timer",
