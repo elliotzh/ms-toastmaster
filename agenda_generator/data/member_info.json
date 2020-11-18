@@ -936,6 +936,10 @@
         "Role": "TTM",
         "Date": "20201111",
         "Topic": "Double 11 day"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20201118"
       }
     ],
     "Speech Records": [
@@ -1244,6 +1248,10 @@
         "Role": "Toastmaster",
         "Date": "20201111",
         "Topic": "Double 11 day"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201118"
       }
     ],
     "Speech Records": [
@@ -1789,6 +1797,11 @@
       {
         "Role": "GE",
         "Date": "20201111"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201118",
+        "Topic": "The return of Guido"
       }
     ],
     "Speech Records": []
@@ -2214,6 +2227,10 @@
       {
         "Role": "TTE",
         "Date": "20201111"
+      },
+      {
+        "Role": "GE",
+        "Date": "20201118"
       }
     ],
     "Speech Records": [
@@ -2429,6 +2446,11 @@
       {
         "Role": "Timer",
         "Date": "20201111"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20201118",
+        "Topic": "The return of Guido"
       }
     ],
     "Speech Records": [
@@ -2938,11 +2960,31 @@
     "English Name": "Pan Deng",
     "Chinese Name": "Pan Deng",
     "Nick Names": [],
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
         "Date": "20201104"
+      }
+    ],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20201118",
+        "Topic": "What if...?",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Locke",
+    "Chinese Name": "Locke",
+    "Nick Names": [],
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20201118"
       }
     ],
     "Speech Records": []
