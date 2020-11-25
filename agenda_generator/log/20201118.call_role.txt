@@ -4,7 +4,7 @@ TM: Kay
 GE: Elliot
 Timer: Zhiwei
 Ah-counter: 
-Wordsmith:  
+Wordsmith: Frank
 TTM: Raymond 
 TTE: Bonnie 
 SP1: Pan
