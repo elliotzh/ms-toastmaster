@@ -310,6 +310,11 @@
         "Role": "TTM",
         "Date": "20200826",
         "Topic": "\u5173\u7cfb\u4e2d\u7684\u81ea\u6211"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201125",
+        "Topic": "\u5e94\u8be5\u601d\u7ef4-\u6d88\u6781\u60c5\u7eea\u7684\u4ea7\u751f"
       }
     ],
     "Speech Records": [
@@ -641,6 +646,10 @@
       {
         "Role": "GE",
         "Date": "20201104"
+      },
+      {
+        "Role": "GE",
+        "Date": "20201125"
       }
     ],
     "Speech Records": [
@@ -940,6 +949,11 @@
       {
         "Role": "TTE",
         "Date": "20201118"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20201125",
+        "Topic": "\u5e94\u8be5\u601d\u7ef4-\u6d88\u6781\u60c5\u7eea\u7684\u4ea7\u751f"
       }
     ],
     "Speech Records": [
@@ -1108,10 +1122,10 @@
     "Speech Records": []
   },
   {
-    "English Name": "Davie",
+    "English Name": "Davie Dong",
     "Chinese Name": "\u8463\u4f1f",
     "Nick Names": [],
-    "Current Level": "Level4-1",
+    "Current Level": "Level4-2",
     "Role Records": [
       {
         "Role": "GE",
@@ -1313,6 +1327,12 @@
         "Date": "20201028",
         "Topic": "My PATHWAY project outline",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level4-2",
+        "Date": "20201125",
+        "Topic": "Path Completion",
+        "Type": "pathway"
       }
     ]
   },
@@ -1329,6 +1349,10 @@
       {
         "Role": "Word Smith",
         "Date": "20201118"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20201125"
       }
     ],
     "Speech Records": []
@@ -2235,6 +2259,10 @@
       {
         "Role": "GE",
         "Date": "20201118"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201125"
       }
     ],
     "Speech Records": [
@@ -2387,10 +2415,10 @@
     ]
   },
   {
-    "English Name": "Kay",
-    "Chinese Name": "Kay",
+    "English Name": "Kay Kang",
+    "Chinese Name": "\u5eb7\u6631",
     "Nick Names": [],
-    "Current Level": "Level2-2",
+    "Current Level": "Level2-3",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2492,6 +2520,12 @@
         "Level": "Level2-2",
         "Date": "20200923",
         "Topic": "",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-3",
+        "Date": "20201125",
+        "Topic": "\u4f60\u4e00\u5b9a\u4f1a\u89c9\u5f97\u6709\u8da3\u7684\u624b\u8bed",
         "Type": "pathway"
       }
     ]
@@ -2985,12 +3019,17 @@
     "Chinese Name": "Locke",
     "Nick Names": [],
     "Current Level": "NotStarted",
-    "Role Records": [],
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20201125"
+      }
+    ],
     "Speech Records": []
   },
   {
-    "English Name": "Zhiwei",
-    "Chinese Name": "Zhiwei",
+    "English Name": "Zhiwei Yu",
+    "Chinese Name": "\u4e8e\u667a\u8587",
     "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [

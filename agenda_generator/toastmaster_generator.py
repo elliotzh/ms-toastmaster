@@ -319,9 +319,16 @@ class Meeting:
 
         self.append_event(
             evaluation_session,
-            duration=3,
+            duration=2,
             role_name="Timer",
             event="Timer's Report"
+        )
+
+        self.append_event(
+            evaluation_session,
+            duration=1,
+            role_name="GE" if self.role_taken("GE") else "Toastmaster",
+            event="Request Feedbacks from Audience"
         )
 
         if self.role_taken("GE"):
@@ -337,7 +344,7 @@ class Meeting:
                 evaluation_session,
                 duration=5*self._new_member_count,
                 role_name="VPM",
-                event="Initiation Ceremony",
+                event="Induction of New Members",
                 show_duration=False
             )
 
@@ -365,7 +372,7 @@ class Meeting:
         agenda = Agenda(self.language, self._theme, len(self._speakers))
 
         # opening
-        agenda.append_session(self.opening_session(datetime.datetime(self._year, self._month, self._day, 18, 40)))
+        agenda.append_session(self.opening_session(datetime.datetime(self._year, self._month, self._day, 18, 45)))
 
         # table topic session
         agenda.append_session(self.table_topic_session(agenda.current_datetime))
@@ -454,7 +461,6 @@ class ToastmasterAgendaGenerator:
 
 
 def __main__():
-    # sys.argv = ["", None, None]
     if len(sys.argv) == 3:
         _, current_log_path, call_role_path = sys.argv
         generator = ToastmasterAgendaGenerator()
@@ -500,4 +506,6 @@ def __main__():
 
 
 if __name__ == "__main__":
+    # generator = ToastmasterAgendaGenerator()
+    # generator.generate_agenda(update_member_info=True)
     __main__()
