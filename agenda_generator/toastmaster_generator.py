@@ -266,6 +266,18 @@ class Meeting:
         )
         return table_topic_session
 
+    def get_speech_duration(self, speaker: MemberInfo, speech_index=-1):
+        duration = -1
+        for time_setting in self._time_dict:
+            if "levels" not in time_setting or speaker.current_level in time_setting["levels"]:
+                duration = time_setting["duration"]
+
+        overwrite = self.try_get_info("SPT{}".format(speech_index+1))
+        if len(overwrite) is not 0:
+            duration = int(overwrite)
+
+        return duration
+
     def prepared_session(self, start_time):
         prepared_session = Session(start_time, title="Prepared Speech Session")
         for i, speaker in enumerate(self._speakers):
@@ -277,7 +289,7 @@ class Meeting:
                 event="Introduce the {} Speaker".format(o_s[i])
             )
             prepared_session.append_event(
-                duration=7,
+                duration=self.get_speech_duration(speaker, speech_index=i),
                 role_name="Prepared Speaker {}".format(i + 1),
                 event=speaker.last_speech_topic,
                 role_taker=speaker
@@ -387,8 +399,10 @@ class Meeting:
 
 class ToastmasterAgendaGenerator:
     def __init__(self, current_year=None):
-        self.time_dict = {
-        }
+        # from path_util import PathUtil
+        # with open(PathUtil().get_config_path("time_dict"), "r", encoding="utf-8") as time_dict_file:
+        #     self.time_dict = json.load(time_dict_file)
+        #     time_dict_file.close()
         self._current_year = current_year
 
     @property

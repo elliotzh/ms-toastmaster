@@ -8,8 +8,10 @@ Wordsmith:
 TTM: Sawyer
 TTE: Frank
 SP1: Kay
+SPT1: 10
 SP1 Topic: 你一定会觉得有趣的手语
 SP2: Davie
+SPT2: 5
 SP2 Topic: Path Completion
 IE1: Elliot
 NM: 1
