@@ -13,7 +13,9 @@ class Session:
         self._base_time = base_time
         self._current_time = base_time
 
-    def append_event(self, duration, role_name, event, role_taker: MemberInfo, show_duration=True):
+    def append_event(self, duration, role_name, event, role_taker: MemberInfo, show_duration=True, allow_tbd=False):
+        if allow_tbd is False and role_taker.english_name == "TBD":
+            return False
         d = str(duration)
         if duration >= 20:
             g, y, r = "1", "1.5", "2"
@@ -41,6 +43,7 @@ class Session:
         ]))
 
         self._current_time += timedelta(minutes=duration)
+        return True
 
     def dump_to_element(self):
         soup = BeautifulSoup("<div class=\"session\"></div>", features="html.parser")
