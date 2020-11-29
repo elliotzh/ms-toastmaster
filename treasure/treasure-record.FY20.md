@@ -44,3 +44,4 @@
 | 20201022 |         | 922.53  | 7269.19 | Membership             | Brenda, Eileen, Alicia                                      |
 | 20201106 | 1800    |         | 9069.19 | Membership (new)       | Pan, Locke, Zhiwei, Haoyu                                   |
 | 20201118 |         | 350     | 8719.19 | Morale (dinner)        | Elliot                                                      |
+| 20201129 |         | 450     | 9169.19 | Membership (new)       | Fengling                                                      |
