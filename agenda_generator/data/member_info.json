@@ -650,6 +650,10 @@
       {
         "Role": "GE",
         "Date": "20201125"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201202"
       }
     ],
     "Speech Records": [
@@ -954,6 +958,10 @@
         "Role": "Toastmaster",
         "Date": "20201125",
         "Topic": "\u5e94\u8be5\u601d\u7ef4-\u6d88\u6781\u60c5\u7eea\u7684\u4ea7\u751f"
+      },
+      {
+        "Role": "GE",
+        "Date": "20201202"
       }
     ],
     "Speech Records": [
@@ -1353,6 +1361,10 @@
       {
         "Role": "TTE",
         "Date": "20201125"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20201202"
       }
     ],
     "Speech Records": []
@@ -1830,6 +1842,10 @@
         "Role": "TTM",
         "Date": "20201118",
         "Topic": "The return of Guido"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20201202"
       }
     ],
     "Speech Records": []
@@ -1994,7 +2010,7 @@
     "English Name": "Elliot Zhang",
     "Chinese Name": "\u5f20\u9192\u4e4b",
     "Nick Names": [],
-    "Current Level": "Level1-2-2",
+    "Current Level": "Level1-3",
     "Role Records": [
       {
         "Role": "Toastmaster",
@@ -2283,6 +2299,12 @@
         "Date": "20191127",
         "Topic": "\u8bfb\u300a\u4e2d\u56fd\u54f2\u5b66\u7b80\u53f2\u300b I - \u4e2d\u56fd\u54f2\u5b66\u4e4b\u7cbe",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20201202",
+        "Topic": "Arguments for the Existense of the Soul",
+        "Type": "pathway"
       }
     ]
   },
@@ -2483,6 +2505,11 @@
         "Role": "Toastmaster",
         "Date": "20201118",
         "Topic": "The return of Guido"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201202",
+        "Topic": "Act It Out"
       }
     ],
     "Speech Records": [
@@ -2914,6 +2941,11 @@
       {
         "Role": "IE",
         "Date": "20201021"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20201202",
+        "Topic": "Act It Out"
       }
     ],
     "Speech Records": [
@@ -3003,6 +3035,10 @@
       {
         "Role": "Timer",
         "Date": "20201104"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20201202"
       }
     ],
     "Speech Records": [
@@ -3018,14 +3054,21 @@
     "English Name": "Locke",
     "Chinese Name": "Locke",
     "Nick Names": [],
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
         "Date": "20201125"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20201202",
+        "Topic": "Change the Game",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Zhiwei Yu",
@@ -3036,6 +3079,23 @@
       {
         "Role": "Timer",
         "Date": "20201118"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201202"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Fengling",
+    "Chinese Name": "Fengling",
+    "Nick Names": [],
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20201202"
       }
     ],
     "Speech Records": []
