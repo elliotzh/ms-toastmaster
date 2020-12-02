@@ -1,17 +1,16 @@
-11/25 (Chinese) Microsoft Toastmasters Meeting （线下）
-Theme: 应该思维-消极情绪的产生
-TM: Bonnie
-GE: Bill
-Timer: Locke
-Ah-counter:
-Wordsmith:
-TTM: Sawyer
-TTE: Frank
-SP1: Kay
-SPT1: 10
-SP1 Topic: 你一定会觉得有趣的手语
-SP2: Davie
-SPT2: 5
-SP2 Topic: Path Completion
-IE1: Elliot
-NM: 1
+12/2 (English) Microsoft Toastmasters Meeting （线下）
+Theme: Act It Out
+TM: Madison
+GE: Bonnie
+Timer: Fengling
+Ah-counter: Pan
+Wordsmith: Frank
+TTM: Kay
+TTE: Raymond 
+SP1: Locke
+SP1 Topic: Change the Game
+SP2: Elliot
+SP2 Topic: Arguments for the Existense of the Soul
+SPT2:10
+IE1: Bill
+IE2: Zhiwei
