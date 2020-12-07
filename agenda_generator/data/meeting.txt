@@ -1,16 +1,18 @@
-12/2 (English) Microsoft Toastmasters Meeting （线下）
-Theme: Act It Out
-TM: Madison
-GE: Bonnie
-Timer: Fengling
-Ah-counter: Pan
-Wordsmith: Frank
-TTM: Kay
-TTE: Raymond 
-SP1: Locke
-SP1 Topic: Change the Game
-SP2: Elliot
-SP2 Topic: Arguments for the Existense of the Soul
-SPT2:10
-IE1: Bill
-IE2: Zhiwei
+12/9 (English) Microsoft Toastmasters Meeting （线下）
+Theme: Rethinking Perseverance
+TM: Elliot
+GE: Bill
+Timer: Marissa
+Ah-counter: Fengling
+Wordsmith: Pan
+TTM: Frank
+TTE: Kay
+SP1: Zhiwei
+SP1 Topic:
+SP2: Madison
+SP2 Topic:
+SP3: Shuhan
+SP3 Topic: From Common Law to Regulation
+IE1: Nancy
+IE2: Raymond
+IE3: Bonnie

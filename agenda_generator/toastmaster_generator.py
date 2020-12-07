@@ -160,7 +160,7 @@ class Meeting:
                 opening_session,
                 duration=4,
                 role_name="Toastmaster",
-                event="Meeting Opening"
+                event="Meeting Opening & Privacy Statement"
             )
             self.append_event(
                 opening_session,
