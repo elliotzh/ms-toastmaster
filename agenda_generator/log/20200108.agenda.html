@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <style>
+   * {
+            box-sizing: border-box;
+            text-align: center;
+            font-size: small;
+            font-family: Arial;
+        }
+
+        .row {
+            border-top: 1px solid;
+            display: flex;
+        }
+
+        .fit-height {
+            height: 100%;
+        }
+
+        .table {
+            width: 270mm;
+            height: 287mm;
+        }
+
+        .column {
+            float: left;
+            padding: 5px;
+            display: table-cell;
+            border-left: 1px solid;
+        }
+
+        .last-column {
+            border-right: 1px solid;
+        }
+        
+        .last-row {
+            border-bottom: 1px solid;
+        }
+
+        .col-time {
+            width: 10%;
+        }
+
+        .col-role {
+            width: 18%;
+        }
+
+        .col-event {
+            width: 29%;
+        }
+
+        .col-card {
+            width: 5%;
+        }
+
+        .col-left {
+            width: 90%;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+        
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+        
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .head {
+            font-weight: bold;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="table">
+   <div class="row">
+    <div class="column col-2" style="padding: 2px;">
+     <img class="col-12" src="..\img\icon-club.png"/>
+    </div>
+    <div class="column col-8" style="border-left: none;">
+     <p>
+      <h1>
+       Welcome to Microsoft Beijing Toastmaster Club
+      </h1>
+     </p>
+     <p>
+      Time: 19:00~21:00, every Wednesday night
+     </p>
+     <p>
+      Venue: Room Gu Gong, F1, Microsoft Build 1, Danling St. Zhongguancun West Zone Haidian Dist.
+     </p>
+    </div>
+    <div class="column col-2 last-column" style="border-left: none; padding: 2px;">
+     <img class="col-12" src="..\img\qrcode-club.png"/>
+    </div>
+   </div>
+   <div class="row">
+    <div class="column col-time">
+     Mission
+    </div>
+    <div class="column col-left text-left last-column">
+     We provide a supportive and positive learning experience in which members are empowered to develop communication and leadership skills, resulting in greater self-confidence and personal growth.
+    </div>
+   </div>
+   <div class="row">
+    <div class="column col-12 last-column">
+     <b>
+      Theme Today: New Flag
+     </b>
+    </div>
+   </div>
+   <div class="row">
+    <div class="column col-time head">
+     Time
+    </div>
+    <div class="column col-role head">
+     Meeting Role
+    </div>
+    <div class="column col-event head">
+     Program Event
+    </div>
+    <div class="column col-role head">
+     Member
+    </div>
+    <div class="column col-time head">
+     Duration (mins)
+    </div>
+    <div class="column col-card head">
+     G
+    </div>
+    <div class="column col-card head">
+     Y
+    </div>
+    <div class="column col-card head last-column">
+     R
+    </div>
+   </div>
+   <div id="body">
+    <div class="session">
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      06:45 PM
+     </div>
+     <div class="column col-role">
+      VPM
+     </div>
+     <div class="column col-event">
+      Registration/Greeting
+     </div>
+     <div class="column col-role">
+      Bonnie Wang
+     </div>
+     <div class="column col-time">
+      20
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      20
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:05 PM
+     </div>
+     <div class="column col-role">
+      Toastmaster
+     </div>
+     <div class="column col-event">
+      Meeting Opening
+     </div>
+     <div class="column col-role">
+      Sawyer
+     </div>
+     <div class="column col-time">
+      4
+     </div>
+     <div class="column col-card">
+      3
+     </div>
+     <div class="column col-card">
+      3.5
+     </div>
+     <div class="column col-card last-column">
+      4
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:09 PM
+     </div>
+     <div class="column col-role">
+      VPM
+     </div>
+     <div class="column col-event">
+      Welcome Guests  (20s/P)
+     </div>
+     <div class="column col-role">
+      Bonnie Wang
+     </div>
+     <div class="column col-time">
+      3-5
+     </div>
+     <div class="column col-card">
+      3
+     </div>
+     <div class="column col-card">
+      4
+     </div>
+     <div class="column col-card last-column">
+      5
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:14 PM
+     </div>
+     <div class="column col-role">
+      General Evaluator
+     </div>
+     <div class="column col-event">
+      Evaluation Team: Purpose and Members
+     </div>
+     <div class="column col-role">
+      Bill Lin
+     </div>
+     <div class="column col-time">
+      1
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      1
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:15 PM
+     </div>
+     <div class="column col-role">
+      Timer
+     </div>
+     <div class="column col-event">
+      Timer's Guidelines
+     </div>
+     <div class="column col-role">
+      Lewis
+     </div>
+     <div class="column col-time">
+      1
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      1
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:16 PM
+     </div>
+     <div class="column col-role">
+      Word Smith
+     </div>
+     <div class="column col-event">
+      Word Smith's Guidelines
+     </div>
+     <div class="column col-role">
+      Lizzie FM TMC
+     </div>
+     <div class="column col-time">
+      2
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      2
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:18 PM
+     </div>
+     <div class="column col-role">
+      General Evaluator
+     </div>
+     <div class="column col-event">
+      Return control to Toastmaster
+     </div>
+     <div class="column col-role">
+      Bill Lin
+     </div>
+     <div class="column col-time">
+      1
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      1
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:19 PM
+     </div>
+     <div class="column col-role">
+      Toastmaster
+     </div>
+     <div class="column col-event">
+      Introduce the Table Topic Master
+     </div>
+     <div class="column col-role">
+      Sawyer
+     </div>
+     <div class="column col-time">
+      1
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      1
+     </div>
+    </div>
+    <div class="session">
+    </div>
+    <div class="row">
+     <div class="column col-12 head last-column">
+      Table Topic Session
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:20 PM
+     </div>
+     <div class="column col-role">
+      Table Topic Master
+     </div>
+     <div class="column col-event">
+      Theme Introduction &amp; Table Topic Session
+     </div>
+     <div class="column col-role">
+      Elliot Zhang
+     </div>
+     <div class="column col-time">
+      25
+     </div>
+     <div class="column col-card">
+      1
+     </div>
+     <div class="column col-card">
+      1.5
+     </div>
+     <div class="column col-card last-column">
+      2
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:45 PM
+     </div>
+     <div class="column col-role">
+      Table Topic Evaluator
+     </div>
+     <div class="column col-event">
+      Table Topic Evaluation
+     </div>
+     <div class="column col-role">
+      Raymond Lu
+     </div>
+     <div class="column col-time">
+      4-6
+     </div>
+     <div class="column col-card">
+      4
+     </div>
+     <div class="column col-card">
+      5
+     </div>
+     <div class="column col-card last-column">
+      6
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:51 PM
+     </div>
+     <div class="column col-role">
+      Toastmaster
+     </div>
+     <div class="column col-event">
+      Break Time
+     </div>
+     <div class="column col-role">
+      Sawyer
+     </div>
+     <div class="column col-time">
+      8
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      8
+     </div>
+    </div>
+    <div class="session">
+    </div>
+    <div class="row">
+     <div class="column col-12 head last-column">
+      Prepared Speech Session
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      07:59 PM
+     </div>
+     <div class="column col-role">
+      Toastmaster
+     </div>
+     <div class="column col-event">
+      Introduce the 1st Speaker
+     </div>
+     <div class="column col-role">
+      Sawyer
+     </div>
+     <div class="column col-time">
+      1
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      1
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:00 PM
+     </div>
+     <div class="column col-role">
+      Prepared Speaker 1
+     </div>
+     <div class="column col-event">
+     </div>
+     <div class="column col-role">
+      Bill Lin
+     </div>
+     <div class="column col-time">
+      5-7
+     </div>
+     <div class="column col-card">
+      5
+     </div>
+     <div class="column col-card">
+      6
+     </div>
+     <div class="column col-card last-column">
+      7
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:07 PM
+     </div>
+     <div class="column col-role">
+      Toastmaster
+     </div>
+     <div class="column col-event">
+      Introduce the 2nd Speaker
+     </div>
+     <div class="column col-role">
+      Sawyer
+     </div>
+     <div class="column col-time">
+      1
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      1
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:08 PM
+     </div>
+     <div class="column col-role">
+      Prepared Speaker 2
+     </div>
+     <div class="column col-event">
+      中国服饰美的流变（中文）
+     </div>
+     <div class="column col-role">
+      Grace
+     </div>
+     <div class="column col-time">
+      5-7
+     </div>
+     <div class="column col-card">
+      5
+     </div>
+     <div class="column col-card">
+      6
+     </div>
+     <div class="column col-card last-column">
+      7
+     </div>
+    </div>
+    <div class="session">
+    </div>
+    <div class="row">
+     <div class="column col-12 head last-column">
+      Evaluation Session
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:15 PM
+     </div>
+     <div class="column col-role">
+      General Evaluator
+     </div>
+     <div class="column col-event">
+      Evaluation Session Opening
+     </div>
+     <div class="column col-role">
+      Bill Lin
+     </div>
+     <div class="column col-time">
+      1
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      1
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:16 PM
+     </div>
+     <div class="column col-role">
+      Individual Evaluator 1
+     </div>
+     <div class="column col-event">
+      Evaluate the 1st Speaker
+     </div>
+     <div class="column col-role">
+      Sawyer
+     </div>
+     <div class="column col-time">
+      3
+     </div>
+     <div class="column col-card">
+      2
+     </div>
+     <div class="column col-card">
+      2.5
+     </div>
+     <div class="column col-card last-column">
+      3
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:19 PM
+     </div>
+     <div class="column col-role">
+      Individual Evaluator 2
+     </div>
+     <div class="column col-event">
+      Evaluate the 2nd Speaker
+     </div>
+     <div class="column col-role">
+      Harper
+     </div>
+     <div class="column col-time">
+      3
+     </div>
+     <div class="column col-card">
+      2
+     </div>
+     <div class="column col-card">
+      2.5
+     </div>
+     <div class="column col-card last-column">
+      3
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:22 PM
+     </div>
+     <div class="column col-role">
+      Word Smith
+     </div>
+     <div class="column col-event">
+      Word Smith's Report
+     </div>
+     <div class="column col-role">
+      Lizzie FM TMC
+     </div>
+     <div class="column col-time">
+      2
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      2
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:24 PM
+     </div>
+     <div class="column col-role">
+      Timer
+     </div>
+     <div class="column col-event">
+      Timer's Report
+     </div>
+     <div class="column col-role">
+      Lewis
+     </div>
+     <div class="column col-time">
+      2
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      2
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:26 PM
+     </div>
+     <div class="column col-role">
+      General Evaluator
+     </div>
+     <div class="column col-event">
+      Request Feedbacks from Audience
+     </div>
+     <div class="column col-role">
+      Bill Lin
+     </div>
+     <div class="column col-time">
+      1
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      1
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:27 PM
+     </div>
+     <div class="column col-role">
+      General Evaluator
+     </div>
+     <div class="column col-event">
+      General Evaluator's Report
+     </div>
+     <div class="column col-role">
+      Bill Lin
+     </div>
+     <div class="column col-time">
+      3-5
+     </div>
+     <div class="column col-card">
+      3
+     </div>
+     <div class="column col-card">
+      4
+     </div>
+     <div class="column col-card last-column">
+      5
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:32 PM
+     </div>
+     <div class="column col-role">
+      Toastmaster
+     </div>
+     <div class="column col-event">
+      Conclusion
+     </div>
+     <div class="column col-role">
+      Sawyer
+     </div>
+     <div class="column col-time">
+      2
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      2
+     </div>
+    </div>
+    <div class="row">
+     <div class="column col-time">
+      08:34 PM
+     </div>
+     <div class="column col-role">
+      President
+     </div>
+     <div class="column col-event">
+      Meeting Closing
+     </div>
+     <div class="column col-role">
+      Elliot Zhang
+     </div>
+     <div class="column col-time">
+      2
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card">
+     </div>
+     <div class="column col-card last-column">
+      2
+     </div>
+    </div>
+   </div>
+   <div class="row last-row">
+    <div class="column col-8">
+     <p class="text-left head">
+      How to join our club?
+     </p>
+     <p class="text-left">
+      Step 1: Inform our VPM asap, and attend at least three meetings of this Club as a guest.
+     </p>
+     <p class="text-left">
+      Step 2: Participate in at least two Table Topics Sessions to deliver qualified impromptu speeches.
+     </p>
+     <p class="text-left">
+      Step 3: Contact and make an appointment with our VPM Bonnie Wang ( WeChat: Bonniewyy ).
+     </p>
+     <p class="text-left">
+      Step 4: Deliver the prepared
+      <b>
+       one-full-minute
+      </b>
+      speech to win club members' vote and pay membership fee.
+     </p>
+     <p class="text-left head">
+      Meeting Manners &amp; Etiquettes
+     </p>
+     <p class="text-left">
+      1. Mobile: Please turn mobile phone to vibration
+     </p>
+     <p class="text-left">
+      2. Language: Please speak in English. And no private talk during the meeting.
+     </p>
+     <p class="text-left">
+      3. Support: Please keep applauding when the speakers walk up and down the stage. Don't forget to shake hands when you turn the floor over to others
+     </p>
+     <p class="text-left">
+      4. Note: No topics about religion, race, politics and sex during the meeting
+     </p>
+    </div>
+    <div class="column col-4 last-column" style="padding: 80px">
+     <img class="col-12" src="..\img\qrcode-vote-2.png"/>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

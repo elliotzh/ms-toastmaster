@@ -464,7 +464,10 @@ class ToastmasterAgendaGenerator:
             next_meeting.parse_info(member_info_lib)
             print(str(next_meeting))
 
-            next_meeting.to_agenda(self.path_util.get_output_path("agenda.html"))
+            agenda_path = self.path_util.get_output_path("agenda.html")
+            next_meeting.to_agenda(agenda_path)
+            import shutil
+            shutil.copy2(agenda_path, self.path_util.get_log_path("{0}.agenda.html".format(next_meeting.date_str)))
 
             if update_member_info is False:
                 member_info_lib.dump(self.path_util.get_output_path(
