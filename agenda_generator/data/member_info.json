@@ -362,7 +362,7 @@
     "Nick Names": [
       "Walter"
     ],
-    "Current Level": "Level3-2-2",
+    "Current Level": "Level3-3-1",
     "Role Records": [
       {
         "Role": "TTE",
@@ -458,6 +458,12 @@
         "Level": "Level3-2-2",
         "Date": "20200819",
         "Topic": "\u623f\u4ea7\u8bc1\u4e0a\u7684\u5c45\u4f4f\u6743",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-3-1",
+        "Date": "20201209",
+        "Topic": "From Common Law to Regulation",
         "Type": "pathway"
       }
     ]
@@ -654,6 +660,10 @@
       {
         "Role": "IE",
         "Date": "20201202"
+      },
+      {
+        "Role": "GE",
+        "Date": "20201209"
       }
     ],
     "Speech Records": [
@@ -962,6 +972,10 @@
       {
         "Role": "GE",
         "Date": "20201202"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201209"
       }
     ],
     "Speech Records": [
@@ -1365,6 +1379,11 @@
       {
         "Role": "Word Smith",
         "Date": "20201202"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20201209",
+        "Topic": "Rethinking Perseverance"
       }
     ],
     "Speech Records": []
@@ -1616,6 +1635,10 @@
       {
         "Role": "IE",
         "Date": "20200722"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201209"
       }
     ],
     "Speech Records": []
@@ -1846,6 +1869,10 @@
       {
         "Role": "TTE",
         "Date": "20201202"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201209"
       }
     ],
     "Speech Records": []
@@ -2279,6 +2306,11 @@
       {
         "Role": "IE",
         "Date": "20201125"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20201209",
+        "Topic": "Rethinking Perseverance"
       }
     ],
     "Speech Records": [
@@ -2510,6 +2542,10 @@
         "Role": "TTM",
         "Date": "20201202",
         "Topic": "Act It Out"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20201209"
       }
     ],
     "Speech Records": [
@@ -2915,7 +2951,7 @@
       "Meng Yun",
       "Madision"
     ],
-    "Current Level": "Level1-2-2",
+    "Current Level": "Level1-3",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -2965,6 +3001,12 @@
         "Level": "Level1-2-2",
         "Date": "20201014",
         "Topic": "Kids know everything",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20201209",
+        "Topic": "",
         "Type": "pathway"
       }
     ]
@@ -3039,6 +3081,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20201202"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20201209"
       }
     ],
     "Speech Records": [
@@ -3074,7 +3120,7 @@
     "English Name": "Zhiwei Yu",
     "Chinese Name": "\u4e8e\u667a\u8587",
     "Nick Names": [],
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3085,7 +3131,14 @@
         "Date": "20201202"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20201209",
+        "Topic": "",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Fengling",
@@ -3096,6 +3149,23 @@
       {
         "Role": "Timer",
         "Date": "20201202"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20201209"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Marissa",
+    "Chinese Name": "Marissa",
+    "Nick Names": [],
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20201209"
       }
     ],
     "Speech Records": []
