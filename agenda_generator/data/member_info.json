@@ -1635,10 +1635,6 @@
       {
         "Role": "IE",
         "Date": "20200722"
-      },
-      {
-        "Role": "IE",
-        "Date": "20201209"
       }
     ],
     "Speech Records": []
@@ -1909,6 +1905,10 @@
       {
         "Role": "GE",
         "Date": "20191211"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201209"
       }
     ],
     "Speech Records": [
@@ -3006,7 +3006,7 @@
       {
         "Level": "Level1-3",
         "Date": "20201209",
-        "Topic": "",
+        "Topic": "What is Hidden behind the Versailles Literature?",
         "Type": "pathway"
       }
     ]
@@ -3135,7 +3135,7 @@
       {
         "Level": "Level1-1",
         "Date": "20201209",
-        "Topic": "",
+        "Topic": "Imperfection is Powerful",
         "Type": "pathway"
       }
     ]
