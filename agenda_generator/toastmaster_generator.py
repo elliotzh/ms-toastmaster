@@ -148,46 +148,26 @@ class Meeting:
     def opening_session(self, start_time):
         opening_session = Session(start_time)
 
-        if self.role_taken("SAA"):
-            self.append_event(
-                opening_session,
-                duration=20,
-                role_name="SAA",
-                event="Registration/Greeting",
-                show_duration=False
-            )
-            self.append_event(
-                opening_session,
-                duration=4,
-                role_name="Toastmaster",
-                event="Meeting Opening & Privacy Statement"
-            )
-            self.append_event(
-                opening_session,
-                duration=5,
-                role_name="SAA",
-                event="Welcome Guests  (20s/P)"
-            )
-        else:
-            self.append_event(
-                opening_session,
-                duration=20,
-                role_name="VPM",
-                event="Registration/Greeting",
-                show_duration=False
-            )
-            self.append_event(
-                opening_session,
-                duration=4,
-                role_name="Toastmaster",
-                event="Meeting Opening"
-            )
-            self.append_event(
-                opening_session,
-                duration=5,
-                role_name="VPM",
-                event="Welcome Guests  (20s/P)"
-            )
+        real_saa = "SAA" if self.role_taken("SAA") else "VPM"
+        self.append_event(
+            opening_session,
+            duration=20,
+            role_name=real_saa,
+            event="Registration/Greeting",
+            show_duration=False
+        )
+        self.append_event(
+            opening_session,
+            duration=4,
+            role_name="Toastmaster",
+            event="Meeting Opening & Privacy Statement"
+        )
+        self.append_event(
+            opening_session,
+            duration=5,
+            role_name=real_saa,
+            event="Welcome Guests  (20s/P)"
+        )
 
         self.append_event(
             opening_session,
