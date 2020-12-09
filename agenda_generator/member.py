@@ -158,7 +158,7 @@ class MemberInfoLibrary:
                     member_info.chinese_name,
                     *member_info.nick_names
                 ]:
-                    if name.lower().find(role_taker_name.lower()) is not -1:
+                    if name.lower().find(role_taker_name.lower()) is 0:
                         return member_info
         else:
             return MemberInfo({

@@ -1901,14 +1901,6 @@
         "Role": "Toastmaster",
         "Date": "20191127",
         "Topic": "\u9075\u4ece\u81ea\u5df1\u5185\u5fc3or\u5411\u73af\u5883\u5c48\u670d"
-      },
-      {
-        "Role": "GE",
-        "Date": "20191211"
-      },
-      {
-        "Role": "IE",
-        "Date": "20201209"
       }
     ],
     "Speech Records": [
@@ -1935,7 +1927,9 @@
   {
     "English Name": "Xiaohui",
     "Chinese Name": "\u738b\u5c0f\u4f1a",
-    "Nick Names": [],
+    "Nick Names": [
+      "\u5c0f\u4f1a"
+    ],
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2672,10 +2666,6 @@
       {
         "Role": "Timer",
         "Date": "20190814"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20200415"
       }
     ],
     "Speech Records": []
@@ -2753,10 +2743,6 @@
     "Nick Names": [],
     "Current Level": "NotStarted",
     "Role Records": [
-      {
-        "Role": "IE",
-        "Date": "20191106"
-      },
       {
         "Role": "GE",
         "Date": "20191106"
@@ -3057,9 +3043,15 @@
   {
     "English Name": "TBD",
     "Chinese Name": "TBD",
-    "Nick Names": [],
+    "Nick Names": [
+      "Guest"
+    ],
     "Current Level": "NotStarted",
     "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20200415"
+      },
       {
         "Role": "Timer",
         "Date": "20200909"
@@ -3169,7 +3161,29 @@
     "Chinese Name": "Rena Zhou",
     "Nick Names": [],
     "Current Level": "NotStarted",
-    "Role Records": [],
+    "Role Records": [
+      {
+        "Role": "GE",
+        "Date": "20191211"
+      },
+      {
+        "Role": "IE",
+        "Date": "20201209"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Erin",
+    "Chinese Name": "Erin",
+    "Nick Names": [],
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "IE",
+        "Date": "20191106"
+      }
+    ],
     "Speech Records": []
   }
 ]
