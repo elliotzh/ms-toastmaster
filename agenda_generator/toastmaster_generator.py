@@ -148,46 +148,26 @@ class Meeting:
     def opening_session(self, start_time):
         opening_session = Session(start_time)
 
-        if self.role_taken("SAA"):
-            self.append_event(
-                opening_session,
-                duration=20,
-                role_name="SAA",
-                event="Registration/Greeting",
-                show_duration=False
-            )
-            self.append_event(
-                opening_session,
-                duration=4,
-                role_name="Toastmaster",
-                event="Meeting Opening"
-            )
-            self.append_event(
-                opening_session,
-                duration=5,
-                role_name="SAA",
-                event="Welcome Guests  (20s/P)"
-            )
-        else:
-            self.append_event(
-                opening_session,
-                duration=20,
-                role_name="VPM",
-                event="Registration/Greeting",
-                show_duration=False
-            )
-            self.append_event(
-                opening_session,
-                duration=4,
-                role_name="Toastmaster",
-                event="Meeting Opening"
-            )
-            self.append_event(
-                opening_session,
-                duration=5,
-                role_name="VPM",
-                event="Welcome Guests  (20s/P)"
-            )
+        real_saa = "SAA" if self.role_taken("SAA") else "VPM"
+        self.append_event(
+            opening_session,
+            duration=20,
+            role_name=real_saa,
+            event="Registration/Greeting",
+            show_duration=False
+        )
+        self.append_event(
+            opening_session,
+            duration=4,
+            role_name="Toastmaster",
+            event="Meeting Opening & Privacy Statement"
+        )
+        self.append_event(
+            opening_session,
+            duration=5,
+            role_name=real_saa,
+            event="Welcome Guests  (20s/P)"
+        )
 
         self.append_event(
             opening_session,
@@ -436,7 +416,7 @@ class ToastmasterAgendaGenerator:
             meetings.append(meeting_info)
         return meetings
 
-    def generate_agenda(self, call_role_path=None, member_info_path=None, update_member_info=False):
+    def generate_agenda(self, call_role_path=None, member_info_path=None, update_member_info=False, log_agenda=False):
         if call_role_path is None:
             call_role_path = self.path_util.default_meeting_info_path
         member_info_lib = MemberInfoLibrary(member_info_path)
@@ -464,7 +444,12 @@ class ToastmasterAgendaGenerator:
             next_meeting.parse_info(member_info_lib)
             print(str(next_meeting))
 
-            next_meeting.to_agenda(self.path_util.get_output_path("agenda.html"))
+            agenda_path = self.path_util.get_output_path("agenda.html")
+            next_meeting.to_agenda(agenda_path)
+            import shutil
+            agenda_backup_path = self.path_util.get_log_path("{0}.agenda.html".format(next_meeting.date_str))
+            if log_agenda is True:
+                shutil.copy2(agenda_path, agenda_backup_path)
 
             if update_member_info is False:
                 member_info_lib.dump(self.path_util.get_output_path(
@@ -482,12 +467,13 @@ def __main__():
     elif len(sys.argv) == 1:
         for root, _, files in os.walk(PathUtil().get_log_path("")):
             files = sorted(filter(lambda x: x.endswith(".txt"), files))
-            for file in files:
+            for i, file in enumerate(files):
                 generator = ToastmasterAgendaGenerator(file[:4])
 
                 generator.generate_agenda(
                     call_role_path=path.join(root, file),
-                    update_member_info=True
+                    update_member_info=True,
+                    log_agenda=(i == len(files)-1)
                 )
     else:
         git_token = sys.argv[1]
