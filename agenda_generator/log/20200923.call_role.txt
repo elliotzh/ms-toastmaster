@@ -8,7 +8,7 @@ Wordsmith:
 TTM: Madison
 TTE: 
 SP1: Kay
-SP1 Topic: 
+SP1 Topic: 组织模范演讲的提案
 SP2: 
 SP2 
 SP3:
