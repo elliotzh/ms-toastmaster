@@ -10,7 +10,7 @@ TTE: Raymond
 SP1: Locke
 SP1 Topic: Change the Game
 SP2: Elliot
-SP2 Topic: Arguments for the Existense of the Soul
+SP2 Topic: Arguments for the Existence of the Soul
 SPT2:10
 IE1: Bill
 IE2: Zhiwei
