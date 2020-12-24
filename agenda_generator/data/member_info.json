@@ -2371,10 +2371,6 @@
       {
         "Role": "TTE",
         "Date": "20201209"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20201223"
       }
     ],
     "Speech Records": [
@@ -2840,7 +2836,7 @@
       {
         "Level": "Level2-1",
         "Date": "20201223",
-        "Topic": "",
+        "Topic": "Being an Everyman",
         "Type": "pathway"
       }
     ]
@@ -3053,6 +3049,19 @@
       {
         "Role": "IE",
         "Date": "20191106"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Jinyu",
+    "Chinese Name": "Jinyu",
+    "Nick Names": [],
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20201223"
       }
     ],
     "Speech Records": []
