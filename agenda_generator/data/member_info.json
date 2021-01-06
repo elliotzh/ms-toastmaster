@@ -609,6 +609,10 @@
       {
         "Role": "IE",
         "Date": "20201223"
+      },
+      {
+        "Role": "IE",
+        "Date": "20211223"
       }
     ],
     "Speech Records": [
@@ -898,6 +902,10 @@
       {
         "Role": "TTE",
         "Date": "20201223"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20211223"
       }
     ],
     "Speech Records": [
@@ -1158,6 +1166,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20201223"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20211223"
       }
     ],
     "Speech Records": [
@@ -1259,6 +1271,10 @@
       {
         "Role": "IE",
         "Date": "20201223"
+      },
+      {
+        "Role": "IE",
+        "Date": "20211223"
       }
     ],
     "Speech Records": []
@@ -2125,6 +2141,11 @@
         "Role": "Toastmaster",
         "Date": "20201223",
         "Topic": "\u5982\u4f55\u4f18\u96c5\u5730\u5ea6\u8fc7\u4e2d\u5e74\u5371\u673a"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20211223",
+        "Topic": "\u5982\u4f55\u4f18\u96c5\u5730\u5ea6\u8fc7\u4e2d\u5e74\u5371\u673a"
       }
     ],
     "Speech Records": [
@@ -2685,7 +2706,7 @@
     "Nick Names": [
       "Eillen"
     ],
-    "Current Level": "Level1-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2716,6 +2737,12 @@
       {
         "Level": "Level1-1",
         "Date": "20201223",
+        "Topic": "Hello",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20211223",
         "Topic": "Hello",
         "Type": "pathway"
       }
@@ -2775,7 +2802,7 @@
       "Meng Yun",
       "Madision"
     ],
-    "Current Level": "Level2-1",
+    "Current Level": "Level2-2",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -2838,6 +2865,12 @@
         "Date": "20201223",
         "Topic": "Being an Everyman",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level2-2",
+        "Date": "20211223",
+        "Topic": "Being an Everyman",
+        "Type": "pathway"
       }
     ]
   },
@@ -2856,6 +2889,11 @@
       {
         "Role": "TTM",
         "Date": "20201223",
+        "Topic": "\u5982\u4f55\u4f18\u96c5\u5730\u5ea6\u8fc7\u4e2d\u5e74\u5371\u673a"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20211223",
         "Topic": "\u5982\u4f55\u4f18\u96c5\u5730\u5ea6\u8fc7\u4e2d\u5e74\u5371\u673a"
       }
     ],
@@ -2928,7 +2966,7 @@
     "English Name": "Pan Deng",
     "Chinese Name": "Pan Deng",
     "Nick Names": [],
-    "Current Level": "Level1-2-1",
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2953,6 +2991,12 @@
       {
         "Level": "Level1-2-1",
         "Date": "20201223",
+        "Topic": "The Story of Fever",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-2",
+        "Date": "20211223",
         "Topic": "The Story of Fever",
         "Type": "pathway"
       }
@@ -2995,6 +3039,10 @@
       {
         "Role": "IE",
         "Date": "20201223"
+      },
+      {
+        "Role": "IE",
+        "Date": "20211223"
       }
     ],
     "Speech Records": [
@@ -3062,6 +3110,10 @@
       {
         "Role": "Timer",
         "Date": "20201223"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20211223"
       }
     ],
     "Speech Records": []
