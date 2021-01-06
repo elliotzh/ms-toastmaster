@@ -357,7 +357,7 @@
     "Nick Names": [
       "Walter"
     ],
-    "Current Level": "Level3-3-1",
+    "Current Level": "Level3-3-2",
     "Role Records": [
       {
         "Role": "TTE",
@@ -459,6 +459,12 @@
         "Level": "Level3-3-1",
         "Date": "20201209",
         "Topic": "From Common Law to Regulation",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-3-2",
+        "Date": "20210106",
+        "Topic": "Hitler's Warmaking",
         "Type": "pathway"
       }
     ]
@@ -609,10 +615,6 @@
       {
         "Role": "IE",
         "Date": "20201223"
-      },
-      {
-        "Role": "IE",
-        "Date": "20211223"
       }
     ],
     "Speech Records": [
@@ -902,10 +904,6 @@
       {
         "Role": "TTE",
         "Date": "20201223"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20211223"
       }
     ],
     "Speech Records": [
@@ -1166,10 +1164,6 @@
       {
         "Role": "Ah Counter",
         "Date": "20201223"
-      },
-      {
-        "Role": "Ah Counter",
-        "Date": "20211223"
       }
     ],
     "Speech Records": [
@@ -1271,10 +1265,6 @@
       {
         "Role": "IE",
         "Date": "20201223"
-      },
-      {
-        "Role": "IE",
-        "Date": "20211223"
       }
     ],
     "Speech Records": []
@@ -1745,6 +1735,10 @@
       {
         "Role": "IE",
         "Date": "20201209"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210106"
       }
     ],
     "Speech Records": []
@@ -2143,9 +2137,8 @@
         "Topic": "\u5982\u4f55\u4f18\u96c5\u5730\u5ea6\u8fc7\u4e2d\u5e74\u5371\u673a"
       },
       {
-        "Role": "Toastmaster",
-        "Date": "20211223",
-        "Topic": "\u5982\u4f55\u4f18\u96c5\u5730\u5ea6\u8fc7\u4e2d\u5e74\u5371\u673a"
+        "Role": "Timer",
+        "Date": "20210106"
       }
     ],
     "Speech Records": [
@@ -2392,6 +2385,11 @@
       {
         "Role": "TTE",
         "Date": "20201209"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210106",
+        "Topic": "story of storytelling"
       }
     ],
     "Speech Records": [
@@ -2706,7 +2704,7 @@
     "Nick Names": [
       "Eillen"
     ],
-    "Current Level": "Level1-2-1",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2737,12 +2735,6 @@
       {
         "Level": "Level1-1",
         "Date": "20201223",
-        "Topic": "Hello",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-1",
-        "Date": "20211223",
         "Topic": "Hello",
         "Type": "pathway"
       }
@@ -2802,7 +2794,7 @@
       "Meng Yun",
       "Madision"
     ],
-    "Current Level": "Level2-2",
+    "Current Level": "Level2-1",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -2865,12 +2857,6 @@
         "Date": "20201223",
         "Topic": "Being an Everyman",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level2-2",
-        "Date": "20211223",
-        "Topic": "Being an Everyman",
-        "Type": "pathway"
       }
     ]
   },
@@ -2892,9 +2878,8 @@
         "Topic": "\u5982\u4f55\u4f18\u96c5\u5730\u5ea6\u8fc7\u4e2d\u5e74\u5371\u673a"
       },
       {
-        "Role": "TTM",
-        "Date": "20211223",
-        "Topic": "\u5982\u4f55\u4f18\u96c5\u5730\u5ea6\u8fc7\u4e2d\u5e74\u5371\u673a"
+        "Role": "IE",
+        "Date": "20210106"
       }
     ],
     "Speech Records": [
@@ -2966,7 +2951,7 @@
     "English Name": "Pan Deng",
     "Chinese Name": "Pan Deng",
     "Nick Names": [],
-    "Current Level": "Level1-2-2",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2991,12 +2976,6 @@
       {
         "Level": "Level1-2-1",
         "Date": "20201223",
-        "Topic": "The Story of Fever",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-2",
-        "Date": "20211223",
         "Topic": "The Story of Fever",
         "Type": "pathway"
       }
@@ -3041,8 +3020,9 @@
         "Date": "20201223"
       },
       {
-        "Role": "IE",
-        "Date": "20211223"
+        "Role": "Toastmaster",
+        "Date": "20210106",
+        "Topic": "story of storytelling"
       }
     ],
     "Speech Records": [
@@ -3110,10 +3090,6 @@
       {
         "Role": "Timer",
         "Date": "20201223"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20211223"
       }
     ],
     "Speech Records": []
