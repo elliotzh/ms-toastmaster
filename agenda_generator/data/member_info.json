@@ -3,6 +3,7 @@
     "English Name": "Alicia Guo",
     "Chinese Name": "\u679c\u83b9",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -84,6 +85,7 @@
     "English Name": "Grace",
     "Chinese Name": "Grace",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-2-2",
     "Role Records": [
       {
@@ -128,6 +130,7 @@
     "English Name": "Lewis",
     "Chinese Name": "Lewis",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -152,6 +155,7 @@
     "English Name": "Jeff",
     "Chinese Name": "Jeff",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -185,6 +189,7 @@
     "English Name": "Sawyer",
     "Chinese Name": "Sawyer",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level2-2",
     "Role Records": [
       {
@@ -357,6 +362,7 @@
     "Nick Names": [
       "Walter"
     ],
+    "Mentor Name": "Bonnie Wang",
     "Current Level": "Level3-3-2",
     "Role Records": [
       {
@@ -473,6 +479,7 @@
     "English Name": "Annie",
     "Chinese Name": "\u5218\u7476\u7b56",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -490,6 +497,7 @@
     "English Name": "Bill Lin",
     "Chinese Name": "\u6bd4\u5c14",
     "Nick Names": [],
+    "Mentor Name": "Nancy",
     "Current Level": "Level4-2",
     "Role Records": [
       {
@@ -708,6 +716,7 @@
     "English Name": "Bonnie Wang",
     "Chinese Name": "\u5b9d\u59ae",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level2-1",
     "Role Records": [
       {
@@ -943,6 +952,7 @@
     "English Name": "Brenda Wang",
     "Chinese Name": "\u5e03\u5170\u8fbe",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-2-1",
     "Role Records": [
       {
@@ -996,6 +1006,7 @@
     "English Name": "Chaochao Tang",
     "Chinese Name": "\u5510\u8d85\u8d85",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1010,6 +1021,7 @@
     "English Name": "Charlotte",
     "Chinese Name": "\u590f\u6d1b\u7279",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1018,6 +1030,7 @@
     "English Name": "ChengCheng Wang",
     "Chinese Name": "\u738b\u6210\u6210",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1026,6 +1039,7 @@
     "English Name": "Clay Huang",
     "Chinese Name": "\u9ec4\u5b87",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1039,6 +1053,7 @@
     "English Name": "Coco Bu",
     "Chinese Name": "\u535c\u534e\u91d1",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1047,6 +1062,7 @@
     "English Name": "Daisy",
     "Chinese Name": "\u5468\u4e91",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1055,6 +1071,7 @@
     "English Name": "Davie Dong",
     "Chinese Name": "\u8463\u4f1f",
     "Nick Names": [],
+    "Mentor Name": "Bonnie Wang",
     "Current Level": "Level3-3-1",
     "Role Records": [
       {
@@ -1239,6 +1256,7 @@
     "English Name": "Frank Zhao",
     "Chinese Name": "Frank Zhao",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1273,6 +1291,7 @@
     "English Name": "George Sheng",
     "Chinese Name": "George Sheng",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1283,6 +1302,7 @@
     "Nick Names": [
       "Haper"
     ],
+    "Mentor Name": "Bill Lin",
     "Current Level": "Level1-2-2",
     "Role Records": [
       {
@@ -1403,6 +1423,7 @@
     "English Name": "Hestia Sun",
     "Chinese Name": "\u8d6b\u65af\u63d0\u4e9a",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1411,6 +1432,7 @@
     "English Name": "Jessica Liu",
     "Chinese Name": "\u6770\u897f\u5361",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1419,6 +1441,7 @@
     "English Name": "Jill Zou",
     "Chinese Name": "\u90b9\u6d01",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1427,6 +1450,7 @@
     "English Name": "Johnson",
     "Chinese Name": "Johnson",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1435,6 +1459,7 @@
     "English Name": "Julia Zhu",
     "Chinese Name": "\u6731\u4e3d\u96c5",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1456,6 +1481,7 @@
     "English Name": "Mingliang Gong",
     "Chinese Name": "\u9f9a\u660e\u4eae",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1464,6 +1490,7 @@
     "English Name": "Nancy",
     "Chinese Name": "\u738b\u6960",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1522,6 +1549,7 @@
     "English Name": "Olivia Wang",
     "Chinese Name": "\u5965\u4e3d\u8587\u4e9a",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-2-2",
     "Role Records": [
       {
@@ -1584,6 +1612,7 @@
     "English Name": "Prana Zhu",
     "Chinese Name": "\u6731\u972d",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1605,6 +1634,7 @@
     "English Name": "Qiyang Li",
     "Chinese Name": "\u674e\u5947\u9633",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -1633,6 +1663,7 @@
     "English Name": "Qunce Ye",
     "Chinese Name": "\u53f6\u7fa4\u7b56",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1641,6 +1672,7 @@
     "English Name": "Raunab",
     "Chinese Name": "\u5b54\u4ec1\u661f",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1649,6 +1681,7 @@
     "English Name": "Raymond Lu",
     "Chinese Name": "\u96f7\u66fc",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1747,6 +1780,7 @@
     "English Name": "Serena",
     "Chinese Name": "\u5c1a\u54f2",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-3",
     "Role Records": [
       {
@@ -1803,6 +1837,7 @@
     "Nick Names": [
       "\u5c0f\u4f1a"
     ],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1821,6 +1856,7 @@
     "English Name": "Yiming Gong",
     "Chinese Name": "\u9f9a\u4e00\u9e23",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1829,6 +1865,7 @@
     "English Name": "Yingnan Ju",
     "Chinese Name": "\u97a0\u82f1\u7537",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1837,6 +1874,7 @@
     "English Name": "Yue Zhang",
     "Chinese Name": "\u5f20\u60a6",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1845,6 +1883,7 @@
     "English Name": "Zoey Wu",
     "Chinese Name": "Zoey Wu",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1853,6 +1892,7 @@
     "English Name": "Raven",
     "Chinese Name": "\u675c\u817e",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1866,6 +1906,7 @@
     "English Name": "Victor",
     "Chinese Name": "\u5e74\u65ed\u5347",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -1874,6 +1915,7 @@
     "English Name": "Rice Fan",
     "Chinese Name": "\u68b5\u5fd7\u4f1f",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -1888,6 +1930,7 @@
     "English Name": "Elliot Zhang",
     "Chinese Name": "\u5f20\u9192\u4e4b",
     "Nick Names": [],
+    "Mentor Name": "Harper",
     "Current Level": "Level3-1",
     "Role Records": [
       {
@@ -2196,6 +2239,7 @@
     "English Name": "Karen",
     "Chinese Name": "\u738b\u7389\u7ea2",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -2224,6 +2268,7 @@
     "English Name": "April",
     "Chinese Name": "\u9ad8\u6587\u59ec",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-2-2",
     "Role Records": [
       {
@@ -2281,6 +2326,7 @@
     "English Name": "Winnie",
     "Chinese Name": "\u9ad8\u6587\u59ec",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2303,6 +2349,7 @@
     "English Name": "Jill Chen",
     "Chinese Name": "\u9648\u5609",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
     "Speech Records": []
@@ -2311,6 +2358,7 @@
     "English Name": "Kay Kang",
     "Chinese Name": "\u5eb7\u6631",
     "Nick Names": [],
+    "Mentor Name": "Raymond Lu",
     "Current Level": "Level2-3",
     "Role Records": [
       {
@@ -2441,6 +2489,7 @@
     "English Name": "Robin",
     "Chinese Name": "Robin",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2478,6 +2527,7 @@
     "English Name": "\ud83c\udf3f",
     "Chinese Name": "\ud83c\udf3f",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2511,6 +2561,7 @@
     "English Name": "David guest",
     "Chinese Name": "David guest",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2524,6 +2575,7 @@
     "English Name": "\u5b5f\u82b8",
     "Chinese Name": "\u5b5f\u82b8",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2537,6 +2589,7 @@
     "English Name": "Qi Wang",
     "Chinese Name": "Wang Qi",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-2-1",
     "Role Records": [
       {
@@ -2563,6 +2616,7 @@
     "English Name": "Lulu",
     "Chinese Name": "Lu Li",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -2591,6 +2645,7 @@
     "English Name": "Katherine",
     "Chinese Name": "Katherine",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2604,6 +2659,7 @@
     "English Name": "Calvin",
     "Chinese Name": "Calvin",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2618,6 +2674,7 @@
     "English Name": "Jacob",
     "Chinese Name": "Jacob",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2631,6 +2688,7 @@
     "English Name": "Rebecca",
     "Chinese Name": "Rebecca",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "Level1-1",
     "Role Records": [],
     "Speech Records": [
@@ -2646,6 +2704,7 @@
     "English Name": "Lizzie FM TMC",
     "Chinese Name": "Lizzie FM TMC",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2659,6 +2718,7 @@
     "English Name": "James from BeijingNo.1 TMC",
     "Chinese Name": "James from BeijingNo.1 TMC",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2672,6 +2732,7 @@
     "English Name": "Tiffany",
     "Chinese Name": "Tiffany",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2685,6 +2746,7 @@
     "English Name": "Irene",
     "Chinese Name": "Irene",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2704,6 +2766,7 @@
     "Nick Names": [
       "Eillen"
     ],
+    "Mentor Name": null,
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -2744,6 +2807,7 @@
     "English Name": "Jenny",
     "Chinese Name": "Jenny",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2778,6 +2842,7 @@
     "English Name": "Tony",
     "Chinese Name": "Tony",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2794,6 +2859,7 @@
       "Meng Yun",
       "Madision"
     ],
+    "Mentor Name": "Bonnie Wang",
     "Current Level": "Level2-1",
     "Role Records": [
       {
@@ -2866,6 +2932,7 @@
     "Nick Names": [
       "Marrisa"
     ],
+    "Mentor Name": "Elliot Zhang",
     "Current Level": "Level1-2-1",
     "Role Records": [
       {
@@ -2903,6 +2970,7 @@
     "Nick Names": [
       "Mason from FM"
     ],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2926,6 +2994,7 @@
     "Nick Names": [
       "Guest"
     ],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -2951,6 +3020,7 @@
     "English Name": "Pan Deng",
     "Chinese Name": "Pan Deng",
     "Nick Names": [],
+    "Mentor Name": "Bill Lin",
     "Current Level": "Level1-2-1",
     "Role Records": [
       {
@@ -2985,6 +3055,7 @@
     "English Name": "Locke",
     "Chinese Name": "Locke",
     "Nick Names": [],
+    "Mentor Name": "Bonnie Wang",
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -3005,6 +3076,7 @@
     "English Name": "Zhiwei Yu",
     "Chinese Name": "\u4e8e\u667a\u8587",
     "Nick Names": [],
+    "Mentor Name": "Bill Lin",
     "Current Level": "Level1-1",
     "Role Records": [
       {
@@ -3038,6 +3110,7 @@
     "English Name": "Fengling",
     "Chinese Name": "Fengling",
     "Nick Names": [],
+    "Mentor Name": "Raymond Lu",
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -3055,6 +3128,7 @@
     "English Name": "Rena Zhou",
     "Chinese Name": "Rena Zhou",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -3072,6 +3146,7 @@
     "English Name": "Erin",
     "Chinese Name": "Erin",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -3085,6 +3160,7 @@
     "English Name": "Jinyu",
     "Chinese Name": "Jinyu",
     "Nick Names": [],
+    "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -3092,6 +3168,24 @@
         "Date": "20201223"
       }
     ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Haoyu",
+    "Chinese Name": "Haoyu",
+    "Nick Names": [],
+    "Mentor Name": "Raymond Lu",
+    "Current Level": "NotStarted",
+    "Role Records": [],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Joey",
+    "Chinese Name": "Joey",
+    "Nick Names": [],
+    "Mentor Name": "Raymond Lu",
+    "Current Level": "NotStarted",
+    "Role Records": [],
     "Speech Records": []
   }
 ]
