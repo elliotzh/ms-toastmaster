@@ -72,6 +72,17 @@ class MemberInfo:
             "Speech Records": self._speech_records
         }
 
+    def to_statistics_row(self):
+        row_dict = {
+            "Mentor Name": None if self.mentor is None else self.mentor.english_name,
+            "Name": self.english_name,
+            "Current Level": self.current_level,
+            "Speech": len(list(filter(lambda x: x["Date"] > "20200901", self._speech_records)))
+        }
+        for role in ["Toastmaster", "GE", "TTM", "TTE", "Word Smith", "Ah counter", "Timer", "IE"]:
+            row_dict[role] = len(list(filter(lambda x: x["Role"] == role, self._role_records)))
+        return row_dict
+
     @property
     def english_name(self):
         return self._english_name
