@@ -35,6 +35,7 @@ class MemberInfo:
         self._role_records = sorted(member_info["Role Records"], key=lambda x: x["Date"])
         self._speech_records = sorted(member_info["Speech Records"], key=lambda x: x["Date"])
         self.nick_names = [] if "Nick Names" not in member_info else member_info["Nick Names"]
+        self._mentor = None
 
         if "Current Level" in member_info:
             self._current_level = member_info["Current Level"]
@@ -47,6 +48,13 @@ class MemberInfo:
             else:
                 speech["Type"] = "CC"
 
+    def set_mentor(self, mentor_name, member_library):
+        self._mentor = member_library.find(mentor_name)
+
+    @property
+    def mentor(self):
+        return self._mentor
+
     def reset_level(self):
         if len(self._speech_records) > 0:
             self._current_level = self._speech_records[-1]["Level"]
@@ -58,10 +66,22 @@ class MemberInfo:
             "English Name": self._english_name,
             "Chinese Name": self._chinese_name,
             "Nick Names": self.nick_names,
+            "Mentor Name": self.mentor.english_name if self.mentor is not None else None,
             "Current Level": self.current_level,
             "Role Records": self._role_records,
             "Speech Records": self._speech_records
         }
+
+    def to_statistics_row(self):
+        row_dict = {
+            "Mentor Name": None if self.mentor is None else self.mentor.english_name,
+            "Name": self.english_name,
+            "Current Level": self.current_level,
+            "Speech": len(list(filter(lambda x: x["Date"] > "20200901", self._speech_records)))
+        }
+        for role in ["Toastmaster", "GE", "TTM", "TTE", "Word Smith", "Ah counter", "Timer", "IE"]:
+            row_dict[role] = len(list(filter(lambda x: x["Role"] == role, self._role_records)))
+        return row_dict
 
     @property
     def english_name(self):
@@ -129,11 +149,15 @@ class MemberInfoLibrary:
             if member_info_path is None else member_info_path
 
         with open(self._member_info_path, "r", encoding="utf-8") as member_info_file:
-            self._member_info_list = list(map(
-                lambda x: MemberInfo(x),
-                json.load(member_info_file)
-            ))
+            member_info_list = json.load(member_info_file)
+            self._member_info_list = []
+            for member_info_json in member_info_list:
+                self._member_info_list.append(MemberInfo(member_info_json))
             member_info_file.close()
+
+            for i, member_info_json in enumerate(member_info_list):
+                if "Mentor Name" in member_info_json and member_info_json["Mentor Name"] is not None:
+                    self._member_info_list[i].set_mentor(member_info_json["Mentor Name"], self)
 
         with open(self._path_util.get_config_path("learning_path"), "r", encoding="utf-8") as in_file:
             learning_path = json.load(in_file)
