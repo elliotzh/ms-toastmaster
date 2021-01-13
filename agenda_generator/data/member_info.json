@@ -315,6 +315,11 @@
         "Role": "TTM",
         "Date": "20201125",
         "Topic": "\u5e94\u8be5\u601d\u7ef4-\u6d88\u6781\u60c5\u7eea\u7684\u4ea7\u751f"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210113",
+        "Topic": "I came, I said, I conquered."
       }
     ],
     "Speech Records": [
@@ -498,7 +503,7 @@
     "Chinese Name": "\u6bd4\u5c14",
     "Nick Names": [],
     "Mentor Name": "Nancy",
-    "Current Level": "Level4-2",
+    "Current Level": "Level4-3",
     "Role Records": [
       {
         "Role": "GE",
@@ -708,6 +713,12 @@
         "Level": "Level4-2",
         "Date": "20201111",
         "Topic": "Losing is Saving",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-3",
+        "Date": "20210113",
+        "Topic": "Find Your Way",
         "Type": "pathway"
       }
     ]
@@ -2182,6 +2193,10 @@
       {
         "Role": "Timer",
         "Date": "20210106"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210113"
       }
     ],
     "Speech Records": [
@@ -2438,6 +2453,10 @@
         "Role": "TTM",
         "Date": "20210106",
         "Topic": "story of storytelling"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210113"
       }
     ],
     "Speech Records": [
@@ -3035,6 +3054,10 @@
       {
         "Role": "Word Smith",
         "Date": "20201209"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210113"
       }
     ],
     "Speech Records": [
@@ -3096,6 +3119,11 @@
         "Role": "Toastmaster",
         "Date": "20210106",
         "Topic": "story of storytelling"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210113",
+        "Topic": "I came, I said, I conquered."
       }
     ],
     "Speech Records": [
@@ -3121,6 +3149,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20201209"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210113"
       }
     ],
     "Speech Records": []
@@ -3186,7 +3218,12 @@
     "Nick Names": [],
     "Mentor Name": "Raymond Lu",
     "Current Level": "NotStarted",
-    "Role Records": [],
+    "Role Records": [
+      {
+        "Role": "Ah Counter",
+        "Date": "20210113"
+      }
+    ],
     "Speech Records": []
   }
 ]
