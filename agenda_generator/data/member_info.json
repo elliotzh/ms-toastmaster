@@ -368,7 +368,7 @@
       "Walter"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level3-3-2",
+    "Current Level": "Level4-1",
     "Role Records": [
       {
         "Role": "TTE",
@@ -476,6 +476,12 @@
         "Level": "Level3-3-2",
         "Date": "20210106",
         "Topic": "Hitler's Warmaking",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-1",
+        "Date": "20210120",
+        "Topic": "The Prince of Pickpockets",
         "Type": "pathway"
       }
     ]
@@ -924,6 +930,10 @@
       {
         "Role": "TTE",
         "Date": "20201223"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210120"
       }
     ],
     "Speech Records": [
@@ -1192,6 +1202,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20201223"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210120"
       }
     ],
     "Speech Records": [
@@ -1783,6 +1797,10 @@
       {
         "Role": "TTE",
         "Date": "20210106"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210120"
       }
     ],
     "Speech Records": []
@@ -2197,6 +2215,11 @@
       {
         "Role": "GE",
         "Date": "20210113"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210120",
+        "Topic": "The awkward moments on virtual meetings"
       }
     ],
     "Speech Records": [
@@ -2967,6 +2990,10 @@
       {
         "Role": "IE",
         "Date": "20210106"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210120"
       }
     ],
     "Speech Records": [
@@ -3058,6 +3085,11 @@
       {
         "Role": "IE",
         "Date": "20210113"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210120",
+        "Topic": "The awkward moments on virtual meetings"
       }
     ],
     "Speech Records": [
