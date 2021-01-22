@@ -46,4 +46,7 @@
 | 20201118 |         | 350     | 8719.19 | Morale (dinner)        | Elliot                                                      |
 | 20201129 |   450   |         | 9169.19 | Membership (new)       | Fengling                                                    |
 | 20201202 |         | 298     | 8871.19 | Officer morale         | Elliot                                                      |
-| 20201217 |         | 264.17  | 8607.02 | Anniversiry Event      | Zhiwei                                                      |
+| 20201217 |         | 264.17  | 8607.02 | Anniversary Event      | Zhiwei                                                      |
+| 20201217 |   350   |         | 8957.02 | Membership (new)       | Joey                                                        |
+| 20201217 |         | 1906.83 | 7050.19 | Membership (new)       | Pan, Locke, Zhiwei, Haoyu, Fengling                         |
+
