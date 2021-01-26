@@ -190,7 +190,7 @@
     "Chinese Name": "Sawyer",
     "Nick Names": [],
     "Mentor Name": "Davie Dong",
-    "Current Level": "Level2-2",
+    "Current Level": "Level2-3",
     "Role Records": [
       {
         "Role": "TTM",
@@ -357,6 +357,12 @@
         "Level": "Level2-2",
         "Date": "20200311",
         "Topic": "Mentorship",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-3",
+        "Date": "20210127",
+        "Topic": "\u5c40\u90e8",
         "Type": "pathway"
       }
     ]
@@ -634,6 +640,10 @@
       {
         "Role": "IE",
         "Date": "20201223"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210127"
       }
     ],
     "Speech Records": [
@@ -934,6 +944,10 @@
       {
         "Role": "GE",
         "Date": "20210120"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210127"
       }
     ],
     "Speech Records": [
@@ -1206,6 +1220,10 @@
       {
         "Role": "TTE",
         "Date": "20210120"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20210127"
       }
     ],
     "Speech Records": [
@@ -1801,6 +1819,11 @@
       {
         "Role": "IE",
         "Date": "20210120"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210127",
+        "Topic": "\u5c06\u5373\u5174\u8fdb\u884c\u5230\u5e95"
       }
     ],
     "Speech Records": []
@@ -1810,7 +1833,7 @@
     "Chinese Name": "\u5c1a\u54f2",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-3",
+    "Current Level": "Level2-1",
     "Role Records": [
       {
         "Role": "TTM",
@@ -1856,6 +1879,12 @@
         "Level": "Level1-3",
         "Date": "20191113",
         "Topic": "how to say 'no' as good as 'yes'",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-1",
+        "Date": "20210127",
+        "Topic": "\u6846\u67b6\u6548\u5e94\u53ca\u5176\u5bf9\u98ce\u9669\u51b3\u7b56\u7684\u5f71\u54cd",
         "Type": "pathway"
       }
     ]
@@ -2934,6 +2963,10 @@
         "Role": "Toastmaster",
         "Date": "20201202",
         "Topic": "Act It Out"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210127"
       }
     ],
     "Speech Records": [
@@ -2994,6 +3027,10 @@
       {
         "Role": "Timer",
         "Date": "20210120"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210127"
       }
     ],
     "Speech Records": [
@@ -3090,6 +3127,11 @@
         "Role": "TTM",
         "Date": "20210120",
         "Topic": "The awkward moments on virtual meetings"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210127",
+        "Topic": "\u5c06\u5373\u5174\u8fdb\u884c\u5230\u5e95"
       }
     ],
     "Speech Records": [
@@ -3185,6 +3227,10 @@
       {
         "Role": "TTE",
         "Date": "20210113"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210127"
       }
     ],
     "Speech Records": []
@@ -3254,6 +3300,24 @@
       {
         "Role": "Ah Counter",
         "Date": "20210113"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210127"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "\u5c0f\u738b\u5b50",
+    "Chinese Name": "\u5c0f\u738b\u5b50",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Guest Speaker",
+        "Date": "20210127"
       }
     ],
     "Speech Records": []

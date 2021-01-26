@@ -34,5 +34,9 @@
   {
     "name":"Word Smith",
     "nick":"Wordsmith"
+  },
+  {
+    "name": "Guest Speaker",
+    "nick": "GS"
   }
 ]
