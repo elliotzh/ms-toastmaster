@@ -130,6 +130,10 @@ class Meeting:
     def have_prepared_speech(self):
         return len(self._speakers) != 0
 
+    @property
+    def real_saa(self):
+        return "SAA" if self.role_taken("SAA") else "VPM"
+
     def append_event(self, session, role_name, event, duration, show_duration=True):
         role_name_dict = {
             "SAA": "Sergeant at Arms (SAA)",
@@ -148,11 +152,10 @@ class Meeting:
     def opening_session(self, start_time):
         opening_session = Session(start_time)
 
-        real_saa = "SAA" if self.role_taken("SAA") else "VPM"
         self.append_event(
             opening_session,
             duration=20,
-            role_name=real_saa,
+            role_name=self.real_saa,
             event="Registration/Greeting",
             show_duration=False
         )
@@ -165,7 +168,7 @@ class Meeting:
         self.append_event(
             opening_session,
             duration=5,
-            role_name=real_saa,
+            role_name=self.real_saa,
             event="Welcome Guests  (20s/P)"
         )
 
@@ -239,7 +242,7 @@ class Meeting:
 
         self.append_event(
             table_topic_session,
-            duration=8,
+            duration=5,
             role_name="Toastmaster",
             event="Break Time",
             show_duration=False
@@ -274,6 +277,23 @@ class Meeting:
                 event=speaker.last_speech_topic,
                 role_taker=speaker
             )
+
+        for i, speaker in enumerate(self._speakers):
+            o_s = ["1st", "2nd", "3rd", "4th"]
+            prepared_session.append_event(
+                duration=3,
+                role_name="Individual Evaluator {}".format(i + 1),
+                event="Evaluate the {} Speaker".format(o_s[i]),
+                role_taker=self._function_role_taker["IE{}".format(i+1)]
+            )
+
+        if self.role_taken("Guest Speaker"):
+            self.append_event(
+                prepared_session,
+                role_name="Guest Speaker",
+                event=self.try_get_info("GS Topic"),
+                duration=int(self.try_get_info("GST"))
+            )
         return prepared_session
 
     def evaluation_session(self, start_time):
@@ -284,14 +304,6 @@ class Meeting:
             role_name=self.real_ge,
             event="Evaluation Session Opening"
         )
-        for i, speaker in enumerate(self._speakers):
-            o_s = ["1st", "2nd", "3rd", "4th"]
-            evaluation_session.append_event(
-                duration=3,
-                role_name="Individual Evaluator {}".format(i + 1),
-                event="Evaluate the {} Speaker".format(o_s[i]),
-                role_taker=self._function_role_taker["IE{}".format(i+1)]
-            )
 
         if self.role_taken("Ah Counter"):
             self.append_event(
@@ -339,6 +351,13 @@ class Meeting:
                 event="Induction of New Members",
                 show_duration=False
             )
+
+        self.append_event(
+            evaluation_session,
+            duration=5,
+            role_name=self.real_saa,
+            event="Guest Feedback (20s/P)"
+        )
 
         self.append_event(
             evaluation_session,
@@ -398,7 +417,8 @@ class ToastmasterAgendaGenerator:
         meetings = []
         meeting_info = None  # type: Optional[Meeting]
         for line in call_role_text.split('\n'):
-            m = re.match(r"([0-9]+)/([0-9]+) *\((Chinese|English)\)", line.replace(u"中文", "Chinese"))
+            line = line.replace("：", ":")
+            m = re.match(r"^([0-9]+)/([0-9]+)", line)
             if m is not None:
                 if meeting_info is not None:
                     meetings.append(meeting_info)
@@ -506,6 +526,6 @@ def __main__():
 
 
 if __name__ == "__main__":
-    # generator = ToastmasterAgendaGenerator()
-    # generator.generate_agenda(update_member_info=True)
-    __main__()
+    generator = ToastmasterAgendaGenerator()
+    generator.generate_agenda(update_member_info=True)
+    # __main__()
