@@ -1,7 +1,7 @@
 1/27（中文）Microsoft Toastmasters Meeting （线上+线下新型会议模式）
 Theme: 将即兴进行到底
 TM: Pan Deng
-GE: Bonnie
+GE: Elliot
 Timer: Joey
 Ah-counter:Davie
 Wordsmith:Madison
@@ -16,3 +16,4 @@ IE2:Marissa
 GS: 小王子
 GS Topic: 做好点评，学会好好说话
 GST: 30
+VPM: Elliot

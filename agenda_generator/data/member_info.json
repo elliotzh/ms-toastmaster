@@ -944,10 +944,6 @@
       {
         "Role": "GE",
         "Date": "20210120"
-      },
-      {
-        "Role": "GE",
-        "Date": "20210127"
       }
     ],
     "Speech Records": [
@@ -2249,6 +2245,10 @@
         "Role": "Toastmaster",
         "Date": "20210120",
         "Topic": "The awkward moments on virtual meetings"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210127"
       }
     ],
     "Speech Records": [
@@ -3210,8 +3210,8 @@
     ]
   },
   {
-    "English Name": "Fengling",
-    "Chinese Name": "Fengling",
+    "English Name": "Fengling Hu",
+    "Chinese Name": "Fengling Hu",
     "Nick Names": [],
     "Mentor Name": "Raymond Lu",
     "Current Level": "NotStarted",
