@@ -49,4 +49,5 @@
 | 20201217 |         | 264.17  | 8607.02 | Anniversary Event      | Zhiwei                                                      |
 | 20201217 |   350   |         | 8957.02 | Membership (new)       | Joey                                                        |
 | 20201217 |         | 1906.83 | 7050.19 | Membership (new)       | Pan, Locke, Zhiwei, Haoyu, Fengling                         |
+| 20210128 |         |  133.7  | 6916.49 | Snacks for Meeting     | Elliot                                                      |
 
