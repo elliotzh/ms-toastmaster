@@ -287,13 +287,6 @@ class Meeting:
                 role_taker=self._function_role_taker["IE{}".format(i+1)]
             )
 
-        if self.role_taken("Guest Speaker"):
-            self.append_event(
-                prepared_session,
-                role_name="Guest Speaker",
-                event=self.try_get_info("GS Topic"),
-                duration=int(self.try_get_info("GST"))
-            )
         return prepared_session
 
     def evaluation_session(self, start_time):
@@ -341,6 +334,14 @@ class Meeting:
                 duration=5,
                 role_name="GE",
                 event="General Evaluator's Report"
+            )
+
+        if self.role_taken("Guest Speaker"):
+            self.append_event(
+                evaluation_session,
+                role_name="Guest Speaker",
+                event=self.try_get_info("GS Topic"),
+                duration=int(self.try_get_info("GST"))
             )
 
         if self._new_member_count > 0:
