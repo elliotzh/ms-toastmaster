@@ -47,7 +47,8 @@
 | 20201129 |   450   |         | 9169.19 | Membership (new)       | Fengling                                                    |
 | 20201202 |         | 298     | 8871.19 | Officer morale         | Elliot                                                      |
 | 20201217 |         | 264.17  | 8607.02 | Anniversary Event      | Zhiwei                                                      |
-| 20201217 |   350   |         | 8957.02 | Membership (new)       | Joey                                                        |
-| 20201217 |         | 1906.83 | 7050.19 | Membership (new)       | Pan, Locke, Zhiwei, Haoyu, Fengling                         |
-| 20210128 |         |  133.7  | 6916.49 | Snacks for Meeting     | Elliot                                                      |
+| 20210108 |         | 1906.83 | 6700.19 | Membership (new)       | Pan, Locke, Zhiwei, Haoyu, Fengling                         |
+| 20210117 |   350   |         | 7050.19 | Membership (new)       | Joey                                                        |
+| 20210125 |   200   |         | 7250.19 | Membership             | Serena                                                      |
+| 20210128 |         |  133.7  | 7116.49 | Snacks for Meeting     | Elliot                                                      |
 
