@@ -409,6 +409,10 @@
       {
         "Role": "GE",
         "Date": "20200812"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210203"
       }
     ],
     "Speech Records": [
@@ -944,6 +948,10 @@
       {
         "Role": "GE",
         "Date": "20210120"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210203"
       }
     ],
     "Speech Records": [
@@ -1322,6 +1330,11 @@
       {
         "Role": "IE",
         "Date": "20201223"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210203",
+        "Topic": "Personality"
       }
     ],
     "Speech Records": []
@@ -1850,6 +1863,10 @@
         "Role": "Toastmaster",
         "Date": "20191127",
         "Topic": "\u9075\u4ece\u81ea\u5df1\u5185\u5fc3or\u5411\u73af\u5883\u5c48\u670d"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210203"
       }
     ],
     "Speech Records": [
@@ -2249,6 +2266,10 @@
       {
         "Role": "GE",
         "Date": "20210127"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210203"
       }
     ],
     "Speech Records": [
@@ -2509,6 +2530,11 @@
       {
         "Role": "Timer",
         "Date": "20210113"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210203",
+        "Topic": "Personality"
       }
     ],
     "Speech Records": [
@@ -2932,7 +2958,7 @@
       "Madision"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level2-1",
+    "Current Level": "Level2-2",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -2998,6 +3024,12 @@
         "Level": "Level2-1",
         "Date": "20201223",
         "Topic": "Being an Everyman",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-2",
+        "Date": "20210203",
+        "Topic": "Surrogacy: Distorted Prosperity",
         "Type": "pathway"
       }
     ]
@@ -3132,6 +3164,10 @@
         "Role": "Toastmaster",
         "Date": "20210127",
         "Topic": "\u5c06\u5373\u5174\u8fdb\u884c\u5230\u5e95"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210203"
       }
     ],
     "Speech Records": [
@@ -3231,6 +3267,10 @@
       {
         "Role": "TTE",
         "Date": "20210127"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210203"
       }
     ],
     "Speech Records": []
@@ -3295,7 +3335,7 @@
     "Chinese Name": "Joey",
     "Nick Names": [],
     "Mentor Name": "Raymond Lu",
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -3306,7 +3346,14 @@
         "Date": "20210127"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210203",
+        "Topic": "My birthday gift",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "\u5c0f\u738b\u5b50",

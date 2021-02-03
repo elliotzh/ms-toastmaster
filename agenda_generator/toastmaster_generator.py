@@ -209,16 +209,16 @@ class Meeting:
                 role_name="GE",
                 event="Return control to Toastmaster"
             )
-        self.append_event(
-            opening_session,
-            duration=1,
-            role_name="Toastmaster",
-            event="Introduce the Table Topic Master"
-        )
         return opening_session
 
     def table_topic_session(self, start_time):
         table_topic_session = Session(start_time, title="Table Topic Session")
+        self.append_event(
+            table_topic_session,
+            duration=1,
+            role_name="Toastmaster",
+            event="Introduce the Table Topic Master"
+        )
         if self.role_taken("TTE"):
             self.append_event(
                 table_topic_session,
@@ -239,14 +239,6 @@ class Meeting:
                 role_name="TTM",
                 event="Theme Introduction & Round Table"
             )
-
-        self.append_event(
-            table_topic_session,
-            duration=5,
-            role_name="Toastmaster",
-            event="Break Time",
-            show_duration=False
-        )
         return table_topic_session
 
     def get_speech_duration(self, speaker: MemberInfo, speech_index=-1):
@@ -287,6 +279,21 @@ class Meeting:
                 role_taker=self._function_role_taker["IE{}".format(i+1)]
             )
 
+        if self.role_taken("GE"):
+            self.append_event(
+                prepared_session,
+                duration=max(2, len(self._speakers)),
+                role_name="GE",
+                event="Evaluate Individual Evaluators"
+            )
+
+        self.append_event(
+            prepared_session,
+            duration=5,
+            role_name="Toastmaster",
+            event="Break Time",
+            show_duration=False
+        )
         return prepared_session
 
     def evaluation_session(self, start_time):
@@ -331,7 +338,7 @@ class Meeting:
         if self.role_taken("GE"):
             self.append_event(
                 evaluation_session,
-                duration=5,
+                duration=4,
                 role_name="GE",
                 event="General Evaluator's Report"
             )
@@ -386,12 +393,12 @@ class Meeting:
         # opening
         agenda.append_session(self.opening_session(datetime.datetime(self._year, self._month, self._day, 18, 45)))
 
-        # table topic session
-        agenda.append_session(self.table_topic_session(agenda.current_datetime))
-
         # prepared session
         if self.have_prepared_speech:
             agenda.append_session(self.prepared_session(agenda.current_datetime))
+
+        # table topic session
+        agenda.append_session(self.table_topic_session(agenda.current_datetime))
 
         agenda.append_session(self.evaluation_session(agenda.current_datetime))
         agenda.dump(output_path)
