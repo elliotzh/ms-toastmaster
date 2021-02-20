@@ -52,3 +52,4 @@
 | 20210125 |   200   |         | 7250.19 | Membership             | Serena                                                      |
 | 20210128 |         |  133.7  | 7116.49 | Snacks for Meeting     | Elliot                                                      |
 | 20210131 |         |  199    | 6917.49 | tuguaishou             | Fengling                                                    |
+| 20210220 |         |   96    | 6821.49 | Baidu Pan Membership   | Elliot                                                      |
