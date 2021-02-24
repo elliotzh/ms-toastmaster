@@ -190,7 +190,7 @@
     "Chinese Name": "Sawyer",
     "Nick Names": [],
     "Mentor Name": "Davie Dong",
-    "Current Level": "Level2-3",
+    "Current Level": "Level3-1",
     "Role Records": [
       {
         "Role": "TTM",
@@ -363,6 +363,12 @@
         "Level": "Level2-3",
         "Date": "20210127",
         "Topic": "\u5c40\u90e8",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-1",
+        "Date": "20210224",
+        "Topic": "\u5546\u8bae\u6700\u4f73\u7ed3\u679c",
         "Type": "pathway"
       }
     ]
@@ -952,6 +958,11 @@
       {
         "Role": "TTE",
         "Date": "20210203"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210224",
+        "Topic": "Back to the future"
       }
     ],
     "Speech Records": [
@@ -1228,6 +1239,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20210127"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210224"
       }
     ],
     "Speech Records": [
@@ -1335,6 +1350,10 @@
         "Role": "TTM",
         "Date": "20210203",
         "Topic": "Personality"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210224"
       }
     ],
     "Speech Records": []
@@ -2535,6 +2554,10 @@
         "Role": "Toastmaster",
         "Date": "20210203",
         "Topic": "Personality"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210224"
       }
     ],
     "Speech Records": [
@@ -2993,6 +3016,10 @@
       {
         "Role": "Word Smith",
         "Date": "20210127"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210224"
       }
     ],
     "Speech Records": [
@@ -3063,6 +3090,10 @@
       {
         "Role": "IE",
         "Date": "20210127"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210224"
       }
     ],
     "Speech Records": [
@@ -3211,7 +3242,7 @@
     "Chinese Name": "\u4e8e\u667a\u8587",
     "Nick Names": [],
     "Mentor Name": "Bill Lin",
-    "Current Level": "Level1-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3241,6 +3272,12 @@
         "Level": "Level1-1",
         "Date": "20201209",
         "Topic": "Imperfection is Powerful",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20210224",
+        "Topic": "\u8bf4\u8ba8\u538c\u7684\u52c7\u6c14",
         "Type": "pathway"
       }
     ]
@@ -3344,6 +3381,11 @@
       {
         "Role": "Timer",
         "Date": "20210127"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210224",
+        "Topic": "Back to the future"
       }
     ],
     "Speech Records": [
