@@ -8,8 +8,8 @@
     "Chinese": "时间：每周三晚19:00~21:00 (每月最后一次为中文会议，其他时间为英文会议)"
   },
   "venue": {
-    "default": "Venue: Room Gu Gong, F1, Microsoft Build 1, Danling St. Zhongguancun West Zone Haidian Dist.",
-    "Chinese": "地点：海淀区丹棱街5号微软大厦1号楼1层天安门会议室"
+    "default": "Venue: Room Dongzhimen, F1, Microsoft Build 1, Danling St. Zhongguancun West Zone Haidian Dist.",
+    "Chinese": "地点：海淀区丹棱街5号微软大厦1号楼1层东直门会议室"
   },
   "mission_title": {
     "default": "Mission",
