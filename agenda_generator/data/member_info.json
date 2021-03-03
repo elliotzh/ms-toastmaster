@@ -320,6 +320,10 @@
         "Role": "Toastmaster",
         "Date": "20210113",
         "Topic": "I came, I said, I conquered."
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -654,6 +658,11 @@
       {
         "Role": "IE",
         "Date": "20210127"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210303",
+        "Topic": "Technology & Social Communication"
       }
     ],
     "Speech Records": [
@@ -963,6 +972,10 @@
         "Role": "Toastmaster",
         "Date": "20210224",
         "Topic": "Back to the future"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -1243,6 +1256,10 @@
       {
         "Role": "TTE",
         "Date": "20210224"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -2289,6 +2306,10 @@
       {
         "Role": "IE",
         "Date": "20210203"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -3020,6 +3041,10 @@
       {
         "Role": "IE",
         "Date": "20210224"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -3068,7 +3093,7 @@
       "Marrisa"
     ],
     "Mentor Name": "Elliot Zhang",
-    "Current Level": "Level1-2-1",
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3107,6 +3132,12 @@
         "Level": "Level1-2-1",
         "Date": "20201021",
         "Topic": "Some reading thoughts about\u201cPrinciples\u201d",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-2",
+        "Date": "20210303",
+        "Topic": "How to avoid mistakes when you invest in equity funds",
         "Type": "pathway"
       }
     ]
@@ -3168,7 +3199,7 @@
     "Chinese Name": "Pan Deng",
     "Nick Names": [],
     "Mentor Name": "Bill Lin",
-    "Current Level": "Level1-2-1",
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3212,6 +3243,12 @@
         "Level": "Level1-2-1",
         "Date": "20201223",
         "Topic": "The Story of Fever",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-2",
+        "Date": "20210303",
+        "Topic": "My name is",
         "Type": "pathway"
       }
     ]
@@ -3265,6 +3302,11 @@
         "Role": "TTM",
         "Date": "20210113",
         "Topic": "I came, I said, I conquered."
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210303",
+        "Topic": "Technology & Social Communication"
       }
     ],
     "Speech Records": [
@@ -3308,6 +3350,10 @@
       {
         "Role": "Timer",
         "Date": "20210203"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210303"
       }
     ],
     "Speech Records": []
@@ -3407,6 +3453,20 @@
       {
         "Role": "Guest Speaker",
         "Date": "20210127"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Bofeng",
+    "Chinese Name": "Bofeng",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Ah Counter",
+        "Date": "20210303"
       }
     ],
     "Speech Records": []
