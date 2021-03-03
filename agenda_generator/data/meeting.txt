@@ -6,11 +6,12 @@ Timer: Fengling
 Ah-counter: Bofeng
 Wordsmith: Bonnie
 TTM: Bill
-TTE:  Sawyer
+TTE: Sawyer
 SP1: Pan
 SP1 Topic: My name is
 IE1: Elliot
 SP2：Marissa
 SP2 Topic：How to avoid mistakes when you invest in equity funds
 IE2: Davie
+NM: 1
 
