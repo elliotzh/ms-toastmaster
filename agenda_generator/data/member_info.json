@@ -3458,10 +3458,10 @@
     "Speech Records": []
   },
   {
-    "English Name": "Bofeng",
-    "Chinese Name": "Bofeng",
+    "English Name": "Bofeng Liu",
+    "Chinese Name": "Bofeng Liu",
     "Nick Names": [],
-    "Mentor Name": null,
+    "Mentor Name": "Pan Deng",
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -3469,6 +3469,24 @@
         "Date": "20210303"
       }
     ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Nan Yang",
+    "Chinese Name": "Nan Yang",
+    "Nick Names": [],
+    "Mentor Name": "Madison",
+    "Current Level": "NotStarted",
+    "Role Records": [],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Jinyu Wang",
+    "Chinese Name": "Jinyu Wang",
+    "Nick Names": [],
+    "Mentor Name": "Elliot Zhang",
+    "Current Level": "NotStarted",
+    "Role Records": [],
     "Speech Records": []
   }
 ]
