@@ -320,10 +320,6 @@
         "Role": "Toastmaster",
         "Date": "20210113",
         "Topic": "I came, I said, I conquered."
-      },
-      {
-        "Role": "TTE",
-        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -384,7 +380,7 @@
       "Walter"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level4-1",
+    "Current Level": "Level4-2",
     "Role Records": [
       {
         "Role": "TTE",
@@ -502,6 +498,12 @@
         "Level": "Level4-1",
         "Date": "20210120",
         "Topic": "The Prince of Pickpockets",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-2",
+        "Date": "20210303",
+        "Topic": "Law Enforcement Against Luckin Coffee",
         "Type": "pathway"
       }
     ]
@@ -660,9 +662,8 @@
         "Date": "20210127"
       },
       {
-        "Role": "TTM",
-        "Date": "20210303",
-        "Topic": "Technology & Social Communication"
+        "Role": "IE",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -974,7 +975,7 @@
         "Topic": "Back to the future"
       },
       {
-        "Role": "Word Smith",
+        "Role": "IE",
         "Date": "20210303"
       }
     ],
@@ -1256,10 +1257,6 @@
       {
         "Role": "TTE",
         "Date": "20210224"
-      },
-      {
-        "Role": "IE",
-        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -2308,8 +2305,9 @@
         "Date": "20210203"
       },
       {
-        "Role": "IE",
-        "Date": "20210303"
+        "Role": "Toastmaster",
+        "Date": "20210303",
+        "Topic": "What You See Is Not Real"
       }
     ],
     "Speech Records": [
@@ -2579,6 +2577,10 @@
       {
         "Role": "Timer",
         "Date": "20210224"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -3043,7 +3045,7 @@
         "Date": "20210224"
       },
       {
-        "Role": "GE",
+        "Role": "TTE",
         "Date": "20210303"
       }
     ],
@@ -3093,7 +3095,7 @@
       "Marrisa"
     ],
     "Mentor Name": "Elliot Zhang",
-    "Current Level": "Level1-2-2",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3132,12 +3134,6 @@
         "Level": "Level1-2-1",
         "Date": "20201021",
         "Topic": "Some reading thoughts about\u201cPrinciples\u201d",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-2",
-        "Date": "20210303",
-        "Topic": "How to avoid mistakes when you invest in equity funds",
         "Type": "pathway"
       }
     ]
@@ -3199,7 +3195,7 @@
     "Chinese Name": "Pan Deng",
     "Nick Names": [],
     "Mentor Name": "Bill Lin",
-    "Current Level": "Level1-2-2",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3230,6 +3226,10 @@
       {
         "Role": "IE",
         "Date": "20210203"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -3243,12 +3243,6 @@
         "Level": "Level1-2-1",
         "Date": "20201223",
         "Topic": "The Story of Fever",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-2",
-        "Date": "20210303",
-        "Topic": "My name is",
         "Type": "pathway"
       }
     ]
@@ -3302,11 +3296,6 @@
         "Role": "TTM",
         "Date": "20210113",
         "Topic": "I came, I said, I conquered."
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20210303",
-        "Topic": "Technology & Social Communication"
       }
     ],
     "Speech Records": [
@@ -3350,10 +3339,6 @@
       {
         "Role": "Timer",
         "Date": "20210203"
-      },
-      {
-        "Role": "Timer",
-        "Date": "20210303"
       }
     ],
     "Speech Records": []
@@ -3395,14 +3380,21 @@
     "Chinese Name": "Jinyu",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
         "Date": "20201223"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210303",
+        "Topic": "\"My silly sister\"",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Haoyu",
@@ -3432,6 +3424,10 @@
         "Role": "TTM",
         "Date": "20210224",
         "Topic": "Back to the future"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -3465,7 +3461,7 @@
     "Current Level": "NotStarted",
     "Role Records": [
       {
-        "Role": "Ah Counter",
+        "Role": "Timer",
         "Date": "20210303"
       }
     ],
@@ -3476,9 +3472,16 @@
     "Chinese Name": "Nan Yang",
     "Nick Names": [],
     "Mentor Name": "Madison",
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210303",
+        "Topic": "My 100k Run",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Jinyu Wang",
@@ -3487,6 +3490,21 @@
     "Mentor Name": "Elliot Zhang",
     "Current Level": "NotStarted",
     "Role Records": [],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Locke Huang",
+    "Chinese Name": "Locke Huang",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "TTM",
+        "Date": "20210303",
+        "Topic": "What You See Is Not Real"
+      }
+    ],
     "Speech Records": []
   }
 ]

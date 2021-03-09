@@ -1,17 +1,20 @@
 3/3 (English) Microsoft Toastmasters Meeting （Online+Offline）
-Theme: Technology & Social Communication
-TM: Zhiwei
-GE: Madison
-Timer: Fengling
-Ah-counter: Bofeng
-Wordsmith: Bonnie
-TTM: Bill
-TTE: Sawyer
-SP1: Pan
-SP1 Topic: My name is
-IE1: Elliot
-SP2：Marissa
-SP2 Topic：How to avoid mistakes when you invest in equity funds
-IE2: Davie
+Theme: What You See Is Not Real
+TM: Elliot
+GE: Kay
+Timer: Bofeng
+Ah-counter: 
+Wordsmith: Joey
+TTM: Locke Huang
+TTE: Madison
+SP1: Shuhan
+SP1 Topic: Law Enforcement Against Luckin Coffee
+IE1: Bill
+SP2：Nan Yang
+SP2 Topic：My 100k Run
+IE2: Bonnie
+SP3: Jinyu
+SP3 Topic: "My silly sister"
+IE3: Pan
 NM: 1
 
