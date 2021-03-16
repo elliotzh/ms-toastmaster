@@ -1,20 +1,17 @@
 3/3 (English) Microsoft Toastmasters Meeting （Online+Offline）
-Theme: What You See Is Not Real
-TM: Elliot
-GE: Kay
-Timer: Bofeng
-Ah-counter: 
-Wordsmith: Joey
-TTM: Locke Huang
-TTE: Madison
-SP1: Shuhan
-SP1 Topic: Law Enforcement Against Luckin Coffee
-IE1: Bill
-SP2：Nan Yang
-SP2 Topic：My 100k Run
-IE2: Bonnie
-SP3: Jinyu
-SP3 Topic: "My silly sister"
-IE3: Pan
-NM: 1
+Theme: Two Sides of the Same Coin
+TM: Shuhan
+GE: Bonnie
+Timer: Nan Yang
+Ah-counter: Locke Huang
+Wordsmith: 
+TTM: Harper Zhang
+TTE: Fengling
+SP1: Joey
+SP1 Topic: The Speech of Delight
+IE1: Davie
+SP2：Bofeng
+SP2 Topic：The Life Beyond 3GB
+IE2: Madison
+NM: 0
 
