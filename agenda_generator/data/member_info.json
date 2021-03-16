@@ -380,7 +380,7 @@
       "Walter"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level4-2",
+    "Current Level": "Level4-1",
     "Role Records": [
       {
         "Role": "TTE",
@@ -419,6 +419,11 @@
       {
         "Role": "GE",
         "Date": "20210203"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210303",
+        "Topic": "Two Sides of the Same Coin"
       }
     ],
     "Speech Records": [
@@ -498,12 +503,6 @@
         "Level": "Level4-1",
         "Date": "20210120",
         "Topic": "The Prince of Pickpockets",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level4-2",
-        "Date": "20210303",
-        "Topic": "Law Enforcement Against Luckin Coffee",
         "Type": "pathway"
       }
     ]
@@ -660,10 +659,6 @@
       {
         "Role": "IE",
         "Date": "20210127"
-      },
-      {
-        "Role": "IE",
-        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -975,7 +970,7 @@
         "Topic": "Back to the future"
       },
       {
-        "Role": "IE",
+        "Role": "GE",
         "Date": "20210303"
       }
     ],
@@ -1257,6 +1252,10 @@
       {
         "Role": "TTE",
         "Date": "20210224"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -2303,11 +2302,6 @@
       {
         "Role": "IE",
         "Date": "20210203"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20210303",
-        "Topic": "What You See Is Not Real"
       }
     ],
     "Speech Records": [
@@ -2577,10 +2571,6 @@
       {
         "Role": "Timer",
         "Date": "20210224"
-      },
-      {
-        "Role": "GE",
-        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -3045,7 +3035,7 @@
         "Date": "20210224"
       },
       {
-        "Role": "TTE",
+        "Role": "IE",
         "Date": "20210303"
       }
     ],
@@ -3226,10 +3216,6 @@
       {
         "Role": "IE",
         "Date": "20210203"
-      },
-      {
-        "Role": "IE",
-        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -3339,6 +3325,10 @@
       {
         "Role": "Timer",
         "Date": "20210203"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210303"
       }
     ],
     "Speech Records": []
@@ -3380,21 +3370,14 @@
     "Chinese Name": "Jinyu",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-1",
+    "Current Level": "NotStarted",
     "Role Records": [
       {
         "Role": "Timer",
         "Date": "20201223"
       }
     ],
-    "Speech Records": [
-      {
-        "Level": "Level1-1",
-        "Date": "20210303",
-        "Topic": "\"My silly sister\"",
-        "Type": "pathway"
-      }
-    ]
+    "Speech Records": []
   },
   {
     "English Name": "Haoyu",
@@ -3410,7 +3393,7 @@
     "Chinese Name": "Joey",
     "Nick Names": [],
     "Mentor Name": "Raymond Lu",
-    "Current Level": "Level1-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -3424,10 +3407,6 @@
         "Role": "TTM",
         "Date": "20210224",
         "Topic": "Back to the future"
-      },
-      {
-        "Role": "Word Smith",
-        "Date": "20210303"
       }
     ],
     "Speech Records": [
@@ -3435,6 +3414,12 @@
         "Level": "Level1-1",
         "Date": "20210203",
         "Topic": "My birthday gift",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20210303",
+        "Topic": "The Speech of Delight",
         "Type": "pathway"
       }
     ]
@@ -3458,6 +3443,22 @@
     "Chinese Name": "Bofeng Liu",
     "Nick Names": [],
     "Mentor Name": "Pan Deng",
+    "Current Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210303",
+        "Topic": "The Life Beyond 3GB",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Nan Yang",
+    "Chinese Name": "Nan Yang",
+    "Nick Names": [],
+    "Mentor Name": "Madison",
     "Current Level": "NotStarted",
     "Role Records": [
       {
@@ -3466,22 +3467,6 @@
       }
     ],
     "Speech Records": []
-  },
-  {
-    "English Name": "Nan Yang",
-    "Chinese Name": "Nan Yang",
-    "Nick Names": [],
-    "Mentor Name": "Madison",
-    "Current Level": "Level1-1",
-    "Role Records": [],
-    "Speech Records": [
-      {
-        "Level": "Level1-1",
-        "Date": "20210303",
-        "Topic": "My 100k Run",
-        "Type": "pathway"
-      }
-    ]
   },
   {
     "English Name": "Jinyu Wang",
@@ -3500,9 +3485,23 @@
     "Current Level": "NotStarted",
     "Role Records": [
       {
+        "Role": "Ah Counter",
+        "Date": "20210303"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Harper Zhang",
+    "Chinese Name": "Harper Zhang",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
         "Role": "TTM",
         "Date": "20210303",
-        "Topic": "What You See Is Not Real"
+        "Topic": "Two Sides of the Same Coin"
       }
     ],
     "Speech Records": []
