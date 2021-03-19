@@ -4,7 +4,7 @@ TM: Shuhan
 GE: Bonnie
 Timer: Nan Yang
 Ah-counter: Locke Huang
-Wordsmith: 
+Wordsmith: Pan Deng
 TTM: Harper Zhang
 TTE: Fengling
 SP1: Joey
