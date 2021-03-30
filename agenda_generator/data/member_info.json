@@ -384,7 +384,7 @@
       "Walter"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level4-1",
+    "Current Level": "Level4-2",
     "Role Records": [
       {
         "Role": "TTE",
@@ -502,6 +502,12 @@
         "Level": "Level4-1",
         "Date": "20210120",
         "Topic": "The Prince of Pickpockets",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-2",
+        "Date": "20210331",
+        "Topic": "\u8d70\u8fdb\u6c11\u6cd5\u5178:\u592b\u59bb\u5982\u4f55\u79bb\u5a5a\uff1f",
         "Type": "pathway"
       }
     ]
@@ -972,6 +978,10 @@
         "Role": "TTM",
         "Date": "20210303",
         "Topic": "Find the Light"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210331"
       }
     ],
     "Speech Records": [
@@ -1044,6 +1054,11 @@
       {
         "Role": "Timer",
         "Date": "20200624"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210331",
+        "Topic": "\u706b\u661fVS\u91d1\u661f"
       }
     ],
     "Speech Records": [
@@ -1131,7 +1146,7 @@
     "Chinese Name": "\u8463\u4f1f",
     "Nick Names": [],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level3-3-1",
+    "Current Level": "Level3-3-2",
     "Role Records": [
       {
         "Role": "IE",
@@ -1320,6 +1335,12 @@
         "Date": "20201125",
         "Topic": "Path Completion",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level3-3-2",
+        "Date": "20210331",
+        "Topic": "\u5a5a\u524d\u5a5a\u540e\u9762\u9762\u89c2",
+        "Type": "pathway"
       }
     ]
   },
@@ -1363,6 +1384,10 @@
       {
         "Role": "IE",
         "Date": "20210224"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210331"
       }
     ],
     "Speech Records": []
@@ -1476,6 +1501,10 @@
       {
         "Role": "TTE",
         "Date": "20200909"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210331"
       }
     ],
     "Speech Records": [
@@ -2580,6 +2609,10 @@
       {
         "Role": "TTE",
         "Date": "20210303"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210331"
       }
     ],
     "Speech Records": [
@@ -3046,6 +3079,10 @@
       {
         "Role": "IE",
         "Date": "20210224"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210331"
       }
     ],
     "Speech Records": [
@@ -3126,6 +3163,10 @@
       {
         "Role": "GE",
         "Date": "20210224"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210331"
       }
     ],
     "Speech Records": [
@@ -3340,6 +3381,11 @@
       {
         "Role": "Timer",
         "Date": "20210203"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210331",
+        "Topic": "\u706b\u661fVS\u91d1\u661f"
       }
     ],
     "Speech Records": [
@@ -3456,7 +3502,12 @@
     "Nick Names": [],
     "Mentor Name": "Pan Deng",
     "Current Level": "NotStarted",
-    "Role Records": [],
+    "Role Records": [
+      {
+        "Role": "Ah Counter",
+        "Date": "20210331"
+      }
+    ],
     "Speech Records": []
   },
   {
@@ -3465,7 +3516,12 @@
     "Nick Names": [],
     "Mentor Name": "Madison",
     "Current Level": "NotStarted",
-    "Role Records": [],
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20210331"
+      }
+    ],
     "Speech Records": []
   },
   {
@@ -3482,9 +3538,16 @@
     "Chinese Name": "Locke Huang",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210331",
+        "Topic": "\u8981\u4e0d\u8981\u505a\u4e01\u514b\uff1f",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Harper Zhang",
