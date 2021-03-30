@@ -1,17 +1,20 @@
-3/3 (English) Microsoft Toastmasters Meeting （Online+Offline）
-Theme: Find the Light
-TM: April
-GE: Sawyer
-Timer: Yue Li
-Ah-counter: 
-Wordsmith:
-TTM: Bonnie
+3/31 (中文) Microsoft Toastmasters Meeting （线下+线上）
+Theme: 火星VS金星
+TM: Fengling
+GE: Bonnie
+Timer: Nan Yang
+Ah-counter: Bofeng
+Wordsmith: Frank
+TTM: Brenda
 TTE: Kay
-SP1: Madison
-SP1 Topic: A Way out of Anxiety
-IE1: Eileen
-SP2：Fengling
-SP2 Topic：7 Habits of Highly Effective People
-IE2: Raymond
-NM: 1
+SP1: Shuhan
+SP1 Topic: 走进民法典：夫妻如何离婚？
+IE1: Harper
+SP2：Davie
+SP2 Topic：婚前婚后面面观
+IE2: Madison
+SP3: Locke Huang
+SP3 Topic: 要不要做丁克？
+IE3: Marissa
+NM: 0
 
