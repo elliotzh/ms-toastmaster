@@ -56,3 +56,5 @@
 | 20210403 |   8800  |         | 15621.49| Membership Renewal     | Elliot, Bonnie, Davie, Locke, Fengling, Sawyer, Shuhan      |
 |          |         |         |         |                        | Marissa, Nancy, Brenda, Madison, Harper, Raymond, Bill      |
 |          |         |         |         |                        | April, Kay, Pan, Haoyu, Zhiwei, Eileen, Serena, Julia       |
+| 20210403 |   2200  |         | 17821.49| Membership (new)       | Yue Li, Jingyu, Bofeng, Nan Yang                            |
+
