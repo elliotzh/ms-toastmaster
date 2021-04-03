@@ -53,3 +53,6 @@
 | 20210128 |         |  133.7  | 7116.49 | Snacks for Meeting     | Elliot                                                      |
 | 20210131 |         |  199    | 6917.49 | tuguaishou             | Fengling                                                    |
 | 20210220 |         |   96    | 6821.49 | Baidu Pan Membership   | Elliot                                                      |
+| 20210403 |   8800  |         | 15621.49| Membership Renewal     | Elliot, Bonnie, Davie, Locke, Fengling, Sawyer, Shuhan      |
+|          |         |         |         |                        | Marissa, Nancy, Brenda, Madison, Harper, Raymond, Bill      |
+|          |         |         |         |                        | April, Kay, Pan, Haoyu, Zhiwei, Eileen, Serena, Julia       |
