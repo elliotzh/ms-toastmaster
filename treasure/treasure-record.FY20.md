@@ -57,4 +57,5 @@
 |          |         |         |         |                        | Marissa, Nancy, Brenda, Madison, Harper, Raymond, Bill      |
 |          |         |         |         |                        | April, Kay, Pan, Haoyu, Zhiwei, Eileen, Serena, Julia       |
 | 20210403 |   2200  |         | 17821.49| Membership (new)       | Yue Li, Jingyu, Bofeng, Nan Yang                            |
+| 20210410 |         | 1053.1  | 16768.39| Morale Lunch           | Fengling                                                    |
 
