@@ -1371,6 +1371,10 @@
       {
         "Role": "IE",
         "Date": "20210224"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210331"
       }
     ],
     "Speech Records": []
@@ -2922,7 +2926,7 @@
       "Eilleen"
     ],
     "Mentor Name": "Bill Lin",
-    "Current Level": "Level1-2-1",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2958,12 +2962,6 @@
         "Level": "Level1-1",
         "Date": "20201223",
         "Topic": "Hello",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-1",
-        "Date": "20210331",
-        "Topic": "My nephew is not happy",
         "Type": "pathway"
       }
     ]
@@ -3496,14 +3494,16 @@
     "Chinese Name": "Nan Yang",
     "Nick Names": [],
     "Mentor Name": "Madison",
-    "Current Level": "NotStarted",
-    "Role Records": [
+    "Current Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
       {
-        "Role": "Ah Counter",
-        "Date": "20210331"
+        "Level": "Level1-1",
+        "Date": "20210331",
+        "Topic": "Death by Black Hole",
+        "Type": "pathway"
       }
-    ],
-    "Speech Records": []
+    ]
   },
   {
     "English Name": "Jinyu Wang",
