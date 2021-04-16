@@ -972,6 +972,10 @@
         "Role": "TTM",
         "Date": "20210303",
         "Topic": "Find the Light"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210414"
       }
     ],
     "Speech Records": [
@@ -1048,6 +1052,11 @@
       {
         "Role": "IE",
         "Date": "20210331"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210414",
+        "Topic": "Say No"
       }
     ],
     "Speech Records": [
@@ -1488,6 +1497,10 @@
       {
         "Role": "TTE",
         "Date": "20200909"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210414"
       }
     ],
     "Speech Records": [
@@ -1565,6 +1578,10 @@
       {
         "Role": "IE",
         "Date": "20190724"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210414"
       }
     ],
     "Speech Records": []
@@ -2496,7 +2513,7 @@
     "Chinese Name": "\u5eb7\u6631",
     "Nick Names": [],
     "Mentor Name": "Raymond Lu",
-    "Current Level": "Level2-3",
+    "Current Level": "Level3-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2639,6 +2656,12 @@
         "Level": "Level2-3",
         "Date": "20201125",
         "Topic": "\u4f60\u4e00\u5b9a\u4f1a\u89c9\u5f97\u6709\u8da3\u7684\u624b\u8bed",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-1",
+        "Date": "20210414",
+        "Topic": "Why everyone need story telling",
         "Type": "pathway"
       }
     ]
@@ -3067,6 +3090,11 @@
         "Role": "Toastmaster",
         "Date": "20210331",
         "Topic": "\"Do not go gentle into that good night\""
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210414",
+        "Topic": "Say No"
       }
     ],
     "Speech Records": [
@@ -3147,6 +3175,10 @@
       {
         "Role": "GE",
         "Date": "20210224"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210414"
       }
     ],
     "Speech Records": [
@@ -3366,6 +3398,10 @@
       {
         "Role": "Timer",
         "Date": "20210203"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210414"
       }
     ],
     "Speech Records": [
@@ -3537,14 +3573,21 @@
     "Chinese Name": "Yue Li",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
         "Date": "20210303"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210414",
+        "Topic": "Growing up at work",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Haoyu Dong",
