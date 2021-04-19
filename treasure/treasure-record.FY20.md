@@ -58,5 +58,5 @@
 |          |         |         |         |                        | April, Kay, Pan, Haoyu, Zhiwei, Eileen, Serena, Julia       |
 | 20210403 |   2200  |         | 17821.49| Membership (new)       | Yue Li, Jingyu, Bofeng, Nan Yang                            |
 | 20210410 |         | 1053.1  | 16768.39| Morale Lunch           | Fengling                                                    |
-| 20210419 |         | 383.86  | 16384.53| Snacks for meetings    | Bill                                                        |
+| 20210419 |         | 383.86  | 16384.53| Snacks for meetings    | Elliot                                                      |
 
