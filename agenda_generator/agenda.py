@@ -18,7 +18,7 @@ class Session:
             return False
         d = str(duration)
         if duration >= 20:
-            g, y, r = "1", "1.5", "2"
+            g, y, r = str(duration - 5), str(duration - 2), str(duration)
         elif duration >= 4:
             g, y, r = str(duration - 2), str(duration - 1), str(duration)
             d = "{}-{}".format(g, r)

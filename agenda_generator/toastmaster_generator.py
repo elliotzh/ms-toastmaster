@@ -27,6 +27,8 @@ class Meeting:
         self._theme = "TBD"
         self._speakers = []  # type: List[MemberInfo]
         self._new_member_count = -1
+        self._skip_dict = set() # special hacks to skip events
+        self._special_events = {} # hacks to get special events
 
         with open(PathUtil().get_config_path("time_dict"), "r", encoding="utf-8") as time_dict_file:
             self._time_dict = json.load(time_dict_file)
@@ -121,6 +123,14 @@ class Meeting:
                 self._theme
             )
 
+        # special events
+        for se_type in ["SE_SP", "SE_TE"]:
+            special_event = {}
+            for attribute in ["role", "role taker", "topic", "duration", "gyr"]:
+                special_event[attribute] = self.try_get_info("%s %s" % (se_type, attribute))
+            if special_event["topic"]:
+                self._special_events[se_type] = special_event
+
     def role_taken(self, role_name) -> bool:
         if role_name in self._function_role_taker:
             return self._function_role_taker[role_name].english_name != "TBD"
@@ -134,17 +144,23 @@ class Meeting:
     def real_saa(self):
         return "SAA" if self.role_taken("SAA") else "VPM"
 
-    def append_event(self, session, role_name, event, duration, show_duration=True):
+    def append_event(self, session, role_name, event, duration, role_taker=None, show_duration=True):
         role_name_dict = {
             "SAA": "Sergeant at Arms (SAA)",
             "GE": "General Evaluator",
             "TTM": "Table Topic Master",
             "TTE": "Table Topic Evaluator"
         }
+        if event.lower() in self._skip_dict:
+            return
+        if not role_taker:
+            role_taker = self._function_role_taker[role_name]
+        if role_taker == "[NONE]":
+            return
         session.append_event(
             duration=duration,
             role_name=role_name_dict[role_name] if role_name in role_name_dict else role_name,
-            role_taker=self._function_role_taker[role_name],
+            role_taker=role_taker,
             event=event,
             show_duration=show_duration
         )
@@ -219,6 +235,8 @@ class Meeting:
             role_name="Toastmaster",
             event="Introduce the Table Topic Master"
         )
+        if "SE_TP" in self._special_events.keys():
+            self.append_special_event(table_topic_session, self._special_events["SE_TP"])
         if self.role_taken("TTE"):
             self.append_event(
                 table_topic_session,
@@ -253,8 +271,30 @@ class Meeting:
 
         return duration
 
+    def append_special_event(self, session, special_event):
+        role = special_event["role"]
+        role_taker = special_event["role taker"]
+        role_taker = MemberInfo({
+            "English Name": role_taker,
+            "Chinese Name": role_taker,
+            "Role Records": [],
+            "Speech Records": []})
+        duration = int(special_event["duration"])
+        topic = special_event["topic"]
+        gyr = len(special_event["gyr"]) > 0
+        self.append_event(
+                session=session,
+                role_name=role,
+                duration=duration,
+                event=topic,
+                role_taker=role_taker,
+                show_duration=gyr)
+
+
     def prepared_session(self, start_time):
         prepared_session = Session(start_time, title="Prepared Speech Session")
+        if "SE_SP" in self._special_events.keys():
+            self.append_special_event(prepared_session, self._special_events["SE_SP"])
         for i, speaker in enumerate(self._speakers):
             o_s = ["1st", "2nd", "3rd", "4th"]
             self.append_event(
@@ -438,7 +478,10 @@ class ToastmasterAgendaGenerator:
                 )
             elif line.find(":") is not -1:
                 ti = line.find(":")
-                meeting_info.set_info(line[:ti].strip(), cls.strip_name(line[ti+1:]))
+                if line[:ti].strip().lower() == "skip":
+                    meeting_info._skip_dict.add(cls.strip_name(line[ti+1:]).lower())
+                else:
+                    meeting_info.set_info(line[:ti].strip(), cls.strip_name(line[ti+1:]))
 
         if meeting_info is not None:
             meetings.append(meeting_info)
