@@ -13,19 +13,27 @@ class Session:
         self._base_time = base_time
         self._current_time = base_time
 
-    def append_event(self, duration, role_name, event, role_taker: MemberInfo, show_duration=True, allow_tbd=False):
+    def append_event(self, duration, role_name, event, role_taker: MemberInfo, show_duration=True, allow_tbd=False, gyr_cards=None):
         if allow_tbd is False and role_taker.english_name == "TBD":
             return False
         d = str(duration)
-        if duration >= 20:
-            g, y, r = str(duration - 5), str(duration - 2), str(duration)
-        elif duration >= 4:
-            g, y, r = str(duration - 2), str(duration - 1), str(duration)
-            d = "{}-{}".format(g, r)
-        elif duration >= 3:
-            g, y, r = str(duration - 1), str(duration - 0.5), str(duration)
-        else:
-            g, y, r = "", "", str(duration)
+        gyr_ready = False
+        if gyr_cards is not None:
+            parts = gyr_cards.split(' ')
+            if len(parts) == 3:
+                g, y, r = parts
+                gyr_ready = True
+            
+        if not gyr_ready:
+            if duration >= 20:
+                g, y, r = str(duration - 5), str(duration - 2), str(duration)
+            elif duration >= 4:
+                g, y, r = str(duration - 2), str(duration - 1), str(duration)
+                d = "{}-{}".format(g, r)
+            elif duration >= 3:
+                g, y, r = str(duration - 1), str(duration - 0.5), str(duration)
+            else:
+                g, y, r = "", "", str(duration)
 
         if show_duration is False:
             g, y, r = "", "", str(duration)

@@ -144,7 +144,7 @@ class Meeting:
     def real_saa(self):
         return "SAA" if self.role_taken("SAA") else "VPM"
 
-    def append_event(self, session, role_name, event, duration, role_taker=None, show_duration=True):
+    def append_event(self, session, role_name, event, duration, role_taker=None, show_duration=True, gyr_cards=None):
         role_name_dict = {
             "SAA": "Sergeant at Arms (SAA)",
             "GE": "General Evaluator",
@@ -162,7 +162,8 @@ class Meeting:
             role_name=role_name_dict[role_name] if role_name in role_name_dict else role_name,
             role_taker=role_taker,
             event=event,
-            show_duration=show_duration
+            show_duration=show_duration,
+            gyr_cards=gyr_cards
         )
 
     def opening_session(self, start_time):
@@ -242,7 +243,8 @@ class Meeting:
                 table_topic_session,
                 duration=25,
                 role_name="TTM",
-                event="Theme Introduction & Table Topic Session"
+                event="Theme Introduction & Table Topic Session",
+                gyr_cards="1 1.5 2"
             )
             self.append_event(
                 table_topic_session,
@@ -255,7 +257,8 @@ class Meeting:
                 table_topic_session,
                 duration=30,
                 role_name="TTM",
-                event="Theme Introduction & Round Table"
+                event="Theme Introduction & Round Table",
+                gyr_cards="1 1.5 2"
             )
         return table_topic_session
 
@@ -281,14 +284,16 @@ class Meeting:
             "Speech Records": []})
         duration = int(special_event["duration"])
         topic = special_event["topic"]
-        gyr = len(special_event["gyr"]) > 0
+        gyr = special_event["gyr"]
+        show_duration = len(gyr) > 0
         self.append_event(
                 session=session,
                 role_name=role,
                 duration=duration,
                 event=topic,
                 role_taker=role_taker,
-                show_duration=gyr)
+                show_duration=show_duration,
+                gyr_cards=gyr)
 
 
     def prepared_session(self, start_time):
