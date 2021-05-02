@@ -59,4 +59,8 @@
 | 20210403 |   2200  |         | 17821.49| Membership (new)       | Yue Li, Jingyu, Bofeng, Nan Yang                            |
 | 20210410 |         | 1053.1  | 16768.39| Morale Lunch           | Fengling                                                    |
 | 20210419 |         | 383.86  | 16384.53| Snacks for meetings    | Elliot                                                      |
+| 20210419 |         | 8874.84 |  7509.69| membership payment     | Elliot, Bonnie, Davie, Locke, Fengling, Sawyer, Shuhan      |
+|          |         |         |         |                        | Marissa, Nancy, Brenda, Madison, Harper, Raymond, Bill      |
+|          |         |         |         |                        | April, Kay, Pan, Haoyu, Zhiwei, Eileen, Serena, Julia       |
+|          |         |         |         |                        | Yue Li, Jingyu, Bofeng, Nan Yang, Joey*, Serena*            |
 
