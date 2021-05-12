@@ -384,7 +384,7 @@
       "Walter"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level4-2",
+    "Current Level": "Level4-1",
     "Role Records": [
       {
         "Role": "TTE",
@@ -423,6 +423,10 @@
       {
         "Role": "GE",
         "Date": "20210203"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210428"
       }
     ],
     "Speech Records": [
@@ -502,12 +506,6 @@
         "Level": "Level4-1",
         "Date": "20210120",
         "Topic": "The Prince of Pickpockets",
-        "Type": "pathway"
-      },
-      {
-        "Level": "Level4-2",
-        "Date": "20210428",
-        "Topic": "\u5a5a\u59fb\u4e2d\u7684\u623f\u4ea7\u5f52\u5c5e",
         "Type": "pathway"
       }
     ]
@@ -664,6 +662,10 @@
       {
         "Role": "IE",
         "Date": "20210127"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210428"
       }
     ],
     "Speech Records": [
@@ -984,9 +986,8 @@
         "Date": "20210414"
       },
       {
-        "Role": "TTM",
-        "Date": "20210428",
-        "Topic": "\u4eba\u751f\u8fd9\u573a\u65c5\u9014"
+        "Role": "TTE",
+        "Date": "20210428"
       }
     ],
     "Speech Records": [
@@ -1086,7 +1087,7 @@
       {
         "Level": "Level1-2-2",
         "Date": "20210428",
-        "Topic": "\u5c4b\u9876\u4e4b\u517d",
+        "Topic": "The Leader I Want to Be",
         "Type": "pathway"
       }
     ]
@@ -1286,10 +1287,6 @@
       {
         "Role": "IE",
         "Date": "20210331"
-      },
-      {
-        "Role": "IE",
-        "Date": "20210428"
       }
     ],
     "Speech Records": [
@@ -1405,6 +1402,10 @@
       {
         "Role": "Word Smith",
         "Date": "20210331"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210428"
       }
     ],
     "Speech Records": []
@@ -2634,6 +2635,10 @@
       {
         "Role": "GE",
         "Date": "20210331"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210428"
       }
     ],
     "Speech Records": [
@@ -3118,8 +3123,9 @@
         "Topic": "Say No"
       },
       {
-        "Role": "GE",
-        "Date": "20210428"
+        "Role": "TTM",
+        "Date": "20210428",
+        "Topic": "Self-acceptance"
       }
     ],
     "Speech Records": [
@@ -3314,6 +3320,11 @@
         "Role": "TTM",
         "Date": "20210331",
         "Topic": "\"Do not go gentle into that good night\""
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210428",
+        "Topic": "Self-acceptance"
       }
     ],
     "Speech Records": [
@@ -3380,11 +3391,6 @@
         "Role": "TTM",
         "Date": "20210113",
         "Topic": "I came, I said, I conquered."
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20210428",
-        "Topic": "\u4eba\u751f\u8fd9\u573a\u65c5\u9014"
       }
     ],
     "Speech Records": [
@@ -3432,6 +3438,10 @@
       {
         "Role": "IE",
         "Date": "20210414"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210428"
       }
     ],
     "Speech Records": [
@@ -3485,10 +3495,6 @@
       {
         "Role": "Timer",
         "Date": "20201223"
-      },
-      {
-        "Role": "IE",
-        "Date": "20210428"
       }
     ],
     "Speech Records": []
@@ -3564,13 +3570,19 @@
     "Chinese Name": "Nan Yang",
     "Nick Names": [],
     "Mentor Name": "Madison",
-    "Current Level": "Level1-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [],
     "Speech Records": [
       {
         "Level": "Level1-1",
         "Date": "20210331",
         "Topic": "Death by Black Hole",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20210428",
+        "Topic": "Pumped Up Kicks",
         "Type": "pathway"
       }
     ]
@@ -3614,7 +3626,7 @@
         "Date": "20210303"
       },
       {
-        "Role": "Timer",
+        "Role": "Ah Counter",
         "Date": "20210428"
       }
     ],
@@ -3663,12 +3675,7 @@
     "Nick Names": [],
     "Mentor Name": null,
     "Current Level": "NotStarted",
-    "Role Records": [
-      {
-        "Role": "TTE",
-        "Date": "20210428"
-      }
-    ],
+    "Role Records": [],
     "Speech Records": []
   }
 ]
