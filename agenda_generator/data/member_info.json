@@ -384,7 +384,7 @@
       "Walter"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level4-1",
+    "Current Level": "Level4-2",
     "Role Records": [
       {
         "Role": "TTE",
@@ -506,6 +506,12 @@
         "Level": "Level4-1",
         "Date": "20210120",
         "Topic": "The Prince of Pickpockets",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-2",
+        "Date": "20210519",
+        "Topic": "M&A",
         "Type": "pathway"
       }
     ]
@@ -988,6 +994,10 @@
       {
         "Role": "TTE",
         "Date": "20210428"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210519"
       }
     ],
     "Speech Records": [
@@ -1069,6 +1079,10 @@
         "Role": "Toastmaster",
         "Date": "20210414",
         "Topic": "Say No"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210519"
       }
     ],
     "Speech Records": [
@@ -1916,6 +1930,11 @@
       {
         "Role": "IE",
         "Date": "20210303"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210519",
+        "Topic": "The Power of Habit"
       }
     ],
     "Speech Records": []
@@ -3126,6 +3145,10 @@
         "Role": "TTM",
         "Date": "20210428",
         "Topic": "Self-acceptance"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210519"
       }
     ],
     "Speech Records": [
@@ -3391,6 +3414,10 @@
         "Role": "TTM",
         "Date": "20210113",
         "Topic": "I came, I said, I conquered."
+      },
+      {
+        "Role": "IE",
+        "Date": "20210519"
       }
     ],
     "Speech Records": [
@@ -3495,6 +3522,11 @@
       {
         "Role": "Timer",
         "Date": "20201223"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210519",
+        "Topic": "The Power of Habit"
       }
     ],
     "Speech Records": []
@@ -3571,7 +3603,12 @@
     "Nick Names": [],
     "Mentor Name": "Madison",
     "Current Level": "Level1-2-1",
-    "Role Records": [],
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20210519"
+      }
+    ],
     "Speech Records": [
       {
         "Level": "Level1-1",
@@ -3619,7 +3656,7 @@
     "Chinese Name": "Yue Li",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3635,6 +3672,12 @@
         "Level": "Level1-1",
         "Date": "20210414",
         "Topic": "Growing up at work",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20210519",
+        "Topic": "Introduction to Missile",
         "Type": "pathway"
       }
     ]
