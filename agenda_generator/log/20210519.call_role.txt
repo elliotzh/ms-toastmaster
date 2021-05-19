@@ -4,7 +4,7 @@ TM: Jinyu
 GE: Brenda
 Timer: Nan Yang
 Ah-counter:
-Wordsmith:
+Wordsmith: Serena
 TTM: Raymond
 TTE: Madison
 SP1: Yue Li
