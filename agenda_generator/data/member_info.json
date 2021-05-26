@@ -672,6 +672,10 @@
       {
         "Role": "IE",
         "Date": "20210428"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210526"
       }
     ],
     "Speech Records": [
@@ -2498,6 +2502,11 @@
         "Role": "Toastmaster",
         "Date": "20210303",
         "Topic": "Find the Light"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210526",
+        "Topic": "\u6050\u60e7\u548c\u52c7\u6c14"
       }
     ],
     "Speech Records": [
@@ -3716,6 +3725,11 @@
       {
         "Role": "Timer",
         "Date": "20210331"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210526",
+        "Topic": "\u6050\u60e7\u548c\u52c7\u6c14"
       }
     ],
     "Speech Records": []
@@ -3727,6 +3741,36 @@
     "Mentor Name": null,
     "Current Level": "NotStarted",
     "Role Records": [],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Nancy Wang",
+    "Chinese Name": "Nancy Wang",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210526",
+        "Topic": "\u6253\u9020\u5373\u5174\u5fae\u6f14\u8bb2\u5f71\u54cd\u529b",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Flora",
+    "Chinese Name": "Flora",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20210526"
+      }
+    ],
     "Speech Records": []
   }
 ]
