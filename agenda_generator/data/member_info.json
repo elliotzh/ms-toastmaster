@@ -672,10 +672,6 @@
       {
         "Role": "IE",
         "Date": "20210428"
-      },
-      {
-        "Role": "TTE",
-        "Date": "20210526"
       }
     ],
     "Speech Records": [
@@ -1002,6 +998,10 @@
       {
         "Role": "IE",
         "Date": "20210519"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210526"
       }
     ],
     "Speech Records": [
@@ -1381,7 +1381,7 @@
     "Chinese Name": "Frank Zhao",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -1424,9 +1424,21 @@
       {
         "Role": "Word Smith",
         "Date": "20210428"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210526",
+        "Topic": "Skill"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210526",
+        "Topic": "How to Wordsmith (Workshop)",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "George Sheng",
@@ -1939,6 +1951,10 @@
         "Role": "TTM",
         "Date": "20210519",
         "Topic": "The Power of Habit"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210526"
       }
     ],
     "Speech Records": []
@@ -2502,11 +2518,6 @@
         "Role": "Toastmaster",
         "Date": "20210303",
         "Topic": "Find the Light"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20210526",
-        "Topic": "\u6050\u60e7\u548c\u52c7\u6c14"
       }
     ],
     "Speech Records": [
@@ -2671,6 +2682,10 @@
       {
         "Role": "IE",
         "Date": "20210428"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210526"
       }
     ],
     "Speech Records": [
@@ -3166,6 +3181,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20210519"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210526"
       }
     ],
     "Speech Records": [
@@ -3624,6 +3643,11 @@
       {
         "Role": "Timer",
         "Date": "20210519"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210526",
+        "Topic": "Skill"
       }
     ],
     "Speech Records": [
@@ -3725,11 +3749,6 @@
       {
         "Role": "Timer",
         "Date": "20210331"
-      },
-      {
-        "Role": "Toastmaster",
-        "Date": "20210526",
-        "Topic": "\u6050\u60e7\u548c\u52c7\u6c14"
       }
     ],
     "Speech Records": []
@@ -3748,16 +3767,9 @@
     "Chinese Name": "Nancy Wang",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-1",
+    "Current Level": "NotStarted",
     "Role Records": [],
-    "Speech Records": [
-      {
-        "Level": "Level1-1",
-        "Date": "20210526",
-        "Topic": "\u6253\u9020\u5373\u5174\u5fae\u6f14\u8bb2\u5f71\u54cd\u529b",
-        "Type": "pathway"
-      }
-    ]
+    "Speech Records": []
   },
   {
     "English Name": "Flora",
@@ -3772,5 +3784,21 @@
       }
     ],
     "Speech Records": []
+  },
+  {
+    "English Name": "Xiaoyi Liu",
+    "Chinese Name": "Xiaoyi Liu",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210526",
+        "Topic": "Who am I",
+        "Type": "pathway"
+      }
+    ]
   }
 ]

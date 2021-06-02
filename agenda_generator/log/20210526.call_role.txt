@@ -1,10 +1,16 @@
-5/26 中文Microsoft Toastmasters Meeting （线下会议模式）
-Theme: 恐惧和勇气
-TM:Liyue
+5/26 (English) Microsoft Toastmasters Meeting （Onsite Meeting）
+Theme: Skill
+TM: Nan Yang
+GE: Bonnie
 Timer: Flora
-TTM: April
-TTE: Bill
-SP1:Nancy Wang
-SP1 Topic：打造即兴微演讲影响力
-SPT1:45
-NM: 2
+Wordsmith: Raymond
+SAA: Jinyu Wang
+TTM: Frank
+TTE: Madison
+SP1: Xiaoyi Liu
+SP1 Topic：Who am I
+IE1: Kay
+SP2: Frank
+SP2 Topic: How to Wordsmith (Workshop)
+SPT2: 25
+NM: 1
