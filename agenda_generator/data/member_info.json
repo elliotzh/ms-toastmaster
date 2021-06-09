@@ -539,7 +539,7 @@
     "Chinese Name": "\u6bd4\u5c14",
     "Nick Names": [],
     "Mentor Name": "Nancy",
-    "Current Level": "Level4-3",
+    "Current Level": "Level4-4",
     "Role Records": [
       {
         "Role": "GE",
@@ -763,6 +763,12 @@
         "Level": "Level4-3",
         "Date": "20210113",
         "Topic": "Find Your Way",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-4",
+        "Date": "20210609",
+        "Topic": "High Performance Leadership",
         "Type": "pathway"
       }
     ]
@@ -1002,6 +1008,11 @@
       {
         "Role": "GE",
         "Date": "20210526"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210609",
+        "Topic": "A Talking Picture"
       }
     ],
     "Speech Records": [
@@ -1429,6 +1440,10 @@
         "Role": "TTM",
         "Date": "20210526",
         "Topic": "Skill"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210609"
       }
     ],
     "Speech Records": [
@@ -1553,6 +1568,10 @@
       {
         "Role": "IE",
         "Date": "20210414"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210609"
       }
     ],
     "Speech Records": [
@@ -1955,6 +1974,10 @@
       {
         "Role": "Word Smith",
         "Date": "20210526"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210609"
       }
     ],
     "Speech Records": []
@@ -3185,6 +3208,11 @@
       {
         "Role": "TTE",
         "Date": "20210526"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210609",
+        "Topic": "A Talking Picture"
       }
     ],
     "Speech Records": [
@@ -3384,6 +3412,10 @@
         "Role": "Toastmaster",
         "Date": "20210428",
         "Topic": "Self-acceptance"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210609"
       }
     ],
     "Speech Records": [
@@ -3505,6 +3537,10 @@
       {
         "Role": "Timer",
         "Date": "20210428"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210609"
       }
     ],
     "Speech Records": [
@@ -3648,6 +3684,10 @@
         "Role": "Toastmaster",
         "Date": "20210526",
         "Topic": "Skill"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210609"
       }
     ],
     "Speech Records": [
@@ -3671,7 +3711,12 @@
     "Nick Names": [],
     "Mentor Name": "Elliot Zhang",
     "Current Level": "NotStarted",
-    "Role Records": [],
+    "Role Records": [
+      {
+        "Role": "Word Smith",
+        "Date": "20210609"
+      }
+    ],
     "Speech Records": []
   },
   {
@@ -3797,6 +3842,38 @@
         "Level": "Level1-1",
         "Date": "20210526",
         "Topic": "Who am I",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Shaopeng",
+    "Chinese Name": "Shaopeng",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210609",
+        "Topic": "How to be humorous",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Wendy",
+    "Chinese Name": "Wendy",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210609",
+        "Topic": "Me in a Parallel Universe",
         "Type": "pathway"
       }
     ]
