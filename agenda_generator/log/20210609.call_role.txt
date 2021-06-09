@@ -7,7 +7,7 @@ Wordsmith: Jinyu Wang
 SAA: Jinyu Wang
 TTM: Madison
 TTE: Pan Deng
-Ah-Counter: Xiaoyi Liu
+Ah-counter: Xiaoyi Liu
 SP1: Shaopeng
 SP1 Topic：How to be humorous
 IE1: Frank

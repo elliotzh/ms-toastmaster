@@ -3836,7 +3836,12 @@
     "Nick Names": [],
     "Mentor Name": null,
     "Current Level": "Level1-1",
-    "Role Records": [],
+    "Role Records": [
+      {
+        "Role": "Ah Counter",
+        "Date": "20210609"
+      }
+    ],
     "Speech Records": [
       {
         "Level": "Level1-1",
