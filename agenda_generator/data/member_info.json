@@ -672,6 +672,10 @@
       {
         "Role": "IE",
         "Date": "20210428"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210616"
       }
     ],
     "Speech Records": [
@@ -1053,7 +1057,7 @@
     "Chinese Name": "\u5e03\u5170\u8fbe",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-2-2",
+    "Current Level": "Level1-3",
     "Role Records": [
       {
         "Role": "TTE",
@@ -1117,6 +1121,12 @@
         "Level": "Level1-2-2",
         "Date": "20210428",
         "Topic": "The Leader I Want to Be",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20210616",
+        "Topic": "Princess Lynn's Magic Suit",
         "Type": "pathway"
       }
     ]
@@ -1444,6 +1454,10 @@
       {
         "Role": "IE",
         "Date": "20210609"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210616"
       }
     ],
     "Speech Records": [
@@ -1978,6 +1992,10 @@
       {
         "Role": "GE",
         "Date": "20210609"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210616"
       }
     ],
     "Speech Records": []
@@ -3142,7 +3160,7 @@
       "Madision"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level2-3",
+    "Current Level": "Level3-1",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -3256,6 +3274,12 @@
         "Level": "Level2-3",
         "Date": "20210303",
         "Topic": "A Way out of Anxiety",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-1",
+        "Date": "20210616",
+        "Topic": "Money and My Ideal Life",
         "Type": "pathway"
       }
     ]
@@ -3416,6 +3440,10 @@
       {
         "Role": "TTE",
         "Date": "20210609"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210616"
       }
     ],
     "Speech Records": [
@@ -3688,6 +3716,11 @@
       {
         "Role": "IE",
         "Date": "20210609"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210616",
+        "Topic": "Be a Listener"
       }
     ],
     "Speech Records": [
@@ -3715,6 +3748,11 @@
       {
         "Role": "Word Smith",
         "Date": "20210609"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210616",
+        "Topic": "Be a Listener"
       }
     ],
     "Speech Records": []
@@ -3751,6 +3789,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20210428"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210616"
       }
     ],
     "Speech Records": [
@@ -3826,6 +3868,10 @@
       {
         "Role": "Timer",
         "Date": "20210526"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210616"
       }
     ],
     "Speech Records": []
@@ -3840,6 +3886,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20210609"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20210616"
       }
     ],
     "Speech Records": [
