@@ -64,4 +64,5 @@
 |          |         |         |         |                        | April, Kay, Pan, Haoyu, Zhiwei, Eileen, Serena, Julia       |
 |          |         |         |         |                        | Yue Li, Jingyu, Bofeng, Nan Yang, Joey*, Serena*            |
 | 20210602 |         | 402     |  7107.69| Officer morale mea     | Elliot                                                      |
+| 20210514 |  500    | 371.46  |  7236.23| Membership (new)       | Flora                                                       |
 
