@@ -1,23 +1,22 @@
-6/23 (English) Microsoft Toastmasters Meeting （Onsite Meeting）
-Theme: Media in the Digital Age
-TM: Madison
-GE: Kay
-Timer: Jinyu Wang
-Wordsmith:
+6/30 (中文) Microsoft Toastmasters Meeting （线下会议）
+Theme: 敬这伟大的良宵
+TM: Elliot
+GE: 
+Timer: Xiaoyi Liu
+Wordsmith: 
 SAA: Nan Yang
-TTM: Frank
-TTE: Brenda
-Ah-counter: Wendy Pang
-SP1: Bill
-SP1 Topic：TBD
-IE1: Zhiwei
-SP2: Fengling
-SP2 Topic: Table Manner
-IE2: Jenny
-SP3: Xiaoyi Liu
-SP3 Topic: Isolation and Curiosity
-IE3: Nan Yang
-VPE: Xiaoyi Liu
-President: Raymond
-NM: 1
-
+TTM: Pan Deng
+TTE: Bill
+Ah-counter: 
+SP1: 
+SP1 Topic：
+IE1: 
+SP2: 
+SP2 Topic: 
+IE2: 
+NM: 0
+SE_TE role: Toastmaster
+SE_TE role taker: Elliot Zhang
+SE_TE topic: Officer团队换届
+SE_TE duration: 30
+SE_TE gyr: 20,25,30
