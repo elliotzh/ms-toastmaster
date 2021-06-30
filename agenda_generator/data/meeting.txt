@@ -1,18 +1,20 @@
-6/16 (English) Microsoft Toastmasters Meeting （Onsite Meeting）
-Theme: Be a Listener
-TM: Jinyu Wang
-GE: Bill
-Timer: Flora
-Wordsmith: Frank
-SAA: Xiaoyi Liu
-TTM: Nan Yang
-TTE: Raymond
-Ah-counter: Xiaoyi Liu
-SP1: Madison
-SP1 Topic：Money and My Ideal Life
-IE1: Pan Deng
-SP2: Brenda
-SP2 Topic: Princess Lynn's Magic Suit
-IE2: Yue Li
+6/30 (中文) Microsoft Toastmasters Meeting （线下会议）
+Theme: 敬这伟大的良宵
+TM: Elliot
+GE: 
+Timer: Xiaoyi Liu
+Wordsmith:
+SAA: Nan Yang
+TTM: Pan Deng
+TTE: Bill
+Ah-counter: 
+SP1: 
+SP1 Topic：
+IE1: 
+SP2: 
+SP2 Topic: 
+IE2: 
 NM: 0
+skip: Evaluation Team: Purpose and Members
+
 
