@@ -236,8 +236,8 @@ class Meeting:
             role_name="Toastmaster",
             event="Introduce the Table Topic Master"
         )
-        if "SE_TP" in self._special_events.keys():
-            self.append_special_event(table_topic_session, self._special_events["SE_TP"])
+        if "SE_TE" in self._special_events.keys():
+            self.append_special_event(table_topic_session, self._special_events["SE_TE"])
         if self.role_taken("TTE"):
             self.append_event(
                 table_topic_session,
