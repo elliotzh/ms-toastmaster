@@ -539,7 +539,7 @@
     "Chinese Name": "\u6bd4\u5c14",
     "Nick Names": [],
     "Mentor Name": "Nancy",
-    "Current Level": "Level4-4",
+    "Current Level": "Level4-5",
     "Role Records": [
       {
         "Role": "GE",
@@ -773,6 +773,12 @@
         "Level": "Level4-4",
         "Date": "20210609",
         "Topic": "High Performance Leadership",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-5",
+        "Date": "20210623",
+        "Topic": "TBD",
         "Type": "pathway"
       }
     ]
@@ -1102,6 +1108,10 @@
       {
         "Role": "GE",
         "Date": "20210519"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210623"
       }
     ],
     "Speech Records": [
@@ -1458,6 +1468,11 @@
       {
         "Role": "Word Smith",
         "Date": "20210616"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210623",
+        "Topic": "Media in the Digital Age"
       }
     ],
     "Speech Records": [
@@ -2727,6 +2742,10 @@
       {
         "Role": "IE",
         "Date": "20210526"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210623"
       }
     ],
     "Speech Records": [
@@ -3134,6 +3153,10 @@
       {
         "Role": "GE",
         "Date": "20200729"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210623"
       }
     ],
     "Speech Records": []
@@ -3231,6 +3254,11 @@
         "Role": "TTM",
         "Date": "20210609",
         "Topic": "A Talking Picture"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210623",
+        "Topic": "Media in the Digital Age"
       }
     ],
     "Speech Records": [
@@ -3514,6 +3542,10 @@
       {
         "Role": "IE",
         "Date": "20210519"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210623"
       }
     ],
     "Speech Records": [
@@ -3536,7 +3568,7 @@
     "Chinese Name": "Fengling Hu",
     "Nick Names": [],
     "Mentor Name": "Raymond Lu",
-    "Current Level": "Level1-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3576,6 +3608,12 @@
         "Level": "Level1-1",
         "Date": "20210303",
         "Topic": "7 Habits of Highly Effective People",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20210623",
+        "Topic": "Table Manner",
         "Type": "pathway"
       }
     ]
@@ -3721,6 +3759,10 @@
         "Role": "TTM",
         "Date": "20210616",
         "Topic": "Be a Listener"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210623"
       }
     ],
     "Speech Records": [
@@ -3753,6 +3795,10 @@
         "Role": "Toastmaster",
         "Date": "20210616",
         "Topic": "Be a Listener"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210623"
       }
     ],
     "Speech Records": []
@@ -3881,7 +3927,7 @@
     "Chinese Name": "Xiaoyi Liu",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-1",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -3897,6 +3943,12 @@
         "Level": "Level1-1",
         "Date": "20210526",
         "Topic": "Who am I",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-1",
+        "Date": "20210623",
+        "Topic": "Isolation and Curiosity",
         "Type": "pathway"
       }
     ]
@@ -3932,5 +3984,19 @@
         "Type": "pathway"
       }
     ]
+  },
+  {
+    "English Name": "Wendy Pang",
+    "Chinese Name": "Wendy Pang",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Ah Counter",
+        "Date": "20210623"
+      }
+    ],
+    "Speech Records": []
   }
 ]
