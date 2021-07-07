@@ -1027,6 +1027,11 @@
         "Role": "Toastmaster",
         "Date": "20210609",
         "Topic": "A Talking Picture"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210707",
+        "Topic": "Flipped"
       }
     ],
     "Speech Records": [
@@ -1116,6 +1121,10 @@
       {
         "Role": "TTE",
         "Date": "20210623"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210707"
       }
     ],
     "Speech Records": [
@@ -1605,6 +1614,10 @@
       {
         "Role": "IE",
         "Date": "20210609"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210707"
       }
     ],
     "Speech Records": [
@@ -2548,7 +2561,7 @@
     "Chinese Name": "\u9ad8\u6587\u59ec",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-2-2",
+    "Current Level": "Level1-3",
     "Role Records": [
       {
         "Role": "Timer",
@@ -2602,6 +2615,12 @@
         "Level": "Level1-2-2",
         "Date": "20200429",
         "Topic": "\u7ee7\u7eed\u804a\u804a\u201c\u6211\u6240\u89c1\u8fc7\u7684\u8d2b\u56f0\u201d",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20210707",
+        "Topic": "Learn to Give Up",
         "Type": "pathway"
       }
     ]
@@ -3268,6 +3287,10 @@
         "Role": "Toastmaster",
         "Date": "20210623",
         "Topic": "Media in the Digital Age"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210707"
       }
     ],
     "Speech Records": [
@@ -3486,6 +3509,11 @@
         "Role": "TTM",
         "Date": "20210630",
         "Topic": "\u656c\u8fd9\u4f1f\u5927\u7684\u826f\u5bb5"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210707",
+        "Topic": "Flipped"
       }
     ],
     "Speech Records": [
@@ -3777,6 +3805,10 @@
       {
         "Role": "IE",
         "Date": "20210623"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210707"
       }
     ],
     "Speech Records": [
@@ -3813,6 +3845,10 @@
       {
         "Role": "Timer",
         "Date": "20210623"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210707"
       }
     ],
     "Speech Records": []
@@ -3941,7 +3977,7 @@
     "Chinese Name": "Xiaoyi Liu",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-2-1",
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -3967,6 +4003,12 @@
         "Level": "Level1-2-1",
         "Date": "20210623",
         "Topic": "Isolation and Curiosity",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-2",
+        "Date": "20210707",
+        "Topic": "Climigration",
         "Type": "pathway"
       }
     ]
@@ -4013,6 +4055,20 @@
       {
         "Role": "Ah Counter",
         "Date": "20210623"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Sunny Wu",
+    "Chinese Name": "Sunny Wu",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Timer",
+        "Date": "20210707"
       }
     ],
     "Speech Records": []
