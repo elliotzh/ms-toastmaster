@@ -676,6 +676,10 @@
       {
         "Role": "GE",
         "Date": "20210616"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210630"
       }
     ],
     "Speech Records": [
@@ -2452,6 +2456,11 @@
       {
         "Role": "IE",
         "Date": "20210203"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210630",
+        "Topic": "\u656c\u8fd9\u4f1f\u5927\u7684\u826f\u5bb5"
       }
     ],
     "Speech Records": [
@@ -3472,6 +3481,11 @@
       {
         "Role": "IE",
         "Date": "20210616"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210630",
+        "Topic": "\u656c\u8fd9\u4f1f\u5927\u7684\u826f\u5bb5"
       }
     ],
     "Speech Records": [
@@ -3936,6 +3950,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20210616"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210630"
       }
     ],
     "Speech Records": [
