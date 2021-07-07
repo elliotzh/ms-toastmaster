@@ -1,22 +1,17 @@
-6/30 (中文) Microsoft Toastmasters Meeting （线下会议）
-Theme: 敬这伟大的良宵
-TM: Elliot
-GE: 
-Timer: Xiaoyi Liu
-Wordsmith: 
+7/7 (English) Microsoft Toastmasters Meeting （Onsite Meeting）
+Theme: Flipped
+TM: Pan Deng
+GE: Brenda
+Timer: Sunny Wu
+Wordsmith: Jinyu Wang
 SAA: Nan Yang
-TTM: Pan Deng
-TTE: Bill
+TTM: Bonnie
+TTE: Madison
 Ah-counter: 
-SP1: 
-SP1 Topic：
-IE1: 
-SP2: 
-SP2 Topic: 
-IE2: 
-NM: 0
-SE_TE role: Toastmaster
-SE_TE role taker: Elliot Zhang
-SE_TE topic: Officer团队换届
-SE_TE duration: 30
-SE_TE gyr: 20,25,30
+SP1: April
+SP1 Topic：Learn to Give Up
+IE1: Nan Yang
+SP2: Xiaoyi Liu
+SP2 Topic: Climigration
+IE2: Harper
+NM: 1
