@@ -67,4 +67,5 @@
 | 20210514 |  500    | 371.46  |  7236.23| Membership (new)       | Flora                                                       |
 | 20210729 |         | 150     |  7086.23| PS service             | Marissa                                                     |
 | 20210623 | 1450    | 1072.75 |  7463.48| Membership (new)       | Xiaoyi, Wenjie, Shaopeng                                    |
+| 20210708 | 900     | 667.36  |  7696.12| Membership (new)       | Sunny, Camille                                              |
 
