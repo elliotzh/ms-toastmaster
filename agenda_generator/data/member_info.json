@@ -324,6 +324,10 @@
       {
         "Role": "GE",
         "Date": "20210303"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210714"
       }
     ],
     "Speech Records": [
@@ -1032,6 +1036,10 @@
         "Role": "TTM",
         "Date": "20210707",
         "Topic": "Flipped"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210714"
       }
     ],
     "Speech Records": [
@@ -1125,6 +1133,11 @@
       {
         "Role": "GE",
         "Date": "20210707"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210714",
+        "Topic": "Born to Last"
       }
     ],
     "Speech Records": [
@@ -1874,6 +1887,10 @@
       {
         "Role": "Word Smith",
         "Date": "20191106"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210714"
       }
     ],
     "Speech Records": [
@@ -3291,6 +3308,11 @@
       {
         "Role": "TTE",
         "Date": "20210707"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210714",
+        "Topic": "Born to Last"
       }
     ],
     "Speech Records": [
@@ -3809,6 +3831,10 @@
       {
         "Role": "IE",
         "Date": "20210707"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210714"
       }
     ],
     "Speech Records": [
@@ -3831,7 +3857,7 @@
     "Chinese Name": "Jinyu Wang",
     "Nick Names": [],
     "Mentor Name": "Elliot Zhang",
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -3851,7 +3877,14 @@
         "Date": "20210707"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210714",
+        "Topic": "An Introduction to RL: an Agent as the Example (doge)",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Locke Huang",
@@ -3990,6 +4023,10 @@
       {
         "Role": "Timer",
         "Date": "20210630"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210714"
       }
     ],
     "Speech Records": [
@@ -4069,6 +4106,70 @@
       {
         "Role": "Timer",
         "Date": "20210707"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210714"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Camille",
+    "Chinese Name": "Camille",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210714",
+        "Topic": "What Ultimately Saves Us",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Wenjie Pang",
+    "Chinese Name": "Wenjie Pang",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "Level1-1",
+    "Role Records": [],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210714",
+        "Topic": "AI World",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Hongxia Huang",
+    "Chinese Name": "Hongxia Huang",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Ah Counter",
+        "Date": "20210714"
+      }
+    ],
+    "Speech Records": []
+  },
+  {
+    "English Name": "Shaopeng Bu",
+    "Chinese Name": "Shaopeng Bu",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "Word Smith",
+        "Date": "20210714"
       }
     ],
     "Speech Records": []
