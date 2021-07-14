@@ -16,5 +16,5 @@ SP2 Topic: An Introduction to RL: an Agent as the Example (doge)
 IE2: Bonnie
 SP3: Wenjie Pang
 SP3 Topic: AI World
-IE3: Sawyer
+IE3: Brenda
 NM: 0
