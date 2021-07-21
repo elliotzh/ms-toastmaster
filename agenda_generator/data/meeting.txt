@@ -1,20 +1,18 @@
-7/14 (English) Microsoft Toastmasters Meeting （Onsite Meeting）
-Theme: Born to Last
-TM: Madison
-GE: Qiyang
-Timer: Xiaoyi Liu
-Wordsmith: Shaopeng Bu
+7/21 (English) Microsoft Toastmasters Meeting （Onsite Meeting）
+Theme: Sense and Sensibility
+TM: April
+GE: Madison
+Timer: Hongxia Huang
+Ah-counter: Serena
+Wordsmith: Nan Yang
 SAA: Nan Yang
-TTM: Brenda Wang
-TTE: Nan Yang
-Ah-counter: Hongxia Huang
-SP1: Camille
-SP1 Topic：What Ultimately Saves Us
-IE1: Sunny Wu
-SP2: Jinyu Wang
-SP2 Topic: An Introduction to RL: an Agent as the Example (doge)
-IE2: Bonnie
-SP3: Wenjie Pang
-SP3 Topic: AI World
-IE3: Brenda
+TTM: Xiaoyi Liu
+TTE: Qiyang
+SP1: Marissa
+SP1 Topic：Your Pension Fund
+IE1: Bonnie
+SP2: Sunny Wu
+SP2 Topic: Becoming a Program Manager 
+IE2: Kay
+President: Raymond
 NM: 0
