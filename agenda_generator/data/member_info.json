@@ -1036,6 +1036,10 @@
       {
         "Role": "IE",
         "Date": "20210714"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210721"
       }
     ],
     "Speech Records": [
@@ -1891,6 +1895,10 @@
       {
         "Role": "GE",
         "Date": "20210714"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210721"
       }
     ],
     "Speech Records": [
@@ -2083,6 +2091,10 @@
       {
         "Role": "Word Smith",
         "Date": "20210519"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20210721"
       }
     ],
     "Speech Records": [
@@ -2613,6 +2625,11 @@
         "Role": "Toastmaster",
         "Date": "20210303",
         "Topic": "Find the Light"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210721",
+        "Topic": "Sense and Sensibility"
       }
     ],
     "Speech Records": [
@@ -2791,6 +2808,10 @@
       {
         "Role": "GE",
         "Date": "20210623"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210721"
       }
     ],
     "Speech Records": [
@@ -3313,6 +3334,10 @@
         "Role": "Toastmaster",
         "Date": "20210714",
         "Topic": "Born to Last"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210721"
       }
     ],
     "Speech Records": [
@@ -3373,7 +3398,7 @@
       "Marrisa"
     ],
     "Mentor Name": "Elliot Zhang",
-    "Current Level": "Level1-2-1",
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3416,6 +3441,12 @@
         "Level": "Level1-2-1",
         "Date": "20201021",
         "Topic": "Some reading thoughts about\u201cPrinciples\u201d",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-2",
+        "Date": "20210721",
+        "Topic": "Your Pension Fund",
         "Type": "pathway"
       }
     ]
@@ -3835,6 +3866,10 @@
       {
         "Role": "TTE",
         "Date": "20210714"
+      },
+      {
+        "Role": "Word Smith",
+        "Date": "20210721"
       }
     ],
     "Speech Records": [
@@ -4027,6 +4062,11 @@
       {
         "Role": "Timer",
         "Date": "20210714"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210721",
+        "Topic": "Sense and Sensibility"
       }
     ],
     "Speech Records": [
@@ -4101,7 +4141,7 @@
     "Chinese Name": "Sunny Wu",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -4112,7 +4152,14 @@
         "Date": "20210714"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210721",
+        "Topic": "Becoming a Program Manager",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Camille",
@@ -4156,6 +4203,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20210714"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210721"
       }
     ],
     "Speech Records": []
