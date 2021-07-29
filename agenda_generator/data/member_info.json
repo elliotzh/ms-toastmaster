@@ -324,6 +324,11 @@
       {
         "Role": "GE",
         "Date": "20210303"
+      },
+      {
+        "Role": "TTM",
+        "Date": "20210728",
+        "Topic": "\u4e2d\u5e74\u5c06\u81f3"
       }
     ],
     "Speech Records": [
@@ -2053,6 +2058,10 @@
       {
         "Role": "TTE",
         "Date": "20210616"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210728"
       }
     ],
     "Speech Records": []
@@ -2095,6 +2104,10 @@
       {
         "Role": "Ah Counter",
         "Date": "20210721"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210728"
       }
     ],
     "Speech Records": [
@@ -2630,6 +2643,11 @@
         "Role": "Toastmaster",
         "Date": "20210721",
         "Topic": "Sense and Sensibility"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210728",
+        "Topic": "\u4e2d\u5e74\u5c06\u81f3"
       }
     ],
     "Speech Records": [
@@ -3249,7 +3267,7 @@
       "Madision"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level3-1",
+    "Current Level": "Level3-2-1",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -3388,6 +3406,12 @@
         "Date": "20210616",
         "Topic": "Money and My Ideal Life",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level3-2-1",
+        "Date": "20210728",
+        "Topic": "\u72ec\u65c5\u60ca\u9b42\u2014\u2014\u9082\u9005\u5371\u9669\u8fd8\u662f\u9082\u9005\u7cbe\u5f69\uff1f",
+        "Type": "pathway"
       }
     ]
   },
@@ -3508,7 +3532,7 @@
     "Chinese Name": "Pan Deng",
     "Nick Names": [],
     "Mentor Name": "Bill Lin",
-    "Current Level": "Level1-2-1",
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3581,6 +3605,12 @@
         "Date": "20201223",
         "Topic": "The Story of Fever",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-2",
+        "Date": "20210728",
+        "Topic": "\u4eba\u5de5\u667a\u80fd\u4f1a\u68a6\u89c1\u5fae\u7b11\u7684\u8499\u5a1c\u4e3d\u838e\u5417",
+        "Type": "pathway"
       }
     ]
   },
@@ -3641,6 +3671,10 @@
       {
         "Role": "IE",
         "Date": "20210623"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210728"
       }
     ],
     "Speech Records": [
@@ -3696,6 +3730,10 @@
       {
         "Role": "Timer",
         "Date": "20210609"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210728"
       }
     ],
     "Speech Records": [
@@ -4150,6 +4188,10 @@
       {
         "Role": "IE",
         "Date": "20210714"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210728"
       }
     ],
     "Speech Records": [
