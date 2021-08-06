@@ -324,11 +324,6 @@
       {
         "Role": "GE",
         "Date": "20210303"
-      },
-      {
-        "Role": "TTM",
-        "Date": "20210728",
-        "Topic": "\u4e2d\u5e74\u5c06\u81f3"
       }
     ],
     "Speech Records": [
@@ -544,7 +539,7 @@
     "Chinese Name": "\u6bd4\u5c14",
     "Nick Names": [],
     "Mentor Name": "Nancy",
-    "Current Level": "Level4-5",
+    "Current Level": "Level4-6",
     "Role Records": [
       {
         "Role": "GE",
@@ -788,6 +783,12 @@
         "Level": "Level4-5",
         "Date": "20210623",
         "Topic": "TBD",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level4-6",
+        "Date": "20210728",
+        "Topic": "Mentoring",
         "Type": "pathway"
       }
     ]
@@ -1045,6 +1046,10 @@
       {
         "Role": "IE",
         "Date": "20210721"
+      },
+      {
+        "Role": "GE",
+        "Date": "20210728"
       }
     ],
     "Speech Records": [
@@ -1147,6 +1152,10 @@
         "Role": "TTM",
         "Date": "20210714",
         "Topic": "Born to Last"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210728"
       }
     ],
     "Speech Records": [
@@ -2060,7 +2069,7 @@
         "Date": "20210616"
       },
       {
-        "Role": "TTE",
+        "Role": "IE",
         "Date": "20210728"
       }
     ],
@@ -2071,7 +2080,7 @@
     "Chinese Name": "\u5c1a\u54f2",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level2-1",
+    "Current Level": "Level2-2",
     "Role Records": [
       {
         "Role": "TTM",
@@ -2104,10 +2113,6 @@
       {
         "Role": "Ah Counter",
         "Date": "20210721"
-      },
-      {
-        "Role": "IE",
-        "Date": "20210728"
       }
     ],
     "Speech Records": [
@@ -2139,6 +2144,12 @@
         "Level": "Level2-1",
         "Date": "20210127",
         "Topic": "\u6846\u67b6\u6548\u5e94\u53ca\u5176\u5bf9\u98ce\u9669\u51b3\u7b56\u7684\u5f71\u54cd",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-2",
+        "Date": "20210728",
+        "Topic": "Modernization of Small Farmers",
         "Type": "pathway"
       }
     ]
@@ -2645,9 +2656,8 @@
         "Topic": "Sense and Sensibility"
       },
       {
-        "Role": "Toastmaster",
-        "Date": "20210728",
-        "Topic": "\u4e2d\u5e74\u5c06\u81f3"
+        "Role": "Timer",
+        "Date": "20210728"
       }
     ],
     "Speech Records": [
@@ -3267,7 +3277,7 @@
       "Madision"
     ],
     "Mentor Name": "Bonnie Wang",
-    "Current Level": "Level3-2-1",
+    "Current Level": "Level3-1",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -3406,12 +3416,6 @@
         "Date": "20210616",
         "Topic": "Money and My Ideal Life",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level3-2-1",
-        "Date": "20210728",
-        "Topic": "\u72ec\u65c5\u60ca\u9b42\u2014\u2014\u9082\u9005\u5371\u9669\u8fd8\u662f\u9082\u9005\u7cbe\u5f69\uff1f",
-        "Type": "pathway"
       }
     ]
   },
@@ -3532,7 +3536,7 @@
     "Chinese Name": "Pan Deng",
     "Nick Names": [],
     "Mentor Name": "Bill Lin",
-    "Current Level": "Level1-2-2",
+    "Current Level": "Level1-2-1",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3605,12 +3609,6 @@
         "Date": "20201223",
         "Topic": "The Story of Fever",
         "Type": "pathway"
-      },
-      {
-        "Level": "Level1-2-2",
-        "Date": "20210728",
-        "Topic": "\u4eba\u5de5\u667a\u80fd\u4f1a\u68a6\u89c1\u5fae\u7b11\u7684\u8499\u5a1c\u4e3d\u838e\u5417",
-        "Type": "pathway"
       }
     ]
   },
@@ -3671,10 +3669,6 @@
       {
         "Role": "IE",
         "Date": "20210623"
-      },
-      {
-        "Role": "IE",
-        "Date": "20210728"
       }
     ],
     "Speech Records": [
@@ -3732,8 +3726,9 @@
         "Date": "20210609"
       },
       {
-        "Role": "Timer",
-        "Date": "20210728"
+        "Role": "Toastmaster",
+        "Date": "20210728",
+        "Topic": "Resilience"
       }
     ],
     "Speech Records": [
@@ -4190,8 +4185,9 @@
         "Date": "20210714"
       },
       {
-        "Role": "GE",
-        "Date": "20210728"
+        "Role": "TTM",
+        "Date": "20210728",
+        "Topic": "Resilience"
       }
     ],
     "Speech Records": [
@@ -4249,6 +4245,10 @@
       {
         "Role": "Timer",
         "Date": "20210721"
+      },
+      {
+        "Role": "Ah Counter",
+        "Date": "20210728"
       }
     ],
     "Speech Records": []
@@ -4263,6 +4263,10 @@
       {
         "Role": "Word Smith",
         "Date": "20210714"
+      },
+      {
+        "Role": "TTE",
+        "Date": "20210728"
       }
     ],
     "Speech Records": []
