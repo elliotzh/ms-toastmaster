@@ -602,12 +602,12 @@ def __main__():
                 "feat: auto-generated change",
                 "-m",
                 "preview link: "
-                "https://htmlpreview.github.io/?https://github.com/elliotzh/ms-toastmaster/blob/"
+                "https://htmlpreview.github.io/?https://github.com/nyanyanya/ms-toastmaster/blob/"
                 "{}/agenda_generator/output/agenda.html".format(current_branch)
             ])
             run = subprocess.run([
                 "git", "remote", "set-url", "origin",
-                "https://{}@github.com/eliiotz/ms-toastmaster.git".format(git_token)
+                "https://{}@github.com/nyanyanya/ms-toastmaster.git".format(git_token)
             ])
             run = subprocess.run(["git", "push"])
             print(run.stderr)

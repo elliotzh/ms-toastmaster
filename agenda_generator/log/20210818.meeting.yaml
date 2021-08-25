@@ -1,25 +1,38 @@
 date: #yyyy/mm/dd
-  2021/08/25
-language:       Chinese
-location:       GuGong,1,1 # Room, Floor, Building
-theme:          求职面试
+  2021/08/18
+language:       English
+location:       QianMen,4,2 # Room, Floor, Building
+theme:          Speech Marathon
 roles:
-  SAA:      Jinyu Wang
+  SAA:      Nan Yang
   VPM:      Bonnie Wang
   President:      Raymond Lu     
-  TM:       Serena
-  GE:       Madison Wang
-  Timer:    Camille
+  TM:       Nan Yang
+  GE:       
+  Timer:    Yue Li
   Ah-Counter:
-  Wordsmith: Prana
-  TTM: Raymond Lu
-  TTE: April
-  SP1:      Sunny Wu
-  SP1 Title:      我的领导力风格
-  IE1:      Bonnie Wang
-  SP2:      Serena
-  SP2 Title:      艺术家的工作--拉斐尔的一生
-  IE2:      Hongxia Huang
+  Wordsmith: 
+  TTM: 
+  TTE: 
+  SP1:      Serena
+  SP1 Title:      Friend and Foe
+  IE1:      Sawyer
+  SP2:      Shaopeng Bu
+  SP2 Title:      How to Be Serious
+  IE2:      Madison Wang
+  SP3:      Sawyer
+  SP3 Title:      Immune War
+  IE3:      Bonnie Wang
+  SP4:      Xiaoyi Liu
+  SP4 Title:      The Golden Rooster Stands on One Leg
+  IE4:      Pan Deng
+  SP5:      Hongxia Huang
+  SP5 Title:    From Challenge to Experience
+  IE5:      Bill Lin
+  SP6:      Wendy Pang
+  SP6 Title:    What if You Meeting a Leader in the Elevator
+  IE6:      Marissa Wang
+
   
 
 sessions:
@@ -46,7 +59,7 @@ sessions:
         title:      Timer's Guidelines
         duration:   1
       - role:       Ah-Counter
-        title:      Ah Counter's Guidelines
+        title:      Timer's Guidelines
         duration:   1
       - role:       Wordsmith
         title:      Word Smith's Guidelines
@@ -55,10 +68,9 @@ sessions:
         title:      Return Control to Toastmaster
         duration:   1
 
-  - title: Prepared Speech Session
+  - title: Prepared Speech Session - 1
     events:
       - role:       TM
-        require:    SP1
         title:      Introduce the 1st Speaker
         duration:   1
       - role:       SP1
@@ -67,7 +79,6 @@ sessions:
         gyr:  5/6/7
 
       - role:       TM
-        require:    SP2
         title:      Introduce the 2nd Speaker
         duration:   1
       - role:       SP2
@@ -76,7 +87,6 @@ sessions:
         gyr:  5/6/7
 
       - role:       TM
-        require:    SP3
         title:      Introduce the 3rd Speaker
         duration:   1
       - role:       SP3
@@ -85,17 +95,14 @@ sessions:
         gyr:  5/6/7
 
       - role:       IE1
-        require:    SP1
         title:      Evaluate the 1st Speaker
         duration:   3
         gyr:  2/2.5/3
       - role:       IE2
-        require:    SP2
         title:      Evaluate the 2nd Speaker
         duration:   3
         gyr:  2/2.5/3
       - role:       IE3
-        require:    SP3
         title:      Evaluate the 3rd Speaker
         duration:   3
         gyr:  2/2.5/3
@@ -105,6 +112,7 @@ sessions:
         duration:   5
 
   - title: Table Topic Session
+    skip:  True
     events:
       - role:       TM
         title:      Introduce the Table Topic Master
@@ -120,6 +128,44 @@ sessions:
         duration:   6
         gyr: 4/5/6
 
+  - title: Prepared Speech Session - 2
+    events:
+      - role:       TM
+        title:      Introduce the 4th Speaker
+        duration:   1
+      - role:       SP4
+        title:      $SP4 Title$
+        duration:   7
+        gyr:  5/6/7
+
+      - role:       TM
+        title:      Introduce the 5th Speaker
+        duration:   1
+      - role:       SP5
+        title:      $SP5 Title$
+        duration:   7
+        gyr:  5/6/7
+
+      - role:       TM
+        title:      Introduce the 6th Speaker
+        duration:   1
+      - role:       SP6
+        title:      $SP6 Title$
+        duration:   7
+        gyr:  5/6/7
+
+      - role:       IE4
+        title:      Evaluate the 4th Speaker
+        duration:   3
+        gyr:  2/2.5/3
+      - role:       IE5
+        title:      Evaluate the 5th Speaker
+        duration:   3
+        gyr:  2/2.5/3
+      - role:       IE6
+        title:      Evaluate the 6th Speaker
+        duration:   3
+        gyr:  2/2.5/3
 
   - title: Evaluation Session
     events:
