@@ -175,14 +175,14 @@ class MemberInfoLibrary:
             )), member_info_file, indent=2)
 
     def find(self, role_taker_name) -> MemberInfo:
-        if role_taker_name is not None and len(role_taker_name) is not 0:
+        if role_taker_name is not None and len(role_taker_name) != 0:
             for member_info in self._member_info_list:
                 for name in [
                     member_info.english_name,
                     member_info.chinese_name,
                     *member_info.nick_names
                 ]:
-                    if name.lower().find(role_taker_name.lower()) is 0:
+                    if name.lower().find(role_taker_name.lower()) == 0:
                         return member_info
         else:
             return MemberInfo({
@@ -213,7 +213,7 @@ class MemberInfoLibrary:
 
     def assign_role(self, role_taker_name: str, role_name: str, date_str, topic) -> MemberInfo:
         role_taker = self.find(role_taker_name)
-        if role_name.find("Speaker") is 0:
+        if role_name.find("Speaker") == 0:
             speech_type, next_level = self.next_level(role_taker.current_level)
             role_taker.append_speech(next_level, date_str, topic, speech_type)
         else:

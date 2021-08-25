@@ -48,3 +48,7 @@ class PathUtil:
     @property
     def default_meeting_info_path(self):
         return path.join(self.current_dir, "data", "meeting.txt")
+
+    @property
+    def meeting_yaml_path(self):
+        return path.join(self.current_dir, "data", "meeting.yaml")

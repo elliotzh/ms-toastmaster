@@ -93,10 +93,10 @@ class Meeting:
 
         self._theme = self.try_get_info("Theme")
 
-        for i in range(1, 5):
+        for i in range(1, 9):
             speaker_name = self.try_get_info("SP{}".format(i))
             speech_topic = self.try_get_info("SP{} Topic".format(i))
-            if len(speaker_name) is not 0:
+            if len(speaker_name) != 0:
                 role_taker = member_lib.assign_role(
                     speaker_name,
                     "Speaker".format(i),
@@ -111,9 +111,9 @@ class Meeting:
 
         for role in self._roles:
             role_taker_name = self.try_get_info(role["name"])
-            if len(role_taker_name) is 0 and "nick" in role:
+            if len(role_taker_name) == 0 and "nick" in role:
                 role_taker_name = self.try_get_info(role["nick"])
-            if len(role_taker_name) is 0 and "default_taker" in role:
+            if len(role_taker_name) == 0 and "default_taker" in role:
                 role_taker_name = role["default_taker"]
 
             self._function_role_taker[role["name"]] = member_lib.assign_role(
@@ -269,7 +269,7 @@ class Meeting:
                 duration = time_setting["duration"]
 
         overwrite = self.try_get_info("SPT{}".format(speech_index+1))
-        if len(overwrite) is not 0:
+        if len(overwrite) != 0:
             duration = int(overwrite)
 
         return duration
@@ -300,8 +300,8 @@ class Meeting:
         prepared_session = Session(start_time, title="Prepared Speech Session")
         if "SE_SP" in self._special_events.keys():
             self.append_special_event(prepared_session, self._special_events["SE_SP"])
+        o_s = ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"]
         for i, speaker in enumerate(self._speakers):
-            o_s = ["1st", "2nd", "3rd", "4th"]
             self.append_event(
                 prepared_session,
                 duration=1,
@@ -316,7 +316,6 @@ class Meeting:
             )
 
         for i, speaker in enumerate(self._speakers):
-            o_s = ["1st", "2nd", "3rd", "4th"]
             prepared_session.append_event(
                 duration=3,
                 role_name="Individual Evaluator {}".format(i + 1),
@@ -332,13 +331,13 @@ class Meeting:
                 event="Evaluate Individual Evaluators"
             )
 
-        self.append_event(
-            prepared_session,
-            duration=5,
-            role_name="Toastmaster",
-            event="Break Time",
-            show_duration=False
-        )
+        #self.append_event(
+        #    prepared_session,
+        #    duration=5,
+        #    role_name="Toastmaster",
+        #    event="Break Time",
+        #    show_duration=False
+        #)
         return prepared_session
 
     def evaluation_session(self, start_time):
@@ -443,7 +442,7 @@ class Meeting:
             agenda.append_session(self.prepared_session(agenda.current_datetime))
 
         # table topic session
-        agenda.append_session(self.table_topic_session(agenda.current_datetime))
+        # agenda.append_session(self.table_topic_session(agenda.current_datetime))
 
         agenda.append_session(self.evaluation_session(agenda.current_datetime))
         agenda.dump(output_path)
@@ -481,7 +480,7 @@ class ToastmasterAgendaGenerator:
                     year=year,
                     is_english=True # (m.group(3) == "English")
                 )
-            elif line.find(":") is not -1:
+            elif line.find(":") != -1:
                 ti = line.find(":")
                 if line[:ti].strip().lower() == "skip":
                     meeting_info._skip_dict.add(cls.strip_name(line[ti+1:]).lower())
@@ -534,15 +533,49 @@ class ToastmasterAgendaGenerator:
         if update_member_info is True:
             member_info_lib.dump()
 
+def to_agenda(yaml_path, output_path):
+    import yaml
+    with open(yaml_path, encoding='utf-8') as fin:
+        meeting = yaml.safe_load(fin)
+    theme = meeting['theme']
+    language = meeting['language']
+    date = meeting['date']
+    year, month, day = date.split('/')
+    agenda = Agenda(language, theme, 3, meeting['location'])
+
+    curr_time = datetime.datetime(int(year), int(month), int(day), 18, 45)
+
+    for s in meeting['sessions']:
+        if 'skip' in s.keys() and s['skip']:
+            continue
+        session = Session(curr_time, title=s['title'])
+        session.from_data(s['events'], meeting['roles'], meeting['role_names'])
+        curr_time = session._current_time
+        agenda.append_session(session)
+    agenda.dump(output_path)
+    # log
+    date_str =  "{2}{0:02}{1:02}".format(
+            int(month),
+            int(day),
+            int(year)
+        )
+    path_util = PathUtil()
+    import shutil
+    shutil.copy2(yaml_path, 
+        path_util.get_log_path("{0}.meeting.yaml".format(date_str)))
+
+    agenda_path = path_util.get_output_path("agenda.html")
+    agenda_backup_path = path_util.get_log_path("{0}.agenda.html".format(date_str))
+    shutil.copy2(agenda_path, agenda_backup_path)
 
 def __main__():
     if len(sys.argv) == 3:
         _, current_log_path, call_role_path = sys.argv
+        raise NotImplementedException()
         generator = ToastmasterAgendaGenerator()
         generator.generate_agenda(call_role_path, current_log_path, update_member_info=True)
     elif len(sys.argv) == 1:
-        generator = ToastmasterAgendaGenerator()
-        generator.generate_agenda(update_member_info=True, log_agenda=True)
+        to_agenda(PathUtil().meeting_yaml_path, PathUtil().get_output_path("agenda.html"))
         # for root, _, files in os.walk(PathUtil().get_log_path("")):
         #     files = sorted(filter(lambda x: x.endswith(".txt"), files))
         #     for i, file in enumerate(files):
@@ -555,12 +588,10 @@ def __main__():
         #         )
     else:
         git_token = sys.argv[1]
-        generator = ToastmasterAgendaGenerator()
-        generator.generate_agenda(update_member_info=True)
-
+        to_agenda(PathUtil().meeting_yaml_path, PathUtil().get_output_path("agenda.html"))
         status = subprocess.check_output(["git", "status"]).decode("utf-8")
         print(status)
-        if status.find("data/member_info.json") is not -1:
+        if status.find("data/member_info.json") != -1:
             current_branch = subprocess.check_output(
                 ["git", "rev-parse", "--abbrev-ref", "HEAD"]).decode("utf-8").strip()
             subprocess.check_call(["git", "add", "."])
