@@ -27,4 +27,11 @@ jobs:
       run: |
         echo ${GITHUB_REF##*/}
         cd ${{ github.workspace }}/agenda_generator
-        python3 ./toastmaster_generator.py ${{ secrets.GITHUB_TOKEN }}
+        python3 ./toastmaster_generator.py # ${{ secrets.GITHUB_TOKEN }}
+        git config --local user.email "gitbot@noreply.com"
+        git config --local user.name "gitbot"
+        git add log
+        git add output/agenda.html
+        git push commit -m"auto-generated change"
+        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/nyanyanya/ms-toastmaster.git
+        git push
