@@ -582,7 +582,7 @@ def __main__():
     elif len(sys.argv) == 1:
         current_branch = subprocess.check_output(
                 ["git", "rev-parse", "--abbrev-ref", "HEAD"]).decode("utf-8").strip()
-        print f"current_branch {current_branch}"
+        print(f"current_branch {current_branch}")
         to_agenda(PathUtil().meeting_yaml_path, PathUtil().get_output_path("agenda.html"))
         # for root, _, files in os.walk(PathUtil().get_log_path("")):
         #     files = sorted(filter(lambda x: x.endswith(".txt"), files))
