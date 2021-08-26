@@ -34,4 +34,4 @@ jobs:
         git add output/agenda.html
         git commit -m"auto-generated change"
         git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/nyanyanya/ms-toastmaster.git
-        git push
+        git push origin HEAD:$GITHUB_REF
