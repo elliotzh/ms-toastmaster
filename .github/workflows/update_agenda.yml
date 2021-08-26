@@ -25,5 +25,5 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Generate new agenda
       run: |
-        cd ${{ github.workspace }}.agenda_generator
+        cd ${{ github.workspace }}/agenda_generator
         python3 ./toastmaster_generator.py ${{ secrets.GITHUB_TOKEN }}
