@@ -600,6 +600,8 @@ def __main__():
             current_branch = subprocess.check_output(
                 ["git", "rev-parse", "--abbrev-ref", "HEAD"]).decode("utf-8").strip()
             subprocess.check_call(["git", "add", "."])
+            subprocess.check_call(["git", "add", "log"])
+            subprocess.check_call(["git", "add", "output/agenda.html"])
             subprocess.check_call([
                 "git",
                 "commit",
