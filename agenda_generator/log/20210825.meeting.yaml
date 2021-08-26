@@ -1,7 +1,7 @@
 date: #yyyy/mm/dd
   2021/08/25
-language:       English   # English or Chinese
-location:       Gugong,1,1 # Room, Floor, Building
+language:       Chinese   # English or Chinese
+location:       故宫,1,1 # Room, Floor, Building
 theme:          求职面试
 roles:
   SAA:      Jinyu Wang
