@@ -1,7 +1,7 @@
 date: #yyyy/mm/dd
   2021/08/25
-language:       Chinese
-location:       GuGong,1,1 # Room, Floor, Building
+language:       English   # English or Chinese
+location:       Gugong,1,1 # Room, Floor, Building
 theme:          求职面试
 roles:
   SAA:      Jinyu Wang
@@ -24,42 +24,42 @@ roles:
 
 sessions:
   - title: 
-    skip:  False
+    # skip: True
     events:
       - role:       SAA
-        title:      Registration/Greeting
+        title:      {default: Registration/Greeting, Chinese: 注册/问候}
         # taker:    Nan Yang # direct specify taker
         duration:   20
         #  skip:      True # skip events by uncomment this line
       - role:       TM
-        title:      Meeting Opening & Privacy Statement
+        title:      {default: Meeting Opening & Privacy Statement, Chinese: 会议开场及隐私声明}
         duration:   4
         gyr:  2/3/4
       - role:       SAA
-        title:      Welcome Guests (20s/P)
+        title:      {default: Welcome Guests (20s/P), Chinese: 欢迎访客 (20秒/人)}
         duration:   5
         gyr:  3/4/5
       - role:       [GE, TM]
-        title:      "Evaluation Team: Purpose and Members"
+        title:      {default: "Evaluation Team: Purpose and Members", Chinese: "点评团队: 目的和成员"}
         duration:   1
       - role:       Timer
-        title:      Timer's Guidelines
+        title:      {default: Timer's Guidelines, Chinese: 时间官介绍}
         duration:   1
       - role:       Ah-Counter
-        title:      Ah Counter's Guidelines
+        title:      {default: Ah Counter's Guidelines, Chinese: 哼哈官介绍}
         duration:   1
       - role:       Wordsmith
-        title:      Word Smith's Guidelines
+        title:      {default: Word Smith's Guidelines, Chinese: 语法官介绍}
         duration:   2
       - role:       GE
-        title:      Return Control to Toastmaster
+        title:      {default: Return Control to Toastmaster, Chinese: 交接回主持人}
         duration:   1
 
-  - title: Prepared Speech Session
+  - title: {default: Prepared Speech Session, Chinese: 备稿演讲环节}
     events:
       - role:       TM
         require:    SP1
-        title:      Introduce the 1st Speaker
+        title:      {default: Introduce the 1st Speaker, Chinese: 介绍第一位演讲者}
         duration:   1
       - role:       SP1
         title:      $SP1 Title$
@@ -68,7 +68,7 @@ sessions:
 
       - role:       TM
         require:    SP2
-        title:      Introduce the 2nd Speaker
+        title:      {default: Introduce the 2nd Speaker, Chinese: 介绍第二位演讲者}
         duration:   1
       - role:       SP2
         title:      $SP2 Title$
@@ -77,7 +77,7 @@ sessions:
 
       - role:       TM
         require:    SP3
-        title:      Introduce the 3rd Speaker
+        title:      {default: Introduce the 3rd Speaker, Chinese: 介绍第三位演讲者}
         duration:   1
       - role:       SP3
         title:      $SP3 Title$
@@ -86,94 +86,123 @@ sessions:
 
       - role:       IE1
         require:    SP1
-        title:      Evaluate the 1st Speaker
+        title:      {default: Evaluate the 1st Speaker, Chinese: 点评第一位演讲者}
         duration:   3
         gyr:  2/2.5/3
       - role:       IE2
         require:    SP2
-        title:      Evaluate the 2nd Speaker
+        title:      {default: Evaluate the 2nd Speaker, Chinese: 点评第二位演讲者}
         duration:   3
         gyr:  2/2.5/3
       - role:       IE3
         require:    SP3
-        title:      Evaluate the 3rd Speaker
+        title:      {default: Evaluate the 3rd Speaker, Chinese: 点评第三位演讲者}
+        duration:   3
+        gyr:  2/2.5/3
+      - role:       GE
+        title:      {default: Evaluate Individual Evaluators, Chinese: 点评个人点评官}
         duration:   3
         gyr:  2/2.5/3
 
       - role:       TM
-        title:      Break Time
+        title:      {default: Break Time, Chinese: 中场休息}
         duration:   5
 
-  - title: Table Topic Session
+  - title: {default: Table Topic Session, Chinese: 即兴演讲环节}
+    # skip:       True
     events:
       - role:       TM
-        title:      Introduce the Table Topic Master
+        title:      {default: Introduce the Table Topic Master, Chinese: 介绍即兴演讲主持人}
         duration:   1
 
       - role:       TTM
-        title:      Theme Introduction & Table Topic Session
+        title:      {default: Theme Introduction & Table Topic Session, Chinese: 主题介绍及即兴演讲}
         duration:   25
         gyr:  1/1.5/2
 
       - role:       TTE
-        title:      Table Topic Evaluation
+        title:      {default: Table Topic Evaluation, Chinese: 点评主题演讲}
         duration:   6
         gyr: 4/5/6
 
 
-  - title: Evaluation Session
+  - title: {default: Evaluation Session, Chinese: 点评环节}
+    #skip:       True
     events:
       - role:       [GE,TM]
-        title:      Evaluation Session Opening
+        title:      {default: Evaluation Session Opening, Chinese: 点评环节开场}
         duration:   1
       - role:       Timer
-        title:      Timer's Report
+        title:      {default: Timer's Report, Chinese: 时间官报告}
         duration:   2
       - role:       Ah-Counter
-        title:      Ah Counter's Report
+        title:      {default: Ah Counter's Report, Chinese: 哼哈官报告}
         duration:   2
         gyr: 1/1.5/2
       - role:       Wordsmith
-        title:      Word Smith's Report
+        title:      {default: Word Smith's Report, Chinese: 语法官报告}
         duration:   2
         gyr: 1/1.5/2
       - role:       [GE,TM]
-        title:      Request Feedbacks from Audience
+        title:      {default: Request Feedbacks from Audience, Chinese: 请求听众反馈}
         duration:   1
       - role:       GE
-        title:      General Evaluator's Report
+        title:      {default: General Evaluator's Report, Chinese: 总点评官报告}
         duration:   4
         gyr: 2/3/4
       - role:       VPM
-        title:      Induction of New Members
+        title:      {default: Induction of New Members, Chinese: 新会员加入}
         duration:   5
         skip:       True
       - role:       SAA
-        title:      Guest Feedback (20s/P)
+        title:      {default: Guest Feedback (20s/P), Chinese: 访客反馈 (20秒/人)}
         duration:   5
         gyr:  3/4/5
       - role:       TM
-        title:      Conclusion
+        title:      {default: Conclusion, Chinese: 总结}
         duration:   2
       - role:       President
-        title:      Meeting Closing
+        title:      {default: Meeting Closing, Chinese: 结束语}
         duration:   2
 
+
 role_names:
-  SAA:    Sergeant at Arms
-  TM:     Toastmaster
-  TTM:    Table Topic Master
-  TTE:    Table Topic Evaluator
-  GE:     General Evaluator
-  SP1:    Prepared Speaker 1
-  SP2:    Prepared Speaker 2
-  SP3:    Prepared Speaker 3
-  SP4:    Prepared Speaker 4
-  SP5:    Prepared Speaker 5
-  SP6:    Prepared Speaker 6
-  IE1:    Individual Evaluator 1
-  IE2:    Individual Evaluator 2
-  IE3:    Individual Evaluator 3
-  IE4:    Individual Evaluator 4
-  IE5:    Individual Evaluator 5
-  IE6:    Individual Evaluator 6
+  Chinese:
+    SAA:    接待官
+    TM:     主持人
+    TTM:    即兴演讲主持人
+    TTE:    即兴演讲点评官
+    GE:     总评人
+    SP1:    备稿演讲者一
+    SP2:    备稿演讲者二
+    SP3:    备稿演讲者三
+    SP4:    备稿演讲者四
+    SP5:    备稿演讲者五
+    SP6:    备稿演讲者六
+    IE1:    个人点评官一
+    IE2:    个人点评官二
+    IE3:    个人点评官三
+    IE4:    个人点评官四
+    IE5:    个人点评官五
+    IE6:    个人点评官六
+    Timer:  时间官
+    Wordsmith: 语法官
+    President: 主席
+  default:
+    SAA:    Sergeant at Arms
+    TM:     Toastmaster
+    TTM:    Table Topic Master
+    TTE:    Table Topic Evaluator
+    GE:     General Evaluator
+    SP1:    Prepared Speaker 1
+    SP2:    Prepared Speaker 2
+    SP3:    Prepared Speaker 3
+    SP4:    Prepared Speaker 4
+    SP5:    Prepared Speaker 5
+    SP6:    Prepared Speaker 6
+    IE1:    Individual Evaluator 1
+    IE2:    Individual Evaluator 2
+    IE3:    Individual Evaluator 3
+    IE4:    Individual Evaluator 4
+    IE5:    Individual Evaluator 5
+    IE6:    Individual Evaluator 6
