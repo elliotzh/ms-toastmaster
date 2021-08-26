@@ -32,6 +32,6 @@ jobs:
         git config --local user.name "gitbot"
         git add log
         git add output/agenda.html
-        git push commit -m"auto-generated change"
+        git commit -m"auto-generated change"
         git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/nyanyanya/ms-toastmaster.git
         git push
