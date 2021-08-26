@@ -121,7 +121,7 @@ sessions:
         gyr:  1/1.5/2
 
       - role:       TTE
-        title:      {default: Table Topic Evaluation, Chinese: 点评主题演讲}
+        title:      {default: Table Topic Evaluation, Chinese: 点评即兴演讲}
         duration:   6
         gyr: 4/5/6
 
