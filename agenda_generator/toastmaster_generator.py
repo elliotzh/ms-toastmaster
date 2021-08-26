@@ -605,6 +605,7 @@ def __main__():
             subprocess.check_call([
                 "git",
                 "commit",
+                "-a",
                 "-m",
                 "feat: auto-generated change",
                 "-m",
