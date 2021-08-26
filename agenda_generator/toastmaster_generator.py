@@ -545,10 +545,15 @@ def to_agenda(yaml_path, output_path):
 
     curr_time = datetime.datetime(int(year), int(month), int(day), 18, 45)
 
+    if language in meeting['role_names'].keys():
+        meeting['role_names'] = meeting['role_names'][language]
+    else:
+        meeting['role_names'] = meeting['role_names']['default']
+
     for s in meeting['sessions']:
         if 'skip' in s.keys() and s['skip']:
             continue
-        session = Session(curr_time, title=s['title'])
+        session = Session(curr_time, title=s['title'], lang=language)
         session.from_data(s['events'], meeting['roles'], meeting['role_names'])
         curr_time = session._current_time
         agenda.append_session(session)
@@ -561,7 +566,7 @@ def to_agenda(yaml_path, output_path):
         )
     path_util = PathUtil()
     import shutil
-    shutil.copy2(yaml_path, 
+    shutil.copy2(yaml_path,
         path_util.get_log_path("{0}.meeting.yaml".format(date_str)))
 
     agenda_path = path_util.get_output_path("agenda.html")
