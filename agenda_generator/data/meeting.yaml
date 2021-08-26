@@ -1,6 +1,6 @@
 date: #yyyy/mm/dd
   2021/08/25
-language:       Chinese # English or Chinese
+language:       Chinese  # English or Chinese
 location:       故宫,1,1 # Room, Floor, Building
 theme:          求职面试
 roles:
