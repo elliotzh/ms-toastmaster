@@ -35,4 +35,4 @@ jobs:
         git commit -m"auto-generated change"
         git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/nyanyanya/ms-toastmaster.git
         echo "source branch ${{ github.head_ref }}"
-        git push -f origin HEAD:$GITHUB_REF
+        git push -f origin HEAD:${{ github.head_ref }}
