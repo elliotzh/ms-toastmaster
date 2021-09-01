@@ -1,25 +1,25 @@
 date: #yyyy/mm/dd
-  2021/08/25
-language:       Chinese   # English or Chinese
-location:       故宫,1,1 # Room, Floor, Building
-theme:          求职面试
+  2021/09/01
+language:       English # English or Chinese
+location:       GuGong,1,1 # Room, Floor, Building
+theme:          Trust
 roles:
-  SAA:      Jinyu Wang
+  SAA:      Nan Yang
   VPM:      Bonnie Wang
   President:      Raymond Lu     
-  TM:       Serena
-  GE:       Madison Wang
-  Timer:    Camille
+  TM:       Madison Wang
+  GE:       Bonnie Wang
+  Timer:    Henry
   Ah-Counter:
-  Wordsmith: Prana
-  TTM: Raymond Lu
-  TTE: Jinyu Wang
-  SP1:      Sunny Wu
-  SP1 Title:      我的领导力风格
-  IE1:      Bonnie Wang
-  SP2:      Serena
-  SP2 Title:      艺术家的工作--拉斐尔的一生
-  IE2:      Hongxia Huang
+  Wordsmith: 
+  TTM: Brenda Wang
+  TTE: Yue Li
+  SP1:      Hongxia Huang
+  SP1 Title:      From Challenge to Experience
+  IE1:      Serena
+  SP2:      Sunny Wu
+  SP2 Title:      Understand My Communication Style
+  IE2:      Bonnie Wang
   
 
 sessions:
