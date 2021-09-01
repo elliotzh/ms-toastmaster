@@ -190,7 +190,7 @@
     "Chinese Name": "Sawyer",
     "Nick Names": [],
     "Mentor Name": "Davie Dong",
-    "Current Level": "Level3-1",
+    "Current Level": "Level3-2-1",
     "Role Records": [
       {
         "Role": "TTM",
@@ -324,6 +324,10 @@
       {
         "Role": "GE",
         "Date": "20210303"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210818"
       }
     ],
     "Speech Records": [
@@ -373,6 +377,12 @@
         "Level": "Level3-1",
         "Date": "20210224",
         "Topic": "\u5546\u8bae\u6700\u4f73\u7ed3\u679c",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level3-2-1",
+        "Date": "20210818",
+        "Topic": "Immune War",
         "Type": "pathway"
       }
     ]
@@ -680,6 +690,10 @@
       {
         "Role": "TTE",
         "Date": "20210630"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210818"
       }
     ],
     "Speech Records": [
@@ -1090,7 +1104,7 @@
     "Chinese Name": "\u5e03\u5170\u8fbe",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-3",
+    "Current Level": "Level2-1",
     "Role Records": [
       {
         "Role": "TTE",
@@ -1156,6 +1170,10 @@
       {
         "Role": "IE",
         "Date": "20210728"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210818"
       }
     ],
     "Speech Records": [
@@ -1181,6 +1199,12 @@
         "Level": "Level1-3",
         "Date": "20210616",
         "Topic": "Princess Lynn's Magic Suit",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-1",
+        "Date": "20210818",
+        "Topic": "Nihilism",
         "Type": "pathway"
       }
     ]
@@ -2080,7 +2104,7 @@
     "Chinese Name": "\u5c1a\u54f2",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level2-2",
+    "Current Level": "Level2-3",
     "Role Records": [
       {
         "Role": "TTM",
@@ -2150,6 +2174,12 @@
         "Level": "Level2-2",
         "Date": "20210728",
         "Topic": "Modernization of Small Farmers",
+        "Type": "pathway"
+      },
+      {
+        "Level": "Level2-3",
+        "Date": "20210818",
+        "Topic": "Friend and Foe",
         "Type": "pathway"
       }
     ]
@@ -3456,6 +3486,10 @@
       {
         "Role": "Timer",
         "Date": "20210414"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210818"
       }
     ],
     "Speech Records": [
@@ -3595,6 +3629,10 @@
         "Role": "Toastmaster",
         "Date": "20210707",
         "Topic": "Flipped"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210818"
       }
     ],
     "Speech Records": [
@@ -3729,6 +3767,11 @@
         "Role": "Toastmaster",
         "Date": "20210728",
         "Topic": "Resilience"
+      },
+      {
+        "Role": "Toastmaster",
+        "Date": "20210818",
+        "Topic": "Speech Marathon"
       }
     ],
     "Speech Records": [
@@ -3868,7 +3911,7 @@
     "Chinese Name": "Nan Yang",
     "Nick Names": [],
     "Mentor Name": "Madison",
-    "Current Level": "Level1-2-1",
+    "Current Level": "Level1-2-2",
     "Role Records": [
       {
         "Role": "Timer",
@@ -3917,6 +3960,12 @@
         "Date": "20210428",
         "Topic": "Pumped Up Kicks",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level1-2-2",
+        "Date": "20210818",
+        "Topic": "Is HIIT good for Your Fitness?",
+        "Type": "pathway"
       }
     ]
   },
@@ -3943,6 +3992,10 @@
       {
         "Role": "Word Smith",
         "Date": "20210707"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210818"
       }
     ],
     "Speech Records": [
@@ -3990,6 +4043,10 @@
       {
         "Role": "IE",
         "Date": "20210616"
+      },
+      {
+        "Role": "Timer",
+        "Date": "20210818"
       }
     ],
     "Speech Records": [
@@ -4078,7 +4135,7 @@
     "Chinese Name": "Xiaoyi Liu",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "Level1-2-2",
+    "Current Level": "Level1-3",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -4120,6 +4177,12 @@
         "Date": "20210707",
         "Topic": "Climigration",
         "Type": "pathway"
+      },
+      {
+        "Level": "Level1-3",
+        "Date": "20210818",
+        "Topic": "The Golden Rooster Stands on One Leg",
+        "Type": "pathway"
       }
     ]
   },
@@ -4160,14 +4223,25 @@
     "Chinese Name": "Wendy Pang",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Ah Counter",
         "Date": "20210623"
+      },
+      {
+        "Role": "IE",
+        "Date": "20210818"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210818",
+        "Topic": "What if You Meet a Leader in the Elevator",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Sunny Wu",
@@ -4236,7 +4310,7 @@
     "Chinese Name": "Hongxia Huang",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Ah Counter",
@@ -4251,14 +4325,21 @@
         "Date": "20210728"
       }
     ],
-    "Speech Records": []
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210818",
+        "Topic": "From Challenge to Experience",
+        "Type": "pathway"
+      }
+    ]
   },
   {
     "English Name": "Shaopeng Bu",
     "Chinese Name": "Shaopeng Bu",
     "Nick Names": [],
     "Mentor Name": null,
-    "Current Level": "NotStarted",
+    "Current Level": "Level1-1",
     "Role Records": [
       {
         "Role": "Word Smith",
@@ -4267,6 +4348,27 @@
       {
         "Role": "TTE",
         "Date": "20210728"
+      }
+    ],
+    "Speech Records": [
+      {
+        "Level": "Level1-1",
+        "Date": "20210818",
+        "Topic": "How to Be Serious",
+        "Type": "pathway"
+      }
+    ]
+  },
+  {
+    "English Name": "Madison Wang",
+    "Chinese Name": "Madison Wang",
+    "Nick Names": [],
+    "Mentor Name": null,
+    "Current Level": "NotStarted",
+    "Role Records": [
+      {
+        "Role": "IE",
+        "Date": "20210818"
       }
     ],
     "Speech Records": []

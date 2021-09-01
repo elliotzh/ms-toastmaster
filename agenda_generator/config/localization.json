@@ -34,5 +34,56 @@
   "member_head": {
     "default": "Member",
     "Chinese": "成员"
+  },
+  "theme_head": {
+    "default": "Theme Today",
+    "Chinese": "今日主题"
+  },
+  "duration_head": {
+    "default": "Duration (mins)",
+    "Chinese": "时长 (分)"
+  },
+  "privacy_head": {
+    "default": "Privacy Statement",
+    "Chinese": "隐私声明"
+  },
+  "privacy_statement": {
+    "default": "The meeting will be recorded by officer team & may be published on the Internet. Please contact officer team if you got any concern on privacy; we will cut related parts.",
+    "Chinese": "会议组织者会对本次会议进行录像，并可能会把录像发布到互联网上。如果你对隐私问题有顾虑，请联系组织者；我们会将与你有关的部分从录像中删除。"
+  },
+  "manner_head": {
+      "default": "Meeting Manners & Etiquettes",
+      "Chinese": "会议礼仪"
+  },
+  "manner_1": {
+      "default": "Taboos: No topics about religion, race, politics and sex during the meeting.",
+      "Chinese": "禁忌： 请不要在会议中讨论关于宗教、种族、政治和性方面的话题。"
+  },
+  "manner_2": {
+      "default": "Mobile: Please turn mobile phone to silent mode.",
+      "Chinese": "手机： 请将手机调至静音模式。"
+  },
+  "manner_3": {
+      "default": "Language: No private talk during the meeting.",
+      "Chinese": "语言： 请不要在会议中私下交流。"
+  },
+  "manner_4": {
+      "default": "Support: Please keep applauding when the speakers walk up and down the stage. Don't forget to shake hands when you turn the floor over to others",
+      "Chinese": "支持： 在演讲者上下台过程中请鼓掌表示支持。在台上交接时请不要忘记和交接人握手。"},
+  "join_head": {
+      "default": "How to join our club?",
+      "Chinese": "何如加入本俱乐部?"
+  },
+  "join_1": {
+      "default": "Step 1: Inform our VPM asap, and attend at least three meetings of this Club as a guest.",
+      "Chinese": "第一步： 将入会意愿告知俱乐部VPM，并以访客身份参加至少三次活动。"
+  },
+  "join_2": {
+      "default": "Step 2: Participate in at least two Table Topics Sessions to deliver qualified impromptu speeches.",
+      "Chinese": "第二步： 至少参加两次即兴演讲环节并进行达到标准的即兴演讲。"
+  },
+  "join_3": {
+      "default": "Step 3: Contact and make an appointment with our VPM Bonnie Wang ( WeChat: Bonniewyy ).",
+      "Chinese": "第三步： 与VPM Bonnie Wang联系并预约入会事宜。(微信： Bonniewyy)"
   }
 }

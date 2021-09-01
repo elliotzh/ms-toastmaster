@@ -5,13 +5,82 @@ from typing import Dict, Optional, List
 from member import MemberInfo
 from datetime import datetime, timedelta
 
+def get_title(title, lang):
+    if title is None:
+        return None
+    if isinstance(title, dict):
+        if not lang or lang not in title.keys():
+            lang = "default"
+        return title[lang]
+    return title
 
 class Session:
-    def __init__(self, base_time: datetime, title=None):
-        self._title = title
+    def __init__(self, base_time: datetime, title=None, lang=None):
+        self._title = get_title(title, lang)
         self._rows = []
         self._base_time = base_time
         self._current_time = base_time
+        self._language = lang
+
+    def get_role_and_taker(self, event, roles, role_names):
+        role = event['role']
+        taker = None
+        if 'taker' in event.keys() and event['taker']:
+            taker = event['taker']
+            if isinstance(role, list):
+                role = role[0]
+        else:
+            if not isinstance(role, list):
+                role_cands = [role]
+            else:
+                role_cands = role
+            role = None
+            taker = None
+            for xrole in role_cands:
+                if xrole in roles.keys() and roles[xrole]:
+                    role = xrole
+                    taker = roles[xrole]
+                    break
+        if role is None:
+            return None, None
+        if role in role_names.keys():
+            role = role_names[role]
+        return role, taker
+
+
+    def from_data(self, events, roles, role_names):
+        for event in events:
+            if 'skip' in event.keys() and event['skip']:
+                continue
+            duration = str(event['duration'])
+            if 'gyr' in event.keys():
+                g, y, r = event['gyr'].split('/')
+            else:
+                g, y, r = '', '', duration
+            role_name, taker = self.get_role_and_taker(event, roles, role_names)
+            if not role_name or not taker:
+                continue
+            if 'require' in event.keys():
+                required_role = event['require']
+                if required_role not in roles.keys() or not roles[required_role]:
+                    continue
+            title = get_title(event['title'], self._language)
+            if len(title) > 2 and title[0] == '$' and title[-1] == '$':
+                if title[1:-1] in roles.keys() and roles[title[1:-1]]:
+                    title = roles[title[1:-1]]
+
+            self._rows.append(Session.create_row([
+                ("col-time", self._current_time.strftime("%I:%M %p")),
+                ("col-role", role_name),
+                ("col-event", title),
+                ("col-role", taker),
+                ("col-time", duration),
+                ("col-card", g),
+                ("col-card", y),
+                ("col-card", r),
+            ]))
+            self._current_time += timedelta(minutes=float(duration))
+        return True
 
     def append_event(self, duration, role_name, event, role_taker: MemberInfo, show_duration=True, allow_tbd=False, gyr_cards=None):
         if allow_tbd is False and role_taker.english_name == "TBD":
@@ -23,7 +92,6 @@ class Session:
             if len(parts) == 3:
                 g, y, r = parts
                 gyr_ready = True
-            
         if not gyr_ready:
             if duration >= 20:
                 g, y, r = str(duration - 5), str(duration - 2), str(duration)
@@ -100,7 +168,8 @@ class Agenda:
             html_template = html_template.replace("{{" + key + "}}", value)
         return html_template
 
-    def __init__(self, language, theme, speech_count=3):
+    def __init__(self, language, theme, speech_count=3, location='TianAnMen,1,1'):
+        room, floor, building = location.split(',')
         self._template_str = Agenda.template_localization(
             PathUtil().get_template("default.html"),
             language,
@@ -110,6 +179,10 @@ class Agenda:
                 },
                 "speech_count": {
                     "default": str(speech_count),
+                },
+                "venue": {
+                    "default": "Venue: Room %s, F%s, Microsoft Build %s, Danling St. Zhongguancun West Zone Haidian Dist." % (room, floor, building),
+                    "Chinese": f"地点： 海淀区中关村丹棱街微软大厦{building}号楼{floor}层{room}会议室"
                 }
             }
         )

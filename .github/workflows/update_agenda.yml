@@ -1,0 +1,37 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Update agenda application
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Generate new agenda
+      run: |
+        echo ${GITHUB_REF##*/}
+        cd ${{ github.workspace }}/agenda_generator
+        python3 ./toastmaster_generator.py # ${{ secrets.GITHUB_TOKEN }}
+        git config --local user.email "gitbot@noreply.com"
+        git config --local user.name "gitbot"
+        git add log
+        git add output/agenda.html
+        git commit -m"auto-generated change" -m "preview link: https://htmlpreview.github.io/?https://github.com/nyanyanya/ms-toastmaster/blob/${{ github.head_ref }}/agenda_generator/output/agenda.html"
+        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/nyanyanya/ms-toastmaster.git
+        git push -f origin HEAD:${{ github.head_ref }}

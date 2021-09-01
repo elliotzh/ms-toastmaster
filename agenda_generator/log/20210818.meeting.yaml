@@ -1,0 +1,225 @@
+date: #yyyy/mm/dd
+  2021/08/18
+language:       English
+location:       QianMen,4,2 # Room, Floor, Building
+theme:          Speech Marathon
+roles:
+  SAA:      Nan Yang
+  VPM:      Bonnie Wang
+  President:      Raymond Lu     
+  TM:       Nan Yang
+  GE:       
+  Timer:    Yue Li
+  Ah-Counter:
+  Wordsmith: 
+  TTM: 
+  TTE: 
+  SP1:      Serena
+  SP1 Title:      Friend and Foe
+  IE1:      Sawyer
+  SP2:      Shaopeng Bu
+  SP2 Title:      How to Be Serious
+  IE2:      Madison Wang
+  SP3:      Sawyer
+  SP3 Title:      Immune War
+  IE3:      Bonnie Wang
+  SP4:      Xiaoyi Liu
+  SP4 Title:      The Golden Rooster Stands on One Leg
+  IE4:      Pan Deng
+  SP5:      Hongxia Huang
+  SP5 Title:    From Challenge to Experience
+  IE5:      Bill Lin
+  SP6:      Wendy Pang
+  SP6 Title:    What if You Meeting a Leader in the Elevator
+  IE6:      Marissa Wang
+
+  
+
+sessions:
+  - title: 
+    skip:  False
+    events:
+      - role:       SAA
+        title:      Registration/Greeting
+        # taker:    Nan Yang # direct specify taker
+        duration:   20
+        #  skip:      True # skip events by uncomment this line
+      - role:       TM
+        title:      Meeting Opening & Privacy Statement
+        duration:   4
+        gyr:  2/3/4
+      - role:       SAA
+        title:      Welcome Guests (20s/P)
+        duration:   5
+        gyr:  3/4/5
+      - role:       [GE, TM]
+        title:      "Evaluation Team: Purpose and Members"
+        duration:   1
+      - role:       Timer
+        title:      Timer's Guidelines
+        duration:   1
+      - role:       Ah-Counter
+        title:      Timer's Guidelines
+        duration:   1
+      - role:       Wordsmith
+        title:      Word Smith's Guidelines
+        duration:   2
+      - role:       GE
+        title:      Return Control to Toastmaster
+        duration:   1
+
+  - title: Prepared Speech Session - 1
+    events:
+      - role:       TM
+        title:      Introduce the 1st Speaker
+        duration:   1
+      - role:       SP1
+        title:      $SP1 Title$
+        duration:   7
+        gyr:  5/6/7
+
+      - role:       TM
+        title:      Introduce the 2nd Speaker
+        duration:   1
+      - role:       SP2
+        title:      $SP2 Title$
+        duration:   7
+        gyr:  5/6/7
+
+      - role:       TM
+        title:      Introduce the 3rd Speaker
+        duration:   1
+      - role:       SP3
+        title:      $SP3 Title$
+        duration:   7
+        gyr:  5/6/7
+
+      - role:       IE1
+        title:      Evaluate the 1st Speaker
+        duration:   3
+        gyr:  2/2.5/3
+      - role:       IE2
+        title:      Evaluate the 2nd Speaker
+        duration:   3
+        gyr:  2/2.5/3
+      - role:       IE3
+        title:      Evaluate the 3rd Speaker
+        duration:   3
+        gyr:  2/2.5/3
+
+      - role:       TM
+        title:      Break Time
+        duration:   5
+
+  - title: Table Topic Session
+    skip:  True
+    events:
+      - role:       TM
+        title:      Introduce the Table Topic Master
+        duration:   1
+
+      - role:       TTM
+        title:      Theme Introduction & Table Topic Session
+        duration:   25
+        gyr:  1/1.5/2
+
+      - role:       TTE
+        title:      Table Topic Evaluation
+        duration:   6
+        gyr: 4/5/6
+
+  - title: Prepared Speech Session - 2
+    events:
+      - role:       TM
+        title:      Introduce the 4th Speaker
+        duration:   1
+      - role:       SP4
+        title:      $SP4 Title$
+        duration:   7
+        gyr:  5/6/7
+
+      - role:       TM
+        title:      Introduce the 5th Speaker
+        duration:   1
+      - role:       SP5
+        title:      $SP5 Title$
+        duration:   7
+        gyr:  5/6/7
+
+      - role:       TM
+        title:      Introduce the 6th Speaker
+        duration:   1
+      - role:       SP6
+        title:      $SP6 Title$
+        duration:   7
+        gyr:  5/6/7
+
+      - role:       IE4
+        title:      Evaluate the 4th Speaker
+        duration:   3
+        gyr:  2/2.5/3
+      - role:       IE5
+        title:      Evaluate the 5th Speaker
+        duration:   3
+        gyr:  2/2.5/3
+      - role:       IE6
+        title:      Evaluate the 6th Speaker
+        duration:   3
+        gyr:  2/2.5/3
+
+  - title: Evaluation Session
+    events:
+      - role:       [GE,TM]
+        title:      Evaluation Session Opening
+        duration:   1
+      - role:       Timer
+        title:      Timer's Report
+        duration:   2
+      - role:       Ah-Counter
+        title:      Ah Counter's Report
+        duration:   2
+        gyr: 1/1.5/2
+      - role:       Wordsmith
+        title:      Word Smith's Report
+        duration:   2
+        gyr: 1/1.5/2
+      - role:       [GE,TM]
+        title:      Request Feedbacks from Audience
+        duration:   1
+      - role:       GE
+        title:      General Evaluator's Report
+        duration:   4
+        gyr: 2/3/4
+      - role:       VPM
+        title:      Induction of New Members
+        duration:   5
+        skip:       True
+      - role:       SAA
+        title:      Guest Feedback (20s/P)
+        duration:   5
+        gyr:  3/4/5
+      - role:       TM
+        title:      Conclusion
+        duration:   2
+      - role:       President
+        title:      Meeting Closing
+        duration:   2
+
+role_names:
+  SAA:    Sergeant at Arms
+  TM:     Toastmaster
+  TTM:    Table Topic Master
+  TTE:    Table Topic Evaluator
+  GE:     General Evaluator
+  SP1:    Prepared Speaker 1
+  SP2:    Prepared Speaker 2
+  SP3:    Prepared Speaker 3
+  SP4:    Prepared Speaker 4
+  SP5:    Prepared Speaker 5
+  SP6:    Prepared Speaker 6
+  IE1:    Individual Evaluator 1
+  IE2:    Individual Evaluator 2
+  IE3:    Individual Evaluator 3
+  IE4:    Individual Evaluator 4
+  IE5:    Individual Evaluator 5
+  IE6:    Individual Evaluator 6
